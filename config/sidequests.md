@@ -34,6 +34,20 @@ attempt) is reproducible or falsifiable without this.
 **Laptop/worker-node work:** none yet — this stage is source discovery and
 licensing/provenance research, not computation.
 
+**Status note (2026-09-23):** first real verification slice complete — see
+`logs/2026-09-23-sq1-sq3-source-and-attacksurface.md`. Z408's 408-symbol
+count, July 31 1969 three-newspaper mailing (Vallejo Times-Herald, SF
+Chronicle, SF Examiner), and the Harden couple's August 5 1969 solve;
+Z340's 340-symbol count, November 8 1969 mailing, and its December 2020
+solve/FBI confirmation; and Z13's 13-symbol count, April 20 1970 date, and
+unsolved status are now corroborated against multiple independent
+secondary sources (see log for full citations). This is **not yet** the
+full SQ-1 deliverable: no primary-source FBI file or newspaper archive
+image was directly acquired, checksummed, or added to `/data/` this
+session — that remains open and blocking for SQ-2/Statistician work.
+Next slice: acquire actual primary-source images/transcriptions with
+explicit user authorization before any bulk download.
+
 ## SQ-2 — Solved-cipher reproduction (methodology calibration)
 
 **Purpose:** validate tooling and homophonic-substitution-solving
@@ -95,6 +109,26 @@ establishing the method could discriminate a real solution from noise).
 simulation work (e.g. measuring how often a frozen scoring procedure
 produces a "plausible" match to an unrelated 13-character target phrase)
 can run on a worker node once designed.
+
+**Status note (2026-09-23):** first literature-grounded pass complete —
+see `logs/2026-09-23-sq1-sq3-source-and-attacksurface.md`. Using Shannon's
+unicity-distance formula (U = H(K)/D), the textbook simple-substitution
+baseline over English is U ≈ 28 characters; homophonic substitution's
+larger key space only pushes the required length upward from there. Z13's
+13 symbols fall well below even the simpler baseline. This gives a
+literature-grounded reason for, though does not yet numerically prove, the
+working position that Z13 likely cannot support a unique crib-free
+solution. A genuine gap remains: a homophonic-specific numeric unicity
+distance for Z13 requires knowing Z13's actual homophone-set size, which
+can't be sized directly since Z13 is unsolved (a circularity named
+plainly in the log, not resolved). Also checked: whether Z408/Z340 share a
+reusable homophone convention that could supply an external constraint —
+provisional finding (single secondary source, needs independent recheck)
+is that only ~5 symbol-letter assignments coincide between the two solved
+ciphers, i.e. no simple reusable convention currently available as a crib
+substitute. Next slice: SQ-2's calibration work should supply real
+homophone-set sizes to replace the simple-substitution baseline with a
+homophonic-specific figure.
 
 ## SQ-4 — Prior-claims catalog
 

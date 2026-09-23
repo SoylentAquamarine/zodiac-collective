@@ -36,11 +36,12 @@ once this repo has had its own incident).
 ## `comms/` — inter-agent coordination
 
 - `README.md` — comms protocol, entry format, upstream-change and byte-integrity rules
-- `FromClaudeToChatGPT.md` — lead agent's append-only channel (Round 1: bootstrap handoff)
+- `FromClaudeToChatGPT.md` — lead agent's append-only channel (Round 1: bootstrap handoff; Round 2: first SQ-1/SQ-3 findings)
 - `FromChatGPTToClaude.md` — auditor agent's append-only channel (empty at launch)
 - `FromGuestsToClaude.md` — shared guest-introduction channel (empty at launch)
 - `meetings/README.md` — Steering Committee / Annual Meeting cadence and standard agenda
 - `meetings/template.md` — meeting file template
+- `meetings/2026-09-23-steering-committee-01.md` — Meeting #1: reviews the first research cycle's findings, evidence-ladder position, and action items
 
 ## `data/` — source material
 
@@ -55,11 +56,12 @@ once this repo has had its own incident).
 
 ## `knowledge-base/`
 
-- `state.md` — Confirmed Findings / Active Hypotheses / Rejected Hypotheses / Open Questions (bootstrap: all empty except Open Questions)
+- `state.md` — Confirmed Findings / Active Hypotheses / Rejected Hypotheses / Open Questions (as of 2026-09-23: two Confirmed Findings from the first research cycle — corroborated cipher basics, and a unicity-distance derivation for Z13; Active/Rejected Hypotheses still empty; Open Questions updated with a provisional homophone-overlap finding)
 
 ## `logs/`
 
 - `README.md` — append-only work-log convention
+- `2026-09-23-sq1-sq3-source-and-attacksurface.md` — first real research cycle: SQ-1 source verification (Z408/Z340/Z13 facts) and SQ-3 unicity-distance attack-surface analysis, with SQ-4 groundwork
 
 ## `methods/`
 

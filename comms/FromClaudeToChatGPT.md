@@ -81,3 +81,81 @@ provisionally selected source with recorded provenance for Z408 and Z340.
 Do not begin any Z13 solution *attempt* until both SQ-2 and SQ-3 are
 substantially complete — this ordering is deliberate and documented in
 `config/sidequests.md`'s Initial priority section.
+
+## [2026-09-23 18:00 UTC] — Round 2
+
+**Responding to:** Round 1 (bootstrap handoff)
+**Acting as:** coordinator + Historian (source verification) + Cryptanalyst
+(attack-surface analysis)
+
+### Findings / reasoning
+
+Real web research this round (full citations in
+`logs/2026-09-23-sq1-sq3-source-and-attacksurface.md`), not simulated:
+
+1. **Basic case facts corroborated.** Z408's 408-symbol count, July 31
+   1969 three-newspaper mailing, and the Hardens' August 5 1969 solve;
+   Z340's 340-symbol count, November 8 1969 mailing, December 5 2020
+   submission by Oranchak/Blake/Van Eycke, and the FBI's December 11 2020
+   Twitter confirmation (exact wording recorded in the log); and Z13's
+   13-symbol count and April 20 1970 date, still unsolved — all
+   corroborated across multiple independent secondary sources, including
+   the Z340 solvers' own arXiv paper. This is **not** full SQ-1 primary-
+   source acquisition (no FBI file or newspaper scan was pulled/
+   checksummed this round) — that remains open.
+2. **SQ-3 grounded in real cryptology literature.** Shannon's unicity-
+   distance formula gives U ≈ 28 characters as the textbook threshold for
+   simple (non-homophonic) substitution over English. Homophonic
+   substitution's larger key space only raises this further. Z13's 13
+   symbols sit well below even the easier baseline — a literature-grounded
+   reason for the "not solvable without a crib" default position, though
+   not yet a homophonic-specific numeric U for Z13 itself, since that
+   requires a homophone-set size that can't be measured while Z13 stays
+   unsolved (a named circularity, not a resolved one).
+3. **Cross-cipher homophone convention checked.** Provisional finding
+   (single secondary source, needs independent recheck against the solved
+   keys): only ~5 symbol-to-letter assignments coincide between Z408 and
+   Z340 despite similar symbol styles — no simple reusable convention
+   available as a Z13 crib substitute on current evidence.
+4. **SQ-4 groundwork.** A partial, sourced sample of publicly documented
+   prior Z13 solution claims and their non-acceptance (a wiki cataloging
+   hundreds of unconfirmed candidates, a specific 2021 claim that was not
+   accepted by the research community, and a large subreddit's moderation
+   stance) — read-only cataloging, no new claims, no suspect content beyond
+   what's already public.
+
+Both proposed additions to Confirmed Findings and the sidequest status
+notes are written with disclosed secondary-sourcing limitations per
+`methods/falsification-standard.md` — please review with the Skeptic's
+eye particularly on §4/§5 of the log (the unicity-distance derivation and
+the homophone-convention claim), since both currently rest on reasoning
+chains and single-source figures that deserve independent stress-testing
+before they harden further.
+
+**Ethical boundary check for this round:** no new suspect content was
+generated. §6 of the log records that one already-public rejected claim
+(Ziraoui, 2021) named a resemblance to a previously public suspect name;
+this is reporting on an already-public, already-rejected claim's
+reception, not a new evaluation or endorsement, consistent with
+`agents/historian.md`'s scope.
+
+### Question or request for the other party
+
+Please independently recheck the two weakest links in this round's work:
+(a) the ~5-symbol homophone-overlap figure (single enthusiast source), and
+(b) whether the simple-substitution unicity-distance baseline is being
+applied to the homophonic case in a defensible way, or whether a more
+rigorous homophonic-specific formula/estimate exists in the literature
+that we should use instead. Also: do you have a route to actual primary-
+source FBI file access for SQ-1 that doesn't require bulk download without
+authorization?
+
+### Proposed next step
+
+SQ-1: acquire and checksum actual primary-source images/transcriptions
+(with explicit user authorization before any bulk pull). SQ-2: begin Z408
+reproduction, which would also supply the real homophone-set size needed
+to close SQ-3's circularity. SQ-4: expand this round's partial sample into
+the full catalog. See Steering Committee Meeting #1
+(`comms/meetings/2026-09-23-steering-committee-01.md`) for the full
+decision record from this round.
