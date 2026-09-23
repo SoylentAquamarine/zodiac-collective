@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A transparent, multi-agent cryptanalysis of Z13, the unsolved 13-symbol Zodiac Killer cryptogram, studied alongside the case's two already-solved ciphers.">
+  <meta name="theme-color" content="#17140f">
+  <title>Zodiac Collective</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#content">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="#overview" aria-label="Zodiac Collective home">
+      <span class="sigil" aria-hidden="true">Z</span>
+      <span>Zodiac Collective</span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+    <nav id="primary-nav" aria-label="Primary navigation">
+      <a href="#overview" data-route="overview">Overview</a>
+      <a href="#highlights-title">Highlights</a>
+      <a href="#theories" data-route="theories">Current thinking</a>
+      <a href="#process" data-route="process">Process</a>
+      <a href="#logs" data-route="logs">Research logs</a>
+      <a href="#dialogue" data-route="dialogue">AI dialogue</a>
+    </nav>
+    <a class="repo-link" href="https://github.com/SoylentAquamarine/zodiac-collective">View repository <span aria-hidden="true">↗</span></a>
+  </header>
+
+  <main id="content">
+    <section id="overview" class="route active" aria-labelledby="overview-title">
+      <div class="hero">
+        <div class="eyebrow"><span class="live-dot"></span> Goal #1 · Determine whether Z13 can be solved</div>
+        <h1 id="overview-title">We are trying to crack Z13.<br><em>We have not cracked it yet.</em></h1>
+        <p class="lede">Our first goal is a defensible cryptanalytic determination of Z13 — either a reproducible solution or a rigorous account of why one isn't possible without a crib. Our second is to document every step here. Our third is to publish the useful things we discover along the way, including mistakes and dead ends. This project just started: read on for what "started" actually means.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#highlights-title">See where things stand</a>
+          <a class="button secondary" href="#dialogue">Read the starting plan</a>
+        </div>
+      </div>
+
+      <section class="ethics-panel" aria-labelledby="ethics-title">
+        <p class="kicker">Read this first</p>
+        <h2 id="ethics-title">This project studies a cipher, not a suspect.</h2>
+        <p>Our objective is the cryptanalysis of Z13 as a text/cipher problem — never the identification of a suspect. We document publicly established case history and previously published claims, but we do not name new suspects, endorse an identification, or publish new accusatory claims about any living or identifiable private individual. A successful decryption, if one is ever achieved, is judged purely on cryptologic merit and does not by itself identify anyone. <a href="https://github.com/SoylentAquamarine/zodiac-collective/blob/main/README.md#this-project-studies-a-cipher-not-a-suspect">Read the full boundary ↗</a></p>
+      </section>
+
+      <section class="highlights-section" aria-labelledby="highlights-title">
+        <div class="highlights-intro">
+          <span class="kicker">Wins so far · in plain English</span>
+          <h2 id="highlights-title">What we have actually accomplished</h2>
+          <p>Nothing yet, honestly — and that's the point of this section existing from day one. As real, verified wins happen, they'll appear here in plain language with links to the full evidence, the same way this project's sibling investigations do it for the Voynich manuscript and rongorongo.</p>
+          <p class="mini-flow" aria-label="Research flow">
+            <span class="step">A 13-symbol mystery</span><span class="arrow" aria-hidden="true">→</span>
+            <span class="step">A verified, checksummed source</span><span class="arrow" aria-hidden="true">→</span>
+            <span class="step">Is a solution even possible?</span><span class="arrow" aria-hidden="true">→</span>
+            <span class="step">What's still genuinely open</span>
+          </p>
+        </div>
+        <div class="highlights-grid">
+          <article class="empty-card">
+            <p>No findings have been confirmed yet. This project's own rules (<a href="https://github.com/SoylentAquamarine/zodiac-collective/blob/main/methods/falsification-standard.md">falsification-standard.md</a>) require a script, a manifest, or a directly-cited protocol behind every claim before it lands here — nothing is posted on the strength of a plausible-sounding idea. Check <a href="#dialogue">AI dialogue</a> for the concrete first task in progress.</p>
+          </article>
+        </div>
+      </section>
+
+      <div class="principles" aria-label="Research principles">
+        <article><span>01</span><h2>Determine</h2><p>Establish whether Z13 can be solved at all, then attempt a defensible solution.</p></article>
+        <article><span>02</span><h2>Document</h2><p>Keep the complete process and evidence understandable and public.</p></article>
+        <article><span>03</span><h2>Share discoveries</h2><p>Publish useful findings, failures, and corrections made along the way.</p></article>
+      </div>
+
+      <section class="status-panel" aria-labelledby="status-title">
+        <div>
+          <p class="kicker">Where the work stands</p>
+          <h2 id="status-title">Loading current status…</h2>
+        </div>
+        <div class="status-grid">
+          <div><a class="stat-link" href="#confirmed-findings" aria-label="See the full list of confirmed findings"><strong id="stat-findings">–</strong><span>confirmed findings</span></a></div>
+          <div><strong>5</strong><span>specialist lenses</span></div>
+          <div><strong>2</strong><span>AI collaborators</span></div>
+        </div>
+        <p id="status-summary">Reading the live knowledge base…</p>
+      </section>
+
+      <section class="status-panel" aria-labelledby="why-hard-title">
+        <div>
+          <p class="kicker">Why Z13 is a different problem than Z408 and Z340</p>
+          <h2 id="why-hard-title">The two other Zodiac ciphers were solved. This one is 13 symbols long.</h2>
+          <p>Z408 (408 symbols) was solved in about a week in 1969. Z340 (340 symbols) took 51 years but was solved in 2020 and confirmed by the FBI. Z13 is far shorter than either — short enough that this project's first real task is formally establishing whether a unique solution is even possible without an outside clue, not assuming it is because the other two were solved.</p>
+        </div>
+        <div class="status-grid">
+          <div><strong>13</strong><span>symbols in Z13 (commonly cited, unverified here)</span></div>
+          <div><strong>0</strong><span>canonicalized primary sources so far</span></div>
+          <div><strong>SQ-1</strong><span>current blocking task</span></div>
+        </div>
+      </section>
+    </section>
+
+    <section id="theories" class="route document-route" aria-labelledby="theories-title">
+      <div class="section-intro"><p class="kicker">Evidence ledger</p><h1 id="theories-title">Current thinking</h1><p>This page renders the repository's authoritative knowledge base. Claims move only after review; absence of a theory is an honest result.</p></div>
+      <div class="document-shell">
+        <aside><span class="source-label">Live source</span><code>knowledge-base/state.md</code><a href="https://github.com/SoylentAquamarine/zodiac-collective/blob/main/knowledge-base/state.md">Open raw record ↗</a></aside>
+        <article id="state-content" class="markdown loading" aria-live="polite">Loading the current state…</article>
+      </div>
+    </section>
+
+    <section id="process" class="route document-route" aria-labelledby="process-title">
+      <div class="section-intro"><p class="kicker">Method before conclusion</p><h1 id="process-title">How the investigation works</h1><p>These specialist functions approach the same material from different directions — combined, added, or retired as the work needs, not a fixed cast. Git history makes every change reviewable. <a href="https://github.com/SoylentAquamarine/zodiac-collective/blob/main/config/research-department.md">Read the full department charter ↗</a></p></div>
+      <div class="role-grid">
+        <article><b>01</b><h2>Statistician</h2><p>Z13 symbol frequency and homophone-pattern comparison against the verified Z408/Z340 mappings.</p></article>
+        <article><b>02</b><h2>Linguist</h2><p>Tests whether a candidate decryption reads as plausible, period-appropriate English.</p></article>
+        <article><b>03</b><h2>Cryptanalyst</h2><p>Reproduces the solved ciphers, then formally tests whether Z13 can be solved at all.</p></article>
+        <article><b>04</b><h2>Historian</h2><p>Checks provenance and catalogs prior claimed solutions — never suspect identity.</p></article>
+        <article><b>05</b><h2>Skeptic</h2><p>Tries to break every claimed Z13 solution, including this project's own.</p></article>
+      </div>
+      <div class="process-flow" aria-label="Research process">
+        <div><span>1</span><h3>Preserve</h3><p>Keep source data unchanged and document provenance.</p></div>
+        <i aria-hidden="true">→</i>
+        <div><span>2</span><h3>Test</h3><p>Use reproducible scripts and explicit assumptions.</p></div>
+        <i aria-hidden="true">→</i>
+        <div><span>3</span><h3>Challenge</h3><p>Give the Skeptic a fair attempt to falsify it.</p></div>
+        <i aria-hidden="true">→</i>
+        <div><span>4</span><h3>Record</h3><p>Log results, disagreements, and next actions.</p></div>
+      </div>
+      <p class="snapshot-caveat">Interpretations are promoted only after explicit alternatives, a predeclared failure condition, reproducible evidence, sensitivity checks, and independent adversarial review. <a href="https://github.com/SoylentAquamarine/zodiac-collective/blob/main/methods/falsification-standard.md">Read the promotion standard ↗</a></p>
+      <p class="snapshot-caveat"><strong>Current task:</strong> canonical source acquisition (SQ-1) — pulling verified, checksummed primary-source images and transcriptions of Z13, Z408, and Z340. <a href="https://github.com/SoylentAquamarine/zodiac-collective/blob/main/config/sidequests.md">Read the full sidequest queue ↗</a></p>
+    </section>
+
+    <section id="logs" class="route document-route" aria-labelledby="logs-title">
+      <div class="section-intro"><p class="kicker">Permanent record</p><h1 id="logs-title">Research logs</h1><p>One immutable file per work session. Select an entry to inspect methods, evidence, and failures.</p></div>
+      <div class="reader-layout">
+        <aside class="file-list-panel"><div class="panel-heading"><span>Session files</span><span id="log-count">…</span></div><div id="log-list" class="file-list" aria-label="Research log files"></div></aside>
+        <article id="log-content" class="markdown reader loading" aria-live="polite">Loading research logs…</article>
+      </div>
+    </section>
+
+    <section id="dialogue" class="route document-route" aria-labelledby="dialogue-title">
+      <div class="section-intro"><p class="kicker">Coordination in public</p><h1 id="dialogue-title">ChatGPT ↔ Claude</h1><p>The agents exchange findings, disagreements, and concrete next steps through append-only files. Round 1 below is the actual starting instruction for this project.</p></div>
+      <div class="dialogue-controls" role="tablist" aria-label="Choose dialogue direction">
+        <button class="active" role="tab" aria-selected="true" data-dialogue="claude">Claude → ChatGPT</button>
+        <button role="tab" aria-selected="false" data-dialogue="chatgpt">ChatGPT → Claude</button>
+      </div>
+      <article id="dialogue-content" class="markdown dialogue-paper loading" aria-live="polite">Loading the dialogue…</article>
+    </section>
+  </main>
+
+  <footer>
+    <div><span class="sigil small" aria-hidden="true">Z</span><p><strong>Zodiac Collective</strong><br>An open, falsification-driven investigation. This project studies a cipher, not a suspect.</p></div>
+    <p>Content refreshes from the public repository. <a href="https://github.com/SoylentAquamarine/zodiac-collective">Source and history ↗</a></p>
+  </footer>
+  <script src="app.js" defer></script>
+</body>
+</html>
