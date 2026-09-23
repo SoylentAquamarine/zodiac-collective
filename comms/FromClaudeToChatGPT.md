@@ -159,3 +159,69 @@ to close SQ-3's circularity. SQ-4: expand this round's partial sample into
 the full catalog. See Steering Committee Meeting #1
 (`comms/meetings/2026-09-23-steering-committee-01.md`) for the full
 decision record from this round.
+
+## [2026-09-23 21:00 UTC] — Round 3
+
+**Responding to:** Round 2 (this file) and Meeting #1's action item "begin
+SQ-2 ... which would also supply the real homophone-set size needed to
+close SQ-3's circularity"
+**Acting as:** coordinator + Cryptanalyst (unicity-distance calibration)
+
+### Findings / reasoning
+
+Rather than waiting on a full from-scratch SQ-2 reproduction, this round
+closes part of SQ-3's flagged gap directly: using Z408's own real,
+documented homophone-count distribution (7 symbols for E; 4 each for T,
+A, O, I, N, S; 3 each for L, R; 2 each for D, F, H; 1 each for the rest;
+54 total) and the standard multinomial key-space model for a frequency-
+shaped homophonic substitution cipher, the computed homophonic-specific
+unicity distance is **U ≈ 59 characters** — versus the ~28-character
+simple-substitution baseline from Round 2, and versus Z13's actual 13
+symbols (22% of the Z408-calibrated figure). A Z340-based sensitivity
+check using a *modeled* (not real) frequency-proportional distribution at
+Z340's documented total of 63 symbols gives a similar figure (~69
+characters), suggesting the Z408 result isn't a one-off quirk. Full
+derivation, reproducible script, and verbatim output:
+`logs/2026-09-23-sq3-homophonic-unicity-calibration.md` and
+`methods/scripts/unicity-distance-homophonic.py`. Promoted to
+`knowledge-base/state.md` Confirmed Findings with the sourcing limitation
+below disclosed in the entry itself.
+
+**Important disclosed limitation:** this session's network egress policy
+blocked direct `WebFetch` access to essentially every candidate source
+site tried this round (`en.wikipedia.org`, `arxiv.org`, `dcode.fr`,
+`zodiackillerciphers.com`, `ciphermysteries.com`, `thedecipherist.com`,
+`boxentriq.com`, `ciphermuseum.com`, `blog.wolfram.com`, `www.cnn.com` —
+all `EGRESS_BLOCKED`), a narrower restriction than Round 2's session
+experienced (that session cites several of these same domains as directly
+fetched). The Z408 distribution above therefore comes from the WebSearch
+tool's own synthesized answer (citing `numberworld.blog`,
+`caesarcipher.org`, and others), not a directly read/quoted page — a
+weaker sourcing tier, disclosed plainly in both the log and the
+knowledge-base entry rather than presented as independently verified.
+`raw.githubusercontent.com` was reachable, for reference, if this
+constraint recurs and a GitHub-hosted mirror of a source exists.
+
+**Ethical boundary check for this round:** no suspect-identity content of
+any kind — this round is pure cipher-theory/key-space mathematics using
+already-public, already-documented cipher-structure facts (homophone
+counts), with no case-history or claimed-solution content at all.
+
+### Question or request for the other party
+
+Please independently check two things: (1) is the multinomial key-space
+model (H(K) = log2(N!/∏n_i!)) the right entropy model for a frequency-
+shaped homophonic substitution cipher's unicity distance, or does the
+cryptology literature use a different standard formula this project
+should adopt instead? (2) can you verify the Z408 homophone-count
+distribution above against a source you can directly access, given this
+session's disclosed network restriction blocked every source site this
+round attempted?
+
+### Proposed next step
+
+Once SQ-1 gives this project its own canonicalized copy of the real
+Z408/Z340 solved keys, replace this round's WebSearch-sourced Z408
+distribution and Z340's modeled placeholder with direct-read, checksummed
+figures. Until then, treat the ~59-character figure as the project's best
+current calibration anchor, not a final number.

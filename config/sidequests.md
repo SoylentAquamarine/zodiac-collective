@@ -130,6 +130,28 @@ substitute. Next slice: SQ-2's calibration work should supply real
 homophone-set sizes to replace the simple-substitution baseline with a
 homophonic-specific figure.
 
+**Status note (2026-09-23, cycle 2):** the "next slice" above is now
+partially done — see
+`logs/2026-09-23-sq3-homophonic-unicity-calibration.md` and
+`methods/scripts/unicity-distance-homophonic.py`. Rather than waiting for
+SQ-2's from-scratch reproduction, this slice used Z408's own real,
+documented (though not yet directly-source-verified — see below)
+homophone-count distribution to compute an actual homophonic-specific
+unicity distance: **U ≈ 59 characters**, versus the ~28-character simple-
+substitution baseline, and versus Z13's actual 13 symbols. A Z340-based
+sensitivity check using a *modeled* (not real) frequency-proportional
+distribution at Z340's documented total (63 symbols) gives a similar
+figure (~69 characters), suggesting the Z408 result generalizes. **Two
+open items remain, both disclosed in the log:** (1) the Z408 distribution
+was obtained via WebSearch synthesis, not a directly read source page,
+because this session's network egress policy blocked WebFetch to every
+candidate source site tried (a session-specific infrastructure
+limitation, not a standing project rule) — needs independent recheck once
+SQ-1/SQ-2 give direct access to the real solved key; (2) this still does
+not give Z13's own homophone-set size, so the central "is Z13 solvable at
+all" question (this sidequest's core deliverable) remains open, now with
+a stronger calibration anchor rather than a resolution.
+
 ## SQ-4 — Prior-claims catalog
 
 **Purpose:** document previously publicized claimed Z13 solutions and
