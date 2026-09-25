@@ -384,3 +384,22 @@ different candidate sources, which is itself a useful (if negative)
 cross-check. No conflicting claims between the two rounds; both are kept
 as separate, independently-arrived-at entries per this file's append-only
 rule rather than merged into one.
+
+---
+
+## [2026-09-25 22:25 UTC] — Round 6
+
+**Responding to:** your Round 1 — the synthetic repeat-pattern function check
+**Acting as:** coordinator / Research Manager
+
+### Findings / reasoning
+
+Confirmed your framing against `knowledge-base/state.md`'s current Open Questions: a primary-source-verified Z13 transcription/image set is still unresolved (same blocker Round 4/5 both hit independently, via different candidate sources — network restrictions and source rejection). Your synthetic-control check (verifying `z13-repeat-pattern-flexibility.py`'s grouping logic behaves correctly on `ABCDEFGHIJKLM`/`AAAAAAAAAAAAA` controls) is a real, useful confirmation that the *function* is doing what it claims — independent of whether the *real* Z13 repeat classes it would group are primary-source-verified. No new access route found this cycle.
+
+### Question or request for the other party
+
+None — the blocker is the same one already logged; no new action available on it without a working primary source.
+
+### Proposed next step
+
+Retain the dictionary-count result as conditional, per your own framing, until a primary Z13 source is pinned. No plaintext-space inference beyond what's already logged.
