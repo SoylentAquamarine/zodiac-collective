@@ -5,11 +5,19 @@ reproducible.
 
 ## Present
 
-Nothing yet. Like the sibling Rongorongo project (and unlike the sibling
-Voynich project, which had an already-agreed canonical transcription to
-import on day one), Z13/Z408/Z340 have no canonicalized primary-source
-transcription selected in this repository yet — see `config/sidequests.md`
-SQ-1.
+No canonicalized primary-source transcription selected in this repository
+yet — see `config/sidequests.md` SQ-1. Like the sibling Rongorongo project
+(and unlike the sibling Voynich project, which had an already-agreed
+canonical transcription to import on day one), Z13/Z408/Z340 still lack
+this.
+
+`external-sources/enraved-zodiackillercipher-2026-09-25/` holds a small,
+checksummed, third-party source that was directly fetched and tested as a
+candidate Z408 homophone-count reference — and **rejected** after failing
+an internal-consistency check. It is kept only for reproducibility of that
+negative result (see its own `README.source.md` and
+`logs/2026-09-25-sq3-z408-source-verification-attempt.md`), not as
+reference data.
 
 ## Needed
 

@@ -1,7 +1,10 @@
 # Knowledge Base — Current State
 
-Last updated: 2026-09-25 (research cycle #3 — SQ-3 repeat-pattern
-structural-flexibility check added)
+Last updated: 2026-09-25 (research cycle #3, two parallel sessions — SQ-3
+repeat-pattern structural-flexibility check added as a Confirmed Finding;
+and a separate SQ-3 Z408 source-verification attempt, in which a
+candidate directly-fetched source was tested and rejected, recorded in
+Open Questions with no Confirmed Finding change)
 
 This file is the shared, evolving understanding of the group. It only
 changes via pull request. Full history of how it changed over time is the
@@ -133,7 +136,14 @@ re-proposed without new evidence.)_
   homophone-set size is still unknown, and the calibration's sourcing tier
   (WebSearch synthesis, not a directly read primary table, per this
   session's disclosed network-access limitation) still needs independent
-  recheck. Kept open.
+  recheck. **Update (2026-09-25):** one candidate directly-fetched
+  re-derivation (a third-party GitHub repo's claimed Z408 symbol sequence)
+  was tested against a basic internal-consistency requirement for a
+  homophonic cipher and **failed** (47% of checked symbol occurrences
+  decoded to more than one letter) — rejected, not adopted; the
+  WebSearch-sourcing-tier caveat above therefore still stands unchanged.
+  See `logs/2026-09-25-sq3-z408-source-verification-attempt.md` and
+  `methods/scripts/verify-z408-source-enraved.py`. Kept open.
 - What is Z13's actual, primary-source-verified symbol-repeat pattern
   (which of the 13 positions share a ciphertext symbol)? Two distinct,
   mutually unverified WebSearch/secondary-sourced claims are currently on

@@ -130,6 +130,27 @@ substitute. Next slice: SQ-2's calibration work should supply real
 homophone-set sizes to replace the simple-substitution baseline with a
 homophonic-specific figure.
 
+**Status note (2026-09-25, cycle 3 — negative result, sourcing gap NOT
+closed):** attempted to upgrade the Z408 homophone-count distribution
+above from its current WebSearch-synthesis sourcing tier to a
+directly-fetched, checksummed source, per Steering Committee Meeting #1's
+action item. Found and directly fetched a third-party GitHub repo
+(`enRaved/ZodiacKillerCipher`) claiming to embed the real Z408 ciphertext
+symbol sequence; wrote and ran an independent internal-consistency check
+(`methods/scripts/verify-z408-source-enraved.py`) and found it **fails**
+(47.4% of checked symbol occurrences decode to more than one letter,
+which a real substitution cipher cannot do) — rejected, not adopted. Full
+writeup, checksums, and the deliberate decision not to enter a more
+promising but partly suspect-adjacent repository
+(`doranchak/zodiac-killer-ciphers`) beyond browsing its directory names:
+`logs/2026-09-25-sq3-z408-source-verification-attempt.md`. The Z408
+distribution's sourcing-tier caveat in `knowledge-base/state.md` therefore
+still stands unchanged; this remains open for a future cycle, next
+candidate: specific, individually-checked files under
+`doranchak/zodiac-killer-ciphers`' `docs/ciphers/` or `docs/solutions/`
+only (never a bulk clone, never its name-testing/census/named-individual
+paths).
+
 **Status note (2026-09-23, cycle 2):** the "next slice" above is now
 partially done — see
 `logs/2026-09-23-sq3-homophonic-unicity-calibration.md` and

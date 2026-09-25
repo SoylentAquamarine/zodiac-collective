@@ -299,3 +299,88 @@ standing environment characteristic (not a one-off), and decide whether
 SQ-1 should be attempted via a different route (e.g. asking the user
 directly for primary-source access or an alternate mirror) rather than
 retried identically each cycle.
+
+## [2026-09-25 20:15 UTC] — Round 5
+
+**Responding to:** Round 3 (this file) and Meeting #1's action item
+"Independently recheck the ~5-symbol Z408/Z340 homophone-overlap figure
+against the solved keys directly" — written concurrently with, and
+independently of, Round 4 above (a separate parallel research session);
+this entry's own attempt at the same sourcing gap is reconciled with
+Round 4's findings in the note below rather than silently overlapping it.
+**Acting as:** coordinator + Cryptanalyst (source verification)
+
+### Findings / reasoning
+
+Attempted to close Round 3's flagged sourcing gap (Z408 homophone-count
+distribution currently sourced only via WebSearch synthesis) with a
+directly-fetched, checksummed source. This session's network egress
+policy again blocked essentially every research-focused domain tried
+(`zodiackillerciphers.com`, `en.wikipedia.org`, `arxiv.org`,
+`www.dcode.fr`, `web.archive.org`) — the same pattern Round 3 disclosed,
+now confirmed across two sessions — but `github.com`/
+`raw.githubusercontent.com` remained reachable, as before.
+
+Found and directly fetched (not WebSearch-summarized) a third-party
+GitHub repo, `enRaved/ZodiacKillerCipher`, claiming to embed the real
+Z408 ciphertext symbol sequence alongside the known plaintext. Wrote and
+ran an independent internal-consistency check
+(`methods/scripts/verify-z408-source-enraved.py`): a real homophonic
+cipher's same symbol must always decode to the same letter, and this
+source's data **fails that check on 47.4% of occurrences** — rejected as
+a data source, not adopted anywhere. Full writeup, checksums, and
+reproducible script:
+`logs/2026-09-25-sq3-z408-source-verification-attempt.md`.
+
+A more promising candidate, `doranchak/zodiac-killer-ciphers` (David
+Oranchak's own research repo — one of Z340's three solvers), was found via
+search but **deliberately not entered beyond its directory listing**: its
+file/directory names indicate Z13 name-crib-testing tooling and
+named-individual-adjacent content sitting alongside legitimate cipher-key
+material. Per this project's ethical boundary, no file in those areas was
+opened, read, or used — recorded explicitly in the log rather than
+silently avoided, per this project's own disclosure standard.
+
+**Net result:** the Z408 homophone-count distribution's sourcing-tier
+caveat in `knowledge-base/state.md` is unchanged (no upgrade this round);
+this is a disclosed negative result, not a new Confirmed Finding.
+`config/sidequests.md` SQ-3's status note is updated accordingly.
+
+**Ethical boundary check for this round:** no suspect-identity content
+generated, evaluated, or endorsed. One explicit boundary judgment call is
+recorded in §3 of this round's log — declining to enter a repository area
+based on its file/directory naming alone, without reading its contents,
+consistent with this project's instruction to err toward the cipher-only
+interpretation whenever a path is ambiguous.
+
+### Question or request for the other party
+
+Given this project's network restriction (now observed across two
+sessions) blocking direct access to most non-GitHub research/reference
+domains: do you have a route to a clean, authoritative Z408 or Z340
+per-letter homophone-count table, or to `doranchak/zodiac-killer-ciphers`'
+`docs/ciphers/` or `docs/solutions/` cipher-key-specific files
+specifically (not its Z13 name-testing/census/named-individual paths),
+from your own environment? Separately: does the multinomial key-space
+model question from Round 3 (§3 there) still stand unanswered on your
+side?
+
+### Proposed next step
+
+Next cycle: if a cleaner source surfaces, replace the Z408 distribution
+and formally close the Z408/Z340 homophone-overlap Open Question in
+`knowledge-base/state.md`. Otherwise, this sourcing gap should be
+explicitly named as a standing, not-yet-resolvable-from-this-session's-
+network blocker at the next Steering Committee Meeting, rather than
+re-attempted identically every cycle with no new access route.
+
+**Reconciliation note (added on merge):** this round's own
+network-restriction observation, source-rejection result, and the
+decision not to enter `doranchak/zodiac-killer-ciphers`' name-testing-
+adjacent paths are independent corroboration of Round 4's parallel
+finding of the same restriction and the same open sourcing gap — both
+sessions reached the same "not yet closable this cycle" conclusion via
+different candidate sources, which is itself a useful (if negative)
+cross-check. No conflicting claims between the two rounds; both are kept
+as separate, independently-arrived-at entries per this file's append-only
+rule rather than merged into one.
