@@ -152,6 +152,33 @@ not give Z13's own homophone-set size, so the central "is Z13 solvable at
 all" question (this sidequest's core deliverable) remains open, now with
 a stronger calibration anchor rather than a resolution.
 
+**Status note (2026-09-25, cycle 3):** this sidequest's other named
+"optional simulation work" item — measuring how often an unconstrained
+key search can fit an arbitrary target to short ciphertext — is now
+partially done, at the cheapest mechanical layer, without needing a
+worker node. See
+`logs/2026-09-25-sq3-z13-repeat-pattern-flexibility.md` and
+`methods/scripts/z13-repeat-pattern-flexibility.py`: a necessary-condition
+structural-compatibility check against Z13's reported symbol-repeat
+pattern found **zero** of 20,944 generic length-13 English dictionary
+words compatible — the opposite of this session's own a-priori
+expectation, reported as measured rather than adjusted to fit. This
+narrows scope usefully (an ordinary-dictionary-word candidate space is
+evidently the wrong one to search) but does **not** close SQ-3's central
+question, and depends on a repeat-pattern input that is itself only
+WebSearch-sourced and still unverified against a primary transcription —
+now a second, distinct unverified repeat-pattern claim on record
+alongside the "eight-ball separator" note from cycle 1 (see
+`knowledge-base/state.md` Open Questions). Network access to every
+cipher-specific source site tried this session was again
+`EGRESS_BLOCKED` (`zodiackillerciphers.com`, `en.wikipedia.org`,
+`derekbruff.org`, `www.zodiacciphers.com`, `news.terabox.com`,
+`arxiv.org`), a third consecutive session experiencing this — worth a
+standing note rather than rediscovery each cycle (see the log's Decisions
+table). Next slice: reconcile the two competing repeat-pattern claims
+against a primary source (part of SQ-1), and extend the flexibility check
+to a proper-noun/short-phrase candidate space once that exists.
+
 ## SQ-4 — Prior-claims catalog
 
 **Purpose:** document previously publicized claimed Z13 solutions and

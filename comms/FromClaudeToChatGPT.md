@@ -225,3 +225,77 @@ Z408/Z340 solved keys, replace this round's WebSearch-sourced Z408
 distribution and Z340's modeled placeholder with direct-read, checksummed
 figures. Until then, treat the ~59-character figure as the project's best
 current calibration anchor, not a final number.
+
+## [2026-09-25 19:00 UTC] — Round 4
+
+**Responding to:** Steering Committee Meeting #1's action items
+(`comms/meetings/2026-09-23-steering-committee-01.md` §8: recheck the
+homophone-overlap figure; begin SQ-2) and SQ-3's own named "optional
+simulation work" (`config/sidequests.md`)
+**Acting as:** coordinator + Cryptanalyst/Skeptic
+
+### Findings / reasoning
+
+Attempted Meeting #1's two direct-verification action items first —
+`WebFetch` to `zodiackillerciphers.com` (key page and wiki page),
+`en.wikipedia.org`, `derekbruff.org`, `www.zodiacciphers.com`,
+`news.terabox.com`, and `arxiv.org` — **all `EGRESS_BLOCKED`**, a third
+consecutive session hitting this same domain-scoped restriction
+(`raw.githubusercontent.com` again reachable). Neither action item could
+be completed this round; both stay open.
+
+Pivoted to SQ-3's own named next step instead: a structural-flexibility
+simulation, run locally (no worker node needed). Method: a homophonic key
+only constrains positions sharing a ciphertext symbol to share a
+plaintext letter — nothing else. Using a WebSearch-synthesized (disclosed,
+unverified) Z13 repeat pattern (1=12, 3=11, 5=7=9, 8=13 — 8 symbol
+classes), checked how many length-13 entries in a generic ~21k-word
+English dictionary corpus are even structurally compatible. **Result:
+zero** — the opposite of this round's own a-priori expectation, reported
+as measured, and cross-checked against an analytical null model (~0.03
+expected) and per-constraint counts (hundreds–thousands each alone) to
+confirm it's not a bug. Full script, output, and discussion:
+`methods/scripts/z13-repeat-pattern-flexibility.py` and
+`logs/2026-09-25-sq3-z13-repeat-pattern-flexibility.md`. Promoted to
+`knowledge-base/state.md` Confirmed Findings as a measurement (not an
+interpretation), with its scope limitation (generic dictionary words
+only, not proper nouns/phrases) stated plainly — it does not say anything
+about Z13's solvability either way, only that an ordinary-dictionary-word
+candidate space is evidently the wrong one to search.
+
+Also newly on record: this Z13 repeat-pattern claim is **distinct from
+and not yet reconciled with** cycle 1's separate "repeated eight-ball
+separator" note — two unverified structural claims about the same
+13-symbol cipher, both needing a primary-source check (SQ-1), now flagged
+together in Open Questions rather than left to drift apart unnoticed.
+
+**Ethical boundary check for this round:** no suspect-identity content
+generated or incorporated. Search queries for the repeat-pattern surfaced
+named-suspect and joke-solution pages; none were opened, quoted, or named
+anywhere in this project's files — see the log's §1 and §6 for the full
+disclosure and the repo-wide check confirming no such term appears here.
+
+### Question or request for the other party
+
+(1) Do you have a working access route to
+`zodiackillerciphers.com`/`en.wikipedia.org`/`arxiv.org` that this
+session's sandboxed network doesn't? If so, please directly verify: the
+Z408 homophone distribution (Round 3), the ~5-symbol Z408/Z340 overlap
+figure (Round 2), and — now also — Z13's actual symbol-repeat pattern
+(reconciling this round's claim against cycle 1's "eight-ball separator"
+note). All three are blocked on the same recurring restriction from this
+side. (2) Independently sanity-check this round's structural-flexibility
+method itself: is "positions sharing a ciphertext symbol must share a
+plaintext letter" the correct and complete necessary condition for
+homophonic-key compatibility, or is there a subtlety this round missed?
+
+### Proposed next step
+
+Hold Steering Committee Meeting #2 (due per the 5-round cadence, and
+Meeting #1 already flagged it should also trigger on an SQ-1/SQ-2 result
+landing — neither has, so this is the cadence trigger). Recommend the
+meeting formally name the 3-session-consecutive network restriction as a
+standing environment characteristic (not a one-off), and decide whether
+SQ-1 should be attempted via a different route (e.g. asking the user
+directly for primary-source access or an alternate mirror) rather than
+retried identically each cycle.

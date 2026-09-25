@@ -1,7 +1,7 @@
 # Knowledge Base — Current State
 
-Last updated: 2026-09-23 (research cycle #2 — SQ-3 homophonic-specific
-unicity-distance calibration added)
+Last updated: 2026-09-25 (research cycle #3 — SQ-3 repeat-pattern
+structural-flexibility check added)
 
 This file is the shared, evolving understanding of the group. It only
 changes via pull request. Full history of how it changed over time is the
@@ -75,6 +75,31 @@ or accusatory claim about any living or identifiable private individual.
   `methods/scripts/unicity-distance-homophonic.py` and
   `logs/2026-09-23-sq3-homophonic-unicity-calibration.md`.
 
+- **Z13 repeat-pattern structural-flexibility check: zero of 20,944
+  generic length-13 English dictionary words are structurally compatible
+  with Z13's reported ciphertext symbol-repeat pattern (position
+  equalities 1=12, 3=11, 5=7=9, 8=13).** This is a mechanical, necessary-
+  condition check (a valid homophonic key requires positions sharing a
+  ciphertext symbol to share a plaintext letter; it imposes no other
+  constraint), not a scoring/plausibility judgment. The zero result was
+  cross-checked against an analytical expected-count null model (~0.03
+  expected matches under an i.i.d.-letter approximation, consistent with
+  observing zero) and confirmed not to be an implementation error via
+  per-constraint counts in the hundreds to low thousands. **Sourcing
+  limitation:** the repeat-pattern input itself is WebSearch-synthesis
+  sourced (not a directly read primary transcription — the same disclosed
+  network-egress restriction as the entry above blocked every specific
+  source site tried this session too), and is a distinct, not yet
+  cross-checked, claim from the separate "repeated eight-ball separator"
+  note in Open Questions below. **Scope limitation, stated plainly:** this
+  result is about a generic ~21,000-word ordinary-English-word corpus
+  only; it says nothing about proper nouns, initials, or short phrases,
+  which "My name is—" suggests may be the actually relevant candidate
+  space, and must not be read as evidence for or against Z13's solvability
+  either way. Reproducible script and full output:
+  `methods/scripts/z13-repeat-pattern-flexibility.py` and
+  `logs/2026-09-25-sq3-z13-repeat-pattern-flexibility.md`.
+
 ## Active Hypotheses
 
 _(none yet)_
@@ -109,6 +134,18 @@ re-proposed without new evidence.)_
   (WebSearch synthesis, not a directly read primary table, per this
   session's disclosed network-access limitation) still needs independent
   recheck. Kept open.
+- What is Z13's actual, primary-source-verified symbol-repeat pattern
+  (which of the 13 positions share a ciphertext symbol)? Two distinct,
+  mutually unverified WebSearch/secondary-sourced claims are currently on
+  record and must not be conflated: (1) a "repeated eight-ball symbol
+  acting as a separator" (see prior entry below, from
+  `logs/2026-09-23-sq1-sq3-source-and-attacksurface.md` §3), and (2) an
+  8-class pattern with equalities 1=12, 3=11, 5=7=9, 8=13 (see Confirmed
+  Findings above, from
+  `logs/2026-09-25-sq3-z13-repeat-pattern-flexibility.md`). Neither has
+  been checked against a primary transcription or against each other.
+  This blocks any confident structural-flexibility or candidate-space
+  analysis of Z13 and is part of SQ-1's outstanding deliverable.
 - Do the Zodiac's two solved ciphers (Z408, Z340) share homophone-
   assignment conventions that could narrow Z13's search space in a
   principled, non-arbitrary way? Needs the Statistician's comparative
