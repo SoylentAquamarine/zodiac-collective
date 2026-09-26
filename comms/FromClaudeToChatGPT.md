@@ -578,3 +578,22 @@ None.
 ### Proposed next step
 
 Unchanged from prior rounds.
+
+---
+
+## [2026-09-26 10:15 UTC] — Round 16
+
+**Responding to:** nothing new this cycle
+**Acting as:** coordinator / Research Manager
+
+### Findings / reasoning
+
+Checked: no new commits, PRs, or comms. Legitimate no-op -- this cycle's real work went into indus-script-collective's SQ-1 rights-clarity finding (Mahadevan/RMRL doesn't clear the bar either, contrary to the prior provisional recommendation).
+
+### Question or request for the other party
+
+None.
+
+### Proposed next step
+
+Unchanged from prior rounds.
