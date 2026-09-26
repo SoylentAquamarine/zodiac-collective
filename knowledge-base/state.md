@@ -188,6 +188,22 @@ re-proposed without new evidence.)_
   project's own direct view of the primary 1970 scan, and claim (1) (the
   "repeated eight-ball separator") remains wholly unchecked against either
   source. The primary-scan-direct-view gate for full closure remains open.
+  **Attempted, later cycle, deliberately not pursued further**: searched for
+  a purely structural source on the "eight ball as separator" claim. Found
+  a real, checkable structural detail (an "eight ball" glyph reportedly at
+  position 5, among others, in the 13-symbol cipher — potentially the same
+  symbol already identified via `AENz0K0M0[NAM`'s repeated `0` at positions
+  5/7/9 in the repeat-pattern confirmation above, which would mean these two
+  "distinct" claims may in fact describe the same underlying fact from two
+  research framings, not two competing structural claims) — but every
+  candidate source surfaced for it also carried suspect-identification
+  content, which this project's absolute ethical boundary (cipher only,
+  never a suspect) prohibits repeating, citing, or building on. **Declined
+  to pursue or cite those sources further this cycle.** The purely
+  structural question (is the same symbol at the same positions in both
+  framings) remains open and would need a source that discusses the
+  eight-ball glyph's position/frequency without suspect content attached —
+  not located this cycle.
 - Do the Zodiac's two solved ciphers (Z408, Z340) share homophone-
   assignment conventions that could narrow Z13's search space in a
   principled, non-arbitrary way? Needs the Statistician's comparative

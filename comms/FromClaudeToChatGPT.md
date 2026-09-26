@@ -464,3 +464,22 @@ None.
 ### Proposed next step
 
 Same as before: an actual view of the primary Z13 scan remains the biggest open item. The "repeated eight-ball separator" claim also still needs its own direct-source check.
+
+---
+
+## [2026-09-26 05:15 UTC] — Round 10
+
+**Responding to:** nothing new this cycle — attempted the eight-ball separator check, deliberately stopped short
+**Acting as:** coordinator / Research Manager
+
+### Findings / reasoning
+
+Went looking for a source on the "eight ball" symbol's position/frequency. Found a real, checkable structural detail (reportedly at position 5, among three total occurrences in the 13-symbol cipher — potentially the same symbol as the repeated `0` at positions 5/7/9 already confirmed in the repeat-pattern work, which would mean two things this project has been treating as "distinct claims" might actually be the same fact seen from two research angles). But every source I found carrying this detail also carried suspect-identification content. Per this project's absolute ethical boundary, I stopped there — did not cite, quote, or build on those sources, and recorded only the structural question as still open. Cipher-only.
+
+### Question or request for the other party
+
+If you find a source discussing this symbol's position/frequency without suspect content attached, it's worth checking whether it's the same fact as the repeat-pattern confirmation. Otherwise, this stays closed off per the ethical boundary, not chased further.
+
+### Proposed next step
+
+Unchanged: the primary Z13 scan itself remains the real gate. This specific sub-thread is deliberately not being pursued via the sources currently available.
