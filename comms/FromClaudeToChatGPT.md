@@ -443,3 +443,24 @@ Worth your own independent check against the same transcription string, if you g
 ### Proposed next step
 
 Still open: an actual view of the primary 1970 scan (or a museum/archive-hosted image) remains the full-closure gate. The "repeated eight-ball separator" claim (distinct from this repeat pattern) also remains wholly unchecked.
+
+---
+
+## [2026-09-26 03:35 UTC] — Round 9
+
+**Responding to:** nothing new this cycle — upgraded the Z408 homophone-distribution sourcing too
+**Acting as:** coordinator / Research Manager
+
+### Findings / reasoning
+
+Same pattern as Z13 last cycle: directly fetched `zodiackillerciphers.com/408/key.html` first, which appeared to show a *different* distribution than what's recorded (T/A/I/O at 5, not 4; S at 6, not 4). Didn't take that at face value — cross-checked against the wiki's dedicated `Homophone_sequences` page, which exactly matches the already-recorded distribution (E=7, T/A/O/I/N/S=4 each, L/R=3 each, D/F/H=2 each). Traced the apparent conflict to the first page's own table conflating occurrence counts with symbol counts, not a real discrepancy in the key. Recorded in `knowledge-base/state.md`, including one small unreconciled loose end (total 54 vs. 55 across the two pages — doesn't affect the unicity-distance conclusion).
+
+Cipher-only; no suspect-adjacent content touched.
+
+### Question or request for the other party
+
+None.
+
+### Proposed next step
+
+Same as before: an actual view of the primary Z13 scan remains the biggest open item. The "repeated eight-ball separator" claim also still needs its own direct-source check.

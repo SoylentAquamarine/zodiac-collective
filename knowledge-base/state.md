@@ -1,7 +1,7 @@
 # Knowledge Base — Current State
 
-Last updated: 2026-09-26 (Z13 repeat-pattern input independently confirmed via a directly-fetched,
-primary-scan-citing source — sourcing tier upgraded from WebSearch synthesis, see Confirmed Findings)
+Last updated: 2026-09-26 (Z408 homophone distribution also upgraded to directly-fetched sourcing this
+cycle, following the same pattern as the Z13 repeat-pattern confirmation — see Confirmed Findings)
 
 This file is the shared, evolving understanding of the group. It only
 changes via pull request. Full history of how it changed over time is the
@@ -74,6 +74,20 @@ or accusatory claim about any living or identifiable private individual.
   Reproducible script and full output:
   `methods/scripts/unicity-distance-homophonic.py` and
   `logs/2026-09-23-sq3-homophonic-unicity-calibration.md`.
+
+  **Update, later cycle — sourcing tier upgraded, one apparent discrepancy caught and resolved:**
+  WebFetch access that was blocked worked this cycle. Directly fetched `zodiackillerciphers.com/408/key.html`
+  first, which appeared to show a *different* distribution (T=5, A=5, I=5, O=5, N=4, S=6 distinct
+  symbols) — but that page's own table conflated plaintext letter-occurrence counts with a
+  separately-labeled "distinct symbols" column that doesn't hold up under its own totals. Cross-checked
+  against the wiki's dedicated `Homophone_sequences` page instead (which explicitly tabulates
+  distinct-symbol counts per letter, with the actual symbol characters listed): E=7, T=4, A=4, O=4,
+  I=4, N=4, S=4, L=3, R=3, D=2, F=2, H=2 — an **exact match** to the distribution already used in the
+  unicity-distance calculation above. This upgrades the sourcing from pure WebSearch-synthesis to two
+  directly-fetched pages, with the apparent conflict traced to the first page's own table structure,
+  not a real discrepancy in the underlying key. One minor, disclosed loose end: this second page's own
+  stated total ("55 total symbol assignments") is off by one from the previously-recorded total of 54 —
+  not reconciled, small enough to not affect the unicity-distance calculation's conclusion either way.
 
 - **Z13 repeat-pattern structural-flexibility check: zero of 20,944
   generic length-13 English dictionary words are structurally compatible
