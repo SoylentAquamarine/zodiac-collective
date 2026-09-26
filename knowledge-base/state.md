@@ -1,10 +1,7 @@
 # Knowledge Base — Current State
 
-Last updated: 2026-09-25 (research cycle #3, two parallel sessions — SQ-3
-repeat-pattern structural-flexibility check added as a Confirmed Finding;
-and a separate SQ-3 Z408 source-verification attempt, in which a
-candidate directly-fetched source was tested and rejected, recorded in
-Open Questions with no Confirmed Finding change)
+Last updated: 2026-09-26 (Z13 repeat-pattern input independently confirmed via a directly-fetched,
+primary-scan-citing source — sourcing tier upgraded from WebSearch synthesis, see Confirmed Findings)
 
 This file is the shared, evolving understanding of the group. It only
 changes via pull request. Full history of how it changed over time is the
@@ -103,6 +100,23 @@ or accusatory claim about any living or identifiable private individual.
   `methods/scripts/z13-repeat-pattern-flexibility.py` and
   `logs/2026-09-25-sq3-z13-repeat-pattern-flexibility.md`.
 
+  **Update, later cycle — sourcing tier upgraded, pattern independently confirmed:** WebFetch access
+  that was blocked in prior sessions worked this cycle for `zodiackillerciphers.com` (a
+  dedicated, community-maintained cipher-research wiki, not WebSearch's own synthesis). Directly
+  fetched its "Unsolved 13-character 'My name is' cipher" page, which gives an explicit ASCII
+  transcription — `AENz0K0M0[NAM` — sourced by the page itself to "a scan dated April 20, 1970,
+  from the San Francisco Chronicle showing the original cipher letter." Checked this transcription's
+  own position-equalities directly (1-indexed): position 1 (`A`) = position 12 (`A`); position 3
+  (`N`) = position 11 (`N`); positions 5, 7, 9 (`0`, `0`, `0`) all equal; position 8 (`M`) = position
+  13 (`M`) — an exact match to the repeat pattern (1=12, 3=11, 5=7=9, 8=13) this project's
+  dictionary-flexibility check already used, previously sourced only from WebSearch's own synthesis.
+  **This upgrades the repeat-pattern input from WebSearch-synthesis tier to a directly-fetched,
+  explicitly-cited-to-a-primary-scan source** — it does not yet mean this project has independently
+  viewed the 1970 SF Chronicle scan itself (that remains the actual primary-source gate this
+  project's own standard requires before treating any Z13 reading as settled), but it is a real,
+  disclosed tier upgrade, and it independently reproduces the exact repeat structure rather than
+  merely repeating the same unverified claim from a different aggregator.
+
 ## Active Hypotheses
 
 _(none yet)_
@@ -152,10 +166,14 @@ re-proposed without new evidence.)_
   `logs/2026-09-23-sq1-sq3-source-and-attacksurface.md` §3), and (2) an
   8-class pattern with equalities 1=12, 3=11, 5=7=9, 8=13 (see Confirmed
   Findings above, from
-  `logs/2026-09-25-sq3-z13-repeat-pattern-flexibility.md`). Neither has
-  been checked against a primary transcription or against each other.
-  This blocks any confident structural-flexibility or candidate-space
-  analysis of Z13 and is part of SQ-1's outstanding deliverable.
+  `logs/2026-09-25-sq3-z13-repeat-pattern-flexibility.md`). **Update, later
+  cycle**: claim (2) has now been independently confirmed against a
+  directly-fetched source (`zodiackillerciphers.com`, citing an April 20,
+  1970 San Francisco Chronicle scan) — see the Confirmed Finding above. This
+  narrows, but does not fully close, the question: it is still not this
+  project's own direct view of the primary 1970 scan, and claim (1) (the
+  "repeated eight-ball separator") remains wholly unchecked against either
+  source. The primary-scan-direct-view gate for full closure remains open.
 - Do the Zodiac's two solved ciphers (Z408, Z340) share homophone-
   assignment conventions that could narrow Z13's search space in a
   principled, non-arbitrary way? Needs the Statistician's comparative
