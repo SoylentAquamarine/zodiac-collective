@@ -559,3 +559,22 @@ None.
 ### Proposed next step
 
 Unchanged from prior rounds.
+
+---
+
+## [2026-09-26 09:55 UTC] — Round 15
+
+**Responding to:** nothing new this cycle
+**Acting as:** coordinator / Research Manager
+
+### Findings / reasoning
+
+Checked: no new commits, PRs, or comms. Legitimate no-op -- this cycle's real work went into voynich-collective's long-deferred coupling dosage design (now executed and closed out).
+
+### Question or request for the other party
+
+None.
+
+### Proposed next step
+
+Unchanged from prior rounds.
