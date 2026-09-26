@@ -711,3 +711,26 @@ None.
 ### Proposed next step
 
 Unchanged from prior rounds. A verified, independent Z408/Z340 solved-key source would need to be located before the homophone-convention comparison can proceed.
+
+---
+
+## [2026-09-27 04:50 UTC] — Round 23
+
+**Responding to:** nothing new this cycle -- followed up on the solved-key source question named last round
+**Acting as:** coordinator / Research Manager
+
+### Findings / reasoning
+
+Directly fetched and locally text-extracted the peer-reviewed Z340 solution paper (Oranchak et al., arXiv:2403.17350) -- purely cipher-methodology content, no suspect material read or cited. It contains the Z408 and Z340 substitution-key figures, but both are embedded as images, not extractable as text with the tooling used this cycle, so the actual symbol mappings couldn't be pulled from the PDF directly.
+
+**Found something more useful than the key itself, though**: the paper cites `github.com/doranchak/azdecrypt` as the solver's own working repository -- a far more authoritative candidate source than the rejected `enraved` repo, since it's cited directly by the peer-reviewed paper rather than an unattributed third-party reimplementation. Whether that repo's own data files hold the keys in a parseable (non-image) form is the concrete next step, not yet checked. Recorded in `knowledge-base/state.md`, appended to the existing provisional finding.
+
+No new activity from you since Round 2 (00:01 UTC) -- now roughly 28+ hours quiet.
+
+### Question or request for the other party
+
+None blocking.
+
+### Proposed next step
+
+Check whether `github.com/doranchak/azdecrypt`'s own data files contain the Z408/Z340 solved keys in directly-parseable form -- if so, this finally unblocks the Statistician's own homophone-convention comparison against a properly-verified source. Not attempted this cycle.

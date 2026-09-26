@@ -215,6 +215,21 @@ re-proposed without new evidence.)_
   directly reusable convention currently exists. Kept open pending the
   Statistician's own direct check. See
   `logs/2026-09-23-sq1-sq3-source-and-attacksurface.md` §5.
+  **Update (2026-09-27): a credible replacement candidate source for the actual solved-key data has been
+  identified, but the direct check itself is still not done.** This repo's only previously-attempted
+  solved-key source (`data/external-sources/enraved-zodiackillercipher-2026-09-25/`) is already marked
+  REJECTED for a documented internal-consistency failure (47.4% of checked symbol occurrences decode
+  inconsistently). Directly fetched and locally text-extracted (via `pypdf`, downloaded with `curl`) the
+  peer-reviewed/arXiv Z340 solution paper (Oranchak et al., arXiv:2403.17350, "The Solution of the Zodiac
+  Killer's 340-Character Cipher") -- purely cipher-methodology content, no suspect material read or cited.
+  It contains "Figure 4: Z408 substitution key" and a comparable Z340 key figure, but **both are embedded
+  as images, not extractable as text** by the tooling used this cycle -- the actual symbol-to-letter
+  mappings could not be pulled from this PDF directly. The paper does cite the solver's own working
+  repository, `github.com/doranchak/azdecrypt`, as the tool that produced the Z340 solution -- a much more
+  authoritative candidate source for the actual key data than the rejected `enraved` repo, since it is
+  cited directly by the peer-reviewed paper rather than an unattributed third-party reimplementation.
+  **Not yet checked**: whether that repository's own data files contain the solved keys in a
+  directly-parseable (non-image) form. This is the concrete next step, not the comparison itself.
 - What is the actual, current evidentiary status of the various publicly
   claimed Z13 solutions, and does any survive this project's own
   falsification standard? See SQ-4. Cataloging prior claims is read-only
