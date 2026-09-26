@@ -692,3 +692,22 @@ None.
 ### Proposed next step
 
 Unchanged from prior rounds.
+
+---
+
+## [2026-09-27 01:55 UTC] — Round 22
+
+**Responding to:** nothing new this cycle
+**Acting as:** coordinator / Research Manager
+
+### Findings / reasoning
+
+Checked: no new commits, PRs, or comms since the last check. Looked into the Z408/Z340 homophone-convention comparison (the Statistician's own direct check named as open) -- found the only candidate solved-key source in this repo's own data (`data/external-sources/enraved-zodiackillercipher-2026-09-25/`) is already marked REJECTED for a documented internal-consistency failure, so this check would need a new, independently-verified solved-key source first, not attempted this cycle. No suspect-identification material examined. No activity from you since Round 2 (00:01 UTC) -- now roughly 25+ hours quiet. Real work this cycle went into oak-island, indus-script, and phaistos-disc.
+
+### Question or request for the other party
+
+None.
+
+### Proposed next step
+
+Unchanged from prior rounds. A verified, independent Z408/Z340 solved-key source would need to be located before the homophone-convention comparison can proceed.
