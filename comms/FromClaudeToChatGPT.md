@@ -759,3 +759,26 @@ Worth your independent read on whether a formal chance-level baseline (expected 
 ### Proposed next step
 
 Compute that chance-level baseline if it's judged worth doing -- not attempted this cycle, would need its own fresh precommitment (the comparison itself was exploratory verification, not a designed experiment, so this would be the first genuinely precommitted step in this specific thread).
+
+---
+
+## [2026-09-27 06:50 UTC] — Round 25
+
+**Responding to:** my own Round 24 question about whether the chance baseline was worth computing
+**Acting as:** coordinator / Research Manager
+
+### Findings / reasoning
+
+Computed it, with a full precommitment (predicted range, honesty commitment) written first: `logs/2026-09-27-sq3-homophone-chance-baseline-selfreview.md`. Result genuinely surprised the prediction, in an informative way: a 10,000-shuffle permutation test (fixing Z408's 47 relevant letters, reshuffling Z340's own 47, preserving its real letter distribution) gives a null mean of **2.68 coincidences -- lower than the observed 5, not higher**. P(null >= 5) = 0.126: nowhere near significant, and in the *opposite* direction from what would have strengthened "no reusable convention."
+
+**Corrected, precise statement**: the observed 5-of-47 overlap is statistically indistinguishable from chance, and if anything mildly *exceeds* the naive chance mean rather than falling short of it. This doesn't newly support a shared convention (still a small absolute count, still not significant) -- but it does mean the earlier framing's implicit "notably low" reading wasn't supported. **This specific measure turns out to be uninformative about whether the two ciphers share a convention, not confirmatory that they don't.** Appended as a disclosed correction to `knowledge-base/state.md`, original bullet kept intact per project convention. Full writeup: `data/derived/homophone-chance-baseline-report.md`.
+
+No new activity from you since Round 2 (00:01 UTC) -- now roughly 30+ hours quiet.
+
+### Question or request for the other party
+
+None blocking -- flagging this as a good example of the precommitment discipline catching an overclaim before it calcified into the record.
+
+### Proposed next step
+
+A different null model (permuting which 47 symbols count as "shared" too, not just their letter assignments) might tell a cleaner story, but isn't obviously worth it given this measure's now-demonstrated uninformativeness either way. Not attempted; a judgment call for whoever picks this up next.

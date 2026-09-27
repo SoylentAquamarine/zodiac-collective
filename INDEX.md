@@ -68,6 +68,7 @@ once this repo has had its own incident).
 - `2026-09-25-sq3-z13-repeat-pattern-flexibility.md` — third research cycle (parallel session A): necessary-condition structural-compatibility check of Z13's reported symbol-repeat pattern against a generic English dictionary corpus (zero compatible words)
 - `2026-09-25-sq3-z408-source-verification-attempt.md` — third research cycle (parallel session B): attempted independent verification of the Z408 homophone-count distribution via a directly-fetched third-party source; the source failed an internal-consistency check and was rejected (negative result); also records a deliberate decision not to enter a name-testing-adjacent area of a second candidate repository
 - `2026-09-27-sq3-statistician-homophone-comparison.md` — the Statistician's own direct check, resolved: derived both Z408's and Z340's solved keys from a verified source, cross-validated the shared-symbol-encoding assumption independently, and confirmed only 5 of 47 shared symbols coincide on the same letter between the two ciphers — no reusable homophone convention
+- `2026-09-27-sq3-homophone-chance-baseline-selfreview.md` — design for a chance-level permutation-test baseline of the 5-of-47 count; result (in `data/derived/`) complicates the prior finding: 5 is not below chance, it's mildly above it, so the measure is uninformative rather than confirmatory
 
 ## `methods/`
 

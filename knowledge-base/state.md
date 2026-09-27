@@ -143,6 +143,22 @@ or accusatory claim about any living or identifiable private individual.
   earlier single-source estimate ("about five") at direct-data tier. No suspect-related content was read
   or cited anywhere in this process. **Open**: a formal chance-level baseline for this count has not been
   computed, so "no reusable convention" is currently a qualitative, not quantitative, conclusion.
+  **Correction (2026-09-27), not a silent revision — the chance baseline has now been computed, and it
+  complicates this finding**: `logs/2026-09-27-sq3-homophone-chance-baseline-selfreview.md`,
+  `methods/scripts/homophone_chance_baseline.py`,
+  `data/derived/homophone-chance-baseline-report.md`. A 10,000-shuffle permutation test (fixing Z408's 47
+  relevant letters, randomly reshuffling Z340's own 47 letters, preserving Z340's real per-symbol letter
+  distribution) gives a null mean of **2.68 coincidences** — *lower* than the observed 5, not higher.
+  **P(null ≥ 5) = 0.126 — not remotely significant, and in the opposite direction from what would
+  strengthen "no reusable convention."** The precise, corrected statement: the observed 5-of-47 overlap is
+  statistically indistinguishable from two independently-constructed keys' chance overlap, and if anything
+  mildly *exceeds* the naive chance mean rather than falling short of it. **This does not newly support a
+  shared convention** (5 is still a small absolute count, and the result is nowhere near significant in
+  either direction) — but the earlier framing's implicit suggestion that 5 was unusually *low* is not
+  supported. The correct summary is that this specific measure is simply uninformative about whether the
+  two ciphers share a convention, not that it demonstrates they don't. The bullet above is left as
+  originally written per this project's no-silent-overwrite discipline; this correction supersedes its
+  interpretive framing, not its raw count (5 of 47 remains accurate).
 
 ## Active Hypotheses
 
