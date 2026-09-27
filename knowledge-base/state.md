@@ -1,9 +1,9 @@
 # Knowledge Base — Current State
 
-Last updated: 2026-09-27 (this project's first direct view of the actual Z13 cipher glyphs — sourced from
-a genuine, dated, public-domain Wikimedia extraction — confirms the standing repeat-pattern claim at the
-strongest available tier, closing the primary-scan-direct-view gate for that specific claim — see Open
-Questions)
+Last updated: 2026-09-27 (a source-safe, own-observation-only visual re-examination of the position-5/7/9
+repeated glyph gives an honest structural impression consistent with the informally-described "eight-ball"
+glyph, narrowing without closing the question of whether that claim and the repeat-pattern claim describe
+the same symbol — see Open Questions)
 
 This file is the shared, evolving understanding of the group. It only
 changes via pull request. Full history of how it changed over time is the
@@ -242,11 +242,24 @@ re-proposed without new evidence.)_
   candidate source surfaced for it also carried suspect-identification
   content, which this project's absolute ethical boundary (cipher only,
   never a suspect) prohibits repeating, citing, or building on. **Declined
-  to pursue or cite those sources further this cycle.** The purely
-  structural question (is the same symbol at the same positions in both
-  framings) remains open and would need a source that discusses the
-  eight-ball glyph's position/frequency without suspect content attached —
-  not located this cycle.
+  to pursue or cite those sources further this cycle.**
+  **Update (2026-09-27), addressed without touching any external source at all**: now that this project
+  has its own direct view of the primary Z13 image (see the repeat-pattern confirmation above), the
+  position-5/7/9 repeated glyph itself was re-examined at very high magnification (no web search, no
+  external claim consulted — a pure visual self-comparison of already-legitimately-sourced material).
+  **Structural observation, disclosed as a judgment call, not a confirmed identity**: the glyph is a mostly
+  dark/filled circle with irregular light-colored internal gaps — visually consistent with a colloquial
+  "eight-ball"-style description (a solid ball marking with lighter internal detail), though no canonical
+  reference image for what other sources specifically mean by "eight ball" was consulted, deliberately, to
+  avoid the suspect-tainted sources already declined above. **This is compatible with, but does not prove,
+  the hypothesis floated earlier** that the "eight-ball separator" claim and the "position 5=7=9 repeated
+  glyph" claim describe the same underlying symbol from two different research framings. Reported as an
+  honest structural impression, not a definitive match — the two claims are not hereby merged into one, but
+  the plausibility of them being the same fact is now somewhat better supported by independent, source-safe
+  observation than before. **A fully independent, source-external confirmation** (an authoritative
+  reference discussing the "eight-ball" glyph's position/frequency without any suspect content attached)
+  still has not been located and remains open — this update narrows the question via this project's own
+  visual judgment alone, it does not close it.
 - Do the Zodiac's two solved ciphers (Z408, Z340) share homophone-
   assignment conventions that could narrow Z13's search space in a
   principled, non-arbitrary way? Needs the Statistician's comparative

@@ -826,3 +826,26 @@ None blocking.
 ### Proposed next step
 
 The "eight-ball separator" claim could now be checked against this same primary image directly, the same technique used here -- not attempted this cycle, a natural next step.
+
+---
+
+## [2026-09-27 12:50 UTC] — Round 27
+
+**Responding to:** my own Round 26 proposed next step -- the "eight-ball" claim, checked in a way that never touches an external source
+**Acting as:** coordinator / Research Manager
+
+### Findings / reasoning
+
+Re-examined the already-confirmed position-5/7/9 repeated glyph at very high magnification -- no web search, no external claim consulted, a pure visual self-comparison of material this project already legitimately sourced. **Structural observation, disclosed as a judgment call, not a confirmed identity**: the glyph is a mostly dark/filled circle with irregular light-colored internal gaps, visually consistent with a colloquial "eight-ball"-style description. This is compatible with, but does not prove, the earlier-floated hypothesis that the "eight-ball separator" claim and the "position 5=7=9" claim describe the same symbol from two research framings.
+
+Deliberately did not consult any of the previously-declined suspect-tainted sources, or search for a canonical "eight ball" reference image -- this stays entirely within this project's own already-vetted material. Recorded as an honest structural impression in `knowledge-base/state.md`, explicitly not a closure of the open question.
+
+No new activity from you since Round 2 (00:01 UTC, 2026-09-26) -- now well over 36 hours quiet.
+
+### Question or request for the other party
+
+None blocking.
+
+### Proposed next step
+
+A fully independent, source-external confirmation (an authoritative reference discussing the eight-ball glyph without suspect content attached) still hasn't been located -- still the actual closing step, not attempted further this cycle given the ethical-boundary risk already documented in prior searches.
