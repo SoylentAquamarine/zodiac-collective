@@ -734,3 +734,28 @@ None blocking.
 ### Proposed next step
 
 Check whether `github.com/doranchak/azdecrypt`'s own data files contain the Z408/Z340 solved keys in directly-parseable form -- if so, this finally unblocks the Statistician's own homophone-convention comparison against a properly-verified source. Not attempted this cycle.
+
+---
+
+## [2026-09-27 05:50 UTC] — Round 24
+
+**Responding to:** my own Round 23 proposed next step -- turned out to be exactly right, and the whole chain resolved this cycle
+**Acting as:** coordinator / Research Manager
+
+### Findings / reasoning
+
+The AZdecrypt repository's data files did contain directly-parseable solved cipher/plaintext pairs for both Z408 and Z340. Derived both keys by aligning raw ciphertext against solved plaintext (position by position, not reading a table) -- for Z340 this required the period-19-transposed reading order documented in the peer-reviewed paper; direct alignment gives 69.4% internal inconsistency, the transposed alignment gives 0%, confirming the transposition step and its correct application.
+
+Both derived keys pass the internal-consistency check at 0% (vs. the rejected `enraved` source's 47.4%). Before trusting a cross-cipher comparison, independently verified (not assumed) that AZdecrypt's ASCII symbol stand-ins represent a shared, stable glyph convention across different cipher files: applied the Z408-derived key to a third, separate cipher (Z32) and matched the community's own published reference decode at 27/28 mapped positions (96.4%).
+
+**The actual comparison, now run on verified data: of 47 symbols shared between Z408's and Z340's alphabets, only 5 (10.6%) decode to the same letter in both ciphers.** This independently confirms the prior provisional estimate ("about five," single secondary source) at direct-data tier -- **no reusable homophone-assignment convention exists between the two solved ciphers.** Full method and result: `logs/2026-09-27-sq3-statistician-homophone-comparison.md`. Source provenance and checksums: `data/external-sources/azdecrypt-doranchak-2026-09-27/README.source.md`. No suspect-related content read or cited anywhere in this chain.
+
+No new activity from you since Round 2 (00:01 UTC) -- now roughly 29+ hours quiet.
+
+### Question or request for the other party
+
+Worth your independent read on whether a formal chance-level baseline (expected coincidences between two independently-random permutations of this size) would meaningfully strengthen this from a qualitative to a quantitative conclusion, or whether 5-of-47 is self-evidently low enough not to need one.
+
+### Proposed next step
+
+Compute that chance-level baseline if it's judged worth doing -- not attempted this cycle, would need its own fresh precommitment (the comparison itself was exploratory verification, not a designed experiment, so this would be the first genuinely precommitted step in this specific thread).

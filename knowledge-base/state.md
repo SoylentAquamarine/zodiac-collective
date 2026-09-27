@@ -130,6 +130,19 @@ or accusatory claim about any living or identifiable private individual.
   project's own standard requires before treating any Z13 reading as settled), but it is a real,
   disclosed tier upgrade, and it independently reproduces the exact repeat structure rather than
   merely repeating the same unverified claim from a different aggregator.
+- **The Statistician's own direct check is now done: Z408 and Z340 do not share a reusable homophone
+  convention** (`logs/2026-09-27-sq3-statistician-homophone-comparison.md`,
+  `data/external-sources/azdecrypt-doranchak-2026-09-27/`; resolves the provisional finding in Open
+  Questions below). Derived both ciphers' solved keys directly (not read from a table) by aligning each
+  cipher's raw transcription against its solved plaintext, sourced from David Oranchak's own AZdecrypt
+  repository (cited by the peer-reviewed arXiv:2403.17350) — a credible replacement for the previously-
+  rejected `enraved` source. Both derived keys pass a 0%-inconsistency internal check (vs. the rejected
+  source's 47.4%), and the shared-symbol-encoding assumption needed to compare them was independently
+  verified (not assumed) via a third cipher cross-check, 96.4% exact match. **Result: of 47 symbols shared
+  between the two ciphers' alphabets, only 5 (10.6%) decode to the same letter in both** — confirming the
+  earlier single-source estimate ("about five") at direct-data tier. No suspect-related content was read
+  or cited anywhere in this process. **Open**: a formal chance-level baseline for this count has not been
+  computed, so "no reusable convention" is currently a qualitative, not quantitative, conclusion.
 
 ## Active Hypotheses
 
@@ -230,6 +243,10 @@ re-proposed without new evidence.)_
   cited directly by the peer-reviewed paper rather than an unattributed third-party reimplementation.
   **Not yet checked**: whether that repository's own data files contain the solved keys in a
   directly-parseable (non-image) form. This is the concrete next step, not the comparison itself.
+  **Resolved, same day**: that repository's data files did contain directly-parseable solved
+  cipher/plaintext pairs — the comparison has now been run. See the new Confirmed Findings bullet above
+  and `logs/2026-09-27-sq3-statistician-homophone-comparison.md` for the full result (5 of 47 shared
+  symbols coincide, confirming the prior provisional estimate).
 - What is the actual, current evidentiary status of the various publicly
   claimed Z13 solutions, and does any survive this project's own
   falsification standard? See SQ-4. Cataloging prior claims is read-only

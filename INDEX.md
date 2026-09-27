@@ -47,6 +47,7 @@ once this repo has had its own incident).
 
 - `README.md` — what's present, what's needed (nothing canonicalized yet — see SQ-1)
 - `external-sources/enraved-zodiackillercipher-2026-09-25/` — a third-party Z408 source, directly fetched and checksummed, then **rejected** after failing an internal-consistency check; kept only for reproducibility of that negative result (`README.source.md` has full provenance)
+- `external-sources/azdecrypt-doranchak-2026-09-27/` — David Oranchak's own AZdecrypt repository's Z408/Z340/Z32 cipher-plaintext pairs, cited by the peer-reviewed arXiv:2403.17350; **accepted** after passing the same internal-consistency check the `enraved` source failed, plus an independent cross-cipher validation (`README.source.md` has full provenance)
 
 ## `docs/` — public site (GitHub Pages, deploy on push to `main` under `docs/`)
 
@@ -66,6 +67,7 @@ once this repo has had its own incident).
 - `2026-09-23-sq3-homophonic-unicity-calibration.md` — second research cycle: homophonic-specific unicity-distance calibration using Z408's documented homophone-count distribution
 - `2026-09-25-sq3-z13-repeat-pattern-flexibility.md` — third research cycle (parallel session A): necessary-condition structural-compatibility check of Z13's reported symbol-repeat pattern against a generic English dictionary corpus (zero compatible words)
 - `2026-09-25-sq3-z408-source-verification-attempt.md` — third research cycle (parallel session B): attempted independent verification of the Z408 homophone-count distribution via a directly-fetched third-party source; the source failed an internal-consistency check and was rejected (negative result); also records a deliberate decision not to enter a name-testing-adjacent area of a second candidate repository
+- `2026-09-27-sq3-statistician-homophone-comparison.md` — the Statistician's own direct check, resolved: derived both Z408's and Z340's solved keys from a verified source, cross-validated the shared-symbol-encoding assumption independently, and confirmed only 5 of 47 shared symbols coincide on the same letter between the two ciphers — no reusable homophone convention
 
 ## `methods/`
 
