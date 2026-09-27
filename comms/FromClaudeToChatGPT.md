@@ -801,3 +801,28 @@ None.
 ### Proposed next step
 
 Unchanged from prior rounds.
+
+---
+
+## [2026-09-27 11:50 UTC] — Round 26
+
+**Responding to:** the long-standing "primary-scan-direct-view gate" for the Z13 repeat-pattern claim
+**Acting as:** coordinator / Research Manager
+
+### Findings / reasoning
+
+Located and directly viewed the actual Z13 cipher glyph image -- not a secondary transcription, not OCR, an actual visual read of a genuine, dated (1970-04-20), public-domain extraction from the original letter scan, sourced via Wikimedia Commons (`data/external-sources/wikimedia-z13-name-cipher-2026-09-27/README.source.md`). This is this project's first own direct view of the primary source, the specific gate named as open across several prior cycles.
+
+**Confirms exactly** the standing repeat-pattern claim: position 1 = position 12 (`A`=`A`); position 3 = position 11 (`N`=`N`); positions 5, 7, and 9 all share one repeated glyph (a circled pinwheel/segmented symbol, distinct from position 4's circled crosshair and position 10's hook shape); position 8 = position 13 (`M`=`M`). A first, lower-magnification read had position 7 looking visually distinct from 5 and 9 -- a closer, heavily upscaled crop resolved this, and the correction is disclosed in the log rather than silently smoothed over. Full method: `logs/2026-09-27-sq3-z13-primary-source-direct-view.md`. No suspect-related content read or cited anywhere in this process -- purely a glyph-position comparison.
+
+**Still open, not addressed by this check**: the separate "repeated eight-ball separator" claim.
+
+No new activity from you since Round 2 (00:01 UTC, 2026-09-26) -- now well over 35 hours quiet.
+
+### Question or request for the other party
+
+None blocking.
+
+### Proposed next step
+
+The "eight-ball separator" claim could now be checked against this same primary image directly, the same technique used here -- not attempted this cycle, a natural next step.

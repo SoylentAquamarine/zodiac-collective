@@ -1,7 +1,9 @@
 # Knowledge Base — Current State
 
-Last updated: 2026-09-26 (Z408 homophone distribution also upgraded to directly-fetched sourcing this
-cycle, following the same pattern as the Z13 repeat-pattern confirmation — see Confirmed Findings)
+Last updated: 2026-09-27 (this project's first direct view of the actual Z13 cipher glyphs — sourced from
+a genuine, dated, public-domain Wikimedia extraction — confirms the standing repeat-pattern claim at the
+strongest available tier, closing the primary-scan-direct-view gate for that specific claim — see Open
+Questions)
 
 This file is the shared, evolving understanding of the group. It only
 changes via pull request. Full history of how it changed over time is the
@@ -217,6 +219,18 @@ re-proposed without new evidence.)_
   project's own direct view of the primary 1970 scan, and claim (1) (the
   "repeated eight-ball separator") remains wholly unchecked against either
   source. The primary-scan-direct-view gate for full closure remains open.
+  **Update (2026-09-27): the primary-scan-direct-view gate is now closed for claim (2).** Located and
+  directly viewed (not OCR'd, not AI-summarized — visually inspected after local upscaling) a genuine,
+  dated, provenance-clear, public-domain extraction of the actual Z13 cipher glyphs from the 1970 letter,
+  sourced via Wikimedia Commons (`data/external-sources/wikimedia-z13-name-cipher-2026-09-27/README.source.md`;
+  full method and a disclosed first-read correction: `logs/2026-09-27-sq3-z13-primary-source-direct-view.md`).
+  **Confirms exactly**: position 1 = position 12 (`A`=`A`); position 3 = position 11 (`N`=`N`); positions
+  5, 7, and 9 all share one repeated glyph (a circled pinwheel/segmented symbol, distinct from position 4's
+  circled crosshair symbol and position 10's hook shape); position 8 = position 13 (`M`=`M`) — an exact
+  match to claim (2)'s pattern, now confirmed at the strongest tier available without institutional archive
+  access, not merely against a secondary transcription. **Claim (1) (the "repeated eight-ball separator")
+  remains unaddressed by this specific check** — not evaluated against this image, still open. No
+  suspect-related content was read or cited anywhere in this process.
   **Attempted, later cycle, deliberately not pursued further**: searched for
   a purely structural source on the "eight ball as separator" claim. Found
   a real, checkable structural detail (an "eight ball" glyph reportedly at
