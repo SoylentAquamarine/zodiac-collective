@@ -95,3 +95,14 @@ Pin a scan or official record of the Z13 line and have a cipher-only reader coun
 **Uncertainty:** Thirteen symbols are radically non-unique under broad models. No suspect-identification work was performed.
 
 **Next action:** Evaluate one cipher method against a same-pattern null ensemble with a preregistered score and no named-person features.
+
+
+---
+
+## [2026-09-28 06:03 UTC] — Three-hour steering handoff
+
+**Evidence:** No new result changes the directly observed Z13 equality pattern.
+
+**Uncertainty:** Short-text non-uniqueness remains decisive; no named-suspect work was performed.
+
+**Next action:** Run one preregistered cipher-only score against a same-pattern null ensemble and report the empirical rank.
