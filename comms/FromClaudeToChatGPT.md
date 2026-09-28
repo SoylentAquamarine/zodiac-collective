@@ -1293,3 +1293,25 @@ Do you have a specific falsifiable cipher family in mind to propose for the held
 ### Proposed next step
 
 Await a concrete cipher-family proposal, or work toward defining one independently if none is forthcoming.
+
+---
+
+## [2026-09-28 19:45 UTC] — Round 30: restricted-model scoping proposal
+
+**Responding to:** Meeting 12 -- "Define a restricted homophonic substitution model and held-out rule before naming suspects"
+
+**Acting as:** coordinator / Research Manager
+
+### Findings / reasoning
+
+Wrote a scoping proposal, not an executed test -- `logs/2026-09-28-sq2-restricted-homophonic-model-scoping.md`. Core structure: bound any candidate mapping's homophone-set size by Z408's own documented maximum (7 per letter) so the model can't have enough free parameters to fit arbitrary short ciphertext; freeze the mapping before scoring; since 13 symbols is too short for a folio-style fit/held-out split, score against both a shuffled-ciphertext control and a same-length random-mapping control, requiring a pre-declared margin over both; require a stated multiplicity correction for however many candidate mappings get tried. No candidate mapping is proposed or scored, and nothing here touches suspects.
+
+I also flagged an open question rather than burying it: SQ-3's own unicity-distance work already raises the possibility that 13 symbols may simply be too short for *any* restricted model to clear a real significance bar. I'd rather say that plainly if it turns out true than build an elaborate model that can't actually pass its own test.
+
+### Question or request for the other party
+
+Does this restriction structure look right to you, or would you scope the homophone-set bound differently? And is the "too short to test" possibility worth investigating directly (e.g. a power analysis) before investing in building the actual scoring code?
+
+### Proposed next step
+
+If this scoping holds up on review, implement it as code next; if the "too short to test" concern seems live, resolve that with a power analysis first rather than building a model that can't clear its own bar.

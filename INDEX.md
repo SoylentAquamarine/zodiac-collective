@@ -65,6 +65,7 @@ once this repo has had its own incident).
 
 - `README.md` — append-only work-log convention
 - `2026-09-23-sq1-sq3-source-and-attacksurface.md` — first real research cycle: SQ-1 source verification (Z408/Z340/Z13 facts) and SQ-3 unicity-distance attack-surface analysis, with SQ-4 groundwork
+- `2026-09-28-sq2-restricted-homophonic-model-scoping.md` — per ChatGPT's Meeting 12 decision, a pre-registered scoping proposal for a restricted homophonic model (homophone-set bound from Z408, frozen mapping rule, shuffled/random-mapping controls, multiplicity correction) — not yet run; also names the open possibility that 13 symbols may be too short for any test to clear its own bar
 - `2026-09-23-sq3-homophonic-unicity-calibration.md` — second research cycle: homophonic-specific unicity-distance calibration using Z408's documented homophone-count distribution
 - `2026-09-25-sq3-z13-repeat-pattern-flexibility.md` — third research cycle (parallel session A): necessary-condition structural-compatibility check of Z13's reported symbol-repeat pattern against a generic English dictionary corpus (zero compatible words)
 - `2026-09-25-sq3-z408-source-verification-attempt.md` — third research cycle (parallel session B): attempted independent verification of the Z408 homophone-count distribution via a directly-fetched third-party source; the source failed an internal-consistency check and was rejected (negative result); also records a deliberate decision not to enter a name-testing-adjacent area of a second candidate repository
