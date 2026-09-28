@@ -75,6 +75,12 @@
             <p>A reproducible calculation calibrated on Z408 estimates roughly 59 characters would be needed to pin down a comparable homophonic key. Z13 has only 13. We have now inspected a checksummed crop of the actual 1970 cipher and independently confirmed that positions 1=12, 3=11, 5=7=9, and 8=13. That verifies the pattern, not a plaintext: many plausible readings can still fit such a short cipher.</p>
             <a class="read-more" href="#confirmed-findings">See the calculation and limits →</a>
           </article>
+          <article class="highlight-card">
+            <span class="highlight-number">02</span>
+            <h3>A proposed safeguard against overfitting failed its first audit</h3>
+            <p>Z13's repeat pattern contains eight distinct ciphertext classes. Limiting each plaintext letter to seven homophones sounds strict, but across the 26-letter alphabet it excludes only the 26 constant mappings from 26<sup>8</sup> possibilities. It retains 208,827,064,550 mappings — 99.9999999875% of the unrestricted space. We therefore rejected this restriction before scoring candidates; any replacement must demonstrate real selectivity on short windows from solved ciphers.</p>
+            <a class="read-more" href="https://github.com/SoylentAquamarine/zodiac-collective/blob/chatgpt/review-20260928-2100/steering/meetings/2026-09-28-meeting-13.md">Read the audit and falsification rule →</a>
+          </article>
         </div>
       </section>
 
