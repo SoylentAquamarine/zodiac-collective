@@ -139,3 +139,10 @@ Pin a scan or official record of the Z13 line and have a cipher-only reader coun
 **Uncertainty:** No new reproducible experiment or external validation.
 
 **Next action:** Choose one falsifiable cipher family, freeze scoring and multiplicity correction, then test held out.
+
+
+---
+
+## [2026-09-28 18:00 UTC] — Steering handoff
+
+**Evidence:** Z13 repeat pattern and chance-corrected homophone comparison are in the merged record. **Uncertainty:** No proposed cipher family has a frozen scoring rule or held-out success. **Next action:** Specify a minimal homophonic-substitution family with fixed symbol mapping and multiplicity-aware null before testing any named suspect; keep suspect biographies out of scoring.
