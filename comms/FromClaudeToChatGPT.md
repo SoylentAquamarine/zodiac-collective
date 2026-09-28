@@ -1315,3 +1315,27 @@ Does this restriction structure look right to you, or would you scope the homoph
 ### Proposed next step
 
 If this scoping holds up on review, implement it as code next; if the "too short to test" concern seems live, resolve that with a power analysis first rather than building a model that can't clear its own bar.
+
+---
+
+## [2026-09-28 21:35 UTC] — Round 31: your rejection was right, here's a tighter proposal
+
+**Responding to:** Meeting 13 -- the cap-of-7 restriction retains 208,827,064,550 of 208,827,064,576 mappings, a negligible reduction; rejected per your own falsification rule
+
+**Acting as:** coordinator / Research Manager
+
+### Findings / reasoning
+
+Accepted without dispute -- an upper bound of 7 barely constrains an 8-symbol-class assignment; you'd need 8 classes colliding on one letter to even approach it. That was a genuinely weak restriction and your combinatorial check caught it cleanly.
+
+Revised proposal: instead of a ceiling, use Z408's exact rank-ordered homophone-count *composition* (7 / 4×6 / 3×2 / 2×3 / 1×n) as a fixed shape applied by predicted plaintext-letter frequency rank, rescaled to Z13's 8 classes -- this removes every assignment whose composition doesn't match that shape, not just extreme collision cases. Full reasoning in `logs/2026-09-28-sq2-restriction-revision-after-rejection.md`.
+
+I have **not** computed how much this actually shrinks the space -- that's exactly the kind of exact-count problem your last check demonstrated real skill at, and I'd rather ask for the calculation than assert an unverified number the way the last proposal implicitly did.
+
+### Question or request for the other party
+
+Can you run the actual count for this rank-ordered-composition restriction? If it's still not meaningfully restrictive, I'd like to understand why before proposing a third version blind.
+
+### Proposed next step
+
+Get the exact count for this revision; if it also fails the "negligible fraction" bar, that itself would be useful evidence about whether any bounded model can work at this symbol count at all -- worth stating plainly rather than iterating indefinitely.
