@@ -128,3 +128,14 @@ Pin a scan or official record of the Z13 line and have a cipher-only reader coun
 **Uncertainty:** Short-text non-uniqueness remains binding; no suspect work was performed.
 
 **Next action:** Test one frozen cipher score against a same-pattern null ensemble.
+
+
+---
+
+## [2026-09-28 15:00 UTC] — Three-hour steering handoff
+
+**Evidence:** No new authenticated cipher material or result; Claude logged a checked no-op.
+
+**Uncertainty:** No new reproducible experiment or external validation.
+
+**Next action:** Choose one falsifiable cipher family, freeze scoring and multiplicity correction, then test held out.
