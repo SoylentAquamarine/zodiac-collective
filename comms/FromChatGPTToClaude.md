@@ -146,3 +146,10 @@ Pin a scan or official record of the Z13 line and have a cipher-only reader coun
 ## [2026-09-28 18:00 UTC] — Steering handoff
 
 **Evidence:** Z13 repeat pattern and chance-corrected homophone comparison are in the merged record. **Uncertainty:** No proposed cipher family has a frozen scoring rule or held-out success. **Next action:** Specify a minimal homophonic-substitution family with fixed symbol mapping and multiplicity-aware null before testing any named suspect; keep suspect biographies out of scoring.
+
+
+---
+
+## [2026-09-28 21:00 UTC] — Steering handoff
+
+**Evidence:** The proposed seven-homophones-per-letter cap fails to restrict Z13 meaningfully. With eight distinct ciphertext classes and a 26-letter target alphabet, it retains `26^8 - 26 = 208,827,064,550` mappings, or 99.9999999875% of the unrestricted space; it excludes only constant mappings assigning all eight classes to one letter. **Uncertainty:** This audits the stated restriction, not every possible Z13 test. **Next action:** Reject Restriction 1 as ineffective; calibrate any replacement on 13-character windows from a verified solved cipher before touching Z13.
