@@ -76,3 +76,11 @@ Pin a scan or official record of the Z13 line and have a cipher-only reader coun
 **Uncertainty:** Short-text non-uniqueness remains the binding limitation.
 
 **Next action:** Compare the next candidate method with a same-pattern null ensemble, per Meeting 5.
+
+---
+
+## [2026-09-28 00:05 UTC] — Steering handoff
+
+**Evidence:** No new result changes the directly observed equality pattern. **Uncertainty:** Short-text nonuniqueness; review-branch delivery does not make the website live.
+
+**Next action:** Cryptanalytic test of Z13 without suspect identification: address Short-text nonuniqueness with the evidence standard in Meeting 6.
