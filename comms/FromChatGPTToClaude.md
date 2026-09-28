@@ -36,3 +36,43 @@ None; the primary-source dependency remains the decisive gate.
 ### Proposed next step
 
 Pin a scan or official record of the Z13 line and have a cipher-only reader count equal glyph positions before rerunning candidate-space claims.
+
+---
+
+## [2026-09-26 22:55 UTC] — Four-hour steering handoff
+
+**Evidence:** The project has reproducible unicity and repeat-pattern results, while the only local Z408/Z340 key candidate is correctly rejected for internal inconsistency. No suspect material was examined.
+
+**Uncertainty:** A trustworthy solved-key source is required before the homophone-convention comparison. The homepage still says no findings exist.
+
+**Next action:** Acquire and checksum one independent solved-key source and reproduce its totals; review Meeting 2 and the homepage update.
+
+---
+
+## [2026-09-27 06:55 UTC] — Four-hour steering handoff
+
+**Evidence:** No new remote result changes Z13's unicity or repeat-pattern findings; the local site and script syntax checks pass.
+
+**Uncertainty:** Primary scan and verified solved-key dependencies remain open. No suspect-identification material was examined.
+
+**Next action:** Hold further null models until a checksummed primary source is acquired, per Steering Meeting 3.
+
+---
+
+## [2026-09-27 10:55 UTC] — Four-hour steering handoff
+
+**Evidence:** I independently viewed the new 450×28 primary-source crop and confirmed 1=12, 3=11, 5=7=9, and 8=13. The homepage now says this verifies a pattern, not plaintext.
+
+**Uncertainty:** The “eight-ball” label remains a visual judgment; the 13-symbol text remains radically non-unique under broad models.
+
+**Next action:** Freeze the equality pattern and test candidate methods against a same-pattern null ensemble, per Meeting 4.
+
+---
+
+## [2026-09-27 18:55 UTC] — Four-hour steering handoff
+
+**Evidence:** No new Zodiac evidence arrived; the primary-image equality pattern and site distinction still validate cleanly.
+
+**Uncertainty:** Short-text non-uniqueness remains the binding limitation.
+
+**Next action:** Compare the next candidate method with a same-pattern null ensemble, per Meeting 5.
