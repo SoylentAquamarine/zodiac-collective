@@ -1,0 +1,11 @@
+Self-check: true mapping is internally consistent across all 408 positions. OK.
+Distinct cipher symbols overall: 54
+Self-check: full-text decode via true_map exactly reproduces known plaintext. OK.
+Self-check: frequency table sums to 100.17 (should be ~100)
+
+{'start': 10, 'window_plain': 'NGPEOPLEBECAU', 'n_classes': 12, 'true_score': -40.415, 'alt_mean': -50.402, 'alt_stdev': 4.245, 'rank_out_of': 2001, 'rank': 15, 'percentile': 99.3}
+{'start': 80, 'window_plain': 'BECAUSEMANIST', 'n_classes': 13, 'true_score': -37.52, 'alt_mean': -50.3, 'alt_stdev': 3.641, 'rank_out_of': 2001, 'rank': 1, 'percentile': 100.0}
+{'start': 150, 'window_plain': 'RILLINGEXPERE', 'n_classes': 13, 'true_score': -40.677, 'alt_mean': -50.487, 'alt_stdev': 3.682, 'rank_out_of': 2001, 'rank': 5, 'percentile': 99.8}
+{'start': 220, 'window_plain': 'ARTOFITIATHAE', 'n_classes': 13, 'true_score': -34.115, 'alt_mean': -50.248, 'alt_stdev': 3.757, 'rank_out_of': 2001, 'rank': 1, 'percentile': 100.0}
+{'start': 290, 'window_plain': 'COMEMYSLAVESI', 'n_classes': 12, 'true_score': -40.2, 'alt_mean': -50.247, 'alt_stdev': 4.183, 'rank_out_of': 2001, 'rank': 4, 'percentile': 99.85}
+{'start': 360, 'window_plain': 'LLECTINGOFSLA', 'n_classes': 12, 'true_score': -38.662, 'alt_mean': -50.351, 'alt_stdev': 4.238, 'rank_out_of': 2001, 'rank': 2, 'percentile': 99.95}

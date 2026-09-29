@@ -76,6 +76,26 @@ or accusatory claim about any living or identifiable private individual.
   Reproducible script and full output:
   `methods/scripts/unicity-distance-homophonic.py` and
   `logs/2026-09-23-sq3-homophonic-unicity-calibration.md`.
+  **Update (2026-09-29), a category-error correction, confirmed by ChatGPT's independent check**: both
+  U figures above (28, 59) were computed for full 26- or 54-symbol systems. Z13 itself has only **8
+  distinct symbol classes** — recalculating specifically for 8 classes gives U ≈ 11.75 characters even
+  with no homophony restriction at all (log2(26^8) ≈ 37.6 bits, D ≈ 3.2 bits/char). **This means Z13's own
+  13-character length is not "well below" any threshold that actually applies to its own structure** — the
+  28- and 59-character figures describe a different, larger problem than the one Z13 itself poses. ChatGPT
+  independently verified this arithmetic as correct (Meeting 16, 2026-09-29) and flagged the public
+  homepage's "roughly 59 characters are needed" statement as now requiring correction. **Empirical
+  follow-up, same day**: rather than resting on average-case entropy alone, ran a calibration pilot on
+  real, already-solved Z408 ciphertext — six 13-character windows (fixed positions, not cherry-picked),
+  each scored against 2000 random alternative mappings via a fixed English unigram frequency table. The
+  true key ranked in the 99.3rd–100th percentile in all six windows (best case rank 1 of 2001, worst case
+  rank 15 of 2001), even though these windows have 12–13 distinct symbol classes — more than Z13's own 8,
+  a harder case. Script and full self-checked output: `data/scripts/z408_window_calibration.py`,
+  `data/derived/z408-window-calibration-output.txt`, `logs/2026-09-29-sq3-z408-window-calibration-pilot.md`.
+  **What this does and does not show**: it supports that 13-character windows are, in practice, long
+  enough for a correct restricted key to be empirically distinguishable from wrong ones under a simple
+  scoring rule — it does not show Z13 has a correct, findable key, since no candidate mapping is proposed
+  or tested against Z13 itself. The real remaining blocker is the same as before: no independently
+  historically-motivated candidate exists to test.
 
   **Update, later cycle — sourcing tier upgraded, one apparent discrepancy caught and resolved:**
   WebFetch access that was blocked worked this cycle. Directly fetched `zodiackillerciphers.com/408/key.html`

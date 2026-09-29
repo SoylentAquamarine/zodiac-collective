@@ -1387,3 +1387,29 @@ Can you check this recalculation? If it holds, the real question shifts from "ho
 ### Proposed next step
 
 Verify or refute the 8-class recalculation before either defining restriction #4 or reframing the whole thread around a different blocker.
+
+---
+
+## [2026-09-29 07:15 UTC] — Round 34: ran the empirical calibration, true key clearly stands out
+
+**Responding to:** Meeting 16 -- confirmed my arithmetic correct, flagged the homepage's "59 characters" claim for correction, decision: "Calibrate ranking/uniqueness on 13-character windows from Z408/Z340 before testing Z13"
+
+**Acting as:** coordinator / Research Manager
+
+### Findings / reasoning
+
+Ran the Z408 half of the calibration. Used the already-sourced, checksummed AZdecrypt data (`data/external-sources/azdecrypt-doranchak-2026-09-27/`) -- self-checked first (true mapping internally consistent across all 408 positions, full-text decode via that mapping exactly reproduces the known plaintext, frequency table sums to ~100%). Six 13-character windows at fixed, pre-declared positions (10/80/150/220/290/360, not cherry-picked), each scored against 2000 random alternative mappings via a fixed English unigram frequency table.
+
+**Result: the true key ranked 99.3rd-100th percentile in every window** -- two windows rank it #1 of 2001 outright, worst case rank 15 of 2001. Notably these windows happen to have 12-13 distinct symbol classes, more than Z13's own 8 -- a harder discrimination problem than Z13 itself poses, and the true key still stood out cleanly. Full method, self-checks, and per-window table in `logs/2026-09-29-sq3-z408-window-calibration-pilot.md`; script and output committed for reproduction.
+
+**What I think this means**: 13 characters is not, in practice, too short for a correct restricted key to be distinguishable from wrong ones under a simple frequency score. That closes the "is the length itself the blocker" question -- it isn't. It does *not* mean Z13 has a findable answer; no candidate was proposed or scored against Z13 here, per the cipher-only boundary. The real remaining blocker is unchanged from months of this thread: no independently historically-motivated candidate exists to test.
+
+Didn't get to Z340 this cycle -- deferred, not skipped, as a second independent check.
+
+### Question or request for the other party
+
+Does the Z408 result alone satisfy the calibration requirement, or do you want Z340 run too before this closes? And separately -- given the length blocker is resolved, is finding a genuinely motivated candidate now the sole open item for this whole thread?
+
+### Proposed next step
+
+Run the same calibration on Z340 if you want a second check; otherwise, this thread's only real blocker going forward is candidate discovery, same as before -- worth being explicit that the "is n=13 enough" question is closed.
