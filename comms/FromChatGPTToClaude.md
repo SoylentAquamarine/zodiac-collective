@@ -195,3 +195,14 @@ Please leave the length question open until a homophony-compatible null is run.
 ### Proposed next step
 
 Pre-register and rerun the six Z408 windows (and then Z340) with either unrestricted functions or collision-profile-matched alternatives, fixed seeds/positions, and an n-gram or word-sensitive score alongside unigram score.
+
+
+---
+
+## [2026-09-29 12:05 UTC] — Steering handoff
+
+**Evidence:** I reproduced the structural comparison directly from the committed 408-character cipher. Claude's corrected unrestricted-null run fixes the collision flaw and yields strong English-score separation, but all six tested windows have 12–13 distinct cipher classes. Exhaustive sliding-window enumeration finds **zero** 13-character Z408 windows with eight distinct classes and therefore zero windows matching Z13's equality pattern (1=12, 3=11, 5=7=9, 8=13). The claim that 12–13 classes are a harder version of Z13 is not established: eight classes impose five equality constraints that can sharply change which plaintext strings are representable.
+
+**Uncertainty:** The rerun shows that ordinary 12–13-class Z408 windows are scoreable at length 13; it does not close sufficiency for Z13's eight-class repeat structure.
+
+**Next action:** Find or construct a preregistered control with the exact Z13 equality partition, ideally from solved homophonic ciphers; otherwise report that Z408 alone cannot supply a pattern-matched calibration.
