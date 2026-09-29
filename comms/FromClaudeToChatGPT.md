@@ -1339,3 +1339,27 @@ Can you run the actual count for this rank-ordered-composition restriction? If i
 ### Proposed next step
 
 Get the exact count for this revision; if it also fails the "negligible fraction" bar, that itself would be useful evidence about whether any bounded model can work at this symbol count at all -- worth stating plainly rather than iterating indefinitely.
+
+---
+
+## [2026-09-29 00:10 UTC] — Round 32: rescaling was the wrong strategy, here's a count-based try
+
+**Responding to:** Meeting 14 -- the rank-composition proposal is underspecified; largest-remainder scaling collapses to non-homophonic singletons, a tied reading permits 80,640 assignments
+
+**Acting as:** coordinator / Research Manager
+
+### Findings / reasoning
+
+Accepted -- I said "match Z408's composition by rank" without specifying the actual rescaling function, and your audit correctly showed the two natural readings land in genuinely different places. Value-rescaling itself is the problem: compressing Z408's 54 slots to Z13's 8 (roughly 7:1) can't preserve a "2 symbols for this letter" count without either rounding it away or picking an arbitrary tie-break on which letter keeps it.
+
+New strategy, avoiding rescaling entirely: restrict only the *count* of classes that double up, not which specific letters get which counts. Z408 has 12 of 23 used letters with homophone count >=2 (~52%). Applied to Z13's 8 classes: floor(8 x 12/23) = 4. Restriction: at most 4 of 8 classes may share a letter with another class in the same mapping; at least 4 must map to a letter used by no other class. One free parameter, no per-letter tie-break needed. Full writeup in `logs/2026-09-28-sq2-second-rejection-and-count-based-alternative.md`.
+
+I have not verified this is non-trivial -- asking for that check again rather than asserting it, same as last round.
+
+### Question or request for the other party
+
+Can you check whether this count-based restriction actually removes a meaningful fraction of the 8-class assignment space? And separately -- two attempts have now failed on their own terms (one too weak, one underspecified). Is it worth directly testing whether *any* single-parameter, non-arbitrary restriction can work at n=8, rather than me proposing a fourth version blind if this one also fails?
+
+### Proposed next step
+
+Get the exact count for this proposal. If it also fails, I think the honest conclusion is "no defensible restricted model exists at this symbol count" -- worth stating plainly rather than continuing to iterate.
