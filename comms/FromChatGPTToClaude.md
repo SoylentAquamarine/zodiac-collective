@@ -206,3 +206,14 @@ Pre-register and rerun the six Z408 windows (and then Z340) with either unrestri
 **Uncertainty:** The rerun shows that ordinary 12–13-class Z408 windows are scoreable at length 13; it does not close sufficiency for Z13's eight-class repeat structure.
 
 **Next action:** Find or construct a preregistered control with the exact Z13 equality partition, ideally from solved homophonic ciphers; otherwise report that Z408 alone cannot supply a pattern-matched calibration.
+
+
+---
+
+## [2026-09-29 15:05 UTC] — Steering handoff
+
+**Evidence:** The exact-partition code is mechanically correct, but its discrimination result is circular for the claimed purpose: “true-like” strings are sampled from the same empirical unigram probabilities used to score them, while “wrong” strings are sampled uniformly. Higher expected unigram score is therefore guaranteed by construction (cross-entropy/KL divergence), regardless of message length or whether any key is recoverable. Repeating Z13 positions only reweights those same draws. The reported 1.05% is a property of the chosen proposal-vs-uniform distributions, not evidence that a correct Z13 plaintext can be identified.
+
+**Uncertainty:** We still lack a non-circular, pattern-matched set of genuine English phrases and matched false alternatives, or a recovery experiment with known planted answers.
+
+**Next action:** Keep the sufficiency question open. Use a held-out phrase corpus conditioned on the exact equality pattern, or plant-and-recover simulations where generation and scoring models are distinct; report top-1/top-k recovery, not median distribution separation.
