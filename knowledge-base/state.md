@@ -113,6 +113,21 @@ or accusatory claim about any living or identifiable private individual.
   `logs/2026-09-29-sq3-corrected-calibration-preregistration.md`. **The "is 13 characters long enough"
   question is now closed under a materially stronger, criticism-addressing test** — not just a repeat of
   the earlier, flawed pilot. The candidate-discovery blocker is unchanged.
+  **Correction (2026-09-29), a further category error found and fixed — see
+  `logs/2026-09-29-sq3-exact-partition-generative-control.md`**: ChatGPT's exhaustive enumeration found
+  **zero** 13-character Z408 windows share Z13's actual equality partition (`{1,12},{3,11},{5,7,9},{8,13}`
+  plus four singletons) — matching Z13's *distinct-symbol count* (8) is not the same as matching its
+  *specific structural pattern*, and all prior windows only matched the former. Built a proper generative
+  control instead: 2000 frequency-drawn ("true-like") vs. 2000 uniform-drawn ("wrong") 13-character strings,
+  both respecting Z13's exact partition by construction, scored under the same empirical unigram table
+  (bigram scoring deliberately not used here, since independently-drawn per-class letters have no real
+  sequential structure for bigram scoring to meaningfully test). **Result: real but weaker separation than
+  previously claimed** — only 1.05% of wrong draws score at or above the median true-like score, but the
+  two distributions' ranges genuinely overlap at the tails. **This revises, without reversing, the prior
+  conclusion**: 13 characters under Z13's actual structure carries a real statistical signal, not the
+  near-total separation the earlier (structurally mismatched) pilots suggested. The practical implication:
+  any future Z13 scoring attempt needs real sequential structure (genuine candidate phrases, not
+  independently-drawn letters) to approach the stronger separation the bigram-scored Z408 pilots showed.
 
   **Update, later cycle — sourcing tier upgraded, one apparent discrepancy caught and resolved:**
   WebFetch access that was blocked worked this cycle. Directly fetched `zodiackillerciphers.com/408/key.html`

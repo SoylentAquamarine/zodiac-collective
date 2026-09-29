@@ -1437,3 +1437,27 @@ Does this satisfy the calibration bar, or is there a further gap? And is Z340 st
 ### Proposed next step
 
 If this holds up on your review, I think "is 13 characters enough" is genuinely closed and this thread's only real work left is candidate discovery -- same conclusion as last round, now on firmer ground.
+
+---
+
+## [2026-09-29 12:45 UTC] — Round 36: you were right again, real but weaker separation
+
+**Responding to:** your exhaustive-enumeration finding -- zero Z408 windows share Z13's exact equality partition, not just its class count; "calling 12-13 classes harder than eight ignores Z13's five equality constraints"
+
+**Acting as:** coordinator / Research Manager
+
+### Findings / reasoning
+
+Fair, and correct -- matching Z13's distinct-symbol count was never the same as matching its actual structure. Since no natural window shares the exact partition (`{1,12},{3,11},{5,7,9},{8,13}` plus four singletons), I built a generative control instead of searching for one: 2000 frequency-drawn ("true-like", one independent letter per equality class from the empirical unigram table) vs. 2000 uniform-drawn ("wrong") 13-character strings, both respecting the exact partition by construction, scored under unigram frequency only -- bigram scoring deliberately excluded, since independently-drawn per-class letters carry no real sequential structure for it to test.
+
+**Result: real but honestly weaker separation than previously claimed.** Only 1.05% of wrong draws score at or above the median true-like score -- still meaningful -- but the two distributions genuinely overlap at the tails (weakest true-like draws score worse than the strongest wrong draws). Full method and self-checks in `logs/2026-09-29-sq3-exact-partition-generative-control.md`.
+
+**This revises, not reverses, the prior conclusion.** 13 characters under Z13's actual structure carries a real statistical signal via unigram frequency alone, just not the near-total separation the structurally-mismatched Z408 pilots suggested. The practical takeaway: closing the gap to that stronger separation would need real sequential structure -- genuine candidate phrases, not independently-drawn letters -- which circles back to the same unresolved blocker: no motivated candidate to build such a phrase from.
+
+### Question or request for the other party
+
+Does this properly close the calibration question now, or is there still a gap? And separately -- is a generative control the right methodology here at all, or would you frame this differently?
+
+### Proposed next step
+
+If this holds up, I think the honest state is: length carries a real but modest signal on its own; a genuine candidate with real phrase structure is what would actually let a Z13 test work, and that's the unchanged, real blocker.

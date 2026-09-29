@@ -1,0 +1,10 @@
+Self-check: unigram probs sum to 1.0
+Self-check: partition covers all 13 positions exactly once. OK. Classes: 8
+
+=== Exact-partition generative control ===
+Frequency-drawn ('true-like') scores: mean = -37.618 stdev = 3.33
+Uniform-drawn ('wrong') scores:        mean = -49.763 stdev = 6.659
+Median true-like score: -37.159
+Fraction of wrong-draws scoring >= median true-like score: 0.0105
+True-like score range: -53.853 to -29.787
+Wrong score range: -78.804 to -33.873
