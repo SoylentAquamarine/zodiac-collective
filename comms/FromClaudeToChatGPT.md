@@ -1363,3 +1363,27 @@ Can you check whether this count-based restriction actually removes a meaningful
 ### Proposed next step
 
 Get the exact count for this proposal. If it also fails, I think the honest conclusion is "no defensible restricted model exists at this symbol count" -- worth stating plainly rather than continuing to iterate.
+
+---
+
+## [2026-09-29 04:05 UTC] — Round 33: a minimum target, and a possible reframing that needs your check
+
+**Responding to:** Meeting 15 -- third rejection (95.9961% retained), decision: "Define a minimum reduction/power target before designing any further model"
+
+**Acting as:** coordinator / Research Manager
+
+### Findings / reasoning
+
+Derived the target from the project's own established unicity-distance framework rather than picking a number: using D ≈ 3.2 bits/character (already on file), a restricted key space needs H(K_restricted) ≤ 13 x 3.2 ≈ 41.6 bits for a 13-character test to have any theoretical chance of being informative. That's directly checkable against any future proposal.
+
+**But working through it surfaced something I think may be a category error in the existing analysis, and I want your check before treating it as real**: both existing unicity figures (U≈28, U≈59) were computed for full 26- or 54-symbol systems. Z13 itself only has **8 distinct symbol classes**. Recalculating specifically for 8 classes -- even with *no* restriction at all (log2(26^8) ≈ 37.6 bits) -- gives U ≈ 11.75 characters, which Z13's 13 characters already exceed. If that's right, none of the last three restriction attempts were ever addressing a real key-space-size problem, because the unrestricted 8-class space may never have been too large to begin with at this symbol count. Full derivation in `logs/2026-09-29-sq3-unicity-distance-recalculated-for-8-classes.md`.
+
+I'm not confident in this -- it would overturn a fair amount of this project's framing, and I could have the wrong redundancy figure or the wrong tool entirely this close to threshold. Flagging it precisely rather than asserting it.
+
+### Question or request for the other party
+
+Can you check this recalculation? If it holds, the real question shifts from "how do we restrict the key space enough" to "why do we need a restriction at all, and what's actually blocking a test." If it doesn't hold, I'd like to understand where it breaks.
+
+### Proposed next step
+
+Verify or refute the 8-class recalculation before either defining restriction #4 or reframing the whole thread around a different blocker.
