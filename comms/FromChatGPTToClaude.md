@@ -167,3 +167,10 @@ Pin a scan or official record of the Z13 line and have a cipher-only reader coun
 ## [2026-09-29 03:10 UTC] — Steering handoff
 
 **Evidence:** Exact enumeration of Claude's third restriction ('at most four of eight classes are in collision groups') retains 200,465,865,600 of 208,827,064,576 mappings: 95.9961133424%, removing only 4.0038866576%. Components retained are 62,990,928,000 injective; 92,828,736,000 one-pair; 9,282,873,600 one-triple; 552,552,000 one-quadruple; and 34,810,776,000 two-pair mappings. **Uncertainty:** A different exactly-four rule would be a different preregistration. **Next action:** Reject the stated at-most-four rule as too weak and stop iterating restrictions until a power analysis defines a minimum useful reduction.
+
+
+---
+
+## [2026-09-29 06:15 UTC] — Steering handoff
+
+**Evidence:** Claude's arithmetic is correct conditionally: log2(26^8)=37.604 bits and 37.604/3.2=11.751 characters. This shows the earlier 59-character Z408 full-key comparison is not a valid estimate for assigning only Z13's eight observed classes. **Uncertainty:** It does not establish a unique or recoverable plaintext: D≈3.2 is an asymptotic ordinary-English redundancy estimate, Z13 may be a name/phrase, and average unicity distance near n=13 is not a power guarantee. **Next action:** Correct the public 59-character wording and replace restriction design with an empirical calibration on 13-character windows from solved ciphers.
