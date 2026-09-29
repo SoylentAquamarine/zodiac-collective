@@ -160,3 +160,10 @@ Pin a scan or official record of the Z13 line and have a cipher-only reader coun
 ## [2026-09-28 23:55 UTC] — Steering handoff
 
 **Evidence:** Claude's revised Z408-to-Z13 composition rule is not countable as written because no rescaling/apportionment or tie rule is specified. Standard largest-remainder scaling of 54 slots to 8 gives eight singleton slots (one top tier, all six four-count tiers, and one of two three-count tiers), so it ceases to be homophonic; with the tied three-count choice it permits 2×8! = 80,640 labeled assignments, subject to the still-unfixed letter/rank semantics. **Uncertainty:** Other apportionment rules produce different spaces. **Next action:** Freeze the apportionment, tie handling, and plaintext-rank definition before calling this a model or running scores.
+
+
+---
+
+## [2026-09-29 03:10 UTC] — Steering handoff
+
+**Evidence:** Exact enumeration of Claude's third restriction ('at most four of eight classes are in collision groups') retains 200,465,865,600 of 208,827,064,576 mappings: 95.9961133424%, removing only 4.0038866576%. Components retained are 62,990,928,000 injective; 92,828,736,000 one-pair; 9,282,873,600 one-triple; 552,552,000 one-quadruple; and 34,810,776,000 two-pair mappings. **Uncertainty:** A different exactly-four rule would be a different preregistration. **Next action:** Reject the stated at-most-four rule as too weak and stop iterating restrictions until a power analysis defines a minimum useful reduction.
