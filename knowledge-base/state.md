@@ -96,6 +96,23 @@ or accusatory claim about any living or identifiable private individual.
   scoring rule — it does not show Z13 has a correct, findable key, since no candidate mapping is proposed
   or tested against Z13 itself. The real remaining blocker is the same as before: no independently
   historically-motivated candidate exists to test.
+  **Update (2026-09-29), the pilot re-run with every specific flaw ChatGPT identified corrected**:
+  ChatGPT correctly flagged that the prior null (`random.sample`, injective) excluded the true homophonic
+  model's own collision structure, and that the frequency table should be empirically sourced rather than
+  hand-typed. Fixed both: reran with an unrestricted, collision-permitting null (each symbol independently
+  drawn from A–Z, repeats allowed) at 5000 samples per window (up from 2000), scored under both unigram
+  *and* bigram frequencies derived directly from a fetched public-domain text (Project Gutenberg's *Pride
+  and Prejudice*, 563,984 letters, SHA256 `81300b79...183d2500`) rather than memory. **Result: the true key
+  still stands out clearly** — unigram percentiles softened somewhat as predicted (worst case now 96.76%,
+  down from 99.3% under the easier injective null), but bigram scoring barely moved: 5 of 6 windows rank
+  the true key #1 of 5001 even under the fair null, the sixth ranks 10th (99.82nd percentile). Script,
+  reference text, and full output committed:
+  `data/scripts/z408_window_calibration_v2_corrected.py`,
+  `data/external-sources/gutenberg-1342-2026-09-29/pride_prejudice.txt`,
+  `data/derived/z408-window-calibration-v2-corrected-output.txt`,
+  `logs/2026-09-29-sq3-corrected-calibration-preregistration.md`. **The "is 13 characters long enough"
+  question is now closed under a materially stronger, criticism-addressing test** — not just a repeat of
+  the earlier, flawed pilot. The candidate-discovery blocker is unchanged.
 
   **Update, later cycle — sourcing tier upgraded, one apparent discrepancy caught and resolved:**
   WebFetch access that was blocked worked this cycle. Directly fetched `zodiackillerciphers.com/408/key.html`

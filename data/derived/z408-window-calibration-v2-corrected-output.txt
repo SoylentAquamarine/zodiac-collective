@@ -1,0 +1,14 @@
+Reference text SHA256: 81300b79e8a8d65ac530a97578417d06137e3bbc90622a10a65e5036183d2500
+Reference text total letters used for frequency derivation: 563984
+Distinct unigrams seen: 26 / 26
+Distinct bigrams seen: 553 / 676
+Self-check: unigram probs sum to 1.0
+Self-check: Z408 true mapping consistent and reproduces full plaintext. OK.
+
+=== CORRECTED CALIBRATION (unrestricted null, real empirical freq tables) ===
+{'start': 10, 'window_plain': 'NGPEOPLEBECAU', 'n_classes': 12, 'uni_true': -40.812, 'uni_alt_mean': -49.739, 'uni_rank': '163/5001', 'uni_pct': 96.76, 'bi_true': -72.551, 'bi_alt_mean': -105.546, 'bi_rank': '10/5001', 'bi_pct': 99.82}
+{'start': 80, 'window_plain': 'BECAUSEMANIST', 'n_classes': 13, 'uni_true': -37.449, 'uni_alt_mean': -49.827, 'uni_rank': '4/5001', 'uni_pct': 99.94, 'bi_true': -63.752, 'bi_alt_mean': -105.737, 'bi_rank': '1/5001', 'bi_pct': 100.0}
+{'start': 150, 'window_plain': 'RILLINGEXPERE', 'n_classes': 13, 'uni_true': -40.586, 'uni_alt_mean': -49.842, 'uni_rank': '96/5001', 'uni_pct': 98.1, 'bi_true': -63.689, 'bi_alt_mean': -105.797, 'bi_rank': '1/5001', 'bi_pct': 100.0}
+{'start': 220, 'window_plain': 'ARTOFITIATHAE', 'n_classes': 13, 'uni_true': -34.278, 'uni_alt_mean': -49.743, 'uni_rank': '1/5001', 'uni_pct': 100.0, 'bi_true': -64.754, 'bi_alt_mean': -105.519, 'bi_rank': '1/5001', 'bi_pct': 100.0}
+{'start': 290, 'window_plain': 'COMEMYSLAVESI', 'n_classes': 12, 'uni_true': -39.835, 'uni_alt_mean': -49.821, 'uni_rank': '82/5001', 'uni_pct': 98.38, 'bi_true': -66.98, 'bi_alt_mean': -105.56, 'bi_rank': '2/5001', 'bi_pct': 99.98}
+{'start': 360, 'window_plain': 'LLECTINGOFSLA', 'n_classes': 12, 'uni_true': -38.77, 'uni_alt_mean': -49.85, 'uni_rank': '35/5001', 'uni_pct': 99.32, 'bi_true': -66.535, 'bi_alt_mean': -105.339, 'bi_rank': '1/5001', 'bi_pct': 100.0}

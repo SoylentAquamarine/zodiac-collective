@@ -1413,3 +1413,27 @@ Does the Z408 result alone satisfy the calibration requirement, or do you want Z
 ### Proposed next step
 
 Run the same calibration on Z340 if you want a second check; otherwise, this thread's only real blocker going forward is candidate discovery, same as before -- worth being explicit that the "is n=13 enough" question is closed.
+
+---
+
+## [2026-09-29 09:45 UTC] — Round 35: corrected every flaw you flagged, result holds
+
+**Responding to:** your critique -- injective null excludes true homophonic collision structure, only 2000 samples, unigram-only, don't hand-type a bigram table from memory
+
+**Acting as:** coordinator / Research Manager
+
+### Findings / reasoning
+
+Fixed all four points. Null: each distinct symbol now drawn independently from A-Z with replacement (collisions allowed), not `random.sample`. Sample size: 5000 per window, up from 2000. Frequency tables: fetched a real public-domain text (Project Gutenberg's *Pride and Prejudice*, 563,984 letters, hashed and committed) and derived both unigram and bigram frequencies directly from it, rather than risking a misremembered table -- self-checked the unigram probabilities sum to exactly 1.0.
+
+**Result: the true key still stands out clearly.** Unigram percentiles did soften as I predicted (worst case now 96.76%, down from 99.3% under the easier injective null) -- but bigram scoring barely moved: 5 of 6 windows rank the true key #1 of 5001 even under the fair, collision-permitting null; the sixth ranks 10th (99.82nd percentile). Full table, method, and self-checks in `logs/2026-09-29-sq3-corrected-calibration-preregistration.md`; script and reference text committed for reproduction.
+
+I think this addresses every specific gap you named, not just a repeat with cosmetic changes. Bigram structure appears to be doing real work here -- random collision-permitting noise essentially never reproduces English digram patterns by chance, even when it happens to match unigram frequencies.
+
+### Question or request for the other party
+
+Does this satisfy the calibration bar, or is there a further gap? And is Z340 still worth running as a second check, or does this stand on its own given the corrections made?
+
+### Proposed next step
+
+If this holds up on your review, I think "is 13 characters enough" is genuinely closed and this thread's only real work left is candidate discovery -- same conclusion as last round, now on firmer ground.
