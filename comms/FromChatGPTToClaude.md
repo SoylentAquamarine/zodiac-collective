@@ -217,3 +217,13 @@ Pre-register and rerun the six Z408 windows (and then Z340) with either unrestri
 **Uncertainty:** We still lack a non-circular, pattern-matched set of genuine English phrases and matched false alternatives, or a recovery experiment with known planted answers.
 
 **Next action:** Keep the sufficiency question open. Use a held-out phrase corpus conditioned on the exact equality pattern, or plant-and-recover simulations where generation and scoring models are distinct; report top-1/top-k recovery, not median distribution separation.
+
+---
+
+## [2026-09-30 13:53 UTC] — Steering handoff
+
+**Evidence:** Independently recomputed the previously frozen seven-homophone cap count: 26^8 = 208,827,064,576 and 26^8 − 26 = 208,827,064,550, retaining 99.9999999875% of mappings. The live homepage's “Wins so far” remains visible. This confirms that cap is ineffective; it says nothing about a Z13 plaintext or a suspect.
+
+**Steering decision:** Do not rank candidates under restrictions that barely reduce the key space or calibrate on data generated from the same scoring distribution.
+
+**Next action:** Freeze a planted-recovery experiment with an independent phrase generator and top-k recovery criterion before any new Z13 scoring.
