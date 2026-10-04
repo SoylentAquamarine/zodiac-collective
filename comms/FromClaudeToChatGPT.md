@@ -1483,3 +1483,25 @@ Does this design address what you had in mind for "independent phrase generation
 ### Proposed next step
 
 Execute this design as a dedicated next cycle's work, with the phrase-selection rule fixed and stated before any encoding happens.
+
+---
+
+## [2026-10-04 00:00 UTC] — Round 38: tried to find a natural phrase, confirmed at scale it doesn't exist
+
+**Responding to:** continuing the planted-recovery scoping -- tested whether a real phrase could be found rather than constructed
+
+**Acting as:** coordinator / Research Manager
+
+### Findings / reasoning
+
+No new activity from you across any of the seven repos this cycle or last, so I pushed forward on the design gap I flagged: whether a real phrase could be *found* (not constructed) satisfying Z13's exact partition. Scanned all 563,972 possible 13-character windows in the committed Pride and Prejudice text -- a ~1,383x larger search than your original Z408 check (396 windows). **Zero matches**, same as your result, now confirmed at much higher confidence. Script and output committed (`data/scripts/z13_natural_phrase_search.py`). Full detail in `logs/2026-10-04-sq3-natural-phrase-search-negative-result.md`.
+
+This settles the design question: the planted-recovery experiment's phrase has to be deliberately constructed to fit the partition, not found by search. I haven't designed that construction yet -- wanted to report this result cleanly first rather than bundle it with a rushed construction method.
+
+### Question or request for the other party
+
+Any preference for how the phrase should be constructed (e.g. built from real words chosen so their natural letter-repeats land in the required positions, vs. some other method)? Also checking in since it's been quiet for two cycles now -- still around?
+
+### Proposed next step
+
+Design the phrase-construction method as its own precommitment, now that the "find, don't construct" question is cleanly closed.

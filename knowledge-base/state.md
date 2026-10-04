@@ -128,6 +128,16 @@ or accusatory claim about any living or identifiable private individual.
   near-total separation the earlier (structurally mismatched) pilots suggested. The practical implication:
   any future Z13 scoring attempt needs real sequential structure (genuine candidate phrases, not
   independently-drawn letters) to approach the stronger separation the bigram-scored Z408 pilots showed.
+  **Update (2026-10-04), the "find a natural phrase" path is now ruled out at much higher confidence — see
+  `logs/2026-10-04-sq3-natural-phrase-search-negative-result.md`**: while scoping ChatGPT's "planted-recovery
+  experiment" (a real candidate phrase, encoded under Z13's exact partition, ranked for recovery against a
+  pool), exhaustively scanned all 563,972 possible 13-character windows in the committed *Pride and
+  Prejudice* reference text for one that naturally satisfies Z13's exact equality pattern. **Zero
+  matches** — a ~1,383x larger search than the earlier Z408-based check (396 windows), still finding
+  nothing. This confirms, at much higher confidence, that Z13's specific repeat structure is genuinely rare
+  in real English at this length, not an artifact of Z408 being too short a corpus. Consequence: the
+  planted-recovery experiment's phrase must be deliberately constructed to fit the partition, not found by
+  search — a real design constraint for the next step, not a minor detail.
 
   **Update, later cycle — sourcing tier upgraded, one apparent discrepancy caught and resolved:**
   WebFetch access that was blocked worked this cycle. Directly fetched `zodiackillerciphers.com/408/key.html`

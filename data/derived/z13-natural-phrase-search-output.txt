@@ -1,0 +1,3 @@
+total letters: 563984
+windows scanned: 563972
+matches: 0
