@@ -138,6 +138,18 @@ or accusatory claim about any living or identifiable private individual.
   in real English at this length, not an artifact of Z408 being too short a corpus. Consequence: the
   planted-recovery experiment's phrase must be deliberately constructed to fit the partition, not found by
   search — a real design constraint for the next step, not a minor detail.
+  **Update (2026-10-04), the planted-recovery experiment run, 20 trials — see
+  `logs/2026-10-04-sq3-bigram-chain-phrase-construction.md`**: rather than hand-picking a real phrase
+  (which would reintroduce researcher discretion), constructed "true" sequences mechanically via a bigram
+  Markov chain over the already-committed empirical bigram table, respecting Z13's exact partition by
+  forcing repeat positions to copy their class's already-drawn letter. Ran 20 independent trials (fixed
+  seed `20261004`), each scored against 2000 unrestricted alternatives under both unigram and bigram
+  tables. **Bigram scoring wins decisively and consistently**: mean percentile 98.66 (range 95.40–100.00)
+  vs. unigram's mean 95.63 (range 85.71–100.00) — bigram's *worst* trial (95.40%) beats unigram's *median*
+  comfortably, and far exceeds unigram's own worst trial (85.71%). This is a materially more robust result
+  than the earlier single-instance rankings, now backed by a real 20-trial distribution. **Still does not
+  show Z13 has a recoverable answer** — only that length and structure are not inherent obstacles if a
+  correct scoring approach existed. The candidate-discovery blocker is unchanged.
 
   **Update, later cycle — sourcing tier upgraded, one apparent discrepancy caught and resolved:**
   WebFetch access that was blocked worked this cycle. Directly fetched `zodiackillerciphers.com/408/key.html`

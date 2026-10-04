@@ -1,0 +1,28 @@
+Self-check: unigram sums to 1.0
+Self-check: transition row for A sums to 1.0
+Self-check: transition row for B sums to 1.0
+Self-check: transition row for C sums to 1.0
+
+{'trial': 0, 'seq': 'ERENTOTETEEEE', 'uni_rank': '1/2001', 'uni_pct': 100.0, 'bi_rank': '1/2001', 'bi_pct': 100.0}
+{'trial': 1, 'seq': 'EXILAYATASIET', 'uni_rank': '33/2001', 'uni_pct': 98.4, 'bi_rank': '6/2001', 'bi_pct': 99.75}
+{'trial': 2, 'seq': 'RMBEOWONOUBRN', 'uni_rank': '100/2001', 'uni_pct': 95.05, 'bi_rank': '16/2001', 'bi_pct': 99.25}
+{'trial': 3, 'seq': 'RMIREGENEMIRN', 'uni_rank': '9/2001', 'uni_pct': 99.6, 'bi_rank': '5/2001', 'bi_pct': 99.8}
+{'trial': 4, 'seq': 'VANLISISIMNVS', 'uni_rank': '123/2001', 'uni_pct': 93.9, 'bi_rank': '93/2001', 'bi_pct': 95.4}
+{'trial': 5, 'seq': 'APRAVIVEVERAE', 'uni_rank': '101/2001', 'uni_pct': 95.0, 'bi_rank': '19/2001', 'bi_pct': 99.1}
+{'trial': 6, 'seq': 'GEDASHSHSHDGH', 'uni_rank': '51/2001', 'uni_pct': 97.5, 'bi_rank': '22/2001', 'bi_pct': 98.95}
+{'trial': 7, 'seq': 'HALEAVANANLHN', 'uni_rank': '13/2001', 'uni_pct': 99.4, 'bi_rank': '14/2001', 'bi_pct': 99.35}
+{'trial': 8, 'seq': 'ELETITISINEES', 'uni_rank': '1/2001', 'uni_pct': 100.0, 'bi_rank': '1/2001', 'bi_pct': 100.0}
+{'trial': 9, 'seq': 'WINTOROTORNWT', 'uni_rank': '10/2001', 'uni_pct': 99.55, 'bi_rank': '1/2001', 'bi_pct': 100.0}
+{'trial': 10, 'seq': 'FARLLYLLLYRFL', 'uni_rank': '287/2001', 'uni_pct': 85.71, 'bi_rank': '26/2001', 'bi_pct': 98.75}
+{'trial': 11, 'seq': 'RHIEVEVEVEIRE', 'uni_rank': '30/2001', 'uni_pct': 98.55, 'bi_rank': '3/2001', 'bi_pct': 99.9}
+{'trial': 12, 'seq': 'MOSADODPDOSMP', 'uni_rank': '161/2001', 'uni_pct': 92.0, 'bi_rank': '85/2001', 'bi_pct': 95.8}
+{'trial': 13, 'seq': 'IMASTTTOTYAIO', 'uni_rank': '9/2001', 'uni_pct': 99.6, 'bi_rank': '1/2001', 'bi_pct': 100.0}
+{'trial': 14, 'seq': 'SWASFEFSFGASS', 'uni_rank': '103/2001', 'uni_pct': 94.9, 'bi_rank': '24/2001', 'bi_pct': 98.85}
+{'trial': 15, 'seq': 'HEGWHEHPHEGHP', 'uni_rank': '116/2001', 'uni_pct': 94.25, 'bi_rank': '39/2001', 'bi_pct': 98.1}
+{'trial': 16, 'seq': 'RTYOMSMSMMYRS', 'uni_rank': '153/2001', 'uni_pct': 92.4, 'bi_rank': '56/2001', 'bi_pct': 97.25}
+{'trial': 17, 'seq': 'TINDAIARANNTR', 'uni_rank': '6/2001', 'uni_pct': 99.75, 'bi_rank': '1/2001', 'bi_pct': 100.0}
+{'trial': 18, 'seq': 'KINDABATABNKT', 'uni_rank': '228/2001', 'uni_pct': 88.66, 'bi_rank': '77/2001', 'bi_pct': 96.2}
+{'trial': 19, 'seq': 'MYPPINIRIAPMR', 'uni_rank': '235/2001', 'uni_pct': 88.31, 'bi_rank': '65/2001', 'bi_pct': 96.8}
+
+Unigram percentile: mean = 95.63 median = 96.28 min = 85.71 max = 100.0
+Bigram percentile:  mean = 98.66 median = 99.17 min = 95.4 max = 100.0

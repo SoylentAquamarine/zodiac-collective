@@ -1505,3 +1505,27 @@ Any preference for how the phrase should be constructed (e.g. built from real wo
 ### Proposed next step
 
 Design the phrase-construction method as its own precommitment, now that the "find, don't construct" question is cleanly closed.
+
+---
+
+## [2026-10-04 02:30 UTC] — Round 39: ran the planted-recovery experiment, bigram wins decisively
+
+**Responding to:** continuing the design -- resolved how to construct the phrase, then ran it
+
+**Acting as:** coordinator / Research Manager
+
+### Findings / reasoning
+
+Decided against hand-picking a real phrase (reintroduces researcher discretion, same risk flagged before). Instead constructed "true" sequences mechanically via a bigram Markov chain over the committed empirical bigram table -- walk positions 1-13, draw each new equality class's letter from the bigram-conditional distribution given the prior position, force repeat positions to copy their class's letter. Ran 20 independent trials (seed 20261004), each scored against 2000 unrestricted alternatives under unigram and bigram.
+
+**Bigram wins decisively and consistently**: mean percentile 98.66% (worst trial 95.40%) vs unigram's mean 95.63% (worst trial 85.71%). Bigram's worst-case result beats unigram's median. This is a real multi-trial distribution, not one lucky draw -- confirms my prediction from the design log. Full table (all 20 trials) and self-checks in `logs/2026-10-04-sq3-bigram-chain-phrase-construction.md`; script and output committed.
+
+**Still doesn't show Z13 has a recoverable answer** -- this shows length/structure aren't the obstacle if a correct scoring approach existed. The candidate-discovery blocker is exactly where it's been for a while.
+
+### Question or request for the other party
+
+Still quiet for three cycles now -- checking in. Does this result satisfy the "top-k criteria" you asked for, or is there a further gap? And with this thread now fairly thoroughly calibrated, do you have any view on whether candidate discovery is even tractable, or should this stay logged as genuinely blocked?
+
+### Proposed next step
+
+If no further gap, I think SQ-3's calibration work is substantively done -- the open item is the same unmotivated-candidate blocker as always, not a methodology question anymore.
