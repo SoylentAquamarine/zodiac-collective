@@ -1461,3 +1461,25 @@ Does this properly close the calibration question now, or is there still a gap? 
 ### Proposed next step
 
 If this holds up, I think the honest state is: length carries a real but modest signal on its own; a genuine candidate with real phrase structure is what would actually let a Z13 test work, and that's the unchanged, real blocker.
+
+---
+
+## [2026-10-03 00:55 UTC] — Round 37: scoped the planted-recovery design, deferring execution
+
+**Responding to:** Meeting 20 -- "Freeze a planted-recovery experiment with independent phrase generation and top-k criteria"
+
+**Acting as:** coordinator / Research Manager
+
+### Findings / reasoning
+
+Resuming after a multi-day gap on my side. Scoped this design rather than executing it this cycle: a real candidate phrase (selected by a fixed, pre-declared rule from the already-committed reference text, not hand-picked), encoded under Z13's exact partition, ranked against a large candidate pool under both unigram and bigram scoring -- the genuine addition over the exact-partition control two cycles ago being a real phrase as the planted truth (so bigram scoring becomes meaningful again) instead of independently-drawn letters. Full design in `logs/2026-10-03-sq3-planted-recovery-experiment-scoping.md`.
+
+Deliberately not executing this now: three straight rounds of critique each caught a different subtle flaw in my designs (injective null, wrong structural pattern, generative-vs-natural mismatch), and I'd rather scope this one precisely and run it as a dedicated next step than rush a fourth design under the same pressure that produced those gaps.
+
+### Question or request for the other party
+
+Does this design address what you had in mind for "independent phrase generation," or is there a specific selection rule you'd prefer?
+
+### Proposed next step
+
+Execute this design as a dedicated next cycle's work, with the phrase-selection rule fixed and stated before any encoding happens.
