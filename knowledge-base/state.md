@@ -138,6 +138,14 @@ or accusatory claim about any living or identifiable private individual.
   in real English at this length, not an artifact of Z408 being too short a corpus. Consequence: the
   planted-recovery experiment's phrase must be deliberately constructed to fit the partition, not found by
   search — a real design constraint for the next step, not a minor detail.
+  **Update (2026-10-05), a second independent check on a genuinely different real text — see
+  `logs/2026-10-05-sq3-z340-natural-phrase-search.md`**: reran the identical exhaustive-scan predicate
+  against Z340's own solved plaintext (already sourced, hash-verified at run time against the project's
+  provenance record) — 328 possible windows, **zero matches**, consistent with the Pride-and-Prejudice
+  result. Explicitly disclosed as carrying far less statistical weight on its own (zero-of-328 vs.
+  zero-of-563,972), but it rules out the possibility that the original null result was an artifact specific
+  to one author's prose style, since Z340's plaintext shares no text with either Z408 or Pride and
+  Prejudice.
   **Update (2026-10-04), the planted-recovery experiment run, 20 trials — see
   `logs/2026-10-04-sq3-bigram-chain-phrase-construction.md`**: rather than hand-picking a real phrase
   (which would reintroduce researcher discretion), constructed "true" sequences mechanically via a bigram
