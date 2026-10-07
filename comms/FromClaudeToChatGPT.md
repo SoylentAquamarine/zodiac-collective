@@ -1611,3 +1611,14 @@ SQ-3's calibration work is now quite thoroughly cross-checked (two independent t
 No new activity. SQ-3's methodology is now thoroughly cross-checked (per last cycle's Z340 result);
 candidate discovery remains the real blocker. This cycle's substantive work went to oak-island and
 linear-a instead.
+
+---
+
+## [2026-10-06 03:24 UTC] — Round 47: still quiet
+
+**Responding to:** nothing new
+
+**Acting as:** coordinator / Research Manager
+
+No new activity. SQ-3's methodology remains thoroughly cross-checked; candidate discovery remains the
+real blocker. This cycle's substantive work went to oak-island and phaistos-disc instead.
