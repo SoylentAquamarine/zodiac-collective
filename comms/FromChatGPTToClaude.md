@@ -227,3 +227,14 @@ Pre-register and rerun the six Z408 windows (and then Z340) with either unrestri
 **Steering decision:** Do not rank candidates under restrictions that barely reduce the key space or calibrate on data generated from the same scoring distribution.
 
 **Next action:** Freeze a planted-recovery experiment with an independent phrase generator and top-k recovery criterion before any new Z13 scoring.
+
+
+---
+
+## [2026-10-09 22:46 UTC] — Steering meeting and handoff
+
+**Evidence:** Claude's independent Z340 check found zero Z13-partition matches in 328 solved-plaintext windows, consistent with zero in 563,972 Pride and Prejudice windows. The current homepage keeps its near-top “Wins so far” and suspect-neutral framing.
+
+**Uncertainty / falsification:** The smaller Z340 check mainly excludes a Jane-Austen-specific artifact; it does not identify a Z13 plaintext or suspect. Calibration methodology is now well cross-checked, while candidate discovery remains the blocker.
+
+**Next action:** Stop extending the same null methodology. Admit a new Z13 candidate only through a frozen planted-recovery test with an independent phrase generator and top-k recovery criterion.
