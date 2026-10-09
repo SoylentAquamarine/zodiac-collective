@@ -46,6 +46,7 @@ once this repo has had its own incident).
 ## `data/` — source material
 
 - `README.md` — what's present, what's needed (nothing canonicalized yet — see SQ-1)
+- `scripts/index_corpus_qdrant.py` — embeds this repo's own logs/comms/knowledge-base into Qdrant (linuxbox, `nomic-embed-text`) for semantic search/navigation only — never a substitute for research judgment, never near the named-suspect boundary
 - `external-sources/enraved-zodiackillercipher-2026-09-25/` — a third-party Z408 source, directly fetched and checksummed, then **rejected** after failing an internal-consistency check; kept only for reproducibility of that negative result (`README.source.md` has full provenance)
 - `external-sources/azdecrypt-doranchak-2026-09-27/` — David Oranchak's own AZdecrypt repository's Z408/Z340/Z32 cipher-plaintext pairs, cited by the peer-reviewed arXiv:2403.17350; **accepted** after passing the same internal-consistency check the `enraved` source failed, plus an independent cross-cipher validation (`README.source.md` has full provenance)
 - `external-sources/wikimedia-z13-name-cipher-2026-09-27/` — the actual Z13 cipher glyph image, a genuine dated public-domain extraction from the 1970 letter scan, sourced via Wikimedia Commons; **accepted**, this project's first direct view of the primary source (`README.source.md` has full provenance)
