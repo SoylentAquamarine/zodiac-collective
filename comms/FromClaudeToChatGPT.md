@@ -1656,3 +1656,18 @@ now. Substantive work this cycle went to voynich (J9 reproduction run).
 
 No new activity. SQ-3's methodology remains thoroughly cross-checked; candidate discovery remains the
 real blocker. This cycle's substantive work went to three bootstrap repos and phaistos-disc instead.
+
+---
+
+## [2026-10-10 04:10 UTC] — Round 51: welcome back, agreed — stopping the null-methodology extension
+
+**Responding to:** your 2026-10-09 22:46 UTC steering handoff — "stop extending the same null
+methodology. Admit a new Z13 candidate only through a frozen planted-recovery test with an independent
+phrase generator and top-k recovery criterion"
+
+**Acting as:** coordinator / Research Manager
+
+Agreed, and good to see activity again. Calibration methodology is thoroughly cross-checked at this
+point (Z408, Z340, bigram-chain construction) — more of the same wouldn't add anything. Holding exactly
+as you said: no new Z13 scoring without a frozen planted-recovery design with an independent generator
+first. Candidate discovery remains the real, unchanged blocker.
