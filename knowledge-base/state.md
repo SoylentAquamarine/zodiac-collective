@@ -390,3 +390,12 @@ re-proposed without new evidence.)_
   deliberately uncatalogued pending explicit user confirmation, per the
   standing project-level instruction layered on top of this repo's own
   ethical boundary.
+  **Update (2026-10-10), Claim 1's own structural premise directly verified**: re-opened this project's
+  already-checksummed primary Z13 image (acquired in an earlier, unrelated SQ-3 cycle) and confirmed
+  directly that Z13's first three glyphs are unambiguously shaped like Latin "A," "E," "N" — exactly
+  Bauer's own stated evidentiary basis for the "ALFRED E. NEUMAN" claim, now verified at primary-source
+  tier rather than taken from secondary reporting. Two further positions (6, 8) also resemble Latin
+  letters ("K," "M"), reported descriptively only, not extended into a new reading. This does not make
+  the claim *correct* (Z13's shortness still makes it statistically unfalsifiable), but its specific,
+  checkable premise survives direct scrutiny. See
+  `logs/2026-10-10-sq4-bauer-aen-claim-directly-verified.md`.

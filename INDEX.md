@@ -85,6 +85,7 @@ once this repo has had its own incident).
 - `2026-09-27-sq3-homophone-chance-baseline-selfreview.md` — design for a chance-level permutation-test baseline of the 5-of-47 count; result (in `data/derived/`) complicates the prior finding: 5 is not below chance, it's mildly above it, so the measure is uninformative rather than confirmatory
 - `2026-09-27-sq3-z13-primary-source-direct-view.md` — this project's first direct view of the actual Z13 cipher glyphs (not a secondary transcription); confirms the standing repeat-pattern claim (1=12, 3=11, 5=7=9, 8=13) at the strongest available tier, with a disclosed first-read correction
 - `2026-10-10-sq4-prior-solution-claims-first-pass.md` — SQ-4's first substantive pass: three publicly claimed Z13 solutions catalogued, including a demonstration of this project's own already-confirmed repeat-position rule being used by an outside critic against a (not-named-here) 2025/2026 candidate
+- `2026-10-10-sq4-bauer-aen-claim-directly-verified.md` — re-opens this project's own primary Z13 image and confirms Bauer's "AEN" claim's stated evidentiary basis directly: the first three glyphs are literally shaped like Latin A, E, N — the first cross-reference between this project's own SQ-3 and SQ-4 threads
 
 ## `methods/`
 

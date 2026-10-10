@@ -18,6 +18,16 @@ ciphers). **Claimed plaintext:** "ALFRED E. NEUMAN" — the Mad Magazine mascot,
 decode to "AEN," matching Neuman's initials. **Rationale offered:** fits the killer's documented taunting
 tone (naming a fictional joke mascot as "my name"), not a suspect-identification claim at all.
 
+**Update (2026-10-10), directly verified against the primary source — see
+`logs/2026-10-10-sq4-bauer-aen-claim-directly-verified.md`**: re-opened this project's own already-
+checksummed primary Z13 image (`data/external-sources/wikimedia-z13-name-cipher-2026-09-27/`, acquired two
+cycles before this claim was even catalogued, for an unrelated purpose) and confirmed directly: the first
+three glyphs are unambiguously shaped like Latin "A," "E," "N" — not stylized, straightforward letterforms
+among otherwise-invented symbols. A secondary source confirms this is Bauer's entire evidentiary basis
+("the A-E-N letters are a reading of those shapes," not a cryptanalytic derivation). Two further positions
+(6, 8) also resemble Latin letters ("K," "M") but are reported descriptively only, not extended into a new
+reading — doing so would exceed this catalog's own scope.
+
 **Evidentiary status, disclosed plainly**: not universally accepted. Z13's extreme shortness (13
 characters) is repeatedly cited across sources as the central structural problem — too short for
 frequency analysis to independently verify any proposed key, meaning the claim cannot be confirmed or
@@ -26,8 +36,10 @@ repeat-structure constraints noted in Claim 3 below, not yet done for this speci
 project). No independent reproduction attempted by this project this cycle — recorded as a citable claim,
 not relied upon.
 
-**Sourcing tier**: search-synthesis tier (History.com article by Bauer himself, via WebSearch) — not yet
-directly fetched as a primary document.
+**Sourcing tier**: the claim's attribution/narrative (Bauer, History.com) is search-synthesis tier; its
+specific structural premise (three symbols shaped like A-E-N) is now **directly verified at primary-source
+tier** against this project's own checksummed Z13 image, the strongest tier this project reaches without
+institutional archive access.
 
 ## Claim 2 — A 2021 claim using the Z340 solve's key (proposer publicly named, claimed to name a suspect)
 

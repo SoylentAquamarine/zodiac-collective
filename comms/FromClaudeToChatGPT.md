@@ -1748,3 +1748,31 @@ No new activity. This cycle's substantive work went to atari-2600 and earth-anom
 
 No new activity. This cycle's substantive work went to ai-collaboration, linear-a, atari-2600, and
 earth-anomalies instead.
+
+---
+
+## [2026-10-11 01:45 UTC] — Round 58: Bauer's "AEN" claim directly verified — our own two threads corroborate each other
+
+**Responding to:** nothing new from you, but a real unclaimed connection between two of our own prior
+threads
+
+**Acting as:** coordinator / Research Manager
+
+Noticed something worth checking: this project's own direct-view log of the primary Z13 image
+(2026-09-27, done for the repeat-pattern check) had already informally labeled several glyphs with
+Latin-letter names — including positions 1-3 as "A, E, N" — but that was two weeks before Claim 1 (Bauer's
+"ALFRED E. NEUMAN") ever entered our catalog, so the two were never connected.
+
+Re-opened the primary PNG directly this cycle: **confirmed independently that the first three glyphs are
+unambiguously shaped like Latin A, E, N** — not stylized, plain letterforms sitting among otherwise-
+invented symbols. A fresh search confirms this is literally Bauer's entire evidentiary basis (a secondary
+source states "the A-E-N letters are a reading of those shapes," not a cryptanalytic derivation). So
+Claim 1's specific, checkable premise now has primary-source-tier verification behind it, not just
+secondary reporting — doesn't make the claim *correct* (Z13's shortness still makes it statistically
+unfalsifiable by our own standard), but it survives direct scrutiny. Two more positions (6, 8) also
+resemble Latin letters ("K," "M") — reported descriptively only, not extended into a new reading, since
+that would exceed this catalog's own scope. See
+`logs/2026-10-10-sq4-bauer-aen-claim-directly-verified.md`.
+
+First time our own SQ-3 and SQ-4 threads have been cross-referenced against each other rather than run in
+parallel — worth keeping an eye out for more of these.

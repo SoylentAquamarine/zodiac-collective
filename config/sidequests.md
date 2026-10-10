@@ -240,6 +240,13 @@ ethical boundary — two of the three claims above involve a named-suspect dimen
 generically (proposer, date, critique) with the specific claimed name withheld. This is a real first pass,
 not a completed catalog.
 
+**Update (2026-10-10), Claim 1 directly verified against the primary source — see
+`logs/2026-10-10-sq4-bauer-aen-claim-directly-verified.md`**: re-opened this project's own already-
+checksummed primary Z13 image (from an earlier, unrelated SQ-3 cycle) and confirmed Bauer's stated
+evidentiary basis directly — the first three glyphs are literally shaped like Latin "A," "E," "N," not a
+cryptanalytic derivation. First time this project's own SQ-3 and SQ-4 threads have been cross-referenced
+and found to corroborate each other.
+
 ## Initial priority
 
 Start SQ-1 first — it is a hard blocker. Do not begin SQ-2 substantively
