@@ -50,6 +50,7 @@ once this repo has had its own incident).
 - `external-sources/enraved-zodiackillercipher-2026-09-25/` — a third-party Z408 source, directly fetched and checksummed, then **rejected** after failing an internal-consistency check; kept only for reproducibility of that negative result (`README.source.md` has full provenance)
 - `external-sources/azdecrypt-doranchak-2026-09-27/` — David Oranchak's own AZdecrypt repository's Z408/Z340/Z32 cipher-plaintext pairs, cited by the peer-reviewed arXiv:2403.17350; **accepted** after passing the same internal-consistency check the `enraved` source failed, plus an independent cross-cipher validation (`README.source.md` has full provenance)
 - `external-sources/wikimedia-z13-name-cipher-2026-09-27/` — the actual Z13 cipher glyph image, a genuine dated public-domain extraction from the 1970 letter scan, sourced via Wikimedia Commons; **accepted**, this project's first direct view of the primary source (`README.source.md` has full provenance)
+- `sq4-prior-solution-claims-catalog.md` — SQ-4's first deliverable: three publicly claimed Z13 solutions (cipher-only half), with named-suspect-dimension claims recorded only generically per the standing scope decision
 
 ## `docs/` — public site (GitHub Pages, deploy on push to `main` under `docs/`)
 
@@ -83,6 +84,7 @@ once this repo has had its own incident).
 - `2026-09-27-sq3-statistician-homophone-comparison.md` — the Statistician's own direct check, resolved: derived both Z408's and Z340's solved keys from a verified source, cross-validated the shared-symbol-encoding assumption independently, and confirmed only 5 of 47 shared symbols coincide on the same letter between the two ciphers — no reusable homophone convention
 - `2026-09-27-sq3-homophone-chance-baseline-selfreview.md` — design for a chance-level permutation-test baseline of the 5-of-47 count; result (in `data/derived/`) complicates the prior finding: 5 is not below chance, it's mildly above it, so the measure is uninformative rather than confirmatory
 - `2026-09-27-sq3-z13-primary-source-direct-view.md` — this project's first direct view of the actual Z13 cipher glyphs (not a secondary transcription); confirms the standing repeat-pattern claim (1=12, 3=11, 5=7=9, 8=13) at the strongest available tier, with a disclosed first-read correction
+- `2026-10-10-sq4-prior-solution-claims-first-pass.md` — SQ-4's first substantive pass: three publicly claimed Z13 solutions catalogued, including a demonstration of this project's own already-confirmed repeat-position rule being used by an outside critic against a (not-named-here) 2025/2026 candidate
 
 ## `methods/`
 

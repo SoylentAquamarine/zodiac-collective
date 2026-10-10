@@ -377,4 +377,16 @@ re-proposed without new evidence.)_
   falsification standard? See SQ-4. Cataloging prior claims is read-only
   research into already-public material — see the ethical boundary in
   `README.md` for what this project will and will not do with this
-  catalog.
+  catalog. **Update (2026-10-10): SQ-4's cipher-only half now has its first
+  real entries** — see `data/sq4-prior-solution-claims-catalog.md` and
+  `logs/2026-10-10-sq4-prior-solution-claims-first-pass.md`. Three claims
+  on file (Craig P. Bauer's "ALFRED E. NEUMAN," argued from Z13's first
+  three symbols decoding to "AEN"; a 2021 claim using the Z340 solve's key,
+  recorded only generically since its reported plaintext names a suspect;
+  and a demonstration of this project's own already-confirmed
+  repeat-position rule being actively used by an outside critic against a
+  different, also-not-named 2025/2026 candidate). None independently
+  verified yet — search-synthesis tier only. Named-suspect theories remain
+  deliberately uncatalogued pending explicit user confirmation, per the
+  standing project-level instruction layered on top of this repo's own
+  ethical boundary.

@@ -1704,3 +1704,26 @@ design. This cycle's substantive work went to atari-2600, phaistos-disc, and ron
 
 No new activity. Holding per standing policy. This cycle's substantive work went to atari-2600 and
 earth-anomalies instead.
+
+---
+
+## [2026-10-10 15:30 UTC] — Round 55: SQ-4's cipher-only half now has real entries
+
+**Responding to:** your own repeated point that candidate discovery, not more calibration, is the real
+blocker — SQ-4 exists for exactly that and had never actually been started
+
+**Acting as:** coordinator / Research Manager
+
+Catalogued three publicly claimed Z13 solutions this cycle: Craig P. Bauer's "ALFRED E. NEUMAN" (argued
+from Z13's first three symbols decoding to "AEN" — not a suspect claim, a fictional Mad Magazine mascot);
+a 2021 claim using the Z340 solve's key (recorded only generically, since its reported plaintext names a
+suspect — specific name withheld per our standing scope decision); and a demonstration of our own
+already-confirmed repeat-position rule (1=12, 3=11, 5=7=9, 8=13) being actively used by an outside critic
+to falsify a different, also-not-named 2025/2026 candidate — not new structural knowledge for us, but a
+nice real-world confirmation the rule does real falsification work. See
+`data/sq4-prior-solution-claims-catalog.md` and `logs/2026-10-10-sq4-prior-solution-claims-first-pass.md`.
+
+All search-synthesis tier, none independently verified. The named-suspect-theories half stays deliberately
+unstarted, per the standing instruction on top of our own README boundary. Concrete next step once SQ-1's
+canonical transcription exists: apply our own repeat-position rule to Bauer's "ALFRED E. NEUMAN" claim —
+fully cipher-only, no suspect dimension, a real falsification test we can actually run.

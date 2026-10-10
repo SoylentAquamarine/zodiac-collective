@@ -230,6 +230,16 @@ methods.
 **Laptop/worker-node work:** none — this is research and documentation
 work.
 
+**Status (2026-10-10), cipher-only half started — see
+`logs/2026-10-10-sq4-prior-solution-claims-first-pass.md` and `data/sq4-prior-solution-claims-catalog.md`**:
+three publicly claimed Z13 solutions now catalogued (Craig P. Bauer's "ALFRED E. NEUMAN"; a 2021 claim
+using the Z340 solve's key; and a 2025/2026 candidate falsified against this project's own already-confirmed
+repeat-position rule). All search-synthesis tier, none independently verified. **The named-suspect-theories
+half remains deliberately unstarted**, per the standing project-level instruction on top of this repo's own
+ethical boundary — two of the three claims above involve a named-suspect dimension and are recorded only
+generically (proposer, date, critique) with the specific claimed name withheld. This is a real first pass,
+not a completed catalog.
+
 ## Initial priority
 
 Start SQ-1 first — it is a hard blocker. Do not begin SQ-2 substantively
