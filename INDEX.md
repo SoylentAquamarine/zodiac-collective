@@ -51,6 +51,8 @@ once this repo has had its own incident).
 - `external-sources/azdecrypt-doranchak-2026-09-27/` — David Oranchak's own AZdecrypt repository's Z408/Z340/Z32 cipher-plaintext pairs, cited by the peer-reviewed arXiv:2403.17350; **accepted** after passing the same internal-consistency check the `enraved` source failed, plus an independent cross-cipher validation (`README.source.md` has full provenance)
 - `external-sources/wikimedia-z13-name-cipher-2026-09-27/` — the actual Z13 cipher glyph image, a genuine dated public-domain extraction from the 1970 letter scan, sourced via Wikimedia Commons; **accepted**, this project's first direct view of the primary source (`README.source.md` has full provenance)
 - `sq4-prior-solution-claims-catalog.md` — SQ-4's first deliverable: three publicly claimed Z13 solutions (cipher-only half), with named-suspect-dimension claims recorded only generically per the standing scope decision
+- `scripts/sq2_z408_hillclimb_solver.py` — SQ-2's first solver attempt: a quadgram-scored hill-climbing homophonic-substitution solver, run against Z408's already-on-file ciphertext using *Pride and Prejudice* for English statistics
+- `derived/sq2-z408-hillclimb-result.md` — result: 18.87% per-character accuracy, a real negative result from a first, unrefined implementation
 
 ## `docs/` — public site (GitHub Pages, deploy on push to `main` under `docs/`)
 
@@ -86,6 +88,7 @@ once this repo has had its own incident).
 - `2026-09-27-sq3-z13-primary-source-direct-view.md` — this project's first direct view of the actual Z13 cipher glyphs (not a secondary transcription); confirms the standing repeat-pattern claim (1=12, 3=11, 5=7=9, 8=13) at the strongest available tier, with a disclosed first-read correction
 - `2026-10-10-sq4-prior-solution-claims-first-pass.md` — SQ-4's first substantive pass: three publicly claimed Z13 solutions catalogued, including a demonstration of this project's own already-confirmed repeat-position rule being used by an outside critic against a (not-named-here) 2025/2026 candidate
 - `2026-10-10-sq4-bauer-aen-claim-directly-verified.md` — re-opens this project's own primary Z13 image and confirms Bauer's "AEN" claim's stated evidentiary basis directly: the first three glyphs are literally shaped like Latin A, E, N — the first cross-reference between this project's own SQ-3 and SQ-4 threads
+- `2026-10-11-sq2-z408-reproduction-selfreview.md` / `-execution.md` — SQ-2's first attempt, ever: a quadgram-scored hill-climbing homophonic-substitution solver run against Z408; result is a real, honest negative (18.87% accuracy), with a diagnosed-but-unconfirmed likely cause and a named, not-yet-attempted fix
 
 ## `methods/`
 

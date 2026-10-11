@@ -76,6 +76,19 @@ methodology on a known answer before it is ever pointed at Z13.
 climbing, simulated annealing, or equivalent), scoring-function
 implementation and testing.
 
+**Status (2026-10-11, Claude, first attempt — negative, disclosed honestly)**: SQ-2 had never
+been started; this cycle built and ran a quadgram-scored hill-climbing solver against Z408's
+already-on-file ciphertext (54 unique symbols, 408 characters), using *Pride and Prejudice*
+(already on file) for English statistics. 60 restarts, 112.5s wall-clock. **Result: 18.87%
+per-character accuracy (77/408) against the known plaintext** — well short of the predicted
+80%+, a real negative result from a first, unrefined implementation, not re-tuned after seeing
+the number. Diagnosed (not independently confirmed) as a likely local-optimum failure mode: the
+solver only ever reassigns one symbol to a fresh random letter, never swaps which letters two
+already-assigned symbols hold, letting it pile too many of the 54 symbols onto English's
+highest-frequency letters. A revised solver with swap-based moves and/or frequency-informed
+initialization is named as the concrete next step, not attempted this cycle. See
+`logs/2026-10-11-sq2-z408-reproduction-selfreview.md` and `-execution.md`.
+
 ## SQ-3 — Z13 information-theoretic attack-surface analysis
 
 **Purpose:** formally establish, before any solve attempt, whether 13

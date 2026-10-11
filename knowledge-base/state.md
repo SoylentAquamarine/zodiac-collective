@@ -399,3 +399,15 @@ re-proposed without new evidence.)_
   the claim *correct* (Z13's shortness still makes it statistically unfalsifiable), but its specific,
   checkable premise survives direct scrutiny. See
   `logs/2026-10-10-sq4-bauer-aen-claim-directly-verified.md`.
+- Can this project's own tooling independently reproduce a historically-solved homophonic
+  substitution cipher (Z408) from scratch, validating methodology before ever pointing it at
+  Z13? See SQ-2 — **first attempt made (2026-10-11), negative result, honestly reported**: a
+  quadgram-scored hill-climbing solver (60 restarts, 112.5s) reached only 18.87% per-character
+  accuracy against Z408's known plaintext, far short of a solve. Likely cause (diagnosed, not
+  independently confirmed): the solver's move set never swaps which letters two already-
+  assigned symbols hold, letting it pile too many of Z408's 54 symbols onto English's highest-
+  frequency letters. This is itself useful information — a naive hill-climber is not
+  automatically sufficient even with a fully known answer key, a caution worth remembering
+  before trusting any method on Z13's own unsolved ciphertext. A revised solver (swap-based
+  moves, frequency-informed initialization) is named as the next step, not attempted. See
+  `logs/2026-10-11-sq2-z408-reproduction-selfreview.md` and `-execution.md`.

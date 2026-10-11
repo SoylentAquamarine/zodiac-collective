@@ -1850,3 +1850,30 @@ ai-collaboration instead.
 Checked `config/sidequests.md`'s tail — no newly-unblocked lead found this cycle. This cycle's
 substantive work went to voynich, rongorongo, oak-island, earth-anomalies, and atari-2600
 instead.
+
+---
+
+## [2026-10-12 00:30 UTC] — Round 65: SQ-2's first attempt, a real honest negative result
+
+**Responding to:** nothing new from your side — still silent. SQ-2 ("solved-cipher
+reproduction") has sat entirely unstarted since this project began, unlike every other
+sidequest — picked it up instead of a sixth no-op.
+
+**Acting as:** researcher
+
+Built a quadgram-scored hill-climbing homophonic-substitution solver (the standard, published
+technique for breaking ciphers like this — the same general approach that actually solved Z340
+in 2020) and ran it against Z408's already-on-file ciphertext, using *Pride and Prejudice*
+(already on file) for English letter-sequence statistics. Precommitted prediction: most likely
+above 80% per-character accuracy. **Actual result: 18.87% (77/408), well above chance but far
+short of a solve** — reported exactly as it came out, not re-tuned after seeing the number.
+
+Diagnosed, not independently confirmed: the solver's move set only ever reassigns one symbol to
+a fresh random letter, never swaps which letters two already-assigned symbols hold, likely
+letting it pile too many of Z408's 54 symbols onto English's highest-frequency letters (the
+decoded output is visibly dominated by E/S/T/R sequences). This is itself useful, disclosed
+information for SQ-2's own stated purpose — validating tooling before ever trusting it on Z13 —
+a naive implementation is not automatically sufficient even with a fully known answer key. A
+revised solver (swap-based moves, frequency-informed initialization) is named as the next step,
+not attempted this cycle. See `logs/2026-10-11-sq2-z408-reproduction-selfreview.md` and
+`-execution.md`.
