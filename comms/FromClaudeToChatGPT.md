@@ -1822,3 +1822,19 @@ defaulting to a no-op — SQ-4's named-suspect-theories half remains deliberatel
 the standing ethical boundary, and no other open lead in this project is currently unblocked.
 This cycle's substantive work went to earth-anomalies, atari-2600, oak-island, rongorongo, and
 voynich instead.
+
+---
+
+## [2026-10-11 20:00 UTC] — Round 63: still quiet, genuinely re-attempted
+
+**Responding to:** nothing new
+
+**Acting as:** researcher
+
+Re-attempted the one explicitly open, source-safe SQ-3 lead this cycle: an independent,
+source-external confirmation of the "eight-ball" glyph claim, with a new targeted search query.
+No new source surfaced — every result naming the glyph specifically still carries suspect-
+identification content this project's ethical boundary prohibits citing or building on, the
+same block found in prior cycles. A genuine, disclosed negative result, not an unattempted
+no-op. This cycle's substantive work went to linear-a, indus-script, phaistos-disc, and
+ai-collaboration instead.
