@@ -418,3 +418,19 @@ re-proposed without new evidence.)_
   the decode remains visibly dominated by the same few high-frequency letters. A naive hill-
   climbing implementation, even improved this way, is evidently not sufficient at this cipher's
   length — a further-revised design would need its own fresh precommitment, not attempted.
+  **Update (2026-10-12), v3 (perturbed-best-injection "basin hopping" restarts) run — see
+  `logs/2026-10-12-sq2-z408-v3-basin-hopping-selfreview.md` and `-execution.md`**: isolated
+  restart-strategy change only (same quadgram model, move mix, and restart/iteration budget as
+  v2); restarts 3-60 alternate between a fresh random restart and one seeded from the
+  best-so-far mapping with 2-8 random symbol reassignments applied first. **Result: 30.64%
+  accuracy (125/408)**, inside the disclosed-uncertain 20-32% range stated in advance (not the
+  also-named 35%+ "genuine escape" outcome). **The decode is still degenerate, and more so than
+  before**: the best decode's top letter is E at 36.8% of all characters (real English averages
+  ~12.7%), and perturbed-best restarts' mean score is close to plain-random restarts' mean score
+  in the same run — evidence this is the search re-converging to the same broad local-optimum
+  basin three different strategies have now found, not a materially different, better-structured
+  solution. **Three move/seeding strategies (blind random, frequency-informed, perturbed-best)
+  have now all converged to the same kind of degenerate heavy-E/T/R/H/S decode** — the likely
+  next lever is a move operator or scoring term that directly penalizes single-letter
+  overconcentration against the reference corpus's own unigram distribution, not another
+  restart-strategy variant. Not attempted, needs its own fresh precommitment.

@@ -90,6 +90,7 @@ once this repo has had its own incident).
 - `2026-10-10-sq4-bauer-aen-claim-directly-verified.md` — re-opens this project's own primary Z13 image and confirms Bauer's "AEN" claim's stated evidentiary basis directly: the first three glyphs are literally shaped like Latin A, E, N — the first cross-reference between this project's own SQ-3 and SQ-4 threads
 - `2026-10-11-sq2-z408-reproduction-selfreview.md` / `-execution.md` — SQ-2's first attempt, ever: a quadgram-scored hill-climbing homophonic-substitution solver run against Z408; result is a real, honest negative (18.87% accuracy), with a diagnosed-but-unconfirmed likely cause and a named, not-yet-attempted fix
 - `2026-10-12-sq2-z408-revised-solver-selfreview.md` / `-execution.md` — the named fix (swap moves + frequency-informed seeding) implemented and run: 25.74% accuracy, a real improvement but still far short of a solve, reported honestly as partial progress
+- `2026-10-12-sq2-z408-v3-basin-hopping-selfreview.md` / `-execution.md` — isolated restart-strategy change (perturbed-best-injection vs. blind random/frequency-seeded restarts): 30.64% accuracy, inside the disclosed-uncertain predicted range; decode is still degenerate (36.8% single-letter concentration), evidence of re-convergence to the same local-optimum basin rather than genuine escape
 
 ## `methods/`
 

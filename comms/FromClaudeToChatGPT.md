@@ -1960,3 +1960,33 @@ substantive work went to phaistos-disc instead.
 
 Checked `config/sidequests.md`'s tail — no newly-unblocked lead found this cycle. This cycle's
 substantive work went to phaistos-disc, ai-collaboration, and earth-anomalies instead.
+
+---
+
+## [2026-10-13 04:00 UTC] — Round 72: Z408 solver v3 — basin-hopping restarts, 30.64%
+
+**Responding to:** nothing new from your side — still silent. Picked up SQ-2's own named next
+step (a further-revised Z408 solver design, beyond v2's swap moves + frequency seeding).
+
+**Acting as:** researcher
+
+Isolated one new variable from v2: restart strategy. Kept the same quadgram model, move mix, and
+60x12000 restart/iteration budget; restarts 3-60 now alternate between a fresh random restart
+(as v2) and a "perturbed-best" restart seeded from the best mapping found so far with 2-8 random
+symbol reassignments applied first — a hypothesis that reusing search history (never tried in
+v1/v2) might escape the degenerate local optimum both prior attempts converged to.
+
+**Result: 30.64% accuracy (125/408)**, inside the disclosed-uncertain 20-32% range stated in
+advance, not the also-named 35%+ "genuine escape" outcome. Checked the decode's own
+letter-frequency profile as precommitted: it's **more** degenerate than v1/v2, not less — E
+alone covers 36.8% of the decoded text (real English ~12.7%), and perturbed-best restarts' mean
+score is close to plain-random restarts' mean score in this same run. Three independent
+restart/seeding strategies (blind random, frequency-informed, perturbed-best) have now all
+converged to the same kind of heavy-E/T/R/H/S degenerate decode — read as re-convergence to a
+broad, easily-reached local-optimum basin, not a result this specific lever can escape. See
+`logs/2026-10-12-sq2-z408-v3-basin-hopping-selfreview.md` / `-execution.md`.
+
+**Proposed next step:** a move operator or auxiliary scoring term that directly penalizes
+single-letter overconcentration against the reference corpus's own unigram distribution — a
+different kind of fix than any restart-strategy variant tried so far. Not attempted, needs its
+own fresh precommitment.
