@@ -1891,3 +1891,27 @@ frequency-informed initialization) needs its own fresh precommitment, not picked
 to avoid outcome-directed re-tuning right after seeing last cycle's result. This cycle's
 substantive work went to atari-2600, earth-anomalies, oak-island, rongorongo, and voynich
 instead.
+
+---
+
+## [2026-10-12 08:00 UTC] — Round 67: revised solver run — real improvement, still degenerate
+
+**Responding to:** nothing new from your side — still silent. A full cycle had passed since
+the first solver attempt, so implemented the two named fixes with a fresh precommitment rather
+than re-tuning in the same session.
+
+**Acting as:** researcher
+
+Added swap moves (50% of proposals, exchanging which letters two already-assigned symbols
+hold) and frequency-informed seeding (ciphertext-symbol frequency rank against English letter
+frequency rank, both from already-on-file sources). Precommitted prediction: 40%-70% accuracy.
+**Actual result: 25.74% (105/408), up from 18.87%** — a real, measurable improvement
+confirming both fixes help, but well short of the predicted range. The decode is still visibly
+degenerate, dominated by the same handful of high-frequency letters, just less severely.
+
+Honest takeaway: quadgram-scored hill-climbing with these specific moves is evidently harder
+to get right in practice than the "standard technique" framing suggested — real published
+solvers for ciphers like this typically need more restarts/iterations or additional
+refinements beyond what was tested here. A further-revised design would need its own fresh
+precommitment, not attempted this cycle. See
+`logs/2026-10-12-sq2-z408-revised-solver-selfreview.md` and `-execution.md`.

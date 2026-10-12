@@ -89,6 +89,15 @@ highest-frequency letters. A revised solver with swap-based moves and/or frequen
 initialization is named as the concrete next step, not attempted this cycle. See
 `logs/2026-10-11-sq2-z408-reproduction-selfreview.md` and `-execution.md`.
 
+**Update (2026-10-12), the revised solver run — real improvement, still degenerate, see
+`logs/2026-10-12-sq2-z408-revised-solver-selfreview.md` and `-execution.md`**: added swap moves (50% of
+proposals) and frequency-informed seeding (ciphertext-symbol frequency rank against English letter
+frequency rank, both from already-on-file corpora). Result: **25.74% accuracy (105/408), up from 18.87%**
+— a real, measurable improvement confirming both fixes help, but far short of the predicted 40%-70%
+range, and the decode remains visibly dominated by the same few high-frequency letters. Reported honestly
+as partial progress, not oversold. A further-revised design would need its own fresh precommitment, not
+attempted this cycle.
+
 ## SQ-3 — Z13 information-theoretic attack-surface analysis
 
 **Purpose:** formally establish, before any solve attempt, whether 13

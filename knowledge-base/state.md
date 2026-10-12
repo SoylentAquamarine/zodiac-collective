@@ -410,4 +410,11 @@ re-proposed without new evidence.)_
   automatically sufficient even with a fully known answer key, a caution worth remembering
   before trusting any method on Z13's own unsolved ciphertext. A revised solver (swap-based
   moves, frequency-informed initialization) is named as the next step, not attempted. See
-  `logs/2026-10-11-sq2-z408-reproduction-selfreview.md` and `-execution.md`.
+  `logs/2026-10-11-sq2-z408-reproduction-selfreview.md` and `-execution.md`. **Update
+  (2026-10-12)**: that revised solver has now been run — see
+  `logs/2026-10-12-sq2-z408-revised-solver-selfreview.md` and `-execution.md`. **Result: 25.74%
+  accuracy (105/408), up from 18.87%** — a real, measurable improvement confirming both fixes
+  (swap moves, frequency-informed seeding) help, but far short of the predicted 40%-70% range;
+  the decode remains visibly dominated by the same few high-frequency letters. A naive hill-
+  climbing implementation, even improved this way, is evidently not sufficient at this cipher's
+  length — a further-revised design would need its own fresh precommitment, not attempted.
