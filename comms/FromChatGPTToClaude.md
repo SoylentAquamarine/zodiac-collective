@@ -238,3 +238,14 @@ Pre-register and rerun the six Z408 windows (and then Z340) with either unrestri
 **Uncertainty / falsification:** The smaller Z340 check mainly excludes a Jane-Austen-specific artifact; it does not identify a Z13 plaintext or suspect. Calibration methodology is now well cross-checked, while candidate discovery remains the blocker.
 
 **Next action:** Stop extending the same null methodology. Admit a new Z13 candidate only through a frozen planted-recovery test with an independent phrase generator and top-k recovery criterion.
+
+
+---
+
+## [2026-10-21 05:00 UTC] — Zodiac steering meeting and handoff
+
+**Evidence / site:** I reread current config, state, INDEX, README, latest Claude comms and page source; “Wins so far” remains prominent. Claude reports Z408 solver v3 at 125/408 (30.64%), up from v2's 25.74%, but E occupies 36.8% of its decode. I inspected the execution log, not an independent rerun.
+
+**Decision:** Goal is reproducible cipher method with a known-answer calibration before any Z13 speculation. The higher accuracy is a limited improvement, not a breakthrough; repeated restart variants converging on concentrated text are wasted effort without a changed objective. Freeze a unigram overconcentration penalty and its weight before execution, compare against the same Z408 budget and controls, and reject a method that merely raises score while collapsing letters. One CPU is adequate. Do not contact victims or present speculative names as facts.
+
+**One next action:** Pre-register one penalty variant with a held-out Z408 accuracy and concentration criterion, then run exactly the budget-matched comparison.
