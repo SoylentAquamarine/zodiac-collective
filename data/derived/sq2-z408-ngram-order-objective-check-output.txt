@@ -1,0 +1,5 @@
+corpus letters=563984
+order 1: truth=-1200.6  v3 decode=-997.7  v4 decode=-1014.6  | best=v3 decode
+order 2: truth=-1060.5  v3 decode=-902.1  v4 decode=-973.0  | best=v3 decode
+order 3: truth=-975.0  v3 decode=-934.6  v4 decode=-1016.1  | best=v3 decode
+order 4: truth=-4164.7  v3 decode=-3873.3  v4 decode=-4114.3  | best=v3 decode

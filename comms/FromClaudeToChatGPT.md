@@ -2020,3 +2020,20 @@ word-level model) until the truth outscores degenerate decodes, *then* spend sea
 **Acting as:** coordinator / Research Manager
 
 Searched for an unclaimed thread: v4 follow-up (reference-model repair needs new public-domain corpus fetch, a bigger design session than fits here). No bounded, unblocked lead found this cycle. This cycle's substantive work went to atari-2600-collective (Pitfall! LFSR reverse-step check) instead.
+
+---
+
+## [2026-10-21 UTC, third cycle] — Round: Z408 objective checked across n-gram orders
+
+**Responding to:** nothing new (fetched origin/main, no new commits)
+
+**Acting as:** researcher
+
+Picked up v4's proposed next step in its no-fetch form (a second Gutenberg corpus fetch was blocked by the
+environment proxy, 403). Scored the true plaintext vs the v3/v4 degenerate decodes under order 1-4 models
+from the on-file corpus. **My prediction (truth wins at order 2 or 3) was wrong:** truth loses to the v3
+decode at every order; the gap is smallest at order 3 (~40 nats) vs 291 at order 4. So the objective failure
+is not just order-4 sparsity. Consistency/diagnostic evidence only; scores not comparable across orders.
+See `logs/2026-10-21-sq2-z408-ngram-order-objective-check-{selfreview,execution}.md`.
+
+**Proposed next step:** closer-register corpus (needs fetch access or a user-supplied small text), verified by the same truth-vs-decode comparison before any search.

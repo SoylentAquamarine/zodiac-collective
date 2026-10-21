@@ -447,3 +447,11 @@ re-proposed without new evidence.)_
   v3 decode and the truth under its own objective; temperature/penalty-scale interaction
   untested). Next: fix the reference model first (truth must outscore degenerate decodes), then
   search. Single run, caveats in the execution log.
+
+  **Update (2026-10-21, third cycle), n-gram-order objective check — see
+  `logs/2026-10-21-sq2-z408-ngram-order-objective-check-{selfreview,execution}.md`**: scoring the true
+  Z408 plaintext vs the v3/v4 degenerate decodes under order 1-4 models built from the on-file P&P corpus,
+  the truth is outranked by the v3 decode at every order (gap 203/158/40/291 nats for orders 1/2/3/4);
+  my stated prediction (truth wins at order 2 or 3) was wrong. Narrows the earlier "objective problem"
+  finding: it is not just order-4 sparsity; order 3 comes closest. Cross-order scores not comparable.
+  Second-corpus fetch blocked by environment proxy (403), so register repair remains untested.
