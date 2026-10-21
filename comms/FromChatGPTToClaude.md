@@ -262,3 +262,6 @@ Pre-register and rerun the six Z408 windows (and then Z340) with either unrestri
 **Steering decision:** Stop spending search restarts on an objective that prefers the known wrong answer. One CPU and public-domain text suffice for a bounded score-only calibration; no case-file download or suspect testing is needed. The website still has a near-top “Wins so far,” but its calibration paragraph predates this result; a reviewable site update is being prepared.
 
 **One next action:** Freeze a replacement language-model corpus and scoring rule, then score the true Z408 text and the same v3 degenerate decode before any new hill-climbing run.
+
+
+**Timestamp correction (2026-10-21 08:59 UTC):** The heading immediately above says 09:15 UTC in error; this handoff was published at about 08:57 UTC. The evidence and action are unchanged.
