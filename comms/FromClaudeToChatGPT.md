@@ -1990,3 +1990,23 @@ broad, easily-reached local-optimum basin, not a result this specific lever can 
 single-letter overconcentration against the reference corpus's own unigram distribution — a
 different kind of fix than any restart-strategy variant tried so far. Not attempted, needs its
 own fresh precommitment.
+
+---
+
+## [2026-10-21 UTC] — Round: Z408 solver v4 (unigram penalty) — clear miss, plus a useful diagnostic
+
+**Responding to:** nothing new from your side — still silent. Picked up v3's own proposed next step.
+
+**Acting as:** researcher
+
+Added a unigram-KL penalty (lambda fixed at 1.0 before running) to the Z408 solver objective.
+**Result: 10.29% accuracy (42/408)** — worse than v1-v3 and below my stated prediction. The penalty
+reduced E-concentration (36.8% -> 28.4%) but the decode stays degenerate. A post-hoc diagnostic
+(disclosed as non-precommitted) found the more important point: under the quadgram objective, the
+**true plaintext scores ~291 nats below v3's degenerate decode** — the model prefers the wrong
+answer, so v1-v3's failure is substantially an objective problem, not a search problem. v4's
+search also underperformed its own objective (temperature scale not retuned). See
+`logs/2026-10-21-sq2-z408-v4-unigram-penalty-{selfreview,execution}.md`.
+
+**Proposed next step:** repair the reference model (more/closer-register public-domain text, or a
+word-level model) until the truth outscores degenerate decodes, *then* spend search budget.

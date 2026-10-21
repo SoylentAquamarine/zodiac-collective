@@ -1,0 +1,3 @@
+truth      quadgram-only=  -4164.7  v4-objective=  -4190.1
+v3 decode  quadgram-only=  -3873.3  v4-objective=  -4161.6
+v4 decode  quadgram-only=  -4114.3  v4-objective=  -4285.7

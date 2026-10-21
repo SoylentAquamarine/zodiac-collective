@@ -434,3 +434,16 @@ re-proposed without new evidence.)_
   next lever is a move operator or scoring term that directly penalizes single-letter
   overconcentration against the reference corpus's own unigram distribution, not another
   restart-strategy variant. Not attempted, needs its own fresh precommitment.
+
+  **Update (2026-10-21), v4 (unigram-KL penalty in the objective) run — see
+  `logs/2026-10-21-sq2-z408-v4-unigram-penalty-selfreview.md` and `-execution.md`**: **Result:
+  10.29% (42/408), worse than v1-v3; the stated prediction (35-60% likely) was wrong.** The penalty
+  cut the top letter's share (E 36.8% -> 28.4%) but the decode stayed degenerate. **Exploratory
+  (non-precommitted) diagnostic, a disclosed correction to the v3 entry's framing above** (which
+  named overconcentration as the likely lever): the true plaintext scores -4164.7 under the
+  quadgram-only objective vs v3's degenerate decode at -3873.3, i.e. **the objective itself prefers
+  the wrong answer** — the v1-v3 failures are largely an objective (model-fit) problem, not only a
+  search problem; and v4's own search additionally underperformed (its found score is below both the
+  v3 decode and the truth under its own objective; temperature/penalty-scale interaction
+  untested). Next: fix the reference model first (truth must outscore degenerate decodes), then
+  search. Single run, caveats in the execution log.

@@ -1,0 +1,29 @@
+# SQ-2 — Z408 hill-climbing reproduction result v4 (v3 + unigram-KL penalty)
+
+Precommitment: `logs/2026-10-21-sq2-z408-v4-unigram-penalty-selfreview.md`.
+
+- Restarts: 60 (restart 1 freq-seeded, restart 2 random, restarts 3-60 alternating
+  perturbed-best / random), iterations per restart: 12000
+- 50% swap moves / 50% reassign moves (unchanged from v2)
+- Wall-clock time: 59.5s
+- Best quadgram log-likelihood score: -4285.65
+- Per-character accuracy against known plaintext (compared only after the search completed): **0.1029** (42/408)
+- v1 accuracy (blind restarts): 0.1887 (77/408)
+- v2 accuracy (swap moves + frequency seeding, no history reuse): 0.2574 (105/408)
+- v3 accuracy (perturbed-best restarts): 0.3064 (125/408); v3 top-5: E:0.368, T:0.154, R:0.142, H:0.130, S:0.123
+- LAMBDA (unigram-KL weight): 1.0
+- Top-5 most frequent letters in the v3 best decode: E:0.284, T:0.194, S:0.142, N:0.083, R:0.066
+- Mean best-score across 29 perturbed-best restarts: -4324.1
+- Mean best-score across 30 plain-random restarts (this run): -4444.9
+
+## Decoded text (best-scoring hill-climb result)
+
+```
+ESONENETSASESHESTHTOEATREEEONTATTERSTREEANTINITTDTTINNESTOSENESSEETHARERESSREHRETHESTNOTADETETETESTMINEINETHESSTATITISTESNOSTNETHEREREEATETTHETHTASTERRESTODEOFSEEINEHEEARETHSTHETONETEREEEEEDEEITRESENNESTNOTRSEENSETITHTESAREASATESEREINTENOMEHANESTTHEOTINSORSIRESEEENDMASSERIATITHNESSESNOSTTHEETHTERSSTONENETSSITEETOESTTERITHTEEATTHEITNESSENEEARTEEMENDSENEASTEESSSEETOSEETRSATENSINTESSEORTOTHETHEREHEETHERTSEEA
+```
+
+## Known plaintext (for comparison only, not used during search)
+
+```
+ILIKEKILLINGPEOPLEBECAUSEITISSOMUCHFUNITIAMOREFUNTHANKILLINGWILDGAMEINTHEFORRESTBECAUSEMANISTHEMOATDANGERTUEANAMALOFALLTOKILLSOMETHINGGIVESMETHEMOATTHRILLINGEXPERENCEITISEVENBETTERTHANGETTINGYOURROCKSOFFWITHAGIRLTHEBESTPARTOFITIATHAEWHENIDIEIWILLBEREBORNINPARADICEANDALLTHEIHAVEKILLEDWILLBECOMEMYSLAVESIWILLNOTGIVEYOUMYNAMEBECAUSEYOUWILLTRYTOSLOIDOWNORATOPMYCOLLECTINGOFSLAVESFORMYAFTERLIFEEBEORIETEMETHHPITI
+```

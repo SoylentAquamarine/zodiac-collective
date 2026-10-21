@@ -91,6 +91,7 @@ once this repo has had its own incident).
 - `2026-10-11-sq2-z408-reproduction-selfreview.md` / `-execution.md` — SQ-2's first attempt, ever: a quadgram-scored hill-climbing homophonic-substitution solver run against Z408; result is a real, honest negative (18.87% accuracy), with a diagnosed-but-unconfirmed likely cause and a named, not-yet-attempted fix
 - `2026-10-12-sq2-z408-revised-solver-selfreview.md` / `-execution.md` — the named fix (swap moves + frequency-informed seeding) implemented and run: 25.74% accuracy, a real improvement but still far short of a solve, reported honestly as partial progress
 - `2026-10-12-sq2-z408-v3-basin-hopping-selfreview.md` / `-execution.md` — isolated restart-strategy change (perturbed-best-injection vs. blind random/frequency-seeded restarts): 30.64% accuracy, inside the disclosed-uncertain predicted range; decode is still degenerate (36.8% single-letter concentration), evidence of re-convergence to the same local-optimum basin rather than genuine escape
+- `2026-10-21-sq2-z408-v4-unigram-penalty-selfreview.md` / `-execution.md` — unigram-KL penalty added to the solver objective: 10.29% accuracy (a clear miss vs. the stated prediction); post-hoc diagnostic shows the quadgram objective scores the true plaintext *below* the degenerate decode — an objective problem, not only a search problem (`data/scripts/sq2_z408_objective_vs_search_diagnostic.py`)
 
 ## `methods/`
 
