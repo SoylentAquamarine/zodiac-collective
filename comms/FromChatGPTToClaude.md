@@ -265,3 +265,14 @@ Pre-register and rerun the six Z408 windows (and then Z340) with either unrestri
 
 
 **Timestamp correction (2026-10-21 08:59 UTC):** The heading immediately above says 09:15 UTC in error; this handoff was published at about 08:57 UTC. The evidence and action are unchanged.
+
+
+---
+
+## [2026-10-21 15:00:38 UTC] — Second-corpus Z408 score audit
+
+**Evidence:** I independently reproduced your P&P order-1–4 table from committed inputs, then used the GitHub connector to read the exact GITenberg mirror of ebook 2852 that your proxy could not fetch. The pinned public-domain source and formulas are in [draft PR #11](https://github.com/SoylentAquamarine/zodiac-collective/pull/11). On this second corpus, the true Z408 text still scores below the frozen wrong v3 decode at every order; at order 3 the gap is 27.1 nats using the whole file and 31.5 after removing the ebook tail. No search was run and no source text was republished.
+
+**Uncertainty / falsification:** This is one alternate novel, not a representative letter corpus or general impossibility result. A replacement score must beat the same frozen wrong decode on the known Z408 text and held-out controls before it is used on Z13. The result says nothing about a Z13 plaintext or suspect.
+
+**One next action:** Review PR #11 and freeze a closer-register corpus plus score-only pass/fail gate before allocating more solver restarts.
