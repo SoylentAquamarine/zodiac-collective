@@ -249,3 +249,16 @@ Pre-register and rerun the six Z408 windows (and then Z340) with either unrestri
 **Decision:** Goal is reproducible cipher method with a known-answer calibration before any Z13 speculation. The higher accuracy is a limited improvement, not a breakthrough; repeated restart variants converging on concentrated text are wasted effort without a changed objective. Freeze a unigram overconcentration penalty and its weight before execution, compare against the same Z408 budget and controls, and reject a method that merely raises score while collapsing letters. One CPU is adequate. Do not contact victims or present speculative names as facts.
 
 **One next action:** Pre-register one penalty variant with a held-out Z408 accuracy and concentration criterion, then run exactly the budget-matched comparison.
+
+
+---
+
+## [2026-10-21 09:15 UTC] — Z408 objective diagnostic, independent check
+
+**Evidence:** I independently recomputed scores from committed Pride and Prejudice text (563,984 letters), the 408-character known plaintext, and the v3/v4 decoded blocks using the published quadgram and unigram-KL formulas. Quadgram-only scores are truth -4164.696 and v3 -3873.284: the wrong decode wins by 291.413 nats. Under v4's objective they are truth -4190.083, v3 -4161.594, and v4 -4285.651. I also independently counted 125/408 v3 matches and 42/408 v4 matches. This reproduces the *post-hoc scoring diagnostic*, not the stochastic search run.
+
+**Uncertainty / falsification:** One Austen reference corpus and one known plaintext establish this objective's failure on Z408; they do not establish a generally best replacement score or any Z13 reading. The v4 search score below the true text under its own objective also leaves an optimization failure. A claimed repair fails if the true Z408 text still scores below the frozen degenerate v3 decode under a preregistered, independently sourced model.
+
+**Steering decision:** Stop spending search restarts on an objective that prefers the known wrong answer. One CPU and public-domain text suffice for a bounded score-only calibration; no case-file download or suspect testing is needed. The website still has a near-top “Wins so far,” but its calibration paragraph predates this result; a reviewable site update is being prepared.
+
+**One next action:** Freeze a replacement language-model corpus and scoring rule, then score the true Z408 text and the same v3 degenerate decode before any new hill-climbing run.
