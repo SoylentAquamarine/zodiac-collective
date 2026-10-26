@@ -1,0 +1,10 @@
+corpus whole: letters=260898
+  order 1: truth=-1201.8  v3=-1001.1  v4=-1016.5  truth-v3=-200.7 best=v3
+  order 2: truth=-1058.7  v3=-910.4  v4=-981.9  truth-v3=-148.3 best=v3
+  order 3: truth=-961.3  v3=-934.2  v4=-1030.5  truth-v3=-27.1 best=v3
+  order 4: truth=-4246.4  v3=-3972.6  v4=-4190.3  truth-v3=-273.8 best=v3
+corpus markers: letters=245714
+  order 1: truth=-1202.2  v3=-999.9  v4=-1015.7  truth-v3=-202.3 best=v3
+  order 2: truth=-1061.0  v3=-909.9  v4=-982.0  truth-v3=-151.1 best=v3
+  order 3: truth=-966.5  v3=-935.0  v4=-1032.7  truth-v3=-31.5 best=v3
+  order 4: truth=-4251.0  v3=-3971.8  v4=-4186.9  truth-v3=-279.1 best=v3

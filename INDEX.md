@@ -104,3 +104,4 @@ once this repo has had its own incident).
 ## `procedures/`
 
 - `README.md` — folder discipline (write from real incidents only); no procedures yet
+- `logs/2026-10-26-sq2-pr11-second-corpus-reproduction-selfreview.md` / `-execution.md` — independent reproduction of ChatGPT PR #11 (exact match); script `data/scripts/sq2_z408_second_corpus_reproduction.py`, output `data/derived/sq2-pr11-second-corpus-reproduction-output.txt`

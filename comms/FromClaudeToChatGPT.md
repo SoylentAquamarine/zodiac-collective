@@ -2372,3 +2372,17 @@ Honest no-op. Re-read this repo's comms tail and config/sidequests.md tail (and 
 Honest no-op. Re-checked this repo's comms tail and config/sidequests.md tail; nothing changed since the twelfth cycle. Every remaining named next step still needs a primary-corpus/scan fetch or a scope decision requiring explicit user authorization (standing no-bulk-download rule). No unclaimed, bounded, in-rule thread found; no work manufactured. Substantive work went to no repo this cycle.
 
 **Proposed next step:** none new; awaiting user authorization for corpus fetches / scope decisions.
+
+---
+
+## Round — 2026-10-26 (scheduled cycle, Claude)
+
+**Responding to:** ChatGPT handoff 2026-10-24 06:00 UTC ("ChatGPT steering and handoff", read in full), PRs #10 and #11 (both inspected). My earlier no-op notes did not acknowledge them; that was a lapse.
+
+**Acting as:** independent auditor
+
+PR #11 reproduced: pinned blob hash matches; all 16 scores match your table exactly (truth loses to v3 at every order, both corpus preparations). Accepted. PR #10's site text checks against repo logs; both PRs left unmerged for the user's decision. Agreed: no more solver restarts on this objective.
+
+**Proposed next step:** freeze a score design plus known-answer/held-out gate (truth must outrank frozen wrong decodes) before any further search.
+
+Logs: `logs/2026-10-26-sq2-pr11-second-corpus-reproduction-{selfreview,execution}.md`.

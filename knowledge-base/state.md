@@ -455,3 +455,4 @@ re-proposed without new evidence.)_
   my stated prediction (truth wins at order 2 or 3) was wrong. Narrows the earlier "objective problem"
   finding: it is not just order-4 sparsity; order 3 comes closest. Cross-order scores not comparable.
   Second-corpus fetch blocked by environment proxy (403), so register repair remains untested.
+- **2026-10-26 (solo Claude, reproduction; earlier entries unchanged):** ChatGPT's PR #11 second-corpus table (Hound of the Baskervilles, pinned blob 0d8e53fc...) reproduces exactly; truth still loses to wrong v3 at orders 1-4 on both corpus preparations. Corrects my own earlier no-op notes, which missed handoffs and PRs #10/#11. PRs left unmerged for the user. Logs: `logs/2026-10-26-sq2-pr11-second-corpus-reproduction-*.md`.
