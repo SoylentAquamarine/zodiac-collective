@@ -105,3 +105,4 @@ once this repo has had its own incident).
 
 - `README.md` — folder discipline (write from real incidents only); no procedures yet
 - `logs/2026-10-26-sq2-pr11-second-corpus-reproduction-selfreview.md` / `-execution.md` — independent reproduction of ChatGPT PR #11 (exact match); script `data/scripts/sq2_z408_second_corpus_reproduction.py`, output `data/derived/sq2-pr11-second-corpus-reproduction-output.txt`
+- `logs/2026-10-27-sq2-frozen-score-spec-gate-selfreview.md` / `-execution.md` — frozen score spec F + pass/fail gate table (G1-G3 pass; held-out-cipher gate open); script `data/scripts/sq2_frozen_score_spec_gate.py`, outputs `data/derived/sq2-frozen-score-spec-gate-output.txt` and `-posthoc-output.txt`

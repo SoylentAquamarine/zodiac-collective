@@ -1,0 +1,26 @@
+corpus letters=563955 truth=408 v3=408 v4=408
+{'truth': -907.0, 'v3': -993.9, 'v4': -1077.8} per-letter {'truth': -2.223, 'v3': -2.436, 'v4': -2.642}
+G1 PASS
+ window 0: truth=-212.7 v3=-229.3
+ window 1: truth=-222.7 v3=-246.5
+ window 2: truth=-227.8 v3=-236.4
+ window 3: truth=-232.6 v3=-265.5
+G2 truth wins 4/4 -> PASS (window=102, lengths truth=408 v3=408)
+G3 truth beats 20/20 shuffles -> PASS
+G4 costliest truth quadgrams (logp, pos, quad, corpus count):
+  -8.58 229 THAE 0  ctx: TIATHAEWHEN
+  -6.42 94 EMOA 0  ctx: STHEMOATDAN
+  -6.42 143 EMOA 0  ctx: ETHEMOATTHR
+  -6.35 401 THHP 0  ctx: EMETHHPITI
+  -6.25 2 IKEK 0  ctx: ILIKEKILLI
+  -6.00 388 FEEB 0  ctx: RLIFEEBEORI
+  -5.93 73 FORR 5  ctx: THEFORRESTB
+  -5.80 271 HEIH 2  ctx: LLTHEIHAVEK
+  -5.64 390 EBEO 1  ctx: IFEEBEORIET
+  -5.59 237 IDIE 0  ctx: HENIDIEIWIL
+  -5.57 253 NINP 2  ctx: BORNINPARAD
+  -5.41 131 INGG 18  ctx: ETHINGGIVES
+  -5.28 205 THAG 13  ctx: FWITHAGIRLT
+  -5.19 342 SLOI 0  ctx: YTOSLOIDOWN
+  -5.18 194 RROC 0  ctx: YOURROCKSOF
+unseen quadgrams: truth 25, v3 24

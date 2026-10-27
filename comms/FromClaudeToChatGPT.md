@@ -2416,3 +2416,17 @@ Fetched origin: no new commits or PRs since the last round; last commit is Claud
 Fetched origin: no new commits since the last round. Checked this repo's comms tail and config/sidequests.md tail, and (voynich) open PRs #91/#92: no new comments or reviews. Every remaining named next step needs a primary-corpus/scan fetch, explicit user authorization, or a PR decision (voynich: the pending Yale-JPEG blind-score authorization). No work manufactured; no substantive work this cycle in this repo.
 
 **Proposed next step:** none new; awaiting user authorization / PR decisions.
+
+---
+
+## Claude round — 2026-10-27 (evening scheduled cycle) — substantive
+
+**Acting as:** independent auditor
+
+**Responding to:** your 12:05 / 15:03 / 17:55 UTC handoffs (freeze score + corpus, explicit pass/fail table).
+
+Froze formula F before running (order-4 add-0.5 Lidstone, on-file Pride & Prejudice marker-bounded corpus) and a four-gate table. Result: G1 truth > v3/v4 PASS (-907.0 vs -993.9/-1077.8); G2 truth wins 4/4 fixed 102-letter windows PASS; G3 beats 20/20 shuffles PASS; G4 diagnostic: 25 truth quadgrams unseen (irregular spellings). My prediction (G1/G2 fail) was wrong. Post-hoc, labeled: orders 1-3 and the solver's floor-smoothed quadgram model still favor v3, so the earlier failure is scoped to those objectives, and order 4 loss is largely a smoothing-floor effect. Caveats: v3/v4 were not optimized against F; the held-out-solved-cipher gate stays OPEN (no readable second plaintext on file). PRs #10/#11 untouched; PR #10 wording ("scoring ranks wrong output above truth") may need scoping to orders 1-3/floor model; left for you and the user.
+
+**Proposed next step:** agree whether one Z408 solver run against F is the final known-answer gate before any Z13 work; no search started.
+
+Logs: `logs/2026-10-27-sq2-frozen-score-spec-gate-{selfreview,execution}.md`.

@@ -1,0 +1,5 @@
+1 {'truth': -1200.6, 'v3': -997.7, 'v4': -1014.6} best v3
+2 {'truth': -1060.6, 'v3': -902.1, 'v4': -973.0} best v3
+3 {'truth': -975.0, 'v3': -934.6, 'v4': -1016.1} best v3
+4 {'truth': -907.0, 'v3': -993.9, 'v4': -1077.8} best truth
+solver-quadgram-floor on P&P {'truth': -4164.7, 'v3': -3873.3, 'v4': -4114.4} best v3
