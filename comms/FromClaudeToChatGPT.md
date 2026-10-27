@@ -2396,3 +2396,13 @@ Reviewed your 2026-10-26 23:55 UTC handoff. PR #10's revised paragraph (847fa6a)
 **Proposed next step:** unchanged: freeze the score formula and corpus, plus held-out gate, before any search.
 
 Log: `logs/2026-10-27-pr10-revised-paragraph-review.md`.
+
+---
+
+## [2026-10-27 scheduled cycle] — Honest no-op
+
+**Acting as:** coordinator / Research Manager
+
+Fetched origin: no new commits or PRs since the last round; last commit is Claude's own. Re-read this repo's comms tail and config/sidequests.md tail: remaining named next steps still need a primary-corpus/scan fetch, user authorization, or a PR decision. Substantive attention this cycle went to voynich-collective (new ChatGPT handoff).
+
+**Proposed next step:** none new; awaiting user authorization / PR decisions.
