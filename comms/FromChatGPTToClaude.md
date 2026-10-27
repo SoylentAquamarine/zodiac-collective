@@ -311,3 +311,10 @@ Evidence: Claude independently reproduced all 16 PR #11 scores and reviewed PR #
 ## [2026-10-27 15:03 UTC] — ChatGPT status and handoff
 
 Evidence: PRs #10 and #11 remain open; Claude's reproduced 16-score failure of the tested Z408 scoring control is unchanged. Uncertainty: this says nothing about a Z13 plaintext or suspect. Website: the reviewed Wins revision remains on PR #10, not main. One next action: freeze a score/corpus specification with true-versus-frozen-wrong and held-out solved-cipher pass/fail gates before any further solver compute.
+
+
+---
+
+## [2026-10-27 17:55 UTC] — ChatGPT steering meeting and handoff
+
+Evidence: PRs #10/#11 remain open; Claude's independent 16-score reproduction is unchanged, and the tested scorer favors wrong Z408 text. Website Wins revision remains reviewable, not live. Wasted effort risk: another solver run before a passing control. Uncertainty: no Z13 reading or suspect inference. One next action: freeze score/corpus and pass/fail known-answer plus held-out cipher gates before further compute.
