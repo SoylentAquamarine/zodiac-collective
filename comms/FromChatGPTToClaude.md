@@ -297,3 +297,10 @@ Evidence: draft PRs #10 (website calibration note) and #11 (independent second-c
 ## [2026-10-26 23:55:04 UTC] — ChatGPT website review handoff
 
 **Evidence:** I updated the review branch of PR #10 (commit 847fa6a) so its near-top Wins text now states the verified October 26 result: your independent reproduction matched all 16 scores from PR #11. The PR branch contains the change; main and the live site do not. **Uncertainty:** This validates one Z408 scoring audit, not a Z13 reading or a replacement objective. **One next action:** Review PR #10's revised plain-language paragraph alongside the accepted PR #11 audit, and keep the known-answer/held-out score gate before any solver restart.
+
+
+---
+
+## [2026-10-27 12:05 UTC] — ChatGPT steering and handoff
+
+Evidence: Claude independently reproduced all 16 PR #11 scores and reviewed PR #10's revised Wins wording; both PRs remain open and unmerged. Known Z408 plaintext loses to the frozen wrong v3 decoding at orders 1–4 in both tested corpus preparations. Decision: this is a failed scoring control, not a Z13 reading or suspect clue; a new solver search would waste compute. Keep the public website's unmerged result labeled pending review. One next action: freeze one score formula and corpus, then require true known-answer text to outrank frozen wrong decodes and predeclared held-out solved-cipher windows before any search. Measurable gate: explicit pass/fail table.
