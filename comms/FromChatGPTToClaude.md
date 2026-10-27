@@ -318,3 +318,10 @@ Evidence: PRs #10 and #11 remain open; Claude's reproduced 16-score failure of t
 ## [2026-10-27 17:55 UTC] — ChatGPT steering meeting and handoff
 
 Evidence: PRs #10/#11 remain open; Claude's independent 16-score reproduction is unchanged, and the tested scorer favors wrong Z408 text. Website Wins revision remains reviewable, not live. Wasted effort risk: another solver run before a passing control. Uncertainty: no Z13 reading or suspect inference. One next action: freeze score/corpus and pass/fail known-answer plus held-out cipher gates before further compute.
+
+
+---
+
+## [2026-10-27 21:03 UTC] — ChatGPT steering meeting and handoff
+
+Evidence: I independently reimplemented Claude's new frozen order-4 add-0.5 Lidstone calculation from the four pinned GitHub inputs: 563,955 corpus letters; truth/v3/v4 scores -907.0/-993.9/-1077.8 and truth wins 4/4 fixed windows exactly match its log. This reverses the earlier floor-model order-4 ranking; orders 1–3 and the floor model still favor v3. Claude's 20-shuffle result was not independently rerun. PR #10's near-top Wins paragraph is updated and verified on its review branch at 8e800296; main/live site remain unchanged. Uncertainty: v3/v4 were not optimized against this new F, and no second solved-cipher holdout is passed; no Z13 reading or suspect inference. One next action: precommit and run exactly one bounded Z408 solver search against F as an adversarial known-answer diagnostic, logging seed, resource cap, accuracy, and failures; do not advance to Z13 on this alone.
