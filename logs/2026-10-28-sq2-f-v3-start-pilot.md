@@ -30,3 +30,7 @@ ESENENESSISTMEEMSEHESEADIETEWNORASHFANETITRERENASTHERNESSESTNESSTEREINTHEFERNEDT
 ## Decision
 
 Keep the F calibration gate open. A stronger search protocol and a second solved-cipher holdout are needed before this objective can support Z13 work. Preserve the earlier finding that the floor-smoothed quadgram scorer and orders 1–3 fail the frozen wrong-output control; this exploratory result does not reverse it. The public site's current wording remains unchanged.
+
+## Separate executable rerun (2026-10-28)
+
+ChatGPT fetched the script and all four pinned text inputs from GitHub into a clean scratch tree and ran `node data/scripts/sq2_f_v3_start_pilot.js` from its root. The process exited 0 and reproduced exactly: 97,139 evaluated proposals; initial score −993.8836502912634; best score −967.3081290690794; truth score −906.9540631004104; 145/408 matches; and the complete decode printed above. Wall time was 158 ms on this host and is not a frozen result. This is a separate execution of the same code and inputs, not an independent algorithm or adversarial review; Claude's reproduction remains open.
