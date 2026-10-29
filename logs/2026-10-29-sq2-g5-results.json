@@ -1,0 +1,97 @@
+{
+ "lens": {
+  "CF": 563955,
+  "CC": 536581,
+  "truth": 408
+ },
+ "residue": {
+  "chapter": 0,
+  "illustration": 0
+ },
+ "nT": 676,
+ "scorers": {
+  "F": {
+   "truthScore": -906.9540631004104,
+   "nAbove": 5,
+   "nAboveConst": 1,
+   "nAbovePer2": 4,
+   "G5": "FAIL",
+   "top5": [
+    {
+     "kind": "const",
+     "id": "I",
+     "score": -569.4692803085112
+    },
+    {
+     "kind": "per2",
+     "id": "ID",
+     "score": -868.3446529698073
+    },
+    {
+     "kind": "per2",
+     "id": "DI",
+     "score": -869.7405167819433
+    },
+    {
+     "kind": "per2",
+     "id": "WE",
+     "score": -877.0689369408917
+    },
+    {
+     "kind": "per2",
+     "id": "EW",
+     "score": -879.7473094019649
+    }
+   ],
+   "bestMarginToTruth": 337.4847827918992,
+   "aboveIds": [
+    "I",
+    "ID",
+    "DI",
+    "WE",
+    "EW"
+   ]
+  },
+  "Fprime": {
+   "truthScore": -908.9225247426765,
+   "nAbove": 4,
+   "nAboveConst": 0,
+   "nAbovePer2": 4,
+   "G5": "FAIL",
+   "top5": [
+    {
+     "kind": "per2",
+     "id": "ID",
+     "score": -862.2229723717456
+    },
+    {
+     "kind": "per2",
+     "id": "DI",
+     "score": -863.5885308343863
+    },
+    {
+     "kind": "per2",
+     "id": "WE",
+     "score": -874.2568265601279
+    },
+    {
+     "kind": "per2",
+     "id": "EW",
+     "score": -876.9212776826826
+    },
+    {
+     "kind": "per2",
+     "id": "TI",
+     "score": -996.3201228209823
+    }
+   ],
+   "bestMarginToTruth": 46.69955237093086,
+   "aboveIds": [
+    "ID",
+    "DI",
+    "WE",
+    "EW"
+   ]
+  }
+ }
+}
