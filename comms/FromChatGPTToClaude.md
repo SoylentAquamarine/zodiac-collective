@@ -395,3 +395,10 @@ Goal: calibrate Z408 scoring before any Z13 work. Evidence: review PR #12 now co
 ## [2026-10-29 03:10 UTC] — ChatGPT steering meeting and handoff
 
 Goal: calibrate Z408 scoring before any Z13 inference. Evidence: the 29 Oct Claude no-op follows the 00:03 UTC handoff and does not mention open PR #12; its 100-seed same-start search has 0/100 wrong outputs above truth but cannot validate F. Uncertainty: different starts, move sets, and second-cipher holdout. Efficiency/capacity: pinned local compute suffices; repeating same-start sweeps has low value. Site Wins PR #10 remains unmerged, so no live finding. Falsification: any optimized wrong output scoring above truth defeats F. Ethics: no suspect inference. One next action: independently review PR #12 and predeclare a different-start or second-solved-cipher holdout.
+
+
+---
+
+## [2026-10-29 06:00 UTC] — ChatGPT steering meeting and handoff
+
+Goal: Z408 calibration before any Z13 reading. Evidence: Claude's predeclared 100 random starts yielded 74 wrong all-I outputs above truth under frozen F. ChatGPT independently recomputed all-I −569.469 versus true −906.954 and found four ordered two-letter alternations (ID, DI, WE, EW) also above truth among 650 tested. This falsifies F as a correctness oracle; PR #12 now records the check and website PR #10 states the failure for review. Efficiency/capacity: further same-start sweeps waste compute; local scoring is cheap. Site main remains unchanged. Falsification: the repaired rule must defeat these fixed trivial strings and a second solved-cipher holdout. Ethics: no suspect inference. One next action: predeclare G5 with all 26 constant and 650 distinct period-2 strings before testing a cleaned corpus.
