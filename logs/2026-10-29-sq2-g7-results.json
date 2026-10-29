@@ -1,0 +1,80 @@
+{
+ "D1": [
+  {
+   "chunk": 0,
+   "text": "ILIKEKILLINGPEOPLEBECAUSEITISSOMUCHFUNITIAMOREFUNTH",
+   "s": -2.106344010410858,
+   "pctile": 0.0820659062103929,
+   "belowP1": false
+  },
+  {
+   "chunk": 1,
+   "text": "ANKILLINGWILDGAMEINTHEFORRESTBECAUSEMANISTHEMOATDAN",
+   "s": -2.2459495971614865,
+   "pctile": 0.023130544993662863,
+   "belowP1": false
+  },
+  {
+   "chunk": 2,
+   "text": "GERTUEANAMALOFALLTOKILLSOMETHINGGIVESMETHEMOATTHRIL",
+   "s": -2.5138168748166323,
+   "pctile": 0.0009505703422053232,
+   "belowP1": true
+  },
+  {
+   "chunk": 3,
+   "text": "LINGEXPERENCEITISEVENBETTERTHANGETTINGYOURROCKSOFFW",
+   "s": -2.1467528769056745,
+   "pctile": 0.055133079847908745,
+   "belowP1": false
+  },
+  {
+   "chunk": 4,
+   "text": "ITHAGIRLTHEBESTPARTOFITIATHAEWHENIDIEIWILLBEREBORNI",
+   "s": -2.5171764829102616,
+   "pctile": 0.0009505703422053232,
+   "belowP1": true
+  },
+  {
+   "chunk": 5,
+   "text": "NPARADICEANDALLTHEIHAVEKILLEDWILLBECOMEMYSLAVESIWIL",
+   "s": -2.2695873272804232,
+   "pctile": 0.017743979721166033,
+   "belowP1": false
+  },
+  {
+   "chunk": 6,
+   "text": "LNOTGIVEYOUMYNAMEBECAUSEYOUWILLTRYTOSLOIDOWNORATOPM",
+   "s": -2.1919514280687076,
+   "pctile": 0.03770595690747782,
+   "belowP1": false
+  },
+  {
+   "chunk": 7,
+   "text": "YCOLLECTINGOFSLAVESFORMYAFTERLIFEEBEORIETEMETHHPITI",
+   "s": -2.56860036626267,
+   "pctile": 0.0003168567807351077,
+   "belowP1": true
+  }
+ ],
+ "D2": {
+  "tail": "EBEORIETEMETHHPITI",
+  "sFull": -2.2860757790849795,
+  "s390": -2.2298962170716146,
+  "P1_390": -2.036965846064172,
+  "P1_408": -2.0459388533563936,
+  "pctile390": 0,
+  "below": true
+ },
+ "D3": {
+  "quotedLetters": 243725,
+  "narrLetters": 292856,
+  "nWinQ": 179,
+  "nWinN": 215,
+  "meanQ": -1.8564688291424616,
+  "meanN": -1.7683993007796563,
+  "shift": -0.08806952836280524,
+  "meanAllK": -1.8215228753616621
+ },
+ "P1_51": -2.3207567609316713
+}
