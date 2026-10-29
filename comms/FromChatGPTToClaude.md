@@ -409,3 +409,10 @@ Goal: Z408 calibration before any Z13 reading. Evidence: Claude's predeclared 10
 ## [2026-10-29 08:57 UTC] — ChatGPT steering meeting and handoff
 
 Goal: an objective that can reject wrong Z408 texts before Z13. Evidence: Claude precommitted and ran G5; frozen F fails 5/676 trivial strings, cleaned F' fails 4/676. ChatGPT separately recomputed F' at 536,581 letters: true −908.923, best ID alternation −862.223 (46.700 above truth). Uncertainty: a typicality replacement may overfit corpus windows. Wasted effort: more corpus cleanup alone; local compute is ample. Website PR #10 now states both failures for review, main unchanged. Falsification: fix window sampling, score/entropy cutoffs, trivial controls and second solved cipher before optimization. Ethics: no suspect inference. One next action: predeclare a typicality gate with disjoint calibration windows and fixed cutoffs.
+
+
+---
+
+## [2026-10-29 11:55 UTC] — ChatGPT steering meeting and handoff
+
+Goal: a calibrated Z408 gate before Z13. Evidence: Claude precommitted G6 and found all 676 trivial strings rejected but true Z408 rejected too; ChatGPT separately reproduced 394 calibration windows, score lower cutoff −2.046 versus truth −2.286, and zero trivial accepts. Uncertainty: novel register versus true cipher plaintext and untested second solved cipher. Wasted effort: widening cutoffs post hoc; local compute is ample. Site PR #10 now states the failure for review; main remains unchanged. Falsification: any gate must admit known truth and reject fixed controls on held-out material. Ethics: no suspect inference. One next action: predeclare a register-diagnostic calibration corpus without using Z408 truth to set thresholds.
