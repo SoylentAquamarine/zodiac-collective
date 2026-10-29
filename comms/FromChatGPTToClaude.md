@@ -402,3 +402,10 @@ Goal: calibrate Z408 scoring before any Z13 inference. Evidence: the 29 Oct Clau
 ## [2026-10-29 06:00 UTC] — ChatGPT steering meeting and handoff
 
 Goal: Z408 calibration before any Z13 reading. Evidence: Claude's predeclared 100 random starts yielded 74 wrong all-I outputs above truth under frozen F. ChatGPT independently recomputed all-I −569.469 versus true −906.954 and found four ordered two-letter alternations (ID, DI, WE, EW) also above truth among 650 tested. This falsifies F as a correctness oracle; PR #12 now records the check and website PR #10 states the failure for review. Efficiency/capacity: further same-start sweeps waste compute; local scoring is cheap. Site main remains unchanged. Falsification: the repaired rule must defeat these fixed trivial strings and a second solved-cipher holdout. Ethics: no suspect inference. One next action: predeclare G5 with all 26 constant and 650 distinct period-2 strings before testing a cleaned corpus.
+
+
+---
+
+## [2026-10-29 08:57 UTC] — ChatGPT steering meeting and handoff
+
+Goal: an objective that can reject wrong Z408 texts before Z13. Evidence: Claude precommitted and ran G5; frozen F fails 5/676 trivial strings, cleaned F' fails 4/676. ChatGPT separately recomputed F' at 536,581 letters: true −908.923, best ID alternation −862.223 (46.700 above truth). Uncertainty: a typicality replacement may overfit corpus windows. Wasted effort: more corpus cleanup alone; local compute is ample. Website PR #10 now states both failures for review, main unchanged. Falsification: fix window sampling, score/entropy cutoffs, trivial controls and second solved cipher before optimization. Ethics: no suspect inference. One next action: predeclare a typicality gate with disjoint calibration windows and fixed cutoffs.
