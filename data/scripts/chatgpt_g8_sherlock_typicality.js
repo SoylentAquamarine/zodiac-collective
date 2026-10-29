@@ -1,17 +1,17 @@
 #!/usr/bin/env node
-// G6 typicality gate; see logs/2026-10-29-sq2-g6-typicality-gate-selfreview.md
-// Run from repo root: node data/scripts/sq2_g6_typicality_gate.js
+// G8 precommitted second-text diagnostic; see logs/2026-10-29-chatgpt-g8-sherlock-precommit.md
+// Run from repo root: node data/scripts/chatgpt_g8_sherlock_typicality.js /path/to/pinned/1661.txt
 const fs = require("node:fs");
 const read = p => fs.readFileSync(p, "utf8");
 const crypto = require("node:crypto");
 const raw = read(process.argv[2] || "1661.txt");
-const gitBlob = crypto.createHash("sha1").update("blob " + Buffer.byteLength(raw) + "\\0").update(raw).digest("hex");
+const gitBlob = crypto.createHash("sha1").update("blob " + Buffer.byteLength(raw) + "\0").update(raw).digest("hex");
 if (gitBlob !== "70349ec04e577406123e9d89af4863cd610ccc1e") throw Error("pinned 1661 Git blob mismatch: " + gitBlob);
 const start = raw.indexOf("To Sherlock Holmes she is always THE woman.");
 const end = raw.indexOf("End of the Project Gutenberg EBook", start);
 if (start < 0 || end < 0) throw Error("body marker missing");
 const lettersOnly = s => s.toUpperCase().replace(/[^A-Z]/g, "");
-const t = raw.slice(start, end).split(/\\r?\\n/).filter(l => !/^\\s*ADVENTURE [IVXLC]+\\. .*$/.test(l) && !/^\\s*[IVXLC]+\\.\\s*$/.test(l)).join("\\n");
+const t = raw.slice(start, end).split(/\r?\n/).filter(l => !/^\s*ADVENTURE [IVXLC]+\. .*$/.test(l) && !/^\s*[IVXLC]+\.\s*$/.test(l)).join("\n");
 const CC = lettersOnly(t);
 const truth = lettersOnly(read("data/external-sources/azdecrypt-doranchak-2026-09-27/z408-solved.txt"));
 const mk = C => {
