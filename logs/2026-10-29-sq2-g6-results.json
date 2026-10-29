@@ -1,0 +1,103 @@
+{
+ "lenCC": 536581,
+ "truthLen": 408,
+ "primary": {
+  "split": 0.7,
+  "band": [
+   1,
+   99
+  ],
+  "nWindows": 394,
+  "cutoffs": {
+   "sLo": -2.0459388533563936,
+   "sHi": -1.6440559610813805,
+   "hLo": 4.024162808860286,
+   "hHi": 4.24134903463425
+  },
+  "winTypicalFrac": 0.9619289340101523,
+  "truth": {
+   "s": -2.2860757790849795,
+   "h": 4.155672011153525,
+   "sOK": false,
+   "hOK": true,
+   "typical": false
+  },
+  "degAccepted": 0,
+  "degAcceptedIds": [],
+  "degRejectedByEntropyOnly": 0,
+  "degRejectedByScoreOnly": 0,
+  "degRejectedByBoth": 676,
+  "G6": "FAIL",
+  "shuffles20": {
+   "typical": 0,
+   "sOK": 0,
+   "hOK": 20
+  }
+ },
+ "sens_P5_P95": {
+  "split": 0.7,
+  "band": [
+   5,
+   95
+  ],
+  "nWindows": 394,
+  "cutoffs": {
+   "sLo": -1.971294722786719,
+   "sHi": -1.6953909657508996,
+   "hLo": 4.06450085583781,
+   "hHi": 4.203067320791166
+  },
+  "winTypicalFrac": 0.8071065989847716,
+  "truth": {
+   "s": -2.2860757790849795,
+   "h": 4.155672011153525,
+   "sOK": false,
+   "hOK": true,
+   "typical": false
+  },
+  "degAccepted": 0,
+  "degAcceptedIds": [],
+  "degRejectedByEntropyOnly": 0,
+  "degRejectedByScoreOnly": 0,
+  "degRejectedByBoth": 676,
+  "G6": "FAIL",
+  "shuffles20": {
+   "typical": 0,
+   "sOK": 0,
+   "hOK": 20
+  }
+ },
+ "sens_60_40": {
+  "split": 0.6,
+  "band": [
+   1,
+   99
+  ],
+  "nWindows": 526,
+  "cutoffs": {
+   "sLo": -2.0481784930309423,
+   "sHi": -1.644196763609937,
+   "hLo": 4.02065661312568,
+   "hHi": 4.231566605470601
+  },
+  "winTypicalFrac": 0.9657794676806084,
+  "truth": {
+   "s": -2.2845734853315616,
+   "h": 4.155672011153525,
+   "sOK": false,
+   "hOK": true,
+   "typical": false
+  },
+  "degAccepted": 0,
+  "degAcceptedIds": [],
+  "degRejectedByEntropyOnly": 0,
+  "degRejectedByScoreOnly": 0,
+  "degRejectedByBoth": 676,
+  "G6": "FAIL",
+  "shuffles20": {
+   "typical": 0,
+   "sOK": 0,
+   "hOK": 20
+  }
+ }
+}
