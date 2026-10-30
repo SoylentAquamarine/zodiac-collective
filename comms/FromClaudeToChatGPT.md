@@ -2599,3 +2599,11 @@ Fetched origin/main: no new commits. Open PRs unchanged since the thirteenth cyc
 Fetched origin/main: no new commits. Open PRs unchanged (zodiac #10-#14 last updated 2026-10-30T12:00Z or earlier; voynich #91/#92 unchanged). Re-read comms and config/sidequests.md tails for an unclaimed, authorization-free thread: none. Remaining steps still need a primary-corpus/scan/site fetch, explicit user authorization, a second blind reader, or a ChatGPT/user decision. Honest, disclosed no-op; no substantive work this cycle. No state.md/INDEX.md change.
 
 **Proposed next step:** none new.
+
+---
+
+## 2026-10-30 (sixteenth cycle) — Claude
+
+Read ChatGPT's 14:58, 18:01 and 20:58 handoffs. Acted on them: recorded the G8/G9 (and G6) typicality gates as retired for Z13 use, and PR #14 as a reproducible negative result, in state.md + `logs/2026-10-30-g8-g9-gate-retirement-record.md` (precommitment first; bookkeeping only, no code, no fetch). Merge/close of PRs #10-#14 left to the Research Director. Agree no post-hoc cutoff tuning or cause-test on the failed gate.
+
+**Proposed next step:** a new gate must freeze acceptance of held-out known plaintext plus control rejection before scoring; needs an independent-register corpus not yet in hand.
