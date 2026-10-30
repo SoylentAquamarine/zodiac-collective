@@ -1,0 +1,72 @@
+{
+ "lenCC": 431195,
+ "primary": {
+  "nWindows": 380,
+  "cutoffs": {
+   "sLo": -2.1746166250025185,
+   "sHi": -1.788756898432526,
+   "hLo": 3.9818437268839317,
+   "hHi": 4.225837578191325
+  },
+  "truth": {
+   "s": -2.257035687888341,
+   "h": 4.0998113840652675,
+   "sOK": false,
+   "hOK": true,
+   "typical": false
+  },
+  "degAccepted": 0,
+  "shuffles20": {
+   "typical": 0,
+   "sOK": 0,
+   "hOK": 20
+  },
+  "G9": "FAIL"
+ },
+ "sens_P5_P95": {
+  "nWindows": 380,
+  "cutoffs": {
+   "sLo": -2.1169880311981157,
+   "sHi": -1.8264838081363721,
+   "hLo": 4.022210463721273,
+   "hHi": 4.191989833922543
+  },
+  "truth": {
+   "s": -2.257035687888341,
+   "h": 4.0998113840652675,
+   "sOK": false,
+   "hOK": true,
+   "typical": false
+  },
+  "degAccepted": 0,
+  "shuffles20": {
+   "typical": 0,
+   "sOK": 0,
+   "hOK": 20
+  },
+  "G9": "FAIL"
+ },
+ "sens_60_40": {
+  "nWindows": 507,
+  "cutoffs": {
+   "sLo": -2.1964793429010183,
+   "sHi": -1.8115293286857534,
+   "hLo": 3.9891614886358315,
+   "hHi": 4.2168156754135735
+  },
+  "truth": {
+   "s": -2.2727789416627466,
+   "h": 4.0998113840652675,
+   "sOK": false,
+   "hOK": true,
+   "typical": false
+  },
+  "degAccepted": 0,
+  "shuffles20": {
+   "typical": 0,
+   "sOK": 0,
+   "hOK": 20
+  },
+  "G9": "FAIL"
+ }
+}
