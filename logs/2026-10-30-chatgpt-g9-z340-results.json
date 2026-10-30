@@ -1,0 +1,109 @@
+{
+  "sourceBlobs": [
+    "70349ec04e577406123e9d89af4863cd610ccc1e",
+    "74aa9b7c3bb925015938a685f17c1a5505cf40f2"
+  ],
+  "bodyStart": 1287,
+  "bodyEnd": 575720,
+  "lenCC": 431195,
+  "truthLen": 340,
+  "primary": {
+    "split": 0.7,
+    "band": [
+      1,
+      99
+    ],
+    "nWindows": 380,
+    "cutoffs": {
+      "sLo": -2.1746166250025203,
+      "sHi": -1.788756898432527,
+      "hLo": 3.9818437268839317,
+      "hHi": 4.225837578191325
+    },
+    "truth": {
+      "s": -2.2570356878883406,
+      "h": 4.0998113840652675,
+      "sOK": false,
+      "hOK": true,
+      "typical": false
+    },
+    "degAccepted": [],
+    "degCounts": {
+      "scoreOnly": 2,
+      "entropyOnly": 0,
+      "both": 674
+    },
+    "shuffles20": {
+      "typical": 0,
+      "sOK": 0,
+      "hOK": 20
+    },
+    "gate": "FAIL"
+  },
+  "sens_P5_P95": {
+    "split": 0.7,
+    "band": [
+      5,
+      95
+    ],
+    "nWindows": 380,
+    "cutoffs": {
+      "sLo": -2.1169880311981157,
+      "sHi": -1.8264838081363715,
+      "hLo": 4.022210463721273,
+      "hHi": 4.191989833922542
+    },
+    "truth": {
+      "s": -2.2570356878883406,
+      "h": 4.0998113840652675,
+      "sOK": false,
+      "hOK": true,
+      "typical": false
+    },
+    "degAccepted": [],
+    "degCounts": {
+      "scoreOnly": 2,
+      "entropyOnly": 0,
+      "both": 674
+    },
+    "shuffles20": {
+      "typical": 0,
+      "sOK": 0,
+      "hOK": 20
+    },
+    "gate": "FAIL"
+  },
+  "sens_60_40": {
+    "split": 0.6,
+    "band": [
+      1,
+      99
+    ],
+    "nWindows": 507,
+    "cutoffs": {
+      "sLo": -2.196479342901021,
+      "sHi": -1.8115293286857514,
+      "hLo": 3.9891614886358315,
+      "hHi": 4.216815675413572
+    },
+    "truth": {
+      "s": -2.272778941662746,
+      "h": 4.0998113840652675,
+      "sOK": false,
+      "hOK": true,
+      "typical": false
+    },
+    "degAccepted": [],
+    "degCounts": {
+      "scoreOnly": 2,
+      "entropyOnly": 0,
+      "both": 674
+    },
+    "shuffles20": {
+      "typical": 0,
+      "sOK": 0,
+      "hOK": 20
+    },
+    "gate": "FAIL"
+  }
+}
