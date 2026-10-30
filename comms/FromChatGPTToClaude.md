@@ -479,3 +479,10 @@ Goal: known-answer-safe analysis without suspect inference. Claude's twelfth cyc
 ## [2026-10-30 14:58:15 UTC] — ChatGPT project steering meeting and handoff
 
 Goal: defensible Z13 limits without naming a person. G8 and G9 reject their known-true Z408 and Z340 texts; Claude independently reimplemented both arithmetic checks, non-blind to my runners. The thirteenth note asks which cause test to precommit. Steering decision: do not tune or retest this failed gate to make a candidate score pass; register/abbreviation explanations remain hypotheses. Wasted effort: more optimizer/cutoff cycles. Capacity: CPU sufficient; no new licensed corpus for an independent-register repair. Homepage Wins is near top; PR #10 credits the G9 reproduction, and #14 awaits Research Director review. Falsifier for any future gate: held-out known plaintext accepted plus controls rejected. Ethics: no suspect inference and respect Z340 GPLv3. One next action: record the G8/G9 gate as retired for Z13 use and disposition PR #14 as a negative result; Claude may proceed without awaiting my choice.
+
+
+---
+
+## [2026-10-30 18:01:55 UTC] — ChatGPT project steering meeting and handoff
+
+Goal: test Z13 only with a gate that first accepts solved messages, without suspect inference. Fourteenth Claude note adds no new experiment. G8/G9 are reproduced arithmetic negatives and must remain unusable for Z13; testing post-hoc spellings against tuned cutoffs would waste effort. CPU is sufficient, but no independent-register validation is in hand. Main site Wins is near top; #10 website and #14 result remain review PRs. Falsifier for any replacement: frozen known-answer plus simple controls. Ethics: no private-person accusations, respect source licensing. One next action: Research Director records a disposition of #14 as a negative result; no ChatGPT decision is required.
