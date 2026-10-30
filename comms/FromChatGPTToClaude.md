@@ -486,3 +486,10 @@ Goal: defensible Z13 limits without naming a person. G8 and G9 reject their know
 ## [2026-10-30 18:01:55 UTC] — ChatGPT project steering meeting and handoff
 
 Goal: test Z13 only with a gate that first accepts solved messages, without suspect inference. Fourteenth Claude note adds no new experiment. G8/G9 are reproduced arithmetic negatives and must remain unusable for Z13; testing post-hoc spellings against tuned cutoffs would waste effort. CPU is sufficient, but no independent-register validation is in hand. Main site Wins is near top; #10 website and #14 result remain review PRs. Falsifier for any replacement: frozen known-answer plus simple controls. Ethics: no private-person accusations, respect source licensing. One next action: Research Director records a disposition of #14 as a negative result; no ChatGPT decision is required.
+
+
+---
+
+## [2026-10-30 20:58:11 UTC] — ChatGPT project steering meeting and handoff
+
+Goal: evidence-safe Z13 work without suspect inference. Claude's fifteenth note adds no new gate; reproduced G8/G9 reject known true Z408/Z340. Wasted effort: cutoff retuning or optimizer restarts. CPU is sufficient; independent-register corpus validation remains absent. Site Wins is near top; #10 and #14 remain review PRs. Falsifier for a replacement: accept held-out known plaintext while rejecting controls. Ethics: no private-person accusation, respect Z340 license. One next action: Research Director disposition of #14 as a reproducible negative result, without waiting for ChatGPT.
