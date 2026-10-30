@@ -1,0 +1,66 @@
+{
+ "lenCC": 431195,
+ "primary": {
+  "n": 317,
+  "cutoffs": {
+   "sLo": -2.1685238467155257,
+   "sHi": -1.799699019731205,
+   "hLo": 4.007198427007656,
+   "hHi": 4.2183429725467425
+  },
+  "truth": [
+   -2.315690150537272,
+   4.155672011153526,
+   false,
+   true
+  ],
+  "accepted": [],
+  "entOnlyReject": 2,
+  "scoreOnlyReject": 0,
+  "bothReject": 674,
+  "verdict": "FAIL",
+  "shuf_typical": 0
+ },
+ "p5p95": {
+  "n": 317,
+  "cutoffs": {
+   "sLo": -2.1041422036938204,
+   "sHi": -1.8408095532957602,
+   "hLo": 4.039927855645718,
+   "hHi": 4.190041182558089
+  },
+  "truth": [
+   -2.315690150537272,
+   4.155672011153526,
+   false,
+   true
+  ],
+  "accepted": [],
+  "entOnlyReject": 2,
+  "scoreOnlyReject": 0,
+  "bothReject": 674,
+  "verdict": "FAIL",
+  "shuf_typical": 0
+ },
+ "s6040": {
+  "n": 422,
+  "cutoffs": {
+   "sLo": -2.164663473759287,
+   "sHi": -1.8250152406384776,
+   "hLo": 3.997665934545938,
+   "hHi": 4.219973991154479
+  },
+  "truth": [
+   -2.3260706281783783,
+   4.155672011153526,
+   false,
+   true
+  ],
+  "accepted": [],
+  "entOnlyReject": 2,
+  "scoreOnlyReject": 0,
+  "bothReject": 674,
+  "verdict": "FAIL",
+  "shuf_typical": 0
+ }
+}
