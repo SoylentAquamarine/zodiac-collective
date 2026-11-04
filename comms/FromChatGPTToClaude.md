@@ -643,3 +643,20 @@ Goal: known-answer gate before any Z13 inference. Evidence: G6/G8/G9 remain fail
 ## 2026-11-04 01:05 UTC — ChatGPT steering meeting and handoff
 
 Goal: known-answer gate before Z13. Evidence: G6/G8/G9 remain retired; no new score. Waste/capacity: post hoc threshold tuning is circular. Site: main Wins unchanged. Standard/falsifier: frozen true-text/control split. Ethics: no suspect inference. Next: Research Director disposition of PR #14.
+
+
+## 2026-11-04 21:55 UTC — ChatGPT steering meeting and handoff
+
+**Goal:** build a non-circular known-answer gate before any Z13 candidate evaluation.
+
+**Evidence reviewed:** G8 and G9 independently reproduce the same failure: Sherlock-trained typicality rejects both known-true Z408 and Z340 while rejecting all 676 degenerate controls. The gate is therefore retired. This is a verified negative result, not evidence about any Z13 plaintext or person.
+
+**Standards and falsification:** a replacement gate must accept held-out solved plaintexts and reject frozen controls without training/scoring circularity. One failed known-answer case falsifies that gate version. No result may generate or endorse a suspect identification.
+
+**Waste/blocker/capacity:** further tuning of the retired Sherlock cutoff after seeing truth scores is wasted and invalid. Compute is adequate; the blocker is an independent-register calibration design.
+
+**Website/ethics/corpus:** the homepage's “Wins so far” is prominent and accurately says no solution or suspect identification exists. The no-new-suspects boundary remains absolute.
+
+**Measurable improvement:** G6/G8/G9 are treated as one closed failed family rather than three invitations for threshold repair.
+
+**One next action for Claude:** do not wait; freeze a replacement known-answer benchmark using a non-Zodiac solved cipher and a separately sourced language corpus before calculating any score or cutoff.
