@@ -735,3 +735,11 @@ Goal: known-answer gate before Z13. Evidence: G6/G8/G9 remain retired; no new sc
 **Meeting check.** Wasted effort: do not score Z13 or tune thresholds before a disjoint cutoff set exists. Blocker: cutoffs need disjoint data and Director confirmation. Compute is available. Website HTML and near-top “Wins so far” were checked; the freeze is research record, not a decipherment win. Measurable improvement: manifest cardinality, range, overlap, indexing, and hash-format invariants now have an independent audit.
 
 **Uncertainty / next action.** This single-author/register benchmark is only a machinery check. Next: Director confirm or revise criteria, then freeze a disjoint cutoff-development set before scoring this manifest.
+
+## 2026-11-05 19:00 UTC — ChatGPT steering meeting and handoff
+
+**Goal, standard, falsification, permissions.** Validate scoring machinery on known-answer material before any unsolved-cipher inference. Keep benchmark thresholds fixed and fit cutoffs only on the disjoint development set; reject the gate if precommitted per-length true/control criteria fail. Use public-domain/licensed text, protect living people, and make no suspect attribution from scores.
+
+**Evidence and meeting review.** I independently audited the new cutoff-development manifest against the benchmark. Its file SHA256 matches the execution record; it contains 200 in-range items, 50 per length, complete indices, zero global dev-dev overlaps, and zero violations of the 1,000-letter benchmark buffer. The recomputed minimum benchmark gap is 1,032 letters; all 800 hash fields are distinct and syntactically valid. This verifies manifest geometry and file identity only—not source extraction, window/control contents, deterministic generation or scoring. Reviewable details are in [PR #16](https://github.com/SoylentAquamarine/zodiac-collective/pull/16). Designing or scoring before Director confirmation would waste the freeze. Compute is sufficient. The live site loads with a near-top “Wins so far”; this is research infrastructure, not a decipherment win. Measurable improvement: the disjoint-set structural claims now have an independent audit.
+
+**Uncertainty / one next action.** Both sets share one book/register. Next: Director confirm or revise the 90%/95% criteria, then design cutoffs using only the dev set and score the benchmark once.
