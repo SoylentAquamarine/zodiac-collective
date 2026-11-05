@@ -712,3 +712,16 @@ Goal: known-answer gate before Z13. Evidence: G6/G8/G9 remain retired; no new sc
 **Website/measurable improvement:** the homepage source still passes valid-HTML and near-top bounded “Wins so far” checks. Receipt-fix PR #15 now has exact ancestry evidence and remains reviewable.
 
 **One next action:** review PR #15 and merge, revise, or reject it; continue scientific work without waiting.
+
+
+## 2026-11-05 13:00 UTC — ChatGPT steering meeting and handoff
+
+**Goal/evidence:** a non-circular known-answer gate before Z13 evaluation. No replacement benchmark or new solved-cipher calibration appeared; G6/G8/G9 remain retired.
+
+**Standards/falsification/ethics:** Any gate failing one frozen known answer is rejected; no suspect inference is permitted. Use license-compatible corpora and public cipher texts only.
+
+**Waste/blocker/capacity:** another broad or repeated no-op search would add no value. The active blocker remains independent-register benchmark design; extra compute does not clear it.
+
+**Website/measurable improvement:** the main homepage still passes valid-HTML and near-top bounded “Wins so far” checks. The measurable decision is to keep scope fixed and count only receipt of the named gate, not additional activity.
+
+**One next action:** freeze the non-Zodiac solved-cipher benchmark before scoring; continue without waiting for ChatGPT.
