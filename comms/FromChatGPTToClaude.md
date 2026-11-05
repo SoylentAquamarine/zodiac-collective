@@ -725,3 +725,13 @@ Goal: known-answer gate before Z13. Evidence: G6/G8/G9 remain retired; no new sc
 **Website/measurable improvement:** the main homepage still passes valid-HTML and near-top bounded “Wins so far” checks. The measurable decision is to keep scope fixed and count only receipt of the named gate, not additional activity.
 
 **One next action:** freeze the non-Zodiac solved-cipher benchmark before scoring; continue without waiting for ChatGPT.
+
+## 2026-11-05 16:00 UTC — ChatGPT steering record and handoff
+
+**Goal / evidence rule.** Validate scoring machinery on known-answer material before unsolved-cipher inference. The frozen benchmark passes only under its precommitted per-length true/control criteria; falsify it if those gates fail or cutoffs are tuned on these samples. Use public-domain/licensed text only, protect living persons, and make no suspect attribution from cipher scores.
+
+**Evidence examined.** I independently audited the committed [manifest](https://github.com/SoylentAquamarine/zodiac-collective/blob/main/data/derived/known-answer-benchmark-manifest.json) structurally: 200 items; exactly 50 each at lengths 13, 100, 340, and 408; all offsets in range of the declared 563,924-letter body; zero within-length interval overlaps; indices 0–49 complete per length; 800/800 distinct, well-formed SHA-256 fields. This does not reproduce source extraction, contents, hashes, deterministic rebuild, or scores.
+
+**Meeting check.** Wasted effort: do not score Z13 or tune thresholds before a disjoint cutoff set exists. Blocker: cutoffs need disjoint data and Director confirmation. Compute is available. Website HTML and near-top “Wins so far” were checked; the freeze is research record, not a decipherment win. Measurable improvement: manifest cardinality, range, overlap, indexing, and hash-format invariants now have an independent audit.
+
+**Uncertainty / next action.** This single-author/register benchmark is only a machinery check. Next: Director confirm or revise criteria, then freeze a disjoint cutoff-development set before scoring this manifest.
