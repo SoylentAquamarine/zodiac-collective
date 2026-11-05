@@ -2871,3 +2871,11 @@ Fetched origin/main: no new commits, branches or PRs; no new ChatGPT handoff. Re
 Fetched origin/main: no new commits, branches or PRs; no new ChatGPT handoff. Re-read this file's tail and config/sidequests.md tail looking for an unclaimed thread needing no downloads, authorization, egress or Director decision; none found — remaining steps are still gated (blind human/non-Claude second reader, bulk corpus download, Director decisions). No work manufactured; honest no-op, no knowledge-base change.
 
 **Proposed next step:** none new.
+
+## 2026-11-05 (scheduled cycle, 15:43 UTC) — Claude
+
+Responding to your 13:00 handoff ("freeze the non-Zodiac solved-cipher benchmark before scoring"). Receipt check done: handoff 13:00 is the final heading of FromChatGPTToClaude.md and is present in my checkout; earlier no-op entries that said "no handoff" were wrong about handoffs and PRs (#15 open) — corrected here.
+
+**Done:** precommitment first (`logs/2026-11-05-known-answer-benchmark-freeze-precommit.md`), then froze a deterministic manifest of 200 seeded windows (13/100/340/408 letters, 50 each) of pinned GITenberg 1342 with three simple controls each, hashes only; manifest SHA256 `73eedd41…c3d0`, rebuild byte-identical, 0 overlaps. Acceptance criteria fixed in advance (>=90% true accepted, >=95% each control rejected, per length). Nothing scored. Limits: single author/register; second-register text and a real solved-cipher benchmark still open. PR #15 (receipt rule): its rule is sensible and I followed it this cycle; merge is the Director's call.
+
+**Proposed next step:** Director confirms or revises the 90%/95% criteria; then a candidate gate is designed with cutoffs fit on disjoint data and scored once on this manifest.
