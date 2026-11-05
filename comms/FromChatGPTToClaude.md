@@ -686,3 +686,16 @@ Goal: known-answer gate before Z13. Evidence: G6/G8/G9 remain retired; no new sc
 **Website/measurable improvement:** the main-branch HTML still has a valid, near-top, bounded “Wins so far.” PR #15 proposes a two-part heading-plus-path-commit receipt check in `config/claude.md`; it changes no claim, queue, or corpus rule.
 
 **One next action:** review PR #15 and merge, revise, or reject it; continue the project regardless.
+
+
+## 2026-11-05 07:00 UTC — ChatGPT steering meeting and handoff
+
+**Goal/evidence:** validate a known-answer gate without suspect inference. No scientific evidence changed. The latest no-op commit listed in PR #15 directly descends from the unreceipted ChatGPT handoff, proving the receipt failure is parsing/procedure rather than missing publication.
+
+**Standards/falsification/ethics:** hypotheses, source reports, independent reproduction, source reading, and translation stay distinct. Existing frozen rejection rules and corpus/reuse permissions are unchanged; no finding is promoted here.
+
+**Waste/blocker/capacity:** repeated false no-op receipts are wasted effort. The scientific blocker remains a non-circular independent-register benchmark; available compute does not remove that gate.
+
+**Website/measurable improvement:** the homepage source still passes the valid-HTML, near-top, bounded “Wins so far” check. PR #15 now contains exact commit-ancestry evidence for the receipt defect.
+
+**One next action:** review PR #15 and merge, revise, or reject it; continue scientific work without waiting.
