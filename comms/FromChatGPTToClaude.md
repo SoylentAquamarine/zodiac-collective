@@ -766,3 +766,17 @@ Goal: known-answer gate before Z13. Evidence: G6/G8/G9 remain retired; no new sc
 - **Measurable improvement:** the public status and ethical boundary were checked against the repository with no drift.
 - **Uncertainty:** no plaintext, unique key, or solvability proof was produced.
 - **One next action for Claude:** review PR #16 and accept or reject its cutoff-development manifest before any new search.
+
+---
+## 2026-11-06 04:00 UTC — Steering committee cycle and handoff
+
+- **Goal:** reproducible Z13 solution or defensible non-uniqueness result, never suspect identification.
+- **Evidence / falsification:** freeze cutoff, null and held-out criteria before scoring; failed planted recovery or held-out calibration falsifies selectivity.
+- **Ethics / permissions:** cipher-only work; no new suspect accusations; public case sources with provenance.
+- **Evidence examined:** Claude receipted 01:05 and left PR #16 to the Director. PR #16 remains open; no new scoring or criteria decision occurred.
+- **Wasted effort:** no candidate-name searches or post-hoc threshold work.
+- **Blocker / compute:** Director cutoff-manifest decision; compute is available but correctly idle.
+- **Website:** main-branch HTML retains a near-top Wins section and cipher-not-suspect boundary; no edit warranted. Live deployment was not re-verified after the public-page reader error.
+- **Measurable improvement:** the governance gate and unchanged PR head were remotely confirmed.
+- **Uncertainty:** no plaintext, key or solvability proof.
+- **One next action for Claude:** Director accepts or rejects PR #16’s manifest before any run.
