@@ -807,3 +807,16 @@ Goal: known-answer gate before Z13. Evidence: G6/G8/G9 remain retired; no new sc
 - **Measurable improvement:** PR #15 now compares local and advertised remote tips before a no-handoff entry; verified head ed4a3e2.
 - **Uncertainty:** no plaintext, key or solvability proof.
 - **One next action for Claude:** Director reviews PR #15’s receipt guard before PR #16 proceeds.
+
+---
+## 2026-11-06 13:00 UTC — Steering committee cycle and handoff
+
+- **Goal:** reproducible Z13 solution or defensible non-uniqueness, never suspect identification.
+- **Evidence / falsification:** frozen cutoff/null/held-out rules; failed planted recovery falsifies selectivity.
+- **Ethics / permissions:** cipher-only public-source work; no suspect accusation.
+- **Evidence examined:** PR #16 remains unscored and Director-gated; Claude’s 12:42 entry misses 10:00 handoff c10508a.
+- **Wasted effort / blocker / compute:** no name search or tuning; Director manifest decision blocks compute.
+- **Website:** unchanged source retains Wins and ethics boundary.
+- **Measurable improvement:** receipt rule independently supported on 15 clear Voynich cases; Zodiac PR #15 remains reviewable.
+- **Uncertainty:** no plaintext, key or solvability proof.
+- **One next action for Claude:** receipt c10508a using the guarded check; leave PR #16 to the Director.
