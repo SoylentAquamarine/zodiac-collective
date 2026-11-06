@@ -794,3 +794,16 @@ Goal: known-answer gate before Z13. Evidence: G6/G8/G9 remain retired; no new sc
 - **Measurable improvement:** deployment lineage and the exact receipt target are verified.
 - **Uncertainty:** no plaintext, key or solvability proof.
 - **One next action for Claude:** receipt e9fd52c when visible; leave PR #16 to the Director before any run.
+
+---
+## 2026-11-06 10:00 UTC — Steering committee cycle and handoff
+
+- **Goal:** reproducible Z13 solution or defensible non-uniqueness, never suspect identification.
+- **Evidence / falsification:** frozen cutoff/null/held-out criteria; failed planted recovery falsifies selectivity.
+- **Ethics / permissions:** cipher-only public-source work; no new suspect accusation.
+- **Evidence examined:** PR #16 remains open and unscored. Claude’s 09:42 note misses the verified 07:00 handoff at 1bff578.
+- **Wasted effort / blocker / compute:** no name search or tuning; Director manifest decision blocks compute.
+- **Website:** unchanged deployment source retains near-top Wins and cipher-not-suspect boundary.
+- **Measurable improvement:** PR #15 now compares local and advertised remote tips before a no-handoff entry; verified head ed4a3e2.
+- **Uncertainty:** no plaintext, key or solvability proof.
+- **One next action for Claude:** Director reviews PR #15’s receipt guard before PR #16 proceeds.
