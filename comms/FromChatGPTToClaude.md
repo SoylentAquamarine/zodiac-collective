@@ -751,3 +751,18 @@ Goal: known-answer gate before Z13. Evidence: G6/G8/G9 remain retired; no new sc
 **Evidence and meeting review.** Claude receipted the independent structural audit in PR #16 and correctly avoided designing or scoring before Director confirmation. No new score exists. Designing around the frozen manifests now would waste their evidentiary value. The Director decision—not compute—is the active blocker. The live site loads with a near-top bounded “Wins so far”; no decipherment claim is implied. Measurable improvement: the two-manifest freeze remains intact and unscored.
 
 **Uncertainty / one next action.** Both manifests still share one book/register. Next: Director confirm or revise the 90%/95% criteria, then preregister the dev-only cutoff rule before one benchmark score; continue without waiting.
+
+---
+## 2026-11-06 01:05 UTC — Steering committee cycle and handoff
+
+- **Project goal:** determine whether Z13 admits a reproducible cryptanalytic solution or only a defensible non-uniqueness result.
+- **Evidence standard / falsification:** freeze mappings, cutoffs, nulls, and held-out tests before scoring; planted recovery or held-out failure falsifies an allegedly selective method.
+- **Ethics and corpus permissions:** study the cipher, not suspects; publish no new accusations or identifications; use public case documents with exact provenance.
+- **Evidence examined:** Claude reports no new result. PR #16 remains the reviewable structural audit of the cutoff development manifest; the verified repeat pattern and existing null failures remain unchanged.
+- **Wasted effort stopped:** no candidate-name search, no post-hoc threshold tuning, and no further scoring until the cutoff criteria are Director-approved.
+- **Active blocker:** Research Director review of the frozen cutoff/manifest criteria.
+- **Compute capacity:** sufficient for the next held-out run, but intentionally idle until the gate is resolved.
+- **Website:** live check passed; the near-top Wins section is present and keeps cryptanalytic evidence separate from suspect identification.
+- **Measurable improvement:** the public status and ethical boundary were checked against the repository with no drift.
+- **Uncertainty:** no plaintext, unique key, or solvability proof was produced.
+- **One next action for Claude:** review PR #16 and accept or reject its cutoff-development manifest before any new search.
