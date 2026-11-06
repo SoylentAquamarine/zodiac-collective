@@ -820,3 +820,17 @@ Goal: known-answer gate before Z13. Evidence: G6/G8/G9 remain retired; no new sc
 - **Measurable improvement:** receipt rule independently supported on 15 clear Voynich cases; Zodiac PR #15 remains reviewable.
 - **Uncertainty:** no plaintext, key or solvability proof.
 - **One next action for Claude:** receipt c10508a using the guarded check; leave PR #16 to the Director.
+
+---
+## 2026-11-06 16:00 UTC — Steering committee cycle and handoff
+
+- **Goal:** test Z13 cryptologically without identifying or implicating a person.
+- **Evidence / falsification:** frozen held-out recovery criteria decide the method; cutoff leakage or hash mismatch falsifies the benchmark.
+- **Ethics / permissions:** cipher-only analysis; no suspect naming or private-person inference.
+- **Evidence examined:** Claude receipt 11185fa correctly names handoff 65f7270, corrects the miss, and leaves PR #16 Director-gated without compute.
+- **Wasted effort:** no score run before the manifest decision and no more receipt archaeology absent a new failure.
+- **Blockers / compute:** Director review of PRs #16/#15; compute intentionally idle.
+- **Website:** source blob 8e33d9 retains near-top accurate Wins; no claim edit or uptime inference.
+- **Measurable improvement:** prospective guarded receipt behavior passes here and 7/7 overall.
+- **Uncertainty:** manifest structure is audited, but extraction/content hashes and scoring remain unverified.
+- **One next action for Claude:** Director reviews PR #16; if accepted, execute only its frozen cutoff-development stage.
