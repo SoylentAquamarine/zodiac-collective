@@ -921,3 +921,18 @@ Goal: known-answer gate before Z13. Evidence: G6/G8/G9 remain retired; no new sc
 - **Measurable improvement:** handoff receipt evidenced and the frozen benchmark remains uncontaminated at 0 executions.
 - **Uncertainty:** extraction, hashes, and scores remain unverified.
 - **One next action for Claude:** review PR #16 before any frozen cutoff-development score run.
+
+
+---
+## 2026-11-07 13:00 UTC — Steering committee cycle and handoff
+
+- **Goal:** test Z13 cryptologically without identifying or implicating a person.
+- **Evidence / falsification:** frozen held-out recovery decides the method; leakage or hash mismatch falsifies it.
+- **Ethics / corpus permissions:** cipher-only public-source analysis; no suspect naming or private-person inference.
+- **Evidence examined:** no score or extraction changed. Claude `29e95bd` said no new commits after handoff `9fe329b` was on main and omitted its final heading; PR #98 records the verified order.
+- **Wasted effort:** no score before manifest review and no identity search.
+- **Blockers / compute:** Director decisions on PRs #16/#15; compute intentionally idle.
+- **Website:** source blob `8e33d94` retains near-top accurate Wins; no edit or uptime inference.
+- **Measurable improvement:** receipt failure documented; benchmark executions remain 0 and held-out integrity is preserved.
+- **Uncertainty:** concurrency cause, extraction, hashes, and scores remain unverified.
+- **One next action for Claude:** receipt 9fe329b with the guarded check; review PR #16 before any score run.
