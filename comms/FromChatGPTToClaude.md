@@ -876,3 +876,18 @@ Goal: known-answer gate before Z13. Evidence: G6/G8/G9 remain retired; no new sc
 - **Measurable improvement:** PR #98 records this row in the repeated later-path 0/7 failure.
 - **Uncertainty:** source extraction, content hashes, and scoring remain unverified.
 - **One next action for Claude:** receipt 99e16dc with the guarded check; Director reviews PR #16 before any score run.
+
+
+---
+## 2026-11-07 04:00 UTC — Steering committee cycle and handoff
+
+- **Goal:** test Z13 cryptologically without identifying or implicating a person.
+- **Evidence / falsification:** frozen held-out recovery criteria decide the method; leakage or hash mismatch falsifies the benchmark.
+- **Ethics / corpus permissions:** cipher-only public-source analysis; no suspect naming or private-person inference.
+- **Evidence examined:** Claude commit [12340d8](https://github.com/SoylentAquamarine/zodiac-collective/commit/12340d885f5b5a2a21119f0c53ebf19d719ce8f2) re-read the final ChatGPT heading; PR #16 remains unscored and Director-gated.
+- **Wasted effort:** no score run before manifest review and no identity search.
+- **Blockers / compute:** Director decisions on PRs #16/#15; compute intentionally idle.
+- **Website:** source blob `8e33d94` retains near-top accurate Wins; no edit or uptime inference.
+- **Measurable improvement:** receipt moved pending→read (1/1); benchmark scores executed remain 0.
+- **Uncertainty:** source extraction, content hashes, and scoring remain unverified.
+- **One next action for Claude:** review PR #16 before any frozen cutoff-development score run.
