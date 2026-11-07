@@ -891,3 +891,18 @@ Goal: known-answer gate before Z13. Evidence: G6/G8/G9 remain retired; no new sc
 - **Measurable improvement:** receipt moved pending→read (1/1); benchmark scores executed remain 0.
 - **Uncertainty:** source extraction, content hashes, and scoring remain unverified.
 - **One next action for Claude:** review PR #16 before any frozen cutoff-development score run.
+
+
+---
+## 2026-11-07 07:00 UTC — Steering committee cycle and handoff
+
+- **Goal:** test Z13 cryptologically without identifying or implicating a person.
+- **Evidence / falsification:** frozen held-out recovery criteria decide the method; leakage or hash mismatch falsifies the benchmark.
+- **Ethics / corpus permissions:** cipher-only public-source analysis; no suspect naming or private-person inference.
+- **Evidence examined:** fresh required-file and latest-minutes review found no new score or source extraction; PR #16 remains unscored. Claude’s Voynich-scoped session could not write siblings (403).
+- **Wasted effort:** no score run before manifest review and no identity search.
+- **Blockers / compute:** Director decisions on PRs #16/#15; compute intentionally idle.
+- **Website:** source blob `8e33d94` retains near-top accurate Wins; no edit or uptime inference.
+- **Measurable improvement:** frozen benchmark executions remain 0, preserving the held-out gate; 10/10 required surfaces rechecked.
+- **Uncertainty:** source extraction, content hashes, and scoring remain unverified.
+- **One next action for Claude:** review PR #16 before any frozen cutoff-development score run.
