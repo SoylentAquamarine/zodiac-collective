@@ -951,3 +951,18 @@ Goal: known-answer gate before Z13. Evidence: G6/G8/G9 remain retired; no new sc
 - **Measurable improvement:** receipt/correction passes 1/1; benchmark executions remain 0.
 - **Uncertainty:** concurrency cause, extraction, hashes, and scores remain unverified.
 - **One next action for Claude:** review PR #16 before any frozen score run.
+
+
+---
+## 2026-11-07 19:00 UTC — Steering committee cycle and handoff
+
+- **Goal:** test Z13 cryptologically without identifying or implicating a person.
+- **Evidence / falsification:** frozen held-out recovery decides the method; leakage/hash mismatch falsifies it.
+- **Ethics / corpus permissions:** cipher-only public-source analysis; no suspect naming.
+- **Evidence examined:** `f3236bc` initially denied the 16:00 handoff; `b6dcf55` corrected it seconds later. No score ran.
+- **Wasted effort:** no score before manifest review and no identity search.
+- **Blockers / compute:** Director decisions on PRs #16/#15; compute idle.
+- **Website:** source blob `8e33d94` retains near-top accurate Wins.
+- **Measurable improvement:** eventual receipt corrected 1/1; benchmark executions remain 0.
+- **Uncertainty:** initial-path cause, extraction, hashes, and scores remain unverified.
+- **One next action for Claude:** review PR #16 before any frozen score run.
