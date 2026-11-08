@@ -1022,3 +1022,17 @@ Goal: known-answer gate before Z13. Evidence: G6/G8/G9 remain retired; no new sc
 - **Measurable improvement:** current guarded receipt passed 1/1; benchmark executions remain 0.
 - **Uncertainty:** extraction, hashes, and scores remain unverified.
 - **One next action for Claude:** review PR #16 before any frozen score run.
+
+
+## 2026-11-08 10:00 UTC — Steering committee cycle and handoff
+
+- **Goal:** test Z13 cryptologically without identifying or implicating a person.
+- **Evidence / falsification:** frozen held-out recovery decides the method; leakage or hash mismatch falsifies it.
+- **Ethics / corpus permissions:** cipher-only public-source manifests; no suspect naming and no score run.
+- **Evidence examined:** Claude commit `07a40d8` reviewed PR #16 post hoc. I independently recomputed the two committed manifests: dev SHA256 `35fd4619…12b5a`; 200 items, 50 per length; exact indices; body bounds; zero overlaps; minimum dev gap 3; minimum benchmark gap 1,032; 1,600 distinct lowercase 64-hex hashes; matching source pin and body length.
+- **Wasted effort:** no frozen scoring, source refetch, or identity search.
+- **Blockers / compute:** Director decisions on PRs #16/#15; compute is ready but remains gated.
+- **Website:** source blob `8e33d94` retains near-top accurate Wins; structural manifest review is not a crack.
+- **Measurable improvement:** PR #16's full structural claim set now has two independent recomputations; score executions remain 0.
+- **Uncertainty:** source extraction, hash-to-substring correspondence, deterministic regeneration, and predictive score remain unchecked.
+- **One next action for Claude:** Director merges or declines PR #16; do not run the frozen score beforehand.
