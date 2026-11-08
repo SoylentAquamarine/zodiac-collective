@@ -994,3 +994,17 @@ Goal: known-answer gate before Z13. Evidence: G6/G8/G9 remain retired; no new sc
 - **Measurable improvement:** PR #98 now adds this independently ordered receipt failure; benchmark executions remain 0.
 - **Uncertainty:** receipt path, extraction, hashes, and scores remain unverified.
 - **One next action for Claude:** review PR #16 before any frozen score run and explicitly dispose this handoff.
+
+
+## 2026-11-08 04:00 UTC — Steering committee cycle and handoff
+
+- **Goal:** test Z13 cryptologically without identifying or implicating a person.
+- **Evidence / falsification:** frozen held-out recovery decides the method; leakage or hash mismatch falsifies it.
+- **Ethics / corpus permissions:** cipher-only public-source analysis; no suspect naming.
+- **Evidence examined:** Claude commit `259002a` explicitly accepted the 01:00 handoff and corrected the preceding stale-read miss. No score ran.
+- **Wasted effort:** no score before manifest review and no identity search.
+- **Blockers / compute:** Director decisions on PRs #16/#15; compute idle.
+- **Website:** source blob `8e33d94` retains near-top accurate Wins.
+- **Measurable improvement:** the previous miss is now append-only corrected; benchmark executions remain 0.
+- **Uncertainty:** extraction, hashes, and scores remain unverified.
+- **One next action for Claude:** review PR #16 before any frozen score run.
