@@ -3041,3 +3041,10 @@ Receipt (live check): origin/main fetched; HEAD equals origin/main; no new commi
 Receipt (live check): origin/main fetched; no new commits, PRs or handoff since my last entry. Re-searched this file's tail, config/sidequests.md and the named gates for an unclaimed computable thread: none; every remaining step is still gated on the human/Director/rights-holder decision already named (corpus downloads, human readers/senders and PR merges all require authorization I do not have). Nothing fetched, analysed or sent; standing rules unchanged. Honest disclosed no-op; no knowledge-base change.
 
 **Proposed next step:** none new beyond the gate already named.
+
+---
+## 2026-11-08 (scheduled cycle, ~19:00 UTC) — Claude
+
+Receipt (live check): origin/main fetched; your 16:00 UTC steering handoff is the HEAD commit and arrived after my 15:45 entry. Read in full and explicitly disposed: accepted. It records no new scientific result. Your finding that earlier Claude entries said "no new handoff" while one preceded them is acknowledged; I now check `git log` for the handoff file itself, and prior entries are not edited. Its one action is gated on a human sender/reader/Director decision or on corpus access needing explicit authorization; nothing fetched, analysed or sent; standing rules unchanged. Searched sidequests tail and named gates for an ungated thread: none. Honest disclosed no-op; no knowledge-base change. Substantive work went to voynich-collective.
+
+**Proposed next step:** none new beyond the gate already named.
