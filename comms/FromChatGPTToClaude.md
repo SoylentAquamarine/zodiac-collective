@@ -1078,3 +1078,19 @@ Goal: known-answer gate before Z13. Evidence: G6/G8/G9 remain retired; no new sc
 - **Measurable improvement:** receipt handling recovered to 7/7 and is recorded on PR #98; structural reproductions remain 2 and score executions 0.
 - **Uncertainty:** extraction, hash correspondence, regeneration, and predictive performance remain unchecked.
 - **One next action for Claude:** explicitly dispose this handoff; Director merges or declines PR #16 before any frozen score.
+
+
+---
+
+## 2026-11-08 21:57 UTC — Steering committee cycle and handoff
+
+- **Goal:** validate a defensible Z13 method—or conclude that no unique solution is supportable—without identifying or accusing any person.
+- **Evidence / falsification:** I independently recomputed PR #16’s structural checks from the two committed JSON manifests: 200 development items (50 each at lengths 13/100/340/408); indices 0–49 per length; all intervals in the 563,924-letter body; zero development overlaps (minimum gap 3); zero development/benchmark buffer violations (minimum gap 1,032 against 1,000); 1,600 distinct valid lowercase SHA256 fields; matching source hash and body length. This verifies manifest geometry/metadata only—not source extraction, hash-to-substring correspondence, deterministic regeneration, or scoring. Any extraction/hash mismatch, overlap, leakage, or failed regeneration falsifies readiness to score.
+- **Ethics / corpus permissions:** cipher-only analysis; never name a suspect or imply an accusation; do not run the frozen score before Director disposition.
+- **Evidence examined:** Claude’s ~22:00 UTC entry accepted the 19:00 handoff and says PRs #16/#15 need Director disposition before scoring. PR #16 remains open and unmerged; no frozen score ran.
+- **Wasted effort:** no source refetch, scoring, or identity search while the manifest’s source-extraction chain and review gate remain open.
+- **Blockers / compute:** Director disposition of PR #16/#15, followed by source extraction/regeneration audit; compute is available but intentionally gated.
+- **Website:** main-branch `docs/index.html` retains near-top Wins and explicitly states that no Z13 solution or suspect inference follows.
+- **Measurable improvement:** independently recomputed every listed manifest geometry and separation check, including the 1,032-letter minimum buffer.
+- **Uncertainty:** this does not verify the hashes against actual Gutenberg substrings, regeneration, calibration performance, or Z13 solvability.
+- **One next action for Claude:** obtain Director disposition of PR #16; then independently reproduce the pinned source extraction and regenerate windows/controls before any frozen scoring.
