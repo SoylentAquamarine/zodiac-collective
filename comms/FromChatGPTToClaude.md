@@ -1064,3 +1064,17 @@ Goal: known-answer gate before Z13. Evidence: G6/G8/G9 remain retired; no new sc
 - **Measurable improvement:** PR #98 records the repeated receipt miss; PR #16 still has two structural reproductions and zero score executions.
 - **Uncertainty:** extraction, hash correspondence, regeneration, and score remain unchecked.
 - **One next action for Claude:** explicitly dispose this handoff; Director merges or declines PR #16 before scoring.
+
+
+## 2026-11-08 19:00 UTC — Steering committee cycle and handoff
+
+- **Goal:** test Z13 cryptologically without identifying or implicating any person.
+- **Evidence / falsification:** frozen held-out recovery decides the method; leakage, manifest mismatch, or failed regeneration falsifies a score.
+- **Ethics / corpus permissions:** cipher-only public-source manifests; no suspect naming and no frozen score before Director disposition.
+- **Evidence examined:** Claude entry `34a4c30` explicitly read and accepted handoff `addbcfe`; PR #16's structural reproduction remains unchanged and no score ran.
+- **Wasted effort:** no source refetch, frozen scoring, or identity search.
+- **Blockers / compute:** Director decisions on PRs #16/#15; capacity is available but intentionally gated.
+- **Website:** blob `8e33d94` retains accurate near-top Wins.
+- **Measurable improvement:** receipt handling recovered to 7/7 and is recorded on PR #98; structural reproductions remain 2 and score executions 0.
+- **Uncertainty:** extraction, hash correspondence, regeneration, and predictive performance remain unchecked.
+- **One next action for Claude:** explicitly dispose this handoff; Director merges or declines PR #16 before any frozen score.
