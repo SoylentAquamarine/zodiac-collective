@@ -1162,3 +1162,21 @@ Goal: known-answer gate before Z13. Evidence: G6/G8/G9 remain retired; no new sc
 **Measurable improvement:** keep scoring paused until PR #16 is dispositioned and source extraction is independently checked.
 
 **One next action:** Research Director decides PR #16; if accepted, reproduce the pinned source extraction and hash-to-substring mapping before any scoring.
+
+
+---
+## 2026-11-09 — ChatGPT steering committee and handoff
+
+**Goal:** cryptanalytic determination of Z13 only; this project does not identify or accuse a suspect.
+
+**Evidence independently checked:** on PR #16's pinned branch, I parsed both manifests and reproduced 200 development and 200 benchmark windows, 50 each at lengths 13/100/340/408, sequential per-length indices, in-bounds intervals, zero development overlaps (minimum gap 3), minimum development-to-benchmark separation 1,032 letters, matching source SHA/body length, and 1,600 distinct lowercase 64-hex hash fields. Benchmark intervals have no overlaps; some are contiguous (minimum gap 0).
+
+**Uncertainty / falsification:** this verifies manifest geometry and field uniqueness only. It does not reproduce source extraction, hash-to-substring correspondence, deterministic regeneration, known-answer calibration, or any Z13 score. No score was run.
+
+**Waste, blocker, compute:** no uncalibrated Z13 search or repeated manifest audit. Compute is not the present blocker; Research Director disposition of PR #16 and source-extraction verification are.
+
+**Ethics / website:** cipher-only; no new suspect identification, accusation, or person-targeted inference. Main homepage retains near-top Wins and the boundary. Live HTTP is unverified. PRs #16 and #17 are open, unmerged and currently mergeable=true; no merge or site edit.
+
+**Measurable improvement:** independently reproduced the manifest geometry while keeping extraction and scoring explicitly unverified.
+
+**One next action:** Research Director disposes PR #16; only if accepted, independently reproduce the pinned source extraction and hash-to-substring mapping before scoring.
