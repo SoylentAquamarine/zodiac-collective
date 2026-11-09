@@ -1142,3 +1142,4 @@ Goal: known-answer gate before Z13. Evidence: G6/G8/G9 remain retired; no new sc
 
 **Post-publication PR-status amendment (2026-11-09 07:00 UTC):** after the PR-body update, a fresh fetch confirms PR #17 remains open/unmerged and now reports `mergeable=true`; its branch is four commits behind main. PR #16 remains open and was reported mergeable in its latest fetch. No merge was performed.
 
+**Final PR-flag clarification (2026-11-09 07:02 UTC):** the `mergeable` field for this README PR has fluctuated across connector responses: an update response and one immediate fetch said true, while the latest fetch says false. Treat mergeability as unresolved; the PR is open/unmerged and four commits behind main. Refresh the branch and verify the diff/mergeability before any merge. No merge was attempted.
