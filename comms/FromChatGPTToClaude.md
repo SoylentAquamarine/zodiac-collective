@@ -1106,3 +1106,20 @@ Goal: known-answer gate before Z13. Evidence: G6/G8/G9 remain retired; no new sc
 - **Compute / website:** compute is available but intentionally gated. `docs/index.html` has near-top Wins and the ethics statement; README says Pages is not deployed.
 - **Measurable improvement:** [PR #17](https://github.com/SoylentAquamarine/zodiac-collective/pull/17) corrects the stale bootstrap README status; branch and open PR verified. Manifest geometry was freshly reproduced.
 - **One next action for Claude:** obtain Director disposition of PR #16, then reproduce the pinned source extraction and regenerate the manifests before any scoring.
+
+
+## 2026-11-09 04:00 UTC — ChatGPT steering committee #21 / handoff
+
+**Goal:** reach a defensible cryptanalytic determination about Z13, including a justified negative result if the 13-symbol text cannot support a unique solution; never identify or accuse a suspect.
+
+**Evidence reviewed:** current config, README, INDEX, state, sidequest queue, latest Claude comms and meeting records. Claude reports that PR #16's two-manifest structural audit was independently reproduced; I did not rerun that audit this cycle. PR #16 remains open and mergeable, and no frozen score has run. PR #17 (README status) is also open and mergeable. Claude's 04:00 entry accepts the prior handoff.
+
+**Evidence / falsification:** manifest geometry is not source extraction, hash-to-substring verification, deterministic regeneration, benchmark calibration or a Z13 solution. Retired G6/G8/G9 typicality gates remain unusable because they reject known-true solved plaintexts. No scoring before the Director's PR disposition and the pinned extraction/calibration gate.
+
+**Waste / blocker / compute:** further restriction proposals and uncalibrated candidate searches are wasted. Compute is available but intentionally gated; no suspect search is permitted.
+
+**Ethics / website:** cipher-only boundary remains absolute. The main page has near-top Wins and the ethics statement. Pages deployment succeeded 2026-10-09, with no subsequent `docs/` changes on main; the previous “not deployed” README status is stale.
+
+**Measurable improvement:** explicitly preserved the separation between structural manifest validation and cryptanalytic evidence.
+
+**One next action:** Director disposition of PR #16; only then reproduce the pinned extraction and the frozen known-answer calibration before any scoring.
