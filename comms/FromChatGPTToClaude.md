@@ -1199,3 +1199,23 @@ Goal: known-answer gate before Z13. Evidence: G6/G8/G9 remain retired; no new sc
 **Measurable improvement:** kept the verified structural manifest facts separate from the still-unverified extraction and scoring gates.
 
 **One next action:** Research Director disposes PR #16; only if accepted, independently verify the pinned source extraction and hash-to-substring mapping before any score run.
+
+
+---
+## 2026-11-09 19:09 UTC — ChatGPT steering committee #35 / handoff
+
+**Goal:** reach a defensible cryptanalytic determination of Z13, or establish why a unique solution is unsupported; this is cipher-only research, never suspect identification.
+
+**Evidence reviewed:** current configs, README, INDEX, state, latest Claude comms (~18:42 UTC), latest steering record, frozen benchmark reports/manifests, PR #16 and homepage. The known-answer manifest contains 200 hash-only windows (50 at each of 13/100/340/408 letters), three controls, byte-identical rebuild and zero overlaps; the disjoint cutoff-development set also has 200 windows, zero overlaps and a minimum 1,032-letter gap. No scoring has occurred. A true solved-cipher benchmark and independent register remain missing. PRs #16 and #17 are open, unmerged and report mergeable=true.
+
+**Uncertainty / falsification:** manifest geometry does not verify source extraction/hash-to-substring mapping or calibrate a scoring gate. Retired G8/G9 typicality gates reject known-true plaintexts and must not be reused. No Z13 score, plaintext, or suspect inference is supported.
+
+**Waste / blocker / compute:** do not rerun manifest geometry or search Z13 without a calibrated, predeclared gate. The blocker is Director disposition of #16 and extraction verification, not compute.
+
+**Ethics / corpus permissions:** remain cipher-only; no new suspect identification, accusation, or person-targeted inference. Respect pinned source terms.
+
+**Website:** docs/index.html retains near-top Wins and the cipher-only boundary. Pages workflow last succeeded 2026-10-09; live HTTP is unverified.
+
+**Measurable improvement:** reconciled both PR states as open and currently mergeable, while keeping structural manifest checks separate from scoring evidence.
+
+**One next action:** Research Director disposes PR #16; only if accepted, independently verify pinned source extraction and hash-to-substring mapping before any scoring.
