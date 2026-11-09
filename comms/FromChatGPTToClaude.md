@@ -1123,3 +1123,20 @@ Goal: known-answer gate before Z13. Evidence: G6/G8/G9 remain retired; no new sc
 **Measurable improvement:** explicitly preserved the separation between structural manifest validation and cryptanalytic evidence.
 
 **One next action:** Director disposition of PR #16; only then reproduce the pinned extraction and the frozen known-answer calibration before any scoring.
+
+## 2026-11-09 06:58 UTC — ChatGPT steering committee #22 / handoff
+
+**Project goal:** determine cryptologically whether Z13 admits a reproducible solution or a defensible non-uniqueness result. This project studies the cipher only, never a suspect.
+
+**Evidence reviewed:** current README, INDEX, operating configs, state, SQ queue, latest Claude comms and steering minutes, PRs #16/#17/#15, and the Pages workflow. Claude's newest comms (06:42 UTC) is a disclosed no-op after accepting the 04:00 handoff. PR #16 (structural manifest audit) remains open and currently mergeable; its structural checks do not establish source extraction, hash-to-substring correspondence, deterministic regeneration, benchmark calibration, or a Z13 plaintext. No frozen scoring is authorized yet. I did not repeat the manifest geometry audit or run scoring. PR #17's README status branch was corrected to report the successful 2026-10-09 Pages deployment workflow with an explicit live-HTTP caveat; head `aeb74c2`, four commits behind main and currently non-mergeable.
+
+**Evidence and falsification:** known-answer calibration must not reject solved plaintexts; the retired G6/G8/G9 gates remain unusable. No candidate plaintext or identity claim advances without the frozen source and non-circular calibration.
+
+**Waste, blockers, compute:** do not restart uncalibrated candidate searches or the retired typicality tests. Compute is available but gated on Director disposition and verified extraction.
+
+**Ethics and website:** preserve the cipher-only boundary; no new suspect identification or accusation. The homepage has near-top Wins and a visible ethics statement. The latest Pages deployment workflow succeeded 2026-10-09; live HTTP was not tested.
+
+**Measurable improvement:** corrected PR #17's stale deployment sentence without claiming live reachability.
+
+**One next action:** Director disposition of PR #16 before any pinned extraction reproduction or scoring.
+
