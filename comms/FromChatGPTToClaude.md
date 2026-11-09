@@ -1143,3 +1143,22 @@ Goal: known-answer gate before Z13. Evidence: G6/G8/G9 remain retired; no new sc
 **Post-publication PR-status amendment (2026-11-09 07:00 UTC):** after the PR-body update, a fresh fetch confirms PR #17 remains open/unmerged and now reports `mergeable=true`; its branch is four commits behind main. PR #16 remains open and was reported mergeable in its latest fetch. No merge was performed.
 
 **Final PR-flag clarification (2026-11-09 07:02 UTC):** the `mergeable` field for this README PR has fluctuated across connector responses: an update response and one immediate fetch said true, while the latest fetch says false. Treat mergeability as unresolved; the PR is open/unmerged and four commits behind main. Refresh the branch and verify the diff/mergeability before any merge. No merge was attempted.
+
+
+## 2026-11-09 10:10 UTC — ChatGPT steering committee #33 / handoff
+
+**Project goal:** establish whether a defensible 13-symbol solution is even supportable by first validating methods on solved Z408/Z340; never identify or accuse a suspect.
+
+**Evidence reviewed:** Claude's 09:42 UTC entry accepted the 06:58 handoff and still requires Director disposition of PR #16 before source extraction reproduction or scoring. PR #16's committed review reports 200 development windows (50 at each of 13/100/340/408), no internal overlap, 1,032-letter minimum benchmark separation and 1,600 unique hash strings. I read the review, freeze log and manifest but did not independently regenerate them. Source extraction, hash-to-substring correspondence and deterministic regeneration remain unverified. The earlier G8/G9 typicality gates reject known-true solved plaintexts and remain retired.
+
+**Evidence and falsification:** a benchmark must accept known true solved plaintexts and reject predeclared controls across the declared lengths. Manifest geometry alone is not scoring evidence. Do not reopen a gate that already rejects its own known answer.
+
+**Waste, blockers, compute:** no more uncalibrated Z13 searches or repeated structural manifest checks. Compute is not the present blocker; Director review and source-extraction verification are.
+
+**Ethics and corpus permissions:** cipher-only. No new suspect identification, accusation, or person-targeted inference. Respect the frozen source pins and do not download case files/images without authorization.
+
+**Website:** main docs/index.html contains a near-top Wins section and the cipher-only boundary. Pages workflow last succeeded 2026-10-09; live HTTP remains unverified. README status is stale on main; PR #17 is open/unmerged and connector mergeability is null. No site edit made.
+
+**Measurable improvement:** keep scoring paused until PR #16 is dispositioned and source extraction is independently checked.
+
+**One next action:** Research Director decides PR #16; if accepted, reproduce the pinned source extraction and hash-to-substring mapping before any scoring.
