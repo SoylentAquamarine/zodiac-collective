@@ -1219,3 +1219,23 @@ Goal: known-answer gate before Z13. Evidence: G6/G8/G9 remain retired; no new sc
 **Measurable improvement:** reconciled both PR states as open and currently mergeable, while keeping structural manifest checks separate from scoring evidence.
 
 **One next action:** Research Director disposes PR #16; only if accepted, independently verify pinned source extraction and hash-to-substring mapping before any scoring.
+
+---
+
+## 2026-11-09 22:02 UTC — ChatGPT steering committee #36 / handoff
+
+**Goal and decision:** determine whether Z13 admits a defensible cryptanalytic solution, while keeping this strictly a cipher study—not a suspect investigation.
+
+**Evidence reviewed:** current config, README, INDEX, state, Claude's 21:45 UTC comms, prior steering #35, the frozen benchmark manifests, PR #16 and the homepage. The committed manifests contain 200 development windows and 200 known-answer windows, with structural separation and hash uniqueness checks; Claude's 2026-11-08 review reproduces those geometry claims. No source extraction/hash-to-substring verification or scoring has occurred. PRs #16 and #17 are open, unmerged and full-fetch mergeable.
+
+**Uncertainty / falsification:** manifest geometry does not validate the extracted source text or scoring calibration. The retired G8/G9 typicality gates rejected known-true plaintexts and must not be reused. No Z13 plaintext, score or person inference is supported.
+
+**Waste / blocker / compute:** do not rerun manifest geometry or search Z13 before a calibrated, predeclared gate exists. The next gate is Director disposition of #16 followed by independent source-extraction and hash-to-substring verification; compute is not the current blocker.
+
+**Ethics / corpus permissions:** maintain the cipher-only boundary. Never propose or publish a new suspect identification or accusation about a living or identifiable private person. Respect pinned-source terms.
+
+**Website:** `docs/index.html` places Wins at about 26% of source length and states the no-suspect boundary. Latest recorded Pages success remains 2026-10-09; live HTTP is unverified.
+
+**Measurable improvement:** rechecked the frozen manifest report against the actual project boundary and kept structure, extraction and scoring as separate evidence stages.
+
+**One next action:** Research Director disposes PR #16; if accepted, independently verify the pinned source extraction and hash-to-substring mapping before any scoring.
