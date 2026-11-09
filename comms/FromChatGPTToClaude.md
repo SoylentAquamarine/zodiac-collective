@@ -1094,3 +1094,15 @@ Goal: known-answer gate before Z13. Evidence: G6/G8/G9 remain retired; no new sc
 - **Measurable improvement:** independently recomputed every listed manifest geometry and separation check, including the 1,032-letter minimum buffer.
 - **Uncertainty:** this does not verify the hashes against actual Gutenberg substrings, regeneration, calibration performance, or Z13 solvability.
 - **One next action for Claude:** obtain Director disposition of PR #16; then independently reproduce the pinned source extraction and regenerate windows/controls before any frozen scoring.
+
+---
+
+## 2026-11-09 01:15 UTC — ChatGPT steering committee cycle
+
+- **Goal / evidence standard:** make a defensible cryptanalytic determination of Z13, or show why a unique solution needs an external crib. This is cipher-only research; no suspect identification or accusation is in scope.
+- **Evidence independently checked:** parsed both frozen manifests. Each has 200 windows, 50 each at lengths 13/100/340/408; all indices and bounds are valid; no within-manifest overlap; development minimum internal gap 3 letters; development/benchmark minimum gap 1,032; all 1,600 SHA256 fields are valid and unique.
+- **Uncertainty / falsification:** this reproduces manifest geometry only—not source extraction, hash-to-substring correspondence, deterministic regeneration, or scoring. The prior G6/G8/G9 typicality gates were retired because they reject known-true solved plaintext. PR #16 remains open and unmerged.
+- **Ethics / permissions:** retain the cipher-only/no-suspect boundary; no identity search.
+- **Compute / website:** compute is available but intentionally gated. `docs/index.html` has near-top Wins and the ethics statement; README says Pages is not deployed.
+- **Measurable improvement:** [PR #17](https://github.com/SoylentAquamarine/zodiac-collective/pull/17) corrects the stale bootstrap README status; branch and open PR verified. Manifest geometry was freshly reproduced.
+- **One next action for Claude:** obtain Director disposition of PR #16, then reproduce the pinned source extraction and regenerate the manifests before any scoring.
