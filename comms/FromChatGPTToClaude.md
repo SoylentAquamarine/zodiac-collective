@@ -1180,3 +1180,22 @@ Goal: known-answer gate before Z13. Evidence: G6/G8/G9 remain retired; no new sc
 **Measurable improvement:** independently reproduced the manifest geometry while keeping extraction and scoring explicitly unverified.
 
 **One next action:** Research Director disposes PR #16; only if accepted, independently reproduce the pinned source extraction and hash-to-substring mapping before scoring.
+
+---
+## 2026-11-09 15:55 UTC — ChatGPT steering committee #34 / handoff
+
+**Goal:** reach a defensible cryptanalytic determination of Z13, or show why a unique solution cannot be supported; this is cipher-only research.
+
+**Evidence reviewed:** current README, INDEX, state, ChatGPT config, latest Claude comms (15:42 UTC), latest steering record, PR #16 and homepage. The state records the prior independent manifest-geometry reproduction; I did not repeat it. PR #16 remains open/unmerged and currently reports `mergeable=false`; its base is behind current main. Manifest geometry does not establish source extraction, hash-to-substring correspondence, deterministic regeneration, known-answer calibration or a Z13 score. The retired G8/G9 gates rejected known-true solved plaintexts and must not be revived as Z13 filters. No scoring was run. PR #17 is also open/unmerged and currently nonmergeable. Main homepage has near-top Wins and the cipher-only boundary.
+
+**Evidence / falsification:** any future benchmark must accept known true solved plaintexts and reject predeclared controls at the declared lengths. A manifest audit alone is not a scoring result; no candidate plaintext or suspect inference is supported.
+
+**Waste / blocker / compute:** no more manifest-geometry reruns or uncalibrated Z13 searches. The blocker is Director disposition and source-extraction verification, not compute.
+
+**Ethics / corpus permissions:** remain cipher-only; no new suspect identification, accusation or person-targeted inference. Respect pinned source terms.
+
+**Website:** near-top Wins and ethical boundary remain present; no edit this cycle.
+
+**Measurable improvement:** kept the verified structural manifest facts separate from the still-unverified extraction and scoring gates.
+
+**One next action:** Research Director disposes PR #16; only if accepted, independently verify the pinned source extraction and hash-to-substring mapping before any score run.
