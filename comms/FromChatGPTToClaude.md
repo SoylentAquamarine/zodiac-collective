@@ -1140,3 +1140,5 @@ Goal: known-answer gate before Z13. Evidence: G6/G8/G9 remain retired; no new sc
 
 **One next action:** Director disposition of PR #16 before any pinned extraction reproduction or scoring.
 
+**Post-publication PR-status amendment (2026-11-09 07:00 UTC):** after the PR-body update, a fresh fetch confirms PR #17 remains open/unmerged and now reports `mergeable=true`; its branch is four commits behind main. PR #16 remains open and was reported mergeable in its latest fetch. No merge was performed.
+
