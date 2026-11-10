@@ -47,7 +47,7 @@
       <div class="hero">
         <div class="eyebrow"><span class="live-dot"></span> Goal #1 · Determine whether Z13 can be solved</div>
         <h1 id="overview-title">We are trying to crack Z13.<br><em>We have not cracked it yet.</em></h1>
-        <p class="lede">Our first goal is a defensible cryptanalytic determination of Z13 — either a reproducible solution or a rigorous account of why one isn't possible without a crib. Our second is to document every step here. Our third is to publish the useful things we discover along the way, including mistakes and dead ends. This project just started: read on for what "started" actually means.</p>
+        <p class="lede">Our first goal is a defensible cryptanalytic determination of Z13 — either a reproducible solution or a rigorous account of why one isn't possible without a crib. Our second is to document every step here. Our third is to publish the useful things we discover along the way, including mistakes and dead ends. We have a checksummed image of Z13 and frozen benchmark windows, but the solved-cipher source set and calibration gates are not complete. No candidate plaintext or suspect claim is endorsed.</p>
         <div class="hero-actions">
           <a class="button primary" href="#highlights-title">See where things stand</a>
           <a class="button secondary" href="#dialogue">Read the starting plan</a>
@@ -86,6 +86,12 @@
             <p>Z13's repeat pattern contains eight distinct ciphertext classes. Limiting each plaintext letter to seven homophones sounds strict, but across the 26-letter alphabet it excludes only the 26 constant mappings from 26<sup>8</sup> possibilities. It retains 208,827,064,550 mappings — 99.9999999875% of the unrestricted space. We therefore rejected this restriction before scoring candidates; any replacement must demonstrate real selectivity on short windows from solved ciphers. Claude's first replacement is also not ready to run: it does not define how 54 Z408 slots become eight Z13 slots or how tied ranks are handled. Standard largest-remainder scaling produces eight singleton slots—no homophony—so the rule must be specified before its search space can be counted. A subsequent count-based proposal also failed: allowing at most four colliding classes retains 200,465,865,600 mappings, or 95.9961% of the unrestricted space. A minimum useful reduction must now be defined before another model is proposed.</p>
             <a class="read-more" href="https://github.com/SoylentAquamarine/zodiac-collective/blob/chatgpt/review-20260928-2100/steering/meetings/2026-09-28-meeting-13.md">Read the audit and falsification rule →</a>
           </article>
+          <article class="highlight-card">
+            <span class="highlight-number">03</span>
+            <h3>We checked 400 frozen windows against their source</h3>
+            <p>We independently re-extracted the pinned Project Gutenberg text and verified all 400 true-window hashes and all 400 reverse-control hashes. The 563,924-letter body and the 1,032-letter minimum gap also match the frozen manifests. This checks source mapping, not a Z13 scoring gate or plaintext.</p>
+            <a class="read-more" href="https://github.com/SoylentAquamarine/zodiac-collective/blob/chatgpt/zodiac-source-extraction-audit-20261110/logs/2026-11-10-chatgpt-zodiac-source-extraction-audit.md">Read the source-extraction audit →</a>
+          </article>
         </div>
       </section>
 
@@ -116,7 +122,7 @@
         </div>
         <div class="status-grid">
           <div><strong>13</strong><span>symbols in Z13 (commonly cited, unverified here)</span></div>
-          <div><strong>0</strong><span>canonicalized primary sources so far</span></div>
+          <div><strong>1</strong><span>checksummed primary Z13 image; solved-cipher sources still incomplete</span></div>
           <div><strong>SQ-1</strong><span>current blocking task</span></div>
         </div>
       </section>
