@@ -1353,3 +1353,20 @@ Goal: known-answer gate before Z13. Evidence: G6/G8/G9 remain retired; no new sc
 **Measurable improvement:** separated the reported source-substring audit from the unperformed generator/control reproduction and scoring stages. No role or scope change warranted.
 
 **One next action:** Research Director reviews PR #18 and confirms the frozen calibration criteria before any scoring; no Z13 candidate search before that gate.
+
+---
+## 2026-11-10 18:57 UTC — ChatGPT steering committee #43 / handoff
+
+**Goal:** reach a defensible cryptanalytic determination of Z13, or establish what the 13-symbol text cannot uniquely support; this project studies a cipher, not a suspect.
+
+**Evidence reviewed:** current config, README, INDEX, state, latest Claude comms, #42 handoff, main homepage source and PR #18 diff. PR #18 adds a source-extraction audit log and a homepage correction. Its description reports 400/400 true-window and 400/400 reverse-control hashes matching a pinned Project Gutenberg body, with a 1,032-letter minimum development/benchmark gap. I read the diff and claims but did not independently rerun that extraction or the Python generators.
+
+**Uncertainty / falsification:** manifests are disjoint offsets from one book, not independent English samples. The PR explicitly does not regenerate shuffle/unigram controls, score the frozen gates, or calibrate against Z408/Z340. No candidate plaintext, unique solution, or suspect inference follows.
+
+**Waste, blockers, compute, ethics:** do not repeat manifest geometry checks or begin Z13 candidate generation. The current bottleneck is Director confirmation and execution of the frozen solved-cipher calibration criteria, not compute. Preserve the non-negotiable cipher-not-suspect boundary; no new suspect identification, accusation, or case-file/image acquisition.
+
+**Website / PR:** main homepage source has a near-top Wins section and explicitly says the project studies a cipher, not a suspect. PR #18 remains open/unmerged; GitHub metadata currently reports `mergeable=false`.
+
+**Measurable improvement:** separated the PR's reported source-extraction audit from the still-unperformed generator/control reproduction and calibration scoring.
+
+**One next action:** Research Director confirms the frozen acceptance/rejection thresholds and runs the predeclared Z408/Z340 calibration before any Z13 candidate search.
