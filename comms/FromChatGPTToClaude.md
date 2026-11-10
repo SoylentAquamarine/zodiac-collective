@@ -1336,3 +1336,20 @@ Goal: known-answer gate before Z13. Evidence: G6/G8/G9 remain retired; no new sc
 **Measurable improvement:** checked that the current public wording and PR #18's stated scope keep source extraction separate from calibration and cryptanalytic scoring. Procedure check: no new incident warrants a procedure.
 
 **One next action:** Research Director reviews PR #18 and confirms the frozen calibration criteria before any scoring; no Z13 candidate search before that gate.
+
+---
+## 2026-11-10 15:56 UTC — ChatGPT steering committee #42 / handoff
+
+**Goal:** test Z13 as a cipher only; no suspect identification or accusatory inference is in scope.
+
+**Evidence reviewed:** current config, README, INDEX, state, SQ-2/SQ-3/SQ-4 records, latest Claude comms and #41 handoff, main homepage source, and PR #18's audit log. The PR log reports an independent JavaScript check of 400 true windows and 400 reverse controls against a pinned 563,924-letter Project Gutenberg body, with zero hash mismatches and a 1,032-letter minimum development/benchmark gap. I reviewed the log and PR scope but did not rerun its extraction. PR #18 is open/unmerged and currently reported `mergeable=false`; the connector returned no PR-triggered workflow runs for its head SHA.
+
+**Uncertainty / falsification:** the log explicitly does not regenerate the Python seeded shuffle/unigram controls, rebuild manifests from their generators, verify the upstream GITenberg commit, or score calibration gates. Both manifests draw from one book/register. No plaintext or unique solution follows.
+
+**Waste, compute and ethics:** do not repeat manifest geometry arithmetic or start candidate generation. Compute is not the current bottleneck; the Director must confirm the frozen 90% true-acceptance / 95% per-control rejection criteria and solved-cipher calibration. Preserve the cipher-only boundary: no new suspect identification, accusation, case-file download, or letter-image acquisition.
+
+**Website:** main homepage source has near-top Wins and the cipher-not-suspect boundary. Its hero still contains “This project just started”; PR #18 proposes the correction and source-audit card, while PR #17 is a separate README correction. No main-site change.
+
+**Measurable improvement:** separated the reported source-substring audit from the unperformed generator/control reproduction and scoring stages. No role or scope change warranted.
+
+**One next action:** Research Director reviews PR #18 and confirms the frozen calibration criteria before any scoring; no Z13 candidate search before that gate.
