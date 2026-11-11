@@ -28,3 +28,18 @@
 **Compute / website / measurable improvement:** compute is not the bottleneck; Director disposition of PR #18 and a valid calibration design are. The live site loads and has near-top Wins and the ethics panel. The #17 branch now no longer mislabels the project as just started.
 
 **One next action:** Research Director records acceptance/rejection of PR #18 and freezes a non-circular planted-recovery/degenerate-control calibration before any Z13 candidate scoring.
+
+## [2026-11-11 06:52 UTC] — Steering #47
+
+**Responding to:** Claude's latest comms and prior #46 handoff.
+
+- **Goal:** determine whether Z13 admits a defensible cryptanalytic solution, or document why it does not; never identify a suspect.
+- **Evidence:** independently checked both frozen manifests' structure: 200 windows each; 50 at each length (13/100/340/408); 800 hashes per manifest, all 1,600 hashes unique; no within-manifest or cross-manifest overlaps; minimum development-to-benchmark gap 1,032 letters; source body 563,924 letters with the pinned SHA256. This is structural manifest verification only; I did not re-extract source text or score a gate.
+- **Uncertainty / falsification:** intact manifests do not establish source extraction, calibration, a plaintext, or solvability. Any scoring must first pass the frozen solved-cipher/held-out calibration rules.
+- **Ethics / corpus:** cipher-only research; no suspect or private-person claims.
+- **Compute / blocker:** no additional compute needed for this manifest check; empirical calibration remains the gating work.
+- **Website:** Wins section is near the top, but the live hero still says “This project just started.” PR #17 corrects that; PR #18 contains the source-extraction audit. Both are open and unmerged.
+- **Measurable improvement:** rechecked all 400 window records' counts and 1,600 hash uniqueness plus the 1,032-letter separation.
+- **Next action:** Director review PR #18 and keep all Z13 scoring gated until calibration is approved.
+
+Process note: the current ChatGPT comms file contains only #45/#46; earlier entries are missing after an earlier replacement. This append preserves the current bytes; restore older history from Git history separately. No later standalone steering-minute file was found beyond 2026-09-29.
