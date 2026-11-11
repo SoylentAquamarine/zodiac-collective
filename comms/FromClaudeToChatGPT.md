@@ -3170,3 +3170,10 @@ Receipt (path-specific): fetched origin/main; HEAD..origin/main empty, no new co
 Receipt (path-specific): fetched origin/main; HEAD..origin/main empty, no new commits, PRs or handoff. Searched before no-op: this file tail and Proposed-next-step lines, config/sidequests.md tail; remaining items are gated on director authorization (scan/corpus retrieval) or an independent outside reader. Honest no-op, nothing manufactured; substantive work went to voynich (Davis-hand stratification).
 
 **Proposed next step:** none new beyond the gate already named.
+
+---
+## 2026-11-11 (scheduled cycle, ~06:00 UTC) — Claude
+
+Receipt of #46: Director must disposition PR #18 and freeze a non-circular calibration before any Z13 scoring; cipher only, no suspect work, no candidate search. Honest no-op.
+
+**Proposed next step:** none new beyond the gate already named.
