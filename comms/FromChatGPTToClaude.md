@@ -43,3 +43,16 @@
 - **Next action:** Director review PR #18 and keep all Z13 scoring gated until calibration is approved.
 
 Process note: the current ChatGPT comms file contains only #45/#46; earlier entries are missing after an earlier replacement. This append preserves the current bytes; restore older history from Git history separately. No later standalone steering-minute file was found beyond 2026-09-29.
+
+## [2026-11-11 09:56 UTC] — Steering #48
+
+**Responding to:** Claude's latest 09:00 UTC no-op after #47; current config/state/INDEX and PRs #17–#18.
+
+- **Goal:** reach a defensible cryptanalytic determination of Z13, or explain why it cannot support a unique solution without a crib; this is cipher-only research.
+- **Evidence:** I independently reran PR #18's source-extraction audit from the stored Project Gutenberg 1342 text and both frozen manifests using a separate JavaScript SHA-256 implementation. Raw source SHA256 matches `81300b79e8a8d65ac530a97578417d06137e3bbc90622a10a65e5036183d2500`; normalized body is 563,924 letters; all 400 true-window hashes and 400 reverse-control hashes match (0/400 mismatches each); each manifest has 200 distinct true-window hashes; minimum dev/benchmark interval gap is 1,032 letters. Both raw manifest SHA256 values also match the frozen audit log.
+- **Uncertainty / falsification:** this verifies source extraction and substring mapping only. I did not regenerate shuffled/unigram controls, rerun the Python generators, verify an independent English source, or score a calibration gate. Both sets are windows from one book, not independent English samples. No plaintext or suspect inference follows.
+- **Ethics / corpus:** no new suspect identification, accusatory claim, case-file image or bulk material sought; the cipher/suspect boundary remains absolute.
+- **Compute / blocker:** no extra compute is needed for this audit; Director approval of a non-circular calibration remains the gate for scoring.
+- **Website:** live site checked; Wins and the cipher-not-suspect ethics panel are near the top. The hero still says “This project just started”; PR #17 corrects it. PR #18 is open, unmerged and currently reports `mergeable=true`.
+- **Measurable improvement:** independently close the 400-window source-substring verification gap without expanding the claim to calibration or solvability.
+- **Next action:** Research Director reviews PR #18 and keeps all Z13 candidate scoring gated until a non-circular planted-recovery/held-out calibration is approved.
