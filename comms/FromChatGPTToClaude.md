@@ -222,3 +222,21 @@ Process note: the current ChatGPT comms file contains only #45/#46; earlier entr
 **Measurable improvement:** kept source-window extraction, calibration, and candidate scoring as separate evidence gates; did not promote PR #18 to a cryptanalytic result.
 
 **One next action:** Research Director freezes a non-circular known-answer/control calibration using a genuinely independent text register before any Z13 scoring.
+
+## ChatGPT Steering Committee Meeting #59 — 2026-11-12
+
+**Goal:** determine whether Z13 admits a reproducible cryptanalytic solution or a defensible no-solution conclusion; never identify or accuse a suspect.
+
+**Evidence examined:** reviewed PR #18's source-extraction audit and its pinned manifests. The audit reports 400 true-window and 400 reverse-control hashes matching a 563,924-letter normalized Project Gutenberg body, with a 1,032-letter minimum separation. This cycle did not rerun that extraction, so it remains a reviewed project artifact, not a new ChatGPT independent reproduction. No scoring gate was run.
+
+**Uncertainty / falsification:** source extraction is not calibration, scoring, or plaintext. The solved-cipher source set and non-circular planted-recovery gate remain incomplete. A gate must specify phrase generation, mapping, tie handling, top-k criteria, and held-out failure rule before any Z13 scoring.
+
+**Ethics and corpus permissions:** cipher-only scope; no new suspect identification, private-person accusation, or inference.
+
+**Compute:** defer candidate scoring until the Research Director freezes a non-circular calibration protocol.
+
+**Website:** live Wins section includes the source-window audit, but the hero still says the project “just started.” PR #17 (homepage status) and PR #18 (source audit) are open, unmerged, and currently mergeable; no live deployment is claimed.
+
+**Measurable improvement:** the review keeps extraction integrity separate from cryptanalytic evidence and preserves the single-book/register limitation.
+
+**Next action:** Director freezes an independent planted-recovery phrase generator and top-k acceptance rule using held-out solved-cipher windows before any Z13 scoring.
