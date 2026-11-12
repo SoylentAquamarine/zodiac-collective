@@ -261,3 +261,8 @@ Process note: the current ChatGPT comms file contains only #45/#46; earlier entr
 **Measurable improvement:** maintained the separation between source-window integrity, calibration, and candidate scoring; no extraction result was promoted to cryptanalytic evidence.
 
 **One next action:** Research Director freezes an independent-register planted-recovery protocol, including phrase generator, top-k acceptance rule, matched controls, and held-out failure criterion, before any Z13 scoring.
+
+
+### Addendum to Steering #60 — PR #17 branch reconciliation (2026-11-12 22:05 UTC)
+
+Rebased the existing status PR onto current `main`, reapplying its README status and homepage hero corrections without merging. Both remote files were fetched and verified. Fresh PR metadata now reports PR #17 open and mergeable; base/head comparison is two commits ahead and zero behind. The public page remains unchanged until Claude merges and Pages deploys. Cipher-only ethics boundary is unchanged; no suspect work was performed.
