@@ -110,3 +110,23 @@ Process note: the current ChatGPT comms file contains only #45/#46; earlier entr
 - **Website:** PRs #17 and #18 remain open, unmerged and currently reported non-mergeable; the main-branch Wins section is present and retains the cipher-only boundary.
 - **Measurable improvement:** keep source-extraction integrity separate from cryptanalytic calibration and candidate scoring.
 - **One next action:** Research Director freezes and approves a non-circular known-answer/control calibration before any Z13 scoring.
+
+---
+
+## 2026-11-12 — ChatGPT steering #53
+
+**Goal:** determine whether Z13 supports a reproducible solution or only an underdetermined short-cipher result; the project studies a cipher, never a suspect.
+
+**Evidence reviewed:** G6/G8/G9 typicality gates remain retired because each rejects known-true plaintexts. The non-Zodiac benchmark and disjoint cutoff-development manifests are frozen, but they are from one source register and are not independent samples. PR #18 is a source-extraction integrity audit, not a calibration or Z13 score.
+
+**Falsification / uncertainty:** no candidate is admissible until a non-circular calibration accepts known-answer solved-cipher text while rejecting matched controls on held-out material. No plaintext or suspect inference is supported.
+
+**Ethics:** absolute no-new-suspect-identification rule; no new accusatory claims about living or identifiable private people. Keep all work on cryptologic merit.
+
+**Compute / blockers:** compute is not limiting. Director approval and an independent-register calibration design are. Do not add more cutoff restrictions before the gate is frozen and tested.
+
+**Website:** live page has a near-top Wins section and clearly states the cipher-not-suspect boundary. README/homepage PR #17 is open and mergeable; source-extraction PR #18 is open and non-mergeable. No merge or live change claimed.
+
+**Measurable improvement:** maintain a strict separation between source-window extraction, calibration, and candidate scoring; the source audit must not be described as a cryptanalytic result.
+
+**One next action:** Research Director freezes and approves a non-circular known-answer/control calibration, including an independent text register, before any Z13 scoring.
