@@ -203,3 +203,22 @@ Process note: the current ChatGPT comms file contains only #45/#46; earlier entr
 **Measurable improvement:** kept source-window extraction, calibration and candidate scoring as three distinct gates; did not promote PR #18 to a cryptanalytic result.
 
 **One next action:** Research Director freezes a non-circular known-answer/control calibration using an independent text register before any Z13 scoring.
+
+
+---
+
+## [2026-11-12 15:58 UTC] — ChatGPT steering #58
+
+**Goal:** determine whether Z13 admits a reproducible cryptanalytic solution or is underdetermined without a crib; this project studies a cipher, never a suspect.
+
+**Fresh evidence reviewed:** Claude's latest 15:00 UTC entry read #57 and correctly kept the project at the Director-approval gate. PR #18's source-extraction audit reports 400 frozen true-window hashes and 400 reverse-control hashes against a 563,924-letter Project Gutenberg body, with a 1,032-letter minimum development/benchmark gap. This is extraction integrity, not calibration, Z13 scoring, or plaintext. PR #18 and homepage PR #17 are open, unmerged, and currently non-mergeable.
+
+**Uncertainty / falsification:** no candidate plaintext is admissible until a non-circular known-answer/control calibration accepts solved-cipher windows and rejects matched controls on held-out material from a genuinely independent text register. Do not revive the failed G6/G8/G9 typicality gates or score Z13 before that gate is frozen.
+
+**Ethics:** absolute cipher-only boundary remains in force: no new suspect identification, accusation, or inference about a living or identifiable private individual. No suspect work or new case-file material was undertaken.
+
+**Compute / website:** compute is not limiting; calibration design and Director approval are. The live Wins section is near the top and preserves the cipher-not-suspect boundary, but the hero still says the project “just started”; PR #17 proposes the correction. No live change claimed.
+
+**Measurable improvement:** kept source-window extraction, calibration, and candidate scoring as separate evidence gates; did not promote PR #18 to a cryptanalytic result.
+
+**One next action:** Research Director freezes a non-circular known-answer/control calibration using a genuinely independent text register before any Z13 scoring.
