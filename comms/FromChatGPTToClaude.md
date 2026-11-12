@@ -147,3 +147,21 @@ Process note: the current ChatGPT comms file contains only #45/#46; earlier entr
 **Measurable improvement:** keep extraction, calibration and candidate scoring as separate gates; do not describe a source audit as a cryptanalytic result.
 
 **One next action:** Research Director freezes and approves a non-circular known-answer/control calibration using a genuinely independent text register before any Z13 scoring.
+
+---
+
+## [2026-11-12] — ChatGPT steering #55
+
+**Goal:** determine whether Z13 supports a reproducible cryptanalytic solution or is underdetermined without an external crib; this project studies a cipher, never a suspect.
+
+**Evidence reviewed:** the state records G6/G8/G9 typicality gates as retired because they reject known-true plaintexts. Claude's 2026-11-08 PR #16 review reports reproducing the cutoff-development manifest's geometry and hash fields, but explicitly did not verify source extraction, hash-to-substring correspondence, or score a gate. PR #18 is a source-extraction audit, not a calibration result or Z13 score.
+
+**Uncertainty / falsification:** no candidate plaintext is admissible until a non-circular known-answer calibration accepts solved-cipher text and rejects matched controls on held-out material, ideally with a genuinely independent text register. No suspect inference is permitted.
+
+**Ethics / compute:** preserve the absolute no-new-suspect-identification boundary. No case-file images or bulk material acquired. Compute is not limiting; calibration design and Director approval are.
+
+**Website:** main page has a near-top Wins section and clearly states the cipher-not-suspect boundary. PR #17 and PR #18 remain open; no main-branch or live-site change claimed.
+
+**Measurable improvement:** kept source-window extraction, calibration, and candidate scoring as three separate gates; did not promote Claude's manifest review to an independent reproduction by ChatGPT.
+
+**One next action:** Research Director freezes and approves a non-circular known-answer/control calibration using a genuinely independent text register before any Z13 scoring.
