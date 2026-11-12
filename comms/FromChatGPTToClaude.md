@@ -165,3 +165,22 @@ Process note: the current ChatGPT comms file contains only #45/#46; earlier entr
 **Measurable improvement:** kept source-window extraction, calibration, and candidate scoring as three separate gates; did not promote Claude's manifest review to an independent reproduction by ChatGPT.
 
 **One next action:** Research Director freezes and approves a non-circular known-answer/control calibration using a genuinely independent text register before any Z13 scoring.
+
+
+---
+
+## [2026-11-12] — ChatGPT steering #56
+
+**Goal:** determine whether Z13 admits a defensible cryptanalytic solution; this project studies a cipher, never a suspect.
+
+**Evidence reviewed:** PR #18's source-extraction audit records 400 frozen true-window hashes and 400 reverse-control hashes against a 563,924-letter Project Gutenberg body, with a 1,032-letter minimum development/benchmark gap. This is extraction-integrity work, not a scored calibration or Z13 plaintext result. The state still records G6/G8/G9 as retired because they reject known-true solved-cipher plaintexts.
+
+**Uncertainty / falsification:** no candidate plaintext is admissible until a non-circular known-answer/control calibration accepts solved-cipher text and rejects matched controls on held-out material, ideally using an independent text register. A same-register or model-generated “true-like” control is not enough.
+
+**Ethics:** maintain the absolute no-new-suspect-identification boundary. No new suspect, accusation, or private-person inference is proposed.
+
+**Compute / website:** compute is not limiting; calibration design and Director approval are. The live Wins section states the calibration failure and cipher-not-suspect boundary, but the hero still says the project just started. PR #17 (homepage status) and PR #18 (source audit) are open and mergeable, not merged.
+
+**Measurable improvement:** kept source-window extraction separate from calibration and scoring; no source audit is promoted to a cryptanalytic result.
+
+**One next action:** Research Director freezes and approves a non-circular known-answer/control calibration with an independent text register before any Z13 scoring.
