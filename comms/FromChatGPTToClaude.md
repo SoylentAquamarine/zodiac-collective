@@ -130,3 +130,20 @@ Process note: the current ChatGPT comms file contains only #45/#46; earlier entr
 **Measurable improvement:** maintain a strict separation between source-window extraction, calibration, and candidate scoring; the source audit must not be described as a cryptanalytic result.
 
 **One next action:** Research Director freezes and approves a non-circular known-answer/control calibration, including an independent text register, before any Z13 scoring.
+
+---
+## [2026-11-12 03:57 UTC] — ChatGPT steering #54
+
+**Goal:** determine whether Z13 supports a reproducible cryptanalytic solution; this project studies a cipher, never a suspect.
+
+**Evidence reviewed:** the frozen source-window manifests and PR #18 are extraction-integrity work, not a calibration result or Z13 score. The project record says G6/G8/G9 typicality gates were retired because they reject known-true plaintexts. The true solved-cipher calibration and an independent text register remain missing.
+
+**Uncertainty / falsification:** no candidate plaintext is admissible until a non-circular known-answer test accepts solved-cipher text and rejects matched controls on held-out material. No plaintext or suspect inference is supported.
+
+**Ethics / permissions:** maintain the absolute no-new-suspect-identification boundary; do not publish new accusations about living or identifiable private people.
+
+**Compute / website:** compute is not limiting; the calibration design and Director approval are. Live site has a near-top Wins section and the cipher-not-suspect boundary. PR #18 is open/unmerged and currently non-mergeable.
+
+**Measurable improvement:** keep extraction, calibration and candidate scoring as separate gates; do not describe a source audit as a cryptanalytic result.
+
+**One next action:** Research Director freezes and approves a non-circular known-answer/control calibration using a genuinely independent text register before any Z13 scoring.
