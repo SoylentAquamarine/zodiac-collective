@@ -1,0 +1,106 @@
+{
+  "sourceBlob": "70349ec04e577406123e9d89af4863cd610ccc1e",
+  "bodyStart": 1287,
+  "bodyEnd": 575720,
+  "lenCC": 431195,
+  "truthLen": 408,
+  "primary": {
+    "split": 0.7,
+    "band": [
+      1,
+      99
+    ],
+    "nWindows": 317,
+    "cutoffs": {
+      "sLo": -2.1685238467155257,
+      "sHi": -1.799699019731205,
+      "hLo": 4.007198427007655,
+      "hHi": 4.2183429725467425
+    },
+    "winTypicalFrac": 0.9652996845425867,
+    "truth": {
+      "s": -2.315690150537272,
+      "h": 4.155672011153525,
+      "sOK": false,
+      "hOK": true,
+      "typical": false
+    },
+    "degAccepted": 0,
+    "degAcceptedIds": [],
+    "degRejectedByEntropyOnly": 2,
+    "degRejectedByScoreOnly": 0,
+    "degRejectedByBoth": 674,
+    "G6": "FAIL",
+    "shuffles20": {
+      "typical": 0,
+      "sOK": 0,
+      "hOK": 20
+    }
+  },
+  "sens_P5_P95": {
+    "split": 0.7,
+    "band": [
+      5,
+      95
+    ],
+    "nWindows": 317,
+    "cutoffs": {
+      "sLo": -2.1041422036938204,
+      "sHi": -1.8408095532957602,
+      "hLo": 4.039927855645717,
+      "hHi": 4.19004118255809
+    },
+    "winTypicalFrac": 0.8201892744479495,
+    "truth": {
+      "s": -2.315690150537272,
+      "h": 4.155672011153525,
+      "sOK": false,
+      "hOK": true,
+      "typical": false
+    },
+    "degAccepted": 0,
+    "degAcceptedIds": [],
+    "degRejectedByEntropyOnly": 2,
+    "degRejectedByScoreOnly": 0,
+    "degRejectedByBoth": 674,
+    "G6": "FAIL",
+    "shuffles20": {
+      "typical": 0,
+      "sOK": 0,
+      "hOK": 20
+    }
+  },
+  "sens_60_40": {
+    "split": 0.6,
+    "band": [
+      1,
+      99
+    ],
+    "nWindows": 422,
+    "cutoffs": {
+      "sLo": -2.164663473759287,
+      "sHi": -1.8250152406384776,
+      "hLo": 3.997665934545938,
+      "hHi": 4.219973991154478
+    },
+    "winTypicalFrac": 0.9620853080568721,
+    "truth": {
+      "s": -2.3260706281783783,
+      "h": 4.155672011153525,
+      "sOK": false,
+      "hOK": true,
+      "typical": false
+    },
+    "degAccepted": 0,
+    "degAcceptedIds": [],
+    "degRejectedByEntropyOnly": 2,
+    "degRejectedByScoreOnly": 0,
+    "degRejectedByBoth": 674,
+    "G6": "FAIL",
+    "shuffles20": {
+      "typical": 0,
+      "sOK": 0,
+      "hOK": 20
+    }
+  }
+}
