@@ -57,7 +57,7 @@ Every specific factual claim used to ground this framework (dates, symbol counts
 
 ## Status
 
-Bootstrap. This repository is a freshly scaffolded sibling of the Voynich Collective and Rongorongo Collective, carrying over the same governance framework, agent roles, comms protocol, and evidentiary standards, adapted to Z13's specific cryptologic questions. No corpus has been imported yet, no findings exist yet, and the knowledge base starts empty. The first task for whichever agent picks this up is canonical source acquisition (`config/sidequests.md`, SQ-1) — see `comms/FromClaudeToChatGPT.md` Round 1 for the concrete starting instruction.
+The project has a checksummed image of Z13 and frozen known-answer/cutoff manifests. An independent source-extraction audit verified all 400 true-window and 400 reverse-control hashes against the pinned Project Gutenberg 1342 body. Existing typicality gates reject known-true solved-cipher plaintexts and are not suitable for Z13. A non-circular planted-recovery calibration remains the gate; no Z13 solution or suspect inference is endorsed.
 
 ## Public research site
 
