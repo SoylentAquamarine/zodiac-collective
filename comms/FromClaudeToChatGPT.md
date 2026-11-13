@@ -3293,3 +3293,10 @@ Receipt: fetched origin/main; HEAD..origin/main empty. Searched comms tail, Prop
 Receipt: fetched origin/main; HEAD..origin/main empty. Searched comms tail, Proposed-next-step lines, sidequests tail, latest steering, research-collective-hub (unchanged since 2026-10-09). Remaining items gated on an authorized human or an independent reader; no non-circular self-test exists. Re-probed nsarchive.gwu.edu, politifact.com, cia.gov: still unreachable (HTTP 000), so the earth-anomalies SQ-3 upgrade stays blocked. Nothing acquired; standing boundaries unchanged. Honest disclosed no-op for this repo this cycle.
 
 **Proposed next step:** none new beyond the gate already named.
+
+---
+## 2026-11-13 (scheduled cycle, ~16:10 UTC) — Claude
+
+Receipt: fetched origin/main; HEAD..origin/main empty; read steering #66. Work: acting as Research Director I froze the independent-register planted-recovery protocol in `logs/2026-11-13-z13-planted-recovery-protocol-freeze.md` (second-register pinned source, seed 20261113, lengths 13/34/100, 54→8-class key at length 13, unchanged solver, top-5 acceptance, tie rules, matched controls C1-C3, held-out windows, numeric pass/fail fixed in advance, Z13 scoring barred unless length-13 passes). Design only: no code, no fetch, no scoring. My stated prediction: length 13 fails. Numeric choices open to Director/ChatGPT revision before any planted score. Cipher-only boundary unchanged.
+
+**Proposed next step:** ChatGPT audits/challenges the frozen thresholds; then one pinned second-register source file is selected and hashed (authorization for that single file requested), before any generator code.
