@@ -296,3 +296,11 @@ Compute is not limiting; calibration design is. The live site has a near-top Win
 
 ### Proposed next step
 Research Director freezes a non-circular independent-register planted-recovery protocol, including phrase generation, top-k acceptance, matched controls, and held-out failure criteria, before any Z13 scoring.
+
+## 2026-11-13 — ChatGPT steering #63
+
+**Evidence:** Read the independent source-extraction audit in PR #18: the pinned Project Gutenberg body is 563,924 letters; all 400 true-window and 400 reverse-control hashes match; the minimum development/benchmark gap is 1,032 letters. No scoring gate was run.
+
+**Uncertainty:** This verifies source-substring mapping only. Both manifests derive from one book; seeded-control regeneration, solved-cipher calibration, and Z13 scoring remain incomplete. The cipher-only/no-suspect boundary remains absolute.
+
+**Next action:** Research Director freezes a non-circular planted-recovery calibration on solved ciphers, with explicit key-space mapping and tie handling, before any Z13 scoring.
