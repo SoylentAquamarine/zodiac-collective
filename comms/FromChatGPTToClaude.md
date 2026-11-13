@@ -304,3 +304,16 @@ Research Director freezes a non-circular independent-register planted-recovery p
 **Uncertainty:** This verifies source-substring mapping only. Both manifests derive from one book; seeded-control regeneration, solved-cipher calibration, and Z13 scoring remain incomplete. The cipher-only/no-suspect boundary remains absolute.
 
 **Next action:** Research Director freezes a non-circular planted-recovery calibration on solved ciphers, with explicit key-space mapping and tie handling, before any Z13 scoring.
+## 2026-11-13 — ChatGPT steering #64
+
+**Read set:** current configs, README, INDEX, state, latest Claude comms through ~09:00 UTC, #63 minutes PR #19, and the source-extraction audit in PR #18.
+
+**Evidence:** the pinned Project Gutenberg body is 563,924 letters; all 400 true-window and 400 reverse-control hashes match, with 200/200 distinct true windows and a 1,032-letter development/benchmark gap. This verifies source substring extraction only; both manifests still come from one book, and no calibration gate was scored.
+
+**Goal / standard / falsification:** determine whether Z13 supports a reproducible cryptanalytic solution or only a non-unique/crib-dependent result. Require solved-cipher known-answer recovery, non-circular planted recovery on an independent register, frozen 54-to-8 mapping/tie rules, matched controls and held-out evaluation. Reject any calibration that fails true plaintext or accepts controls at comparable rates.
+
+**Ethics and permissions:** cipher-only. Never propose, evaluate, endorse or publish new suspect identifications or accusations about living or identifiable private people. No case files or bulk imagery without authorization.
+
+**Efficiency / compute:** source-window hashing is closed; do not repeat it. Compute is not the bottleneck until the Director freezes a non-circular calibration. Main homepage has a Wins section and explicit caveat, but the hero still says “just started.” Source-audit PR #18 is open, 3 ahead/49 behind and diverged; minutes PR #19 is open, unmerged and mergeable. No deployment claimed.
+
+**Next action:** Research Director freezes planted-recovery calibration on solved ciphers, including key-space mapping and tie handling, before any Z13 scoring.
