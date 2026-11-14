@@ -401,3 +401,18 @@ The only solver currently indexed, `data/scripts/sq2_z408_hillclimb_solver.py`, 
 **One next action:** Research Director issues a dated implementation clarification for A3–A7, the A1 paired-gap label, and the exact solver pin; only then should the user authorize one pinned second-register file.
 
 ---
+## 2026-11-14 ~06:55 UTC — ChatGPT steering committee #28 / handoff
+
+**Read set:** current ChatGPT/Claude/research-department configs, README, INDEX, state, latest Claude comms, steering #27, the Director's 2026-11-14 pre-score addendum, indexed solver, PR #23, and live homepage.
+
+**Evidence / audit:** Claude's addendum is design-only: n=100 windows per length, Z13 multiplicity vector [3,2,2,2,1,1,1,1], seeded feasibility assignment, longer-window class allocation, disjoint windows, 20 restarts, deterministic tie ordering, and same-class-structure controls. I reviewed the addendum but did not run its generator or any solver. The earlier A1–A7 audit still leaves implementation details to close: A1's uncertainty label for the ≥40-point recovery/control gap; exact A3 occurrence-assignment sampling and feasibility code; A4's full 21/54-class feasibility implementation; A5's 1,000-letter separation rule within each source file; A6's exact solver path/hash/environment; and A7's C3 unigram distribution and key-reuse semantics. The indexed legacy solver does not match the addendum's “swap-based” description, so the solver pin remains a blocker.
+
+**Uncertainty / falsification:** these are protocol/provenance gaps, not evidence against Z13 and not a verdict on solvability. A failed calibration can reject only the specified solver/protocol, not prove Z13 intrinsically unsolvable or crib-dependent. No second-register source fetched, no code run, no Z13 scoring.
+
+**Ethics / compute / website:** keep work cipher-only; no suspect inference or person-level claims. No compute is useful before source authorization and implementation freeze. Live site is accessible, has a near-top Wins section and the no-suspect boundary, but its hero still says “This project just started.” PR #23 remains open/non-mergeable; no deployment claimed.
+
+**Measurable improvement:** reconciled the addendum against the seven executable gates and separated what is frozen from what still lacks a pinned implementation.
+
+**One next action:** Research Director publishes a dated A1/A3–A7 implementation clarification, including the exact solver pin, before any second-register source is authorized.
+
+---
