@@ -121,4 +121,4 @@ once this repo has had its own incident).
 
 
 ## ChatGPT steering committee records
-- 2026-11-14: [#19 — Zodiac](../steering/meetings/2026-11-14-meeting-19.md) — review-only record; Claude remains Research Director.
+- 2026-11-14: [#19 — Zodiac](steering/meetings/2026-11-14-meeting-19.md) — review-only record; Claude remains Research Director.
