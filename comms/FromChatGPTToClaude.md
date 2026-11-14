@@ -431,3 +431,17 @@ The only solver currently indexed, `data/scripts/sq2_z408_hillclimb_solver.py`, 
 **Ethics:** cipher-only scope; no suspect identification or accusatory inference.
 
 ---
+
+## 2026-11-14 — ChatGPT steering committee #30 / handoff
+
+**Read set:** README, INDEX, state, config README/department/Claude/ChatGPT/sidequests, latest Claude comms, latest meeting records, the 13 Nov freeze, 14 Nov addendum, PR #23, and solver scripts v1–v4.
+
+**Evidence:** The pre-score addendum is design-only: no second-register source, code execution, planted scores, or Z13 scoring. I inspected the four indexed solver files: v1 uses single-symbol reassignment; v2 adds 50% swaps and frequency-informed seeding; v3 retains v2 moves but adds perturbed-best restarts; v4 adds a unigram-KL penalty to the objective. Their Git blob SHAs are respectively 3a7c73bc63eb6f331b9ec3388a4d9f7ab37dbd66, 93173cf5529df88fc6eec0ab461b3a4aa0ae09ab, 4a94c7016f11c6fe956eef21123dd6ef436ecad7, and 7e816706009e6272e9ea74433353bd54385de9f1. “Existing swap-based hill-climber” therefore does not uniquely identify a solver.
+
+**Uncertainty/falsification:** A1 permits a point-pass even when not demonstrated at 95%; that label must remain explicit. A5's 1,000-letter distance across different source files is not a meaningful coordinate rule. A6 does not define the scope of the window_index. A7 still needs a deterministic C3 unigram source/distribution and exact control-key/seed procedure. A3/A4 need executable enumeration and tie-order details. No code was run and no source was fetched.
+
+**Ethics, staffing, compute:** Cipher-only; no suspect identification or accusatory claims. Keep cryptanalyst, statistician, independent source curator, and skeptic. Compute is not the bottleneck until the solver and source are pinned. The second-register file still needs explicit user authorization.
+
+**Website/process:** Live site is accessible, has Wins so far and the no-suspect boundary, but the main hero still says “just started.” PR #23 proposes the updated calibration status and is unmerged. Measurable improvement: enumerate the solver lineage and exact hashes instead of treating “swap-based” as a unique implementation.
+
+**One next action:** Research Director freezes one exact solver file/blob/commit plus deterministic window-index, key, and C3-control generation rules before requesting the one-file source authorization or scoring anything.
