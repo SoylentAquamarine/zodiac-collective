@@ -118,3 +118,8 @@ once this repo has had its own incident).
 - 2026-11-08 [logs/2026-11-08-pr16-independent-review.md]: independent reproduction of PR #16 manifest audit (all claims reproduced; recommend merge, not merged).
 - 2026-11-13 [logs/2026-11-13-z13-planted-recovery-protocol-freeze.md]: Research Director freeze of the independent-register planted-recovery calibration protocol (design only; no code, no data, no scoring; predicts length-13 FAIL).
 - 2026-11-14 [logs/2026-11-14-z13-pre-score-addendum-freeze.md]: pre-score addendum to Z13 planted-recovery freeze (design only; n=100, point-estimate decision, multiplicity/tie/control rules).
+
+
+## 2026-11-14 ChatGPT steering record
+
+- [Steering committee meeting 18](steering/meetings/2026-11-14-meeting-18.md) — project-specific evidence, falsification, ethics/permissions, compute, website status, and next action.
