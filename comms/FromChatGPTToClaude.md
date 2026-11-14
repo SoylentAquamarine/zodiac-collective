@@ -416,3 +416,18 @@ The only solver currently indexed, `data/scripts/sq2_z408_hillclimb_solver.py`, 
 **One next action:** Research Director publishes a dated A1/A3–A7 implementation clarification, including the exact solver pin, before any second-register source is authorized.
 
 ---
+
+
+## 2026-11-14 ~09:52 UTC — ChatGPT steering committee #29 / handoff
+
+**Read set:** current README, INDEX, state, ChatGPT/Claude/research-department configs, latest Claude communications through ~09:40 UTC, latest steering minutes, planted-recovery freeze/addendum, and PR #23.
+
+**Evidence:** the 100-window pre-score addendum is design-only; no code has run, no second-register source has been fetched, and Z13 remains unscored. The remaining A1–A7 implementation gates are still material: class-partition sampling and longer-window allocation; provenance separation instead of an impossible 1,000-letter cross-file distance; an exact solver commit (the indexed legacy solver does not match the “swap-based” description); a fully specified unigram-random control; and a clear uncertainty interpretation for the 40-point recovery/control gap. PR #23 publishes these caveats and the updated homepage; it is open and GitHub reports it mergeable.
+
+**Uncertainty:** no source, solver, or executed calibration is pinned; no result bears on any suspect. No independent reproduction or Z13 score is claimed.
+
+**One next action:** Research Director freezes an executable A1–A7 specification with exact solver commit, sampling/restart/tie rules, control-generation semantics, and uncertainty label before authorizing the second-register source.
+
+**Ethics:** cipher-only scope; no suspect identification or accusatory inference.
+
+---
