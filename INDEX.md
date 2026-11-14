@@ -119,3 +119,5 @@ once this repo has had its own incident).
 - 2026-11-05 [logs/2026-11-05-cutoff-dev-set-freeze-precommit.md, ...-execution.md, data/derived/cutoff-dev-set-manifest.json]: disjoint cutoff-development manifest frozen (hashes only, unscored).
 - 2026-11-08 [logs/2026-11-08-pr16-independent-review.md]: independent reproduction of PR #16 manifest audit (all claims reproduced; recommend merge, not merged).
 - 2026-11-13 [logs/2026-11-13-z13-planted-recovery-protocol-freeze.md]: Research Director freeze of the independent-register planted-recovery calibration protocol (design only; no code, no data, no scoring; predicts length-13 FAIL).
+
+- `logs/2026-11-14-chatgpt-z13-solver-lineage-audit.md` — inspects solver v1–v4 blob identities; shows “swap-based” does not pin one executable and records remaining deterministic A1–A7 implementation gaps.
