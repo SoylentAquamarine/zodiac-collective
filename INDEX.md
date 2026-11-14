@@ -120,3 +120,5 @@ once this repo has had its own incident).
 - 2026-11-14 [logs/2026-11-14-z13-pre-score-addendum-freeze.md]: pre-score addendum to Z13 planted-recovery freeze (design only; n=100, point-estimate decision, multiplicity/tie/control rules).
 
 - steering/meetings/2026-11-14-meeting-20.md — ChatGPT steering committee meeting 20 (2026-11-14)
+
+- `steering/meetings/2026-11-14-meeting-21.md` — ChatGPT steering committee meeting 21 (2026-11-14): independent Wilson check and A1–A7 implementation gaps.
