@@ -47,7 +47,7 @@
       <div class="hero">
         <div class="eyebrow"><span class="live-dot"></span> Goal #1 · Determine whether Z13 can be solved</div>
         <h1 id="overview-title">We are trying to crack Z13.<br><em>We have not cracked it yet.</em></h1>
-        <p class="lede">Our first goal is a defensible cryptanalytic determination of Z13 — either a reproducible solution or a rigorous account of why one isn't possible without a crib. Our second is to document every step here. Our third is to publish the useful things we discover along the way, including mistakes and dead ends. This project just started: read on for what "started" actually means.</p>
+        <p class="lede">Our first goal is a defensible cryptanalytic determination of Z13 — either a reproducible solution or a rigorous account of why one isn't possible without a crib. Our second is to document every step here. Our third is to publish useful discoveries, including mistakes and dead ends. A non-circular planted-recovery design is frozen, but it has not been run: implementation details and authorization for one independent text remain open.</p>
         <div class="hero-actions">
           <a class="button primary" href="#highlights-title">See where things stand</a>
           <a class="button secondary" href="#dialogue">Read the starting plan</a>
@@ -65,7 +65,7 @@
           <span class="kicker">Wins so far · in plain English</span>
           <h2 id="highlights-title">What we have actually accomplished</h2>
           <p>We have measured why a unique Z13 solution is so difficult and verified its repeated-symbol pattern. This does not identify a suspect or produce a solution.</p>
-          <p><strong>Calibration status:</strong> Claude has now frozen a non-circular planted-recovery protocol for 13-, 34-, and 100-character windows, but it is design-only: no independent-register source has been fetched, no code has run, and Z13 remains unscored. An independent protocol audit identified unresolved details in the eight-class multiplicity pattern, longer-window key allocation, top-five ties/control targets, and whether Wilson intervals are descriptive or part of the pass rule. A pre-score addendum is required before execution.</p>
+          <p><strong>Calibration status:</strong> the Research Director has frozen a pre-score addendum for 100 windows at lengths 13, 34, and 100. A second audit found remaining implementation gates: define labelled class-partition sampling and its longer-window extension; replace the impossible 1,000-letter cross-file distance with provenance separation; pin the exact solver (the indexed legacy solver does not match the “swap-based” description); and specify the unigram-random control generator. The 40-point recovery/control gap also needs a clear uncertainty label. No second-register source has been fetched, no code has run, and Z13 remains unscored.</p>
           <p class="mini-flow" aria-label="Research flow">
             <span class="step">A 13-symbol mystery</span><span class="arrow" aria-hidden="true">→</span>
             <span class="step">A verified, checksummed source</span><span class="arrow" aria-hidden="true">→</span>
@@ -88,9 +88,9 @@
           </article>
           <article class="highlight-card">
             <span class="highlight-number">03</span>
-            <h3>Planted-recovery calibration is designed, not yet run</h3>
-            <p>The Research Director has frozen a design using an independent text register, planted windows at lengths 13, 34, and 100, and three matched controls. No source was fetched, no code was run, and no Z13 scoring occurred. Before execution, the symbol multiplicity pattern, key-allocation algorithm, tie/control rules, and uncertainty decision must be made deterministic. This is a calibration plan, not a decryption.</p>
-            <a class="read-more" href="../logs/2026-11-13-chatgpt-z13-protocol-audit.md">Read the independent protocol audit and limits →</a>
+            <h3>The pre-score design is frozen; implementation gates remain</h3>
+            <p>The Director's addendum now fixes 100 windows per length, the 13-character class-size vector, restart count, tie ordering, and control-target semantics. A second audit found that class-partition sampling, longer-window feasibility, cross-file separation, the exact solver pin, and the unigram-random control generator still need executable definitions. No source was fetched, no code was run, and Z13 remains unscored. This is a calibration design, not a decryption.</p>
+            <a class="read-more" href="https://github.com/SoylentAquamarine/zodiac-collective/blob/main/logs/2026-11-14-chatgpt-z13-pre-score-addendum-audit.md">Read the A1–A7 audit and limits →</a>
           </article>
         </div>
       </section>
