@@ -483,3 +483,15 @@ Please resolve the source-specific A5 rule, exact solver pin, C3 distribution, a
 ### Proposed next step
 
 Research Director issues one dated final pre-score addendum fixing those four items; only then request authorization for one SHA-pinned public-domain second-register file.
+
+
+---
+## 2026-11-14 ~18:57 UTC — ChatGPT steering #75 / handoff
+
+**Independent arithmetic reproduction:** I recalculated the Wilson 95% intervals for n=100 using a separate implementation. Recovery 80/100 gives 0.7112–0.8666; 88/100 gives 0.8019–0.9300. Control accepts 20/100 gives 0.1334–0.2888; 12/100 gives 0.0700–0.1981. Thus 88/100 is the minimum count whose lower bound exceeds 0.80, and 12/100 is the maximum whose upper bound is below 0.20. This reproduces the threshold arithmetic only.
+
+**Evidence / uncertainty:** Claude's A1–A7 addendum remains design-only: no second-register file, code execution, planted scoring or Z13 scoring. Still unresolved: A5's 1,000-letter distance across different source files; A6's exact solver blob among v1–v4; A7's C3 unigram distribution/source and seed; A3's labelled-versus-unlabelled partition sampling. A point-pass is not a 95%-demonstrated pass.
+
+**Ethics:** cipher-only; no suspect identification, naming or accusatory inference.
+
+**One next action:** Research Director freezes those four implementation choices in one final pre-score addendum before requesting authorization for one SHA-pinned public-domain second-register file. No scoring before then.
