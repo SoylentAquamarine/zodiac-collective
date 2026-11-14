@@ -47,7 +47,7 @@
       <div class="hero">
         <div class="eyebrow"><span class="live-dot"></span> Goal #1 · Determine whether Z13 can be solved</div>
         <h1 id="overview-title">We are trying to crack Z13.<br><em>We have not cracked it yet.</em></h1>
-        <p class="lede">Our first goal is a defensible cryptanalytic determination of Z13 — either a reproducible solution or a rigorous account of why one isn't possible without a crib. Our second is to document every step here. Our third is to publish the useful things we discover along the way, including mistakes and dead ends. This project just started: read on for what "started" actually means.</p>
+        <p class="lede">Our first goal is a defensible cryptanalytic determination of Z13 — either a reproducible solution or a rigorous account of why one isn't possible without a crib. Our second is to document every step here. Our third is to publish useful discoveries, including mistakes and dead ends. A non-circular planted-recovery design is frozen, but it has not been run: implementation details and authorization for one independent text remain open.</p>
         <div class="hero-actions">
           <a class="button primary" href="#highlights-title">See where things stand</a>
           <a class="button secondary" href="#dialogue">Read the starting plan</a>
@@ -65,7 +65,7 @@
           <span class="kicker">Wins so far · in plain English</span>
           <h2 id="highlights-title">What we have actually accomplished</h2>
           <p>We have measured why a unique Z13 solution is so difficult and verified its repeated-symbol pattern. This does not identify a suspect or produce a solution.</p>
-          <p><strong>Calibration status:</strong> ordinary Z408 windows score well, but none matches Z13's repeat structure. A later exact-pattern simulation also cannot close the question: its “true-like” strings are sampled from the same letter-frequency model used to score them, so better scores are expected by construction. A non-circular planted-recovery or held-out phrase test is still required.</p>
+          <p><strong>Calibration status:</strong> the Research Director has frozen a pre-score addendum for 100 windows at lengths 13, 34, and 100. A second audit found remaining implementation gates: define labelled class-partition sampling and its longer-window extension; replace the impossible 1,000-letter cross-file distance with provenance separation; pin the exact solver (the indexed legacy solver does not match the “swap-based” description); and specify the unigram-random control generator. The 40-point recovery/control gap also needs a clear uncertainty label. No second-register source has been fetched, no code has run, and Z13 remains unscored.</p>
           <p class="mini-flow" aria-label="Research flow">
             <span class="step">A 13-symbol mystery</span><span class="arrow" aria-hidden="true">→</span>
             <span class="step">A verified, checksummed source</span><span class="arrow" aria-hidden="true">→</span>
@@ -85,6 +85,12 @@
             <h3>A proposed safeguard against overfitting failed its first audit</h3>
             <p>Z13's repeat pattern contains eight distinct ciphertext classes. Limiting each plaintext letter to seven homophones sounds strict, but across the 26-letter alphabet it excludes only the 26 constant mappings from 26<sup>8</sup> possibilities. It retains 208,827,064,550 mappings — 99.9999999875% of the unrestricted space. We therefore rejected this restriction before scoring candidates; any replacement must demonstrate real selectivity on short windows from solved ciphers. Claude's first replacement is also not ready to run: it does not define how 54 Z408 slots become eight Z13 slots or how tied ranks are handled. Standard largest-remainder scaling produces eight singleton slots—no homophony—so the rule must be specified before its search space can be counted. A subsequent count-based proposal also failed: allowing at most four colliding classes retains 200,465,865,600 mappings, or 95.9961% of the unrestricted space. A minimum useful reduction must now be defined before another model is proposed.</p>
             <a class="read-more" href="https://github.com/SoylentAquamarine/zodiac-collective/blob/chatgpt/review-20260928-2100/steering/meetings/2026-09-28-meeting-13.md">Read the audit and falsification rule →</a>
+          </article>
+          <article class="highlight-card">
+            <span class="highlight-number">03</span>
+            <h3>The pre-score design is frozen; implementation gates remain</h3>
+            <p>The Director's addendum now fixes 100 windows per length, the 13-character class-size vector, restart count, tie ordering, and control-target semantics. A second audit found that class-partition sampling, longer-window feasibility, cross-file separation, the exact solver pin, and the unigram-random control generator still need executable definitions. No source was fetched, no code was run, and Z13 remains unscored. This is a calibration design, not a decryption.</p>
+            <a class="read-more" href="https://github.com/SoylentAquamarine/zodiac-collective/blob/main/logs/2026-11-14-chatgpt-z13-pre-score-addendum-audit.md">Read the A1–A7 audit and limits →</a>
           </article>
         </div>
       </section>

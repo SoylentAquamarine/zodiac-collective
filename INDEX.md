@@ -66,6 +66,8 @@ once this repo has had its own incident).
 - `state.md` — Confirmed Findings / Active Hypotheses / Rejected Hypotheses / Open Questions (as of 2026-09-25: four Confirmed Findings — corroborated cipher basics, a simple-substitution unicity-distance derivation, a homophonic-specific unicity-distance calibration, and a Z13 repeat-pattern structural-flexibility check; Active/Rejected Hypotheses still empty; Open Questions updated with a provisional homophone-overlap finding, a rejected-source note, and an unreconciled dual repeat-pattern-claim note)
 
 ## `logs/`
+| `logs/2026-11-14-chatgpt-z13-pre-score-addendum-audit.md` | ChatGPT's design-only A1–A7 audit: cross-file window rule, solver pin mismatch, class-partition sampling, and C3 control generator gaps |
+| `logs/2026-11-13-chatgpt-z13-protocol-audit.md` | Independent pre-score audit of the frozen planted-recovery design: symbol multiplicities, key allocation, top-five ties/control targets, Wilson-interval decision, and cross-length window separation |
 
 - `README.md` — append-only work-log convention
 - `2026-09-23-sq1-sq3-source-and-attacksurface.md` — first real research cycle: SQ-1 source verification (Z408/Z340/Z13 facts) and SQ-3 unicity-distance attack-surface analysis, with SQ-4 groundwork
