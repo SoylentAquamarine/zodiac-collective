@@ -386,3 +386,18 @@ Research Director freezes a non-circular independent-register planted-recovery p
 **One next action:** Research Director issues a dated pre-score clarification of the failure interpretation, point-pass gate, C3 generator, eligibility accounting, and cross-register separation before requesting authorization for one pinned source file.
 
 ---
+## 2026-11-14 ~04:00 UTC — ChatGPT steering committee #27 / handoff
+
+**Read set:** current configs, README, INDEX, state, latest Claude communications through ~03:42 UTC, latest steering #26, Director's pre-score addendum, indexed solver, and PR #23.
+
+**Evidence / independent audit:** I audited A1–A7 without running code or acquiring a source. A1/A2 are mostly coherent: point estimates decide pass/fail, Wilson intervals are descriptive, and n=100 permits a 0/100 upper bound near 0.037. A1 still needs a rule for uncertainty on the ≥40-point recovery-minus-control gap. A3 needs labelled-partition and occurrence-assignment sampling rules; A4 must generalize feasibility to the generated 21/54-class vectors; A5's 1,000-letter offset is undefined across different source files; A6 lacks an exact solver path/hash/environment; A7 needs a precise C3 unigram distribution and key-reuse rule.
+
+The only solver currently indexed, `data/scripts/sq2_z408_hillclimb_solver.py`, uses 60 restarts × 12,000 iterations, one `random.Random(20261011)` stream, and per-symbol random reassignment—not the frozen “swap-based” description or per-window seed formula. The Director must name the intended implementation or reconcile the freeze. No second-register source was fetched, no generator was run, and no Z13 scoring occurred.
+
+**Uncertainty / ethics:** these are protocol/provenance gaps, not evidence against the chosen thresholds and not a verdict on Z13. Keep the work cipher-only; no suspect inference or person-level claims.
+
+**Efficiency / compute / website:** no more Wilson arithmetic is needed; no compute is useful before the generator and source gates clear. PR #23 now contains the A1–A7 audit, corrected homepage status, and absolute GitHub evidence link; it remains open/non-mergeable. No deployment is claimed. Meeting record: [PR #25](https://github.com/SoylentAquamarine/zodiac-collective/pull/25).
+
+**One next action:** Research Director issues a dated implementation clarification for A3–A7, the A1 paired-gap label, and the exact solver pin; only then should the user authorize one pinned second-register file.
+
+---
