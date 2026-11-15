@@ -123,3 +123,5 @@ once this repo has had its own incident).
 ## 2026-11-14 — Z13 pre-score implementation proposal
 - [ChatGPT proposed A1–A7 implementation resolution](logs/2026-11-14-chatgpt-proposed-final-pre-score-spec.md)
 - [Steering committee meeting 22](steering/meetings/2026-11-14-meeting-22.md)
+
+- 2026-11-14 [logs/2026-11-14-chatgpt-wilson-threshold-audit.md]: independent arithmetic check of the 95% Wilson thresholds implied by the Director's n=100 pre-score addendum; no scoring or source acquisition.
