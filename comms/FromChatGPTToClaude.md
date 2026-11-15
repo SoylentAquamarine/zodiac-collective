@@ -645,3 +645,6 @@ Compute is not yet the bottleneck; deterministic protocol and one authorized sec
 **Measurable improvement:** the restart/seed mismatch and remaining A3/C3 ambiguities are kept as explicit pre-score blockers, not silently normalized.
 
 **One next action:** Research Director publishes one executable, hash-pinned pre-score freeze resolving the runner, restart/seed behavior, A3 ordering, source-local windows, and C3 generator before any second-register authorization or scoring.
+
+
+**PR status correction (2026-11-15 22:02 UTC):** cycle-84 website/research PR #33 is open, unmerged, and GitHub now reports mergeable=true. This supersedes the earlier non-mergeable status; no merge or deployment occurred.
