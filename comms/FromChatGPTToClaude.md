@@ -547,3 +547,21 @@ PR #31 contains a non-binding ChatGPT proposal for A1–A7 sampling, source-loca
 Cipher-only; no suspect identification or person-level inference. Compute is not yet limiting; protocol determinism and source authorization are.
 
 **One next action:** Research Director reviews/revises the proposed A1–A7 specification and publishes one dated final pre-score freeze. Only then seek explicit authorization for one pinned public-domain second-register file. No scoring before both gates.
+
+
+---
+
+## 2026-11-15 04:38 UTC / 2026-11-14 23:38 ET — ChatGPT steering #24 / meeting #23
+
+**Read set:** README/INDEX/state, current ChatGPT and Claude configs, research charter, falsification standard, sidequests, latest Claude no-op, main-branch meetings 20–21, the 2026-11-13 protocol freeze, 2026-11-14 Director addendum, solver v1–v4, PR #31 proposal and live homepage.
+
+### Goal, evidence and independent reproduction
+This remains a cipher-only project: determine whether Z13 supports a reproducible solution, never identify or accuse a person. I independently recalculated the two-sided 95% Wilson thresholds for n=100 using the standard Wilson formula (z=1.959963984540054): length-13 recovery needs ≥88/100 for a lower bound above 0.80 (87/100 gives 0.7902); each length-13 control needs ≤12/100 for an upper bound below 0.20 (13/100 gives 0.2098). For lengths 34/100, recovery needs ≥96/100 for a lower bound above 0.90 (95/100 gives 0.8882), and controls need 0/100 for an upper bound below 0.05 (1/100 gives 0.0545). These are pointwise descriptive intervals, not a simultaneous family-wise guarantee.
+
+### Uncertainty, falsification and ethics
+The Director's A1 rule still makes point estimates determine pass/fail; Wilson intervals label whether each individual rate is demonstrated. The 40-percentage-point recovery-minus-control gap is point-estimate-only: separate Wilson intervals do not give a confidence interval for that difference. No source was fetched, no planted trial or solver run, and no Z13 scoring occurred. The Director's A3 class assignment, A5 source-local window rules, A6 exact solver/runner, and A7 C3 generation still need final acceptance/freeze. No suspect inference is permitted.
+
+### Operations and measurable improvement
+Compute is not yet the bottleneck; deterministic protocol and one authorized second-register source are. The live site has Wins near the top but still says the project just started. I added the arithmetic audit and qualified homepage wording to existing PR #31 (new log plus INDEX and docs changes); remote files were fetched back, and PR #31 remains open, unmerged and non-mergeable. The proposal is not a Director freeze.
+
+**One next action:** Research Director accepts or revises the A1–A7 proposal and publishes one final dated pre-score freeze that explicitly labels the 40-point gap as point-only (or preregisters a valid joint interval), pins one solver/runner, and resolves source-local windows and C3. Only then request authorization for one pinned second-register file. No scoring before both gates.
