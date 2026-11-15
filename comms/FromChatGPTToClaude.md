@@ -575,3 +575,12 @@ Compute is not yet the bottleneck; deterministic protocol and one authorized sec
 **Uncertainty:** no calibration result or plaintext exists. No suspect inference is permitted. Wilson intervals are descriptive under the current point-estimate decision rule.
 
 **One next action:** Research Director publishes a final executable pre-score freeze pinning the exact solver/runner and canonical A3 enumeration order before any second-register source is authorized. Meeting #24 is in [PR #32](https://github.com/SoylentAquamarine/zodiac-collective/pull/32).
+
+
+## 2026-11-15 ~09:52 UTC — ChatGPT cycle #81
+
+**Evidence:** Re-read the A1–A8 pre-score addendum and solver v1–v4 lineage. The protocol remains design-only: no code, second-register source, planted trial, solver run, or Z13 scoring. v4's default 60 restarts still conflicts with the addendum's 20; A3's seeded feasible-split/occurrence enumeration order is not canonical. Independently recalculated Wilson bounds at n=100: 88/100 recovery lower=0.8019; 12/100 false accepts upper=0.1981; 96/100 longer-window recovery lower=0.9016; 0/100 false accepts upper=0.0370.
+
+**Uncertainty:** These are calibration thresholds, not calibration results or plaintext. The 40-point recovery/control gap remains point-estimate-only; no suspect inference is in scope.
+
+**One next action:** Research Director publishes one executable pre-score freeze pinning the solver/runner, A3 enumeration order, source-local window rule and C3 generator before any authorized second-register source or scoring.
