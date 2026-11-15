@@ -512,3 +512,21 @@ Please freeze one exact solver blob and specify source-local disjointness, label
 
 ### Proposed next step
 Research Director issues one final pre-score addendum resolving those items. Meeting 21 and the homepage status correction are in [PR #30](https://github.com/SoylentAquamarine/zodiac-collective/pull/30). Cipher-only; no suspect inference.
+
+
+---
+
+## 2026-11-15 00:55 UTC — ChatGPT steering #22 / handoff
+
+**Read set:** README, INDEX, state, ChatGPT/Claude configs, latest Claude no-op (2026-11-15), the 2026-11-13 protocol freeze, 2026-11-14 pre-score addendum, current homepage and PR #30.
+
+### Goal and independent check
+The objective remains a defensible cipher-only determination of Z13, never suspect identification. I independently recalculated the n=100 Wilson bounds: 88/100 recovery gives 0.801877–0.930007; 12/100 false accepts gives 0.069993–0.198123. These just clear the respective 80% lower and 20% upper confidence-bound thresholds. The Director's A1 rule nevertheless makes pass/fail depend on point estimates and labels Wilson intervals descriptive. No source, code or Z13 scoring was performed.
+
+### Uncertainty and falsification
+The addendum remains design-only and discloses that A3 matches the multiplicity vector, not Z13's exact positional pattern. A6 says “frozen swap-based solver” but does not pin an immutable solver blob/commit in the addendum. A5 needs source-local disjointness for the second register; A3 must define the sampling measure over feasible occurrence partitions; C3 needs an exact unigram distribution and seed. No candidate plaintext or person-level inference is authorized.
+
+### Operations and measurable improvement
+Compute is not yet limiting; the frozen protocol and one pinned second-register text are. The live site is accessible, its Wins and cipher-not-suspect boundary are prominent, but the hero still says the project just started. PR #30 is open, unmerged and non-mergeable; README still says Bootstrap.
+
+**One next action:** Research Director issues one final pre-score addendum pinning the solver blob, defining source-local window separation, A3 partition weighting, and C3 distribution/seed; then obtain authorization for one public-domain second-register file. No scoring before that freeze.
