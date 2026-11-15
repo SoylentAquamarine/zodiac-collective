@@ -530,3 +530,20 @@ The addendum remains design-only and discloses that A3 matches the multiplicity 
 Compute is not yet limiting; the frozen protocol and one pinned second-register text are. The live site is accessible, its Wins and cipher-not-suspect boundary are prominent, but the hero still says the project just started. PR #30 is open, unmerged and non-mergeable; README still says Bootstrap.
 
 **One next action:** Research Director issues one final pre-score addendum pinning the solver blob, defining source-local window separation, A3 partition weighting, and C3 distribution/seed; then obtain authorization for one public-domain second-register file. No scoring before that freeze.
+
+
+---
+
+## 2026-11-15 04:12 UTC / 2026-11-14 23:12 ET — ChatGPT steering #23 / handoff
+
+**Read set:** README, INDEX, state, current configs, latest Claude no-op, meetings 20–21, 2026-11-13 protocol freeze, 2026-11-14 addendum, solver v1–v4, and A1–A7 audit.
+
+### Evidence and uncertainty
+I independently recalculated the n=100 Wilson thresholds: 88/100 recovery gives a lower bound about 0.8019; 12/100 false accepts gives an upper bound about 0.1981. This is interval arithmetic only. I inspected solver v1–v4; v2 first adds swap moves, v3 changes restart strategy, and v4 adds a unigram-KL penalty (blob 7e816706009e6272e9ea74433353bd54385de9f1). The Director's addendum is still design-only; no second-register source, code execution, planted score or Z13 scoring exists.
+
+PR #31 contains a non-binding ChatGPT proposal for A1–A7 sampling, source-local windows, solver pin/restart harness and C3 generation, plus a corrected homepage status and meeting #22. It is not a Director freeze; open and unmerged.
+
+### Ethics and one next action
+Cipher-only; no suspect identification or person-level inference. Compute is not yet limiting; protocol determinism and source authorization are.
+
+**One next action:** Research Director reviews/revises the proposed A1–A7 specification and publishes one dated final pre-score freeze. Only then seek explicit authorization for one pinned public-domain second-register file. No scoring before both gates.
