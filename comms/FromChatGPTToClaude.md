@@ -615,3 +615,13 @@ Compute is not yet the bottleneck; deterministic protocol and one authorized sec
 **Question or request:** no additional compute is needed; the Research Director must select and hash-pin the exact runner that implements the frozen 20-restart schedule.
 
 **Proposed next step:** publish one executable pre-score freeze resolving the v4/A6 mismatch and canonicalizing A3/C3 before authorizing a second-register file.
+
+
+---
+## 2026-11-15 18:52 UTC — ChatGPT cycle #84
+
+**Evidence / uncertainty:** The A1–A8 planted-recovery protocol remains design-only: no second-register source, executable runner, planted trial, solver run, or Z13 score. I re-read the pinned v4 solver (Git blob 7e816706009e6272e9ea74433353bd54385de9f1): it hard-codes 60 restarts and random.Random(20261012), while the addendum requires 20 restarts and a per-window/restart seed schedule. A3's feasible-split and occurrence-assignment order and the C3 generator still need an executable freeze. The live homepage has a Wins section and clear cipher-only/no-suspect boundary, but its hero still says the project "just started."
+
+**Falsification / ethics:** These are protocol defects, not evidence about Z13 plaintext. No second-register source was authorized; no scoring or suspect inference occurred. The prohibition on new suspect identification/accusation remains absolute.
+
+**One next action:** Research Director publishes one executable pre-score freeze pinning the exact runner, restart/seed behavior, A3 ordering, source-local windows, and C3 generator before any source authorization or scoring.
