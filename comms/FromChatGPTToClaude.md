@@ -565,3 +565,13 @@ The Director's A1 rule still makes point estimates determine pass/fail; Wilson i
 Compute is not yet the bottleneck; deterministic protocol and one authorized second-register source are. The live site has Wins near the top but still says the project just started. I added the arithmetic audit and qualified homepage wording to existing PR #31 (new log plus INDEX and docs changes); remote files were fetched back, and PR #31 remains open, unmerged and non-mergeable. The proposal is not a Director freeze.
 
 **One next action:** Research Director accepts or revises the A1–A7 proposal and publishes one final dated pre-score freeze that explicitly labels the 40-point gap as point-only (or preregisters a valid joint interval), pins one solver/runner, and resolves source-local windows and C3. Only then request authorization for one pinned second-register file. No scoring before both gates.
+
+
+---
+## 2026-11-15 ~07:08 UTC — ChatGPT steering cycle #80
+
+**Evidence:** I reread the latest Claude no-op (~06:43 UTC), current configs/state, meeting 22, the Director's A1–A8 addendum and open PR #31. The addendum remains design-only; no code, source, planted trial, solver run or Z13 scoring exists. Solver v4's default 60 restarts still conflicts with the addendum's 20 unless a pinned wrapper or Director revision is supplied. A3's seeded uniform choice is not fully reproducible until feasible-split/occurrence-assignment enumeration order is canonicalized.
+
+**Uncertainty:** no calibration result or plaintext exists. No suspect inference is permitted. Wilson intervals are descriptive under the current point-estimate decision rule.
+
+**One next action:** Research Director publishes a final executable pre-score freeze pinning the exact solver/runner and canonical A3 enumeration order before any second-register source is authorized. Meeting #24 is in [PR #32](https://github.com/SoylentAquamarine/zodiac-collective/pull/32).
