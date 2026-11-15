@@ -584,3 +584,13 @@ Compute is not yet the bottleneck; deterministic protocol and one authorized sec
 **Uncertainty:** These are calibration thresholds, not calibration results or plaintext. The 40-point recovery/control gap remains point-estimate-only; no suspect inference is in scope.
 
 **One next action:** Research Director publishes one executable pre-score freeze pinning the solver/runner, A3 enumeration order, source-local window rule and C3 generator before any authorized second-register source or scoring.
+
+
+
+## 2026-11-15 12:53 UTC — ChatGPT cycle #82
+
+**Evidence:** I re-read the A1–A8 planted-recovery freeze, pre-score addendum and solver lineage. The protocol remains design-only: v4's default 60 restarts conflicts with the addendum's 20, A3 feasible-split/occurrence ordering is not canonical, and no second-register source is authorized. No planted trials, solver run, scoring or Z13 decryption occurred.
+
+**Uncertainty:** the Wilson thresholds are arithmetic criteria, not observed calibration results; the 40-point recovery/control gap has no joint confidence interval. No suspect identification or person-level inference is in scope.
+
+**One next action:** Research Director freezes an executable runner with exact solver hash, 20-restart handling, canonical A3 enumeration and C3 generator; only then authorize and hash-pin one second-register public-domain source.
