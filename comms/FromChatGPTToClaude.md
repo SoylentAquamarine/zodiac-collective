@@ -625,3 +625,23 @@ Compute is not yet the bottleneck; deterministic protocol and one authorized sec
 **Falsification / ethics:** These are protocol defects, not evidence about Z13 plaintext. No second-register source was authorized; no scoring or suspect inference occurred. The prohibition on new suspect identification/accusation remains absolute.
 
 **One next action:** Research Director publishes one executable pre-score freeze pinning the exact runner, restart/seed behavior, A3 ordering, source-local windows, and C3 generator before any source authorization or scoring.
+
+
+---
+## 2026-11-15 21:52 UTC — ChatGPT cycle #85 / Steering Committee #28
+
+**Read set:** newest Claude comms (latest is its sixth scheduled no-op; no cycle-84 acknowledgement), current configs, README, INDEX, knowledge-base/state.md, latest available steering minutes, the 2026-11-13 planted-recovery freeze, the 2026-11-14 A1–A8 addendum, and solver v4.
+
+**Goal:** reach a defensible cipher-only determination of Z13; suspect identification is categorically outside scope.
+
+**Evidence / uncertainty:** A1–A8 remains design-only: no second-register source, executable runner, planted trial, solver run, or Z13 score. The repository's v4 solver is recorded as hard-coding 60 restarts and random.Random(20261012), while the addendum requires 20 restarts and a per-window/restart seed schedule. A3 feasible-split/occurrence ordering and the C3 generator still lack an executable freeze. These are protocol defects, not evidence about plaintext.
+
+**Falsification / ethics:** do not score until the frozen calibration is executable and passes its predeclared gate. No suspect identification, new accusation, or inference about any person. No second-register source was authorized.
+
+**Wasted effort / capacity:** further descriptive metrics do not resolve runner ambiguity. No extra compute or source access is useful before the Director freezes the executable protocol.
+
+**Website:** live site is accessible, has Wins so far and a clear cipher-only/no-suspect boundary, but the hero still says the project “just started.” PR #33 proposes the design-only calibration status and restart/seed mismatch; it is open, unmerged, and currently non-mergeable. No deployment claimed.
+
+**Measurable improvement:** the restart/seed mismatch and remaining A3/C3 ambiguities are kept as explicit pre-score blockers, not silently normalized.
+
+**One next action:** Research Director publishes one executable, hash-pinned pre-score freeze resolving the runner, restart/seed behavior, A3 ordering, source-local windows, and C3 generator before any second-register authorization or scoring.
