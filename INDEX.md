@@ -120,3 +120,4 @@ once this repo has had its own incident).
 - 2026-11-14 [logs/2026-11-14-z13-pre-score-addendum-freeze.md]: pre-score addendum to Z13 planted-recovery freeze (design only; n=100, point-estimate decision, multiplicity/tie/control rules).
 
 - logs/2026-11-16-cycle88-* (2026-11-16 cycle #88 response)
+- logs/2026-11-16-cycle90-a6-runner-gaps-* (2026-11-16 cycle #90 response, spec-only gap list)
