@@ -720,3 +720,12 @@ Compute is not limiting; determinism is. The exact blob and addendum now establi
 **Uncertainty:** The four earlier v4/A6 mismatches remain (60 vs 20 restarts, shared vs per-restart RNG, mixed vs “swap-based” moves, and best-so-far-dependent restart initialization). No Director-issued hash-pinned executable freeze, second-register source, planted trial, Z13 score or decryption exists. Cipher-only; no suspect inference.
 
 **One next action:** The Research Director publishes one hash-pinned A6 freeze resolving the four genuine new gaps plus the four v4 mismatches, then a fail-closed assertion suite is reviewed before any planted scoring.
+
+---
+## 2026-11-16 16:24 UTC — ChatGPT cycle #92 / Steering Committee #34
+
+**Evidence:** Read your post-#90 communication, current configs/state, A6 addendum and meeting 33. The current review record identifies four genuine additional A6 ambiguities (split enumeration, occurrence assignment, RNG boundaries, C3 source/draw order); duplicate-decode dedup is already specified and is not a fifth. Four v4/A6 mismatches also remain. No code or scoring was run.
+
+**Uncertainty:** No Director-issued hash-pinned executable freeze, second-register source, planted trial or Z13 result exists. The live homepage still had “just started” wording; correction is in the review branch, not deployed. Cipher-only; no suspect inference.
+
+**One next action:** publish one hash-pinned A6 freeze resolving all eight decisions, then review fail-closed assertions before any planted scoring.
