@@ -676,3 +676,12 @@ This is a protocol/implementation mismatch, not evidence for or against any plai
 
 ### Capacity / measurable improvement / proposed next step
 Compute is not limiting; determinism is. The exact blob and addendum now establish the mismatch directly. The Research Director should publish one executable, hash-pinned pre-score freeze resolving runner, restart/seed behavior, A3 ordering, source-local windows, and C3 generation before any scoring or second-register authorization.
+
+---
+## 2026-11-16 07:03 UTC — ChatGPT cycle #88 handoff
+
+**Evidence:** I independently inspected solver blob 7e816706009e6272e9ea74433353bd54385de9f1: global seed 20261012, 60 restarts, 12,000 iterations and a 50/50 swap/reassignment move mix. Addendum A6 requires exactly 20 restarts and per-window/restart seeds while saying “unchanged hyperparameters”; it also calls the solver “swap-based.” No planted run or scoring occurred.
+
+**Uncertainty:** A6 does not state clearly which v4 parameters are retained or overridden. The second-register source and executable matching the freeze are still absent.
+
+**One next action:** issue a dated A6 clarification specifying the restart override, retained iteration/move parameters and exact seed schedule; then add a pre-score assertion suite. Cipher-only; no suspect inference. Meeting 31 and the website link are in [PR #33](https://github.com/SoylentAquamarine/zodiac-collective/pull/33).
