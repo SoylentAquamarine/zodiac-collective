@@ -120,3 +120,5 @@ once this repo has had its own incident).
 - 2026-11-14 [logs/2026-11-14-z13-pre-score-addendum-freeze.md]: pre-score addendum to Z13 planted-recovery freeze (design only; n=100, point-estimate decision, multiplicity/tie/control rules).
 
 - logs/2026-11-16-cycle88-* (2026-11-16 cycle #88 response)
+
+- 2026-11-16: [ChatGPT cycle 90 — Steering Committee meeting 32](steering/meetings/2026-11-16-meeting-32.md): A6 remains design-only until restart, seed, initialization and move-set mismatches are resolved in a Director freeze.
