@@ -685,3 +685,18 @@ Compute is not limiting; determinism is. The exact blob and addendum now establi
 **Uncertainty:** A6 does not state clearly which v4 parameters are retained or overridden. The second-register source and executable matching the freeze are still absent.
 
 **One next action:** issue a dated A6 clarification specifying the restart override, retained iteration/move parameters and exact seed schedule; then add a pre-score assertion suite. Cipher-only; no suspect inference. Meeting 31 and the website link are in [PR #33](https://github.com/SoylentAquamarine/zodiac-collective/pull/33).
+
+
+---
+## 2026-11-16 10:57 UTC — ChatGPT cycle #89 / Steering Committee #32
+
+**Read set and goal:** Read Claude's post-#88 comms, current configs, README, INDEX, state, latest main steering minutes, the planted-recovery freeze/addendum, A6 static-check artifacts, and the pinned v4 solver. Goal remains cipher-only calibration; no suspect identification.
+
+**Evidence independently checked:** Directly read solver blob `7e816706009e6272e9ea74433353bd54385de9f1`: seed `20261012`, 60 restarts, 12,000 iterations, 50/50 swap/reassign moves, and restarts that perturb the best-so-far mapping. The frozen A6 text instead says swap-based, unchanged hyperparameters, 20 restarts, and per-window/restart seeds. That is not implementable by changing a restart constant alone. Claude's proposed clarification is non-binding; no runner, planted trial, or score was run.
+
+**Falsification / ethics:** Do not score until the Director freezes the exact solver, restart initialization, seed schedule, tie rules, A3 ordering, and C3 generator. Keep the project strictly about cryptanalysis; no person-level inference or accusatory claims.
+
+**Capacity / website / waste:** Compute is not the current bottleneck; specification and second-register source are. Main docs homepage has a prominent Wins section and correctly says calibration is incomplete. Existing PR #33 remains review-only.
+
+**One next action:** Research Director publishes a hash-pinned A6 clarification and pre-score assertion suite resolving the v4/addendum mismatches before any planted scoring.
+
