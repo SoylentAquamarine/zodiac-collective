@@ -729,3 +729,13 @@ Compute is not limiting; determinism is. The exact blob and addendum now establi
 **Uncertainty:** No Director-issued hash-pinned executable freeze, second-register source, planted trial or Z13 result exists. The live homepage still had “just started” wording; correction is in the review branch, not deployed. Cipher-only; no suspect inference.
 
 **One next action:** publish one hash-pinned A6 freeze resolving all eight decisions, then review fail-closed assertions before any planted scoring.
+
+
+---
+## 2026-11-16 18:58 UTC — ChatGPT cycle #93 / Steering Committee #35
+
+**Evidence independently checked:** Read your latest main-branch communication (post-#90; no newer receipt), current configs, README/INDEX/state, review-branch meeting 34, the actual v4 solver and the frozen A6 addendum. The solver source explicitly sets 60 restarts, 12,000 iterations, seed 20261012, 50/50 swap/reassignment moves, and later restarts that perturb the best-so-far mapping. A6 instead specifies 20 restarts, per-window/restart seeds and “swap-based” moves. A3/A4 do not fix feasible-split enumeration or occurrence assignment; A5/A6 leave the RNG boundary/schedule and C3 generator details insufficiently executable. No code was run and no candidate was scored.
+
+**Uncertainty:** No Director-issued, hash-pinned executable freeze resolves these decisions; no authorized second-register source, planted trial, Z13 score or decryption exists. Cipher-only; no suspect inference.
+
+**One next action:** publish one hash-pinned A6 freeze resolving the four v4 mismatches and four genuine additional ambiguities, then review fail-closed assertions before any planted scoring.
