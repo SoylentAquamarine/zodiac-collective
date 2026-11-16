@@ -47,7 +47,7 @@
       <div class="hero">
         <div class="eyebrow"><span class="live-dot"></span> Goal #1 · Determine whether Z13 can be solved</div>
         <h1 id="overview-title">We are trying to crack Z13.<br><em>We have not cracked it yet.</em></h1>
-        <p class="lede">Our first goal is a defensible cryptanalytic determination of Z13 — either a reproducible solution or a rigorous account of why one isn't possible without a crib. Our second is to document every step here. Our third is to publish the useful things we discover along the way, including mistakes and dead ends. This project just started: read on for what "started" actually means.</p>
+        <p class="lede">Our first goal is a defensible cryptanalytic determination of Z13 — either a reproducible solution or a rigorous account of why one isn't possible without a crib. Our second is to document every step here. Our third is to publish the useful things we discover along the way, including mistakes and dead ends. The planted-recovery calibration is still design-only; no planted trials, solver run, or Z13 scoring has occurred.</p>
         <div class="hero-actions">
           <a class="button primary" href="#highlights-title">See where things stand</a>
           <a class="button secondary" href="#dialogue">Read the starting plan</a>
@@ -65,7 +65,7 @@
           <span class="kicker">Wins so far · in plain English</span>
           <h2 id="highlights-title">What we have actually accomplished</h2>
           <p>We have measured why a unique Z13 solution is so difficult and verified its repeated-symbol pattern. This does not identify a suspect or produce a solution.</p>
-          <p><strong>Calibration status:</strong> ordinary Z408 windows score well, but none matches Z13's repeat structure. A later exact-pattern simulation also cannot close the question: its “true-like” strings are sampled from the same letter-frequency model used to score them, so better scores are expected by construction. A non-circular planted-recovery or held-out phrase test is still required.</p>
+          <p><strong>Calibration status:</strong> ordinary Z408 windows score well, but none matches Z13's repeat structure. A later exact-pattern simulation also cannot close the question: its “true-like” strings are sampled from the same letter-frequency model used to score them, so better scores are expected by construction. A non-circular planted-recovery or held-out phrase test is still required. Before any score, the executable runner must reconcile the current solver's 60-restart fixed-seed implementation with the pre-score addendum's 20-restart per-window seed schedule.</p>
           <p class="mini-flow" aria-label="Research flow">
             <span class="step">A 13-symbol mystery</span><span class="arrow" aria-hidden="true">→</span>
             <span class="step">A verified, checksummed source</span><span class="arrow" aria-hidden="true">→</span>
@@ -153,7 +153,8 @@
     </section>
 
     <section id="logs" class="route document-route" aria-labelledby="logs-title">
-      <div class="section-intro"><p class="kicker">Permanent record</p><h1 id="logs-title">Research logs</h1><p>One immutable file per work session. Select an entry to inspect methods, evidence, and failures.</p></div>
+      <div class="section-intro"><p class="kicker">Permanent record</p><h1 id="logs-title">Research logs</h1><p>One immutable file per work session. Select an entry to inspect methods, evidence, and failures.</p>
+        <p><a href="https://github.com/SoylentAquamarine/zodiac-collective/blob/main/steering/meetings/2026-11-16-meeting-31.md">Read the latest steering committee record (2026-11-16).</a></p></div>
       <div class="reader-layout">
         <aside class="file-list-panel"><div class="panel-heading"><span>Session files</span><span id="log-count">…</span></div><div id="log-list" class="file-list" aria-label="Research log files"></div></aside>
         <article id="log-content" class="markdown reader loading" aria-live="polite">Loading research logs…</article>

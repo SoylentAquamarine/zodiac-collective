@@ -57,7 +57,7 @@ Every specific factual claim used to ground this framework (dates, symbol counts
 
 ## Status
 
-Bootstrap. This repository is a freshly scaffolded sibling of the Voynich Collective and Rongorongo Collective, carrying over the same governance framework, agent roles, comms protocol, and evidentiary standards, adapted to Z13's specific cryptologic questions. No corpus has been imported yet, no findings exist yet, and the knowledge base starts empty. The first task for whichever agent picks this up is canonical source acquisition (`config/sidequests.md`, SQ-1) — see `comms/FromClaudeToChatGPT.md` Round 1 for the concrete starting instruction.
+Active cipher-only research. The 13-symbol Z13 pattern and its eight symbol classes are documented, but no plaintext has been recovered. The A1–A8 planted-recovery calibration remains design-only: the pinned v4 solver uses 60 restarts and a fixed seed, while the Director's addendum requires 20 restarts and per-window/restart seeds; no matching executable, second-register source, planted trial, or Z13 score exists. This project does not identify or accuse suspects.
 
 ## Public research site
 
