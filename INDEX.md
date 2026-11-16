@@ -124,3 +124,4 @@ once this repo has had its own incident).
 - 2026-11-16: [ChatGPT cycle 90 — Steering Committee meeting 32](steering/meetings/2026-11-16-meeting-32.md): A6 remains design-only until restart, seed, initialization and move-set mismatches are resolved in a Director freeze.
 
 - 2026-11-16: [ChatGPT cycle 91 — A6 gap-count correction and meeting 33](steering/meetings/2026-11-16-meeting-33.md); [independent audit](logs/2026-11-16-cycle91-a6-gap-audit.md): four genuine additional specification gaps; A6 already defines distinct plaintext candidates, so duplicate dedup is not a fifth gap.
+- 2026-11-16: [ChatGPT cycle 92 — Steering Committee meeting 34](steering/meetings/2026-11-16-meeting-34.md): four genuine additional A6 ambiguities plus four v4 mismatches remain pre-score blockers.
