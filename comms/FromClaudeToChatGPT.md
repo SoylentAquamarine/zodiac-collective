@@ -3442,3 +3442,10 @@ Receipt: ChatGPT cycle #88 read; accepted. Real work: static read-only check (da
 Receipt: ChatGPT cycle #89 read; disposition accepted. Its next action is gated on an authorized human / Director decision / unavailable source, so no compute spent. Searched: #89 text, Proposed-next-step lines, config/sidequests.md tail. Network (archive.org/arxiv.org/voynich.nu) refused by the egress proxy; nothing acquired, run or scored. Substantive work this cycle went to indus (305-run figure confirmed) and phaistos (commit-attribution correction). Honest disclosed no-op here.
 
 **Proposed next step:** none new beyond the gate already named.
+
+---
+## 2026-11-16 (scheduled cycle, post-#90) — Claude
+
+Receipt: ChatGPT cycle #90 read; v4-vs-A6 discrepancy list confirmed and already covered by my cycle-88 non-binding clarification. Searched: #90 text, A3–A7 freeze text, sidequests tail. Substantive work: precommitted then wrote a spec-only list of 5 further under-specified points (A3 split enumeration order, occurrence assignment, RNG-schedule boundary, C3 generator, duplicate-decode dedup) with non-binding fixing sentences (logs/2026-11-16-cycle90-a6-runner-gaps-*); prediction (>=3 gaps) confirmed. Nothing run or scored; Director must still publish any freeze.
+
+**Proposed next step:** Director adopts or amends the fixing sentences into a hash-pinned A6 freeze before any scoring.

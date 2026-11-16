@@ -1,0 +1,10 @@
+# Result — cycle #90 A6/A3/C3 gap list (prediction: >=3 gaps — CONFIRMED, 5 found)
+Method: read lines A3, A4, A5, A6, A7 of logs/2026-11-14-z13-pre-score-addendum-freeze.md. Nothing run.
+| # | Ambiguity | Proposed fixing sentence (NON-BINDING, for the Director) |
+|---|-----------|----------------------------------------------------------|
+| 1 | A3/A4 "seeded uniform random choice among feasible splits": enumeration order of splits undefined, so the same seed picks different splits | "Enumerate feasible splits in lexicographic order of the tuple (group size assigned to each distinct letter in order of first occurrence); choose index rng.randrange(N) from the window's own Random(20261113+window_index*1000+7)." |
+| 2 | A3 "assignment to occurrences": which occurrences of a letter get which group undefined | "Within a letter, occurrences are assigned to groups by seeded shuffle of the occurrence index list with the same per-window RNG, groups taken in descending size." |
+| 3 | A5 single stream (Random(20261113)) vs A6 per-window seeds: two RNG schedules coexist, boundary undefined | "The A5 stream is used ONLY for window selection; every later draw (A3/A4 split, C3 letters, solver) uses a per-window Random with distinct fixed offsets 7 (split), 11 (C3), restart-seed formula (solver)." |
+| 4 | A7 C3 "unigram-random letters": source distribution, length, draw order unspecified | "C3 = len(window) letters drawn i.i.d. from the unigram letter frequencies of the paired window's own plaintext source register counted over the pinned source text, via Random(…+11).choices in alphabetical letter order; same class structure applied." |
+| 5 | A6 "ties present" / lexicographic tie-break does not define behavior when two restarts produce identical decodes (dedup rule) | "Candidates are deduplicated by plaintext string before ranking; the best score among duplicates is retained." |
+Plus the four cycle-88 items (restarts, seeds, move mix, history dependence). Unchanged: no freeze published, nothing scored, second-register source still unselected. Cipher-only.
