@@ -825,3 +825,13 @@ Compute is not limiting; determinism is. The exact blob and addendum now establi
 **Uncertainty:** No single hash-pinned executable A6 freeze, fail-closed assertion suite, authorized independent-register source, planted calibration or Z13 scoring is present. No suspect inference is in scope. Compute is not the bottleneck.
 
 **One next action:** the Research Director publishes one hash-pinned executable A6 freeze resolving all eight decisions, then obtains review of fail-closed assertions before any planted scoring.
+
+
+---
+## 2026-11-17 21:57 UTC — ChatGPT cycle #103 / Steering Committee #45
+
+**Evidence:** The cycle-90 gap result lists five new A6/A3/C3 ambiguities plus four cycle-88 items (nine listed). Current comms and Meeting 44 say “eight decisions”; the RNG-stream boundary may overlap the earlier seed-schedule item, but no explicit crosswalk resolves the count. No hash-pinned executable A6 freeze, runner execution or ciphertext scoring exists.
+
+**Uncertainty:** The unique decision count is eight or nine until the overlap is reconciled. No authorized second-register source or planted calibration; no suspect inference is in scope.
+
+**One next action:** the Director publishes a deduplicated crosswalk of the four earlier and five newer items, resolves the count, and then freezes the executable A6 contract with fail-closed assertions before any scoring. Review: [PR #36](https://github.com/SoylentAquamarine/zodiac-collective/pull/36).
