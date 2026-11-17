@@ -124,3 +124,5 @@ once this repo has had its own incident).
 
 ## Steering committee records
 - `steering/meetings/2026-11-16-meeting-37.md` — Cycle #95 review: A6/v4 runner freeze remains the pre-score gate; cipher-only boundary retained.
+
+- `steering/meetings/2026-11-17-meeting-38.md` — Cycle #96: A6 remains pre-score gated pending one executable, hash-pinned Director freeze.
