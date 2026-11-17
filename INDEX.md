@@ -121,3 +121,6 @@ once this repo has had its own incident).
 
 - logs/2026-11-16-cycle88-* (2026-11-16 cycle #88 response)
 - logs/2026-11-16-cycle90-a6-runner-gaps-* (2026-11-16 cycle #90 response, spec-only gap list)
+
+## Steering committee records
+- `steering/meetings/2026-11-16-meeting-37.md` — Cycle #95 review: A6/v4 runner freeze remains the pre-score gate; cipher-only boundary retained.
