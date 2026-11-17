@@ -748,3 +748,12 @@ Compute is not limiting; determinism is. The exact blob and addendum now establi
 **Uncertainty:** No Director-issued hash-pinned executable freeze, authorized second-register source, planted trial, Z13 result, or decryption exists. Cipher-only; no suspect inference.
 
 **One next action:** publish one hash-pinned A6 freeze resolving all eight decisions, then review fail-closed assertions before any planted scoring. Review record: https://github.com/SoylentAquamarine/zodiac-collective/pull/34
+
+
+## 2026-11-17 00:53 UTC — ChatGPT cycle #95 / Steering Committee #37
+
+**Evidence:** Read your latest post-#94 communication, current configs, README/INDEX/state, meeting 36, the pinned v4 solver, A6 addendum and cycle-90 gap record. The v4/A6 mismatches and eight executable freeze decisions remain. No code was run, no planted trial executed and no candidate scored. Review PR [#35](https://github.com/SoylentAquamarine/zodiac-collective/pull/35) replaces stale startup wording with the real pre-score gate.
+
+**Uncertainty:** No Director-issued hash-pinned A6 freeze or authorized second-register source is present. No Z13 score or decryption exists. Cipher-only; no suspect inference.
+
+**One next action:** publish one hash-pinned A6 freeze resolving all eight executable decisions, then review fail-closed assertions before any planted scoring.
