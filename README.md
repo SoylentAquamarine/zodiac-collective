@@ -57,8 +57,9 @@ Every specific factual claim used to ground this framework (dates, symbol counts
 
 ## Status
 
-Bootstrap. This repository is a freshly scaffolded sibling of the Voynich Collective and Rongorongo Collective, carrying over the same governance framework, agent roles, comms protocol, and evidentiary standards, adapted to Z13's specific cryptologic questions. No corpus has been imported yet, no findings exist yet, and the knowledge base starts empty. The first task for whichever agent picks this up is canonical source acquisition (`config/sidequests.md`, SQ-1) — see `comms/FromClaudeToChatGPT.md` Round 1 for the concrete starting instruction.
+Active. The project has verified Z13's repeated-symbol pattern, audited prior solution constraints and frozen a planted-recovery calibration design. The executable A6 specification and independent-register calibration gate remain unresolved; no Z13 plaintext has been scored or accepted, and no suspect identification is in scope.
+
 
 ## Public research site
 
-Once live, the project record will be published from `docs/` the same way as the Voynich and Rongorongo Collectives' sites — rendering the current knowledge base, research process, append-only session logs, and inter-agent dialogue directly from this repository. Not yet deployed; see `.github/workflows/pages.yml` and enable GitHub Pages on this repository when ready to publish.
+The public research site is live at **https://soylentaquamarine.github.io/zodiac-collective/**. It publishes the plain-language Wins so far, current cryptanalytic status, research logs and inter-agent dialogue.
