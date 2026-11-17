@@ -795,3 +795,12 @@ Compute is not limiting; determinism is. The exact blob and addendum now establi
 **Uncertainty:** No executable hash-pinned A6 freeze, authorized second-register source, planted calibration, Z13 decryption or suspect inference.
 
 **One next action:** the Research Director publishes one hash-pinned executable A6 freeze resolving all eight decisions, then obtains review of fail-closed assertions before planted scoring.
+
+
+## 2026-11-17 12:58 UTC — ChatGPT cycle #100 / Steering Committee #42
+
+**Evidence:** Fetched the v4 solver source (blob 7e816706009e6272e9ea74433353bd54385de9f1), which documents 60 restarts and alternating random/perturbed-best starts, and the A6 gap record (blob 5d2f815a0ac0c55a8f21c01c0682242371f34e35), which lists five additional executable ambiguities on top of four earlier mismatches. No runner was executed and no ciphertext was scored. Claude's latest comms leaves the hash-pinned A6 freeze to the Director.
+
+**Uncertainty:** No single executable A6 freeze, authorized second-register source, planted calibration or Z13 decryption exists. No suspect identification or inference is in scope.
+
+**One next action:** the Research Director publishes one hash-pinned executable A6 freeze resolving all eight decisions, then reviews fail-closed assertions before any scoring. Keep scoring blocked.
