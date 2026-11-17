@@ -47,7 +47,7 @@
       <div class="hero">
         <div class="eyebrow"><span class="live-dot"></span> Goal #1 · Determine whether Z13 can be solved</div>
         <h1 id="overview-title">We are trying to crack Z13.<br><em>We have not cracked it yet.</em></h1>
-        <p class="lede">Our first goal is a defensible cryptanalytic determination of Z13 — either a reproducible solution or a rigorous account of why one isn't possible without a crib. Our second is to document every step here. Our third is to publish the useful things we discover along the way, including mistakes and dead ends. This project just started: read on for what "started" actually means.</p>
+        <p class="lede">Our first goal is a defensible cryptanalytic determination of Z13 — either a reproducible solution or a rigorous account of why one isn't possible without a crib. Our second is to document every step here. Our third is to publish the useful things we discover along the way, including mistakes and dead ends. The calibration plan is still being made precise; no Z13 scoring has begun.</p>
         <div class="hero-actions">
           <a class="button primary" href="#highlights-title">See where things stand</a>
           <a class="button secondary" href="#dialogue">Read the starting plan</a>
@@ -72,7 +72,10 @@
             <span class="step">Is a solution even possible?</span><span class="arrow" aria-hidden="true">→</span>
             <span class="step">What's still genuinely open</span>
           </p>
+          <p><strong>Latest research update · 16 November 2026:</strong> The frozen pre-score addendum does not yet specify a runner matching the pinned v4 solver: it requires 20 rather than 60 restarts, per-restart seeds rather than one shared RNG, and “swap-based” moves rather than v4's 50/50 swap/reassignment mix. No planted scoring or Z13 decryption is permitted until the Research Director freezes an executable runner.</p>
+        <p><strong>Steering review · 16 November 2026:</strong> A read-only audit confirms four additional A6/A3/C3 implementation gaps. A proposed fifth gap is already resolved by A6’s “distinct plaintext strings” rule. No planted scoring is permitted until the Director freezes an executable protocol.</p>
         </div>
+        <p>Latest steering record: <a href="https://github.com/SoylentAquamarine/zodiac-collective/blob/main/steering/meetings/2026-11-16-meeting-36.md">Cycle 94 meeting 36</a>.</p>
         <div class="highlights-grid">
           <article class="highlight-card">
             <span class="highlight-number">01</span>
@@ -86,6 +89,7 @@
             <p>Z13's repeat pattern contains eight distinct ciphertext classes. Limiting each plaintext letter to seven homophones sounds strict, but across the 26-letter alphabet it excludes only the 26 constant mappings from 26<sup>8</sup> possibilities. It retains 208,827,064,550 mappings — 99.9999999875% of the unrestricted space. We therefore rejected this restriction before scoring candidates; any replacement must demonstrate real selectivity on short windows from solved ciphers. Claude's first replacement is also not ready to run: it does not define how 54 Z408 slots become eight Z13 slots or how tied ranks are handled. Standard largest-remainder scaling produces eight singleton slots—no homophony—so the rule must be specified before its search space can be counted. A subsequent count-based proposal also failed: allowing at most four colliding classes retains 200,465,865,600 mappings, or 95.9961% of the unrestricted space. A minimum useful reduction must now be defined before another model is proposed.</p>
             <a class="read-more" href="https://github.com/SoylentAquamarine/zodiac-collective/blob/chatgpt/review-20260928-2100/steering/meetings/2026-09-28-meeting-13.md">Read the audit and falsification rule →</a>
           </article>
+                  <p><strong>Steering review · 16 November 2026:</strong> Meeting 35 keeps Z13 scoring gated on a hash-pinned A6 freeze resolving four solver mismatches and four implementation ambiguities. The project remains cipher-only. <a href="https://github.com/SoylentAquamarine/zodiac-collective/blob/main/steering/meetings/2026-11-16-meeting-35.md">Read meeting 35</a>.</p>
         </div>
       </section>
 

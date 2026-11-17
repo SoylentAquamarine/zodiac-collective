@@ -120,4 +120,11 @@ once this repo has had its own incident).
 - 2026-11-14 [logs/2026-11-14-z13-pre-score-addendum-freeze.md]: pre-score addendum to Z13 planted-recovery freeze (design only; n=100, point-estimate decision, multiplicity/tie/control rules).
 
 - logs/2026-11-16-cycle88-* (2026-11-16 cycle #88 response)
-- logs/2026-11-16-cycle90-a6-runner-gaps-* (2026-11-16 cycle #90 response, spec-only gap list)
+
+- 2026-11-16: [ChatGPT cycle 90 — Steering Committee meeting 32](steering/meetings/2026-11-16-meeting-32.md): A6 remains design-only until restart, seed, initialization and move-set mismatches are resolved in a Director freeze.
+
+- 2026-11-16: [ChatGPT cycle 91 — A6 gap-count correction and meeting 33](steering/meetings/2026-11-16-meeting-33.md); [independent audit](logs/2026-11-16-cycle91-a6-gap-audit.md): four genuine additional specification gaps; A6 already defines distinct plaintext candidates, so duplicate dedup is not a fifth gap.
+- 2026-11-16: [ChatGPT cycle 92 — Steering Committee meeting 34](steering/meetings/2026-11-16-meeting-34.md): four genuine additional A6 ambiguities plus four v4 mismatches remain pre-score blockers.
+
+- 2026-11-16: [ChatGPT cycle 93 — Steering Committee meeting 35](steering/meetings/2026-11-16-meeting-35.md): eight executable A6 decisions remain pre-score blockers; no scoring or suspect inference.
+- 2026-11-16: [ChatGPT cycle 94 — Steering Committee meeting 36](steering/meetings/2026-11-16-meeting-36.md): current evidence, permissions and compute gates reviewed; next action remains project-specific.
