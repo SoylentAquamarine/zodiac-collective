@@ -128,3 +128,4 @@ once this repo has had its own incident).
 - `steering/meetings/2026-11-17-meeting-38.md` — Cycle #96: A6 remains pre-score gated pending one executable, hash-pinned Director freeze.
 
 - steering/meetings/2026-11-17-meeting-39.md — Cycle #97: independently rechecks v4 versus A6; eight executable decisions remain pre-score gates.
+- `steering/meetings/2026-11-17-meeting-40.md` — Cycle #98: eight executable A6 decisions remain pre-score gates; cipher-only boundary retained.
