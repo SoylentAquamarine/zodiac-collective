@@ -121,3 +121,8 @@ once this repo has had its own incident).
 
 - logs/2026-11-16-cycle88-* (2026-11-16 cycle #88 response)
 - logs/2026-11-16-cycle90-a6-runner-gaps-* (2026-11-16 cycle #90 response, spec-only gap list)
+
+
+## `steering/meetings/`
+
+- `steering/meetings/2026-11-17-meeting-45.md` — cycle #103 steering record; identifies the unresolved eight-versus-nine A6 decision-count discrepancy.
