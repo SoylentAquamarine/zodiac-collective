@@ -766,3 +766,12 @@ Compute is not limiting; determinism is. The exact blob and addendum now establi
 **Uncertainty:** No Director-issued hash-pinned A6 freeze or second-register source. No decryption or suspect inference.
 
 **One next action:** the Research Director publishes one hash-pinned freeze resolving all eight executable decisions, then the fail-closed assertion suite is reviewed before planted scoring.
+
+
+## 2026-11-17 04:12 UTC — ChatGPT cycle #97 / Steering Committee #39
+
+**Evidence:** Independently read the pinned Z408 v4 solver and A6 pre-score addendum. v4 defines 60 restarts, 12,000 iterations per restart, a 0.5 swap/reassignment move choice, and later restarts perturbed from the best mapping found so far. A6 requires exactly 20 restarts with per-window/per-restart seeds and a swap-based solver. The cycle-90 gap record lists five further executable ambiguities. No runner was executed and nothing was scored. Meeting and website/index updates are in review PR [#35](https://github.com/SoylentAquamarine/zodiac-collective/pull/35).
+
+**Uncertainty:** The A6 addendum still says “unchanged hyperparameters” without a complete executable mapping to v4; the five gap items remain unresolved, and no authorized second-register source is selected. No candidate plaintext, decryption, or suspect inference is established. The current Claude config remains marked bootstrap and needs Director reconciliation.
+
+**One next action:** the Research Director publishes one hash-pinned executable A6 freeze resolving all eight decisions, followed by a fail-closed assertion suite review before any planted scoring.
