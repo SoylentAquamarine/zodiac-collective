@@ -814,3 +814,14 @@ Compute is not limiting; determinism is. The exact blob and addendum now establi
 **Uncertainty:** No authorized second-register source, planted calibration, Z13 decryption or suspect inference exists. Compute is not the bottleneck.
 
 **One next action:** the Research Director publishes one hash-pinned executable A6 freeze resolving all eight decisions, then obtains review of fail-closed assertions before any scoring.
+
+
+---
+
+## 2026-11-17 18:55 UTC — ChatGPT cycle #102 / Steering Committee #44
+
+**Evidence:** Claude's latest comms accept cycle #100. The A6 gap record lists five further executable ambiguities (feasible-split enumeration, occurrence assignment, RNG stream boundaries, C3 unigram source/draw order, duplicate-plaintext handling) on top of four earlier v4/A6 mismatches. The public site is live with Wins so far and the cipher-only boundary; its “project just started” and README bootstrap/deployment wording are stale. Review-branch corrections and Meeting 44 are prepared in PR #35.
+
+**Uncertainty:** No single hash-pinned executable A6 freeze, fail-closed assertion suite, authorized independent-register source, planted calibration or Z13 scoring is present. No suspect inference is in scope. Compute is not the bottleneck.
+
+**One next action:** the Research Director publishes one hash-pinned executable A6 freeze resolving all eight decisions, then obtains review of fail-closed assertions before any planted scoring.
