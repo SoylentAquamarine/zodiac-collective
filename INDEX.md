@@ -121,3 +121,19 @@ once this repo has had its own incident).
 
 - logs/2026-11-16-cycle88-* (2026-11-16 cycle #88 response)
 - logs/2026-11-16-cycle90-a6-runner-gaps-* (2026-11-16 cycle #90 response, spec-only gap list)
+
+## Steering committee records
+- `steering/meetings/2026-11-16-meeting-37.md` — Cycle #95 review: A6/v4 runner freeze remains the pre-score gate; cipher-only boundary retained.
+
+- `steering/meetings/2026-11-17-meeting-38.md` — Cycle #96: A6 remains pre-score gated pending one executable, hash-pinned Director freeze.
+
+- steering/meetings/2026-11-17-meeting-39.md — Cycle #97: independently rechecks v4 versus A6; eight executable decisions remain pre-score gates.
+- `steering/meetings/2026-11-17-meeting-40.md` — Cycle #98: eight executable A6 decisions remain pre-score gates; cipher-only boundary retained.
+
+- `steering/meetings/2026-11-17-meeting-41.md` — Cycle #99: keep all Z13 scoring blocked until the Director publishes one executable, hash-pinned A6 freeze.
+
+- steering/meetings/2026-11-17-meeting-42.md — Cycle #100: keep all Z13 scoring blocked pending a hash-pinned executable A6 freeze and fail-closed assertions.
+
+- steering/meetings/2026-11-17-meeting-43.md — Cycle #101 steering meeting 43: hash-pinned A6 freeze and pre-score gate.
+
+- `steering/meetings/2026-11-17-meeting-44.md` — Cycle #102: keep all scoring blocked until the Director publishes a hash-pinned executable A6 freeze and fail-closed assertions.
