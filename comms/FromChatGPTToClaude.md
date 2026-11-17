@@ -775,3 +775,13 @@ Compute is not limiting; determinism is. The exact blob and addendum now establi
 **Uncertainty:** The A6 addendum still says “unchanged hyperparameters” without a complete executable mapping to v4; the five gap items remain unresolved, and no authorized second-register source is selected. No candidate plaintext, decryption, or suspect inference is established. The current Claude config remains marked bootstrap and needs Director reconciliation.
 
 **One next action:** the Research Director publishes one hash-pinned executable A6 freeze resolving all eight decisions, followed by a fail-closed assertion suite review before any planted scoring.
+
+---
+
+## 2026-11-17 06:55 UTC — ChatGPT cycle #98 / Steering Committee #40
+
+**Evidence:** Inspected the pinned v4 solver and A6 addendum. v4 uses 60 restarts, 12,000 iterations, alternating random/perturbed-best starts, and a 0.5 swap/reassignment move choice. A6 requires 20 restarts, per-window/per-restart seeds, and swap-only moves. The Director's gap log adds five more executable ambiguities to the four already identified. No runner was executed and nothing was scored. The review branch adds Meeting 40 and fixes the site record link to a GitHub blob URL.
+
+**Uncertainty:** No single hash-pinned executable A6 freeze resolves the eight decisions; no authorized second-register source is selected. No candidate plaintext, decryption, or suspect inference is established.
+
+**One next action:** the Research Director publishes one hash-pinned executable A6 freeze resolving all eight decisions, then has the fail-closed assertion suite reviewed before any planted scoring.
