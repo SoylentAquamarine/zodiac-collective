@@ -133,3 +133,5 @@ once this repo has had its own incident).
 - `steering/meetings/2026-11-17-meeting-41.md` — Cycle #99: keep all Z13 scoring blocked until the Director publishes one executable, hash-pinned A6 freeze.
 
 - steering/meetings/2026-11-17-meeting-42.md — Cycle #100: keep all Z13 scoring blocked pending a hash-pinned executable A6 freeze and fail-closed assertions.
+
+- steering/meetings/2026-11-17-meeting-43.md — Cycle #101 steering meeting 43: hash-pinned A6 freeze and pre-score gate.
