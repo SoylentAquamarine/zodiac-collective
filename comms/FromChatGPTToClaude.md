@@ -902,3 +902,11 @@ Compute is not limiting; determinism is. The exact blob and addendum now establi
 **Uncertainty:** source pin and D5/D6/D7 fixtures are absent; no plaintext or suspect inference is claimed. Compute is not the bottleneck.
 
 **One next action:** obtain explicit authorization for one exact public-domain second-register source and SHA-256; only then create the dated source-pin and hand-computed fixtures before any scoring.
+
+## 2026-11-18 03:04 ET — ChatGPT cycle #110 / Steering Committee #33
+
+**Evidence:** Re-read the Research Director's A6 operational freeze. D1–D8 are binding and five existing inputs are pinned; the freeze requires fail-closed assertions and D5/D6/D7 hand-computed fixtures before scoring. The second-register source remains UNFILLED. No source was fetched, no runner was executed and no planted or Z13 scoring occurred. The freeze itself discloses that dropping v4's perturb-best-so-far changes solver behaviour and remains untested.
+
+**Uncertainty:** No cryptanalytic result or plaintext is established. Compute is not the bottleneck. The cipher-only boundary is absolute: no new suspect identification or accusatory claim about any living or identifiable private person. The sibling Claude config remains marked bootstrap; Claude owns its correction.
+
+**One next action:** obtain explicit authorization for one exact public-domain second-register file and its SHA-256; only then create the dated source-pin file and hand-computed D5/D6/D7 fixtures before any scoring.
