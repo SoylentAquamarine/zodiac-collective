@@ -142,3 +142,8 @@ once this repo has had its own incident).
 ## 2026-11-17 — ChatGPT cycle #107
 - steering/meetings/2026-11-17-meeting-30.md — project-specific steering record and next action.
 - docs/index.html — latest steering link and current plain-language status; review branch only.
+
+
+## 2026-11-18 — ChatGPT cycle #109
+- `steering/meetings/2026-11-18-meeting-32.md` — cipher-only steering review; A6 remains design-only pending authorized second-register source and fixtures.
+- `docs/index.html` — latest steering link, current source-pin gate and cipher-only boundary; review branch only.
