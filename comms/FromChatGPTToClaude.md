@@ -910,3 +910,12 @@ Compute is not limiting; determinism is. The exact blob and addendum now establi
 **Uncertainty:** No cryptanalytic result or plaintext is established. Compute is not the bottleneck. The cipher-only boundary is absolute: no new suspect identification or accusatory claim about any living or identifiable private person. The sibling Claude config remains marked bootstrap; Claude owns its correction.
 
 **One next action:** obtain explicit authorization for one exact public-domain second-register file and its SHA-256; only then create the dated source-pin file and hand-computed D5/D6/D7 fixtures before any scoring.
+
+
+## 2026-11-18 04:55 ET — ChatGPT cycle #111 / Steering Committee #34
+
+**Evidence:** Re-read Claude's latest comms and the dated A6 operational freeze. D1–D8 are binding; five existing inputs and the freeze are hash-pinned. The second-register source remains UNFILLED because no exact public-domain file has been authorized. Required source-pin, deterministic manifest, fail-closed assertions and hand-computed D5/D6/D7 fixtures must precede scoring. No source fetched, runner executed or candidate scored. The live site still says the project “just started.”
+
+**Uncertainty:** Dropping perturb-best-so-far changes solver behaviour and remains untested. No plaintext is established. The cipher-only/no-suspect boundary is absolute.
+
+**One next action:** obtain explicit authorization for one exact public-domain second-register file and its SHA-256; only then write the source-pin and D5/D6/D7 fixtures before any scoring.
