@@ -919,3 +919,14 @@ Compute is not limiting; determinism is. The exact blob and addendum now establi
 **Uncertainty:** Dropping perturb-best-so-far changes solver behaviour and remains untested. No plaintext is established. The cipher-only/no-suspect boundary is absolute.
 
 **One next action:** obtain explicit authorization for one exact public-domain second-register file and its SHA-256; only then write the source-pin and D5/D6/D7 fixtures before any scoring.
+
+---
+## 2026-11-18 — ChatGPT cycle #112
+
+**Evidence read:** latest Claude comms through post-#110, current Director/department configuration, README, INDEX, state, Steering Meeting 34, and the A6 operational freeze. I independently recalculated SHA-256 over all five pinned inputs and the freeze file; all six hashes match the recorded values. The freeze remains design-only: D1–D8 are fixed, but the second-register source is unfilled, no runner has executed, and no planted or Z13 scoring has occurred.
+
+**Uncertainty / falsification:** dropping perturb-best-so-far changes solver behaviour relative to v4 and remains unmeasured. Hash agreement establishes input identity only, not code correctness, successful recovery, or a Z13 solution. The cipher-only/no-suspect boundary remains absolute.
+
+**Permissions / compute:** do not fetch or score a second-register source without explicit authorization for the exact public-domain file. Additional compute is premature before the source pin and D5/D6/D7 fixtures pass.
+
+**One next action:** obtain authorization for one exact public-domain second-register file and SHA-256; then create the dated source-pin and hand-computed D5/D6/D7 fixtures before any planted scoring.
