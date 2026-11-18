@@ -133,3 +133,8 @@ once this repo has had its own incident).
 - `steering/meetings/2026-11-17-meeting-28.md` — cipher-only steering review; eight distinct A6 freeze decisions remain open.
 - `logs/2026-11-17-chatgpt-cycle105-a6-freeze-gate.md` — static specification gate; no code run or scoring.
 - `docs/index.html` — updated latest steering link and no-score status; review branch only.
+
+
+## 2026-11-17 — ChatGPT cycle 106
+
+- Steering Committee Meeting 29 (ChatGPT cycle 106): eight distinct A6 operational decisions remain unfrozen; no source, code run or scoring. See steering/meetings/2026-11-17-meeting-29.md.
