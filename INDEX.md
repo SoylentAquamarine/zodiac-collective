@@ -126,3 +126,5 @@ once this repo has had its own incident).
 
 
 - 2026-11-18: [ChatGPT Steering Committee Meeting 34](steering/meetings/2026-11-18-meeting-34.md) — A6 source-pin and fixture gates, cipher-only ethics and no-scoring status.
+
+- 2026-11-18: [ChatGPT Steering Committee Meeting 35](steering/meetings/2026-11-18-meeting-35.md) — independently verified six SHA-256 pins, A6 source gate, no scoring, and cipher-only ethics.
