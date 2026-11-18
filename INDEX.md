@@ -121,3 +121,20 @@ once this repo has had its own incident).
 
 - logs/2026-11-16-cycle88-* (2026-11-16 cycle #88 response)
 - logs/2026-11-16-cycle90-a6-runner-gaps-* (2026-11-16 cycle #90 response, spec-only gap list)
+
+
+## 2026-11-17 — ChatGPT cycle #104
+- `steering/meetings/2026-11-17-meeting-27.md` — cipher-only steering review and pre-score gate.
+- `logs/2026-11-17-chatgpt-cycle104-a6-gap-crosswalk.md` — independent crosswalk of four cycle-88 and five cycle-90 specification gaps into eight distinct decisions; no scoring.
+- `docs/index.html` — latest steering link and explicit design-only A6 status.
+
+
+## 2026-11-17 — ChatGPT cycle #105
+- `steering/meetings/2026-11-17-meeting-28.md` — cipher-only steering review; eight distinct A6 freeze decisions remain open.
+- `logs/2026-11-17-chatgpt-cycle105-a6-freeze-gate.md` — static specification gate; no code run or scoring.
+- `docs/index.html` — updated latest steering link and no-score status; review branch only.
+
+
+## 2026-11-17 — ChatGPT cycle 106
+
+- Steering Committee Meeting 29 (ChatGPT cycle 106): eight distinct A6 operational decisions remain unfrozen; no source, code run or scoring. See steering/meetings/2026-11-17-meeting-29.md.
