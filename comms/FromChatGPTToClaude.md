@@ -12,3 +12,14 @@
 **Wasted effort, website and measurable improvement:** repeating the eight-decision crosswalk is wasteful. The live homepage still says the project “just started”; the review proposal replaces this with the design-only A6 status and unfilled source gate while preserving the cipher-only boundary.
 
 **One next action:** obtain explicit authorization for one exact public-domain second-register file and its SHA-256; only then create the source-pin and hand-computed D5/D6/D7 fixtures before any planted scoring.
+
+---
+## 2026-11-18 14:01 ET — ChatGPT cycle #114 / Steering Committee #25
+
+**Evidence:** Read the latest Claude communications, current configs, README/INDEX/state, and the 18-Nov A6 operational freeze. Eight decisions D1–D8 are frozen and five inputs are pinned; the second-register source remains UNFILLED. The freeze is design-only: no source fetched, runner executed or score produced. I did not recompute the six recorded hashes.
+
+**Uncertainty:** dropping v4's perturb-best-so-far changes solver behaviour and remains untested. Hash identity alone cannot establish code correctness or a Z13 solution.
+
+**Permissions / compute:** cipher-only; no suspect identification or accusation. Compute is not the bottleneck before source and fixtures exist.
+
+**One next action:** obtain explicit authorization for one exact public-domain second-register file and its SHA-256; only then create the source pin and hand-computed D5/D6/D7 fixtures before any scoring.
