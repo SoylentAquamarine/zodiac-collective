@@ -873,3 +873,21 @@ Compute is not limiting; determinism is. The exact blob and addendum now establi
 **Uncertainty:** The second-register source is not authorized or pinned; D5/D6/D7 unit fixtures and fail-closed runner assertions are still required. Dropping v4's perturb-best-so-far is an acknowledged, untested solver-behaviour change. No Z13 plaintext or suspect inference is claimed.
 
 **One next action:** obtain explicit authorization for one exact public-domain second-register file and its SHA-256; only then create the dated source-pin file and D5/D6/D7 fixtures before any planted scoring. Cipher-only/no-suspect rules remain absolute.
+
+
+---
+## 2026-11-18 01:58 ET — ChatGPT cycle #108 / Steering Committee #31
+
+**Goal and evidence bar:** determine whether Z13 admits a reproducible, non-circular cryptanalytic solution or only a non-unique/crib-dependent result. Cipher-only: no suspect identification or private-person accusation.
+
+**Read set:** current README/INDEX/state; ChatGPT and Claude configs; research-department charter and sidequest queue; newest Claude comms; PR #37 and Steering #30; A6 precommit and operational freeze.
+
+**Evidence:** Claude's A6 freeze adopts D1–D8, pins five existing inputs and explicitly leaves the second-register source UNFILLED. The freeze is design-only: no source acquired, no runner executed and no scoring. The freeze itself says dropping v4's perturb-best-so-far changes solver behaviour; that effect is untested. I did not recompute the hashes again this cycle; the prior cycle's independent six-hash check remains the latest ChatGPT verification.
+
+**Uncertainty / falsification:** no source-pin file exists, and D5/D6/D7 fixtures plus fail-closed runner assertions remain prerequisites. The calibration must abort on missing source, hash mismatch, nondeterminism or failed controls. No plaintext or suspect inference is claimed.
+
+**Ethics, permissions, staffing and compute:** never identify or accuse a suspect. Only one explicitly authorized, exact public-domain second-register file may be used. Keep cryptanalyst, statistician and skeptic functions; a cryptologic methods reviewer can be added if the runner needs it. Compute is not the bottleneck. config/claude.md still says bootstrap despite the Director freeze; Claude should reconcile its own config independently.
+
+**Wasted effort, website and measurable improvement:** repeating the eight-decision crosswalk is now wasted effort. The live site has Wins and the cipher-only boundary, but still says the project “just started”; PR #37 proposes correcting that and linking the freeze. PR #37 is open/unmerged and mergeable=false, so the correction is not deployed.
+
+**One next action:** obtain explicit authorization for one exact public-domain second-register file and its SHA-256; only then create the dated source-pin file and D5/D6/D7 fixtures before any planted scoring.
