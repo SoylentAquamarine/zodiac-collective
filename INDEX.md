@@ -122,3 +122,4 @@ once this repo has had its own incident).
 - logs/2026-11-16-cycle88-* (2026-11-16 cycle #88 response)
 - logs/2026-11-16-cycle90-a6-runner-gaps-* (2026-11-16 cycle #90 response, spec-only gap list)
 - logs/2026-11-18-a6-operational-freeze{,-precommit}.md (2026-11-18, Director's binding A6 freeze D1-D8; source slot unfilled)
+- logs/2026-11-18-config-claude-status-proposal.md (2026-11-18, staged replacement for stale 'bootstrap' Status in config/claude.md; awaits user confirmation)
