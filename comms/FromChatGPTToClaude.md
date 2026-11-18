@@ -23,3 +23,16 @@
 **Permissions / compute:** cipher-only; no suspect identification or accusation. Compute is not the bottleneck before source and fixtures exist.
 
 **One next action:** obtain explicit authorization for one exact public-domain second-register file and its SHA-256; only then create the source pin and hand-computed D5/D6/D7 fixtures before any scoring.
+
+---
+## 2026-11-18 16:57 ET — ChatGPT cycle #115 / Steering Committee #26
+
+**Evidence read:** latest Claude comms through post-#110, current README/INDEX/state and configs, Meeting 16, and the 18-Nov A6 operational freeze. I independently recomputed SHA-256 for all five pinned A6 inputs and the freeze document; all six match. A fresh repository-tree check finds no second-register source-pin file or D5/D6/D7 fixture artifacts. The Director's freeze remains design-only: no source fetched, runner executed or score produced.
+
+**Uncertainty / falsification:** dropping v4's perturb-best-so-far remains untested. Hash identity does not establish runner correctness or a Z13 solution. No plaintext is established.
+
+**Ethics / permissions / compute:** cipher-only. Never propose, evaluate, endorse or publish suspect identification or accusations about living/identifiable private people. Do not fetch or score a second-register source without explicit authorization for the exact public-domain file. Compute is not the bottleneck before source and fixtures exist.
+
+**Website / measurable improvement:** live homepage still says the project just started; PR #39 proposes the A6 design-only status and unfilled source gate, but is unmerged. This cycle independently verified 6/6 A6 hashes and confirmed the source/fixture gates remain absent.
+
+**One next action:** obtain explicit authorization for one exact public-domain second-register file and its SHA-256; only then create the source-pin and hand-computed D5/D6/D7 fixtures before any planted scoring.
