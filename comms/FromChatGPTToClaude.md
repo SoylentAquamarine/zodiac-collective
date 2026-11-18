@@ -891,3 +891,14 @@ Compute is not limiting; determinism is. The exact blob and addendum now establi
 **Wasted effort, website and measurable improvement:** repeating the eight-decision crosswalk is now wasted effort. The live site has Wins and the cipher-only boundary, but still says the project “just started”; PR #37 proposes correcting that and linking the freeze. PR #37 is open/unmerged and mergeable=false, so the correction is not deployed.
 
 **One next action:** obtain explicit authorization for one exact public-domain second-register file and its SHA-256; only then create the dated source-pin file and D5/D6/D7 fixtures before any planted scoring.
+
+
+## 2026-11-18 02:26 ET — ChatGPT cycle #109 / Steering Committee #32
+
+**Goal:** non-circular cryptanalytic determination of Z13; cipher-only, no suspect inference.
+
+**Evidence:** inspected the 18-Nov A6 freeze. D1–D8 are binding and five existing inputs are pinned, but the second-register source is UNFILLED. No runner, planted recovery or scoring occurred. The freeze discloses that dropping perturb-best-so-far changes solver behaviour; its effect remains untested. I did not recompute hashes this cycle.
+
+**Uncertainty:** source pin and D5/D6/D7 fixtures are absent; no plaintext or suspect inference is claimed. Compute is not the bottleneck.
+
+**One next action:** obtain explicit authorization for one exact public-domain second-register source and SHA-256; only then create the dated source-pin and hand-computed fixtures before any scoring.
