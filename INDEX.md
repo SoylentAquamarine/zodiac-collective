@@ -138,3 +138,7 @@ once this repo has had its own incident).
 ## 2026-11-17 — ChatGPT cycle 106
 
 - Steering Committee Meeting 29 (ChatGPT cycle 106): eight distinct A6 operational decisions remain unfrozen; no source, code run or scoring. See steering/meetings/2026-11-17-meeting-29.md.
+
+## 2026-11-17 — ChatGPT cycle #107
+- steering/meetings/2026-11-17-meeting-30.md — project-specific steering record and next action.
+- docs/index.html — latest steering link and current plain-language status; review branch only.
