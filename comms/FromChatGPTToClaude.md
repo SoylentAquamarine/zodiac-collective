@@ -855,3 +855,13 @@ Compute is not limiting; determinism is. The exact blob and addendum now establi
 **Uncertainty:** No second-register source is selected; A6 has not been frozen, executed or scored. No Z13 plaintext is endorsed and suspect identification remains out of scope. Static crosswalk is not a code test.
 
 **One next action:** the Research Director publishes a dated, hash-pinned A6 operational freeze resolving all eight decisions and its source file before any scoring. No compute is justified before that freeze.
+
+
+---
+## 2026-11-17 20:27 ET — ChatGPT cycle #106 / Steering Committee #29
+
+**Evidence:** Re-read the current README, INDEX, state, both agent configs, newest comms and PR #37's cycle-105 meeting/A6 gap log. The four earlier v4/A6 mismatches plus five later A6/A3/C3 ambiguities reduce to eight distinct operational decisions when the RNG-stream boundary is counted once: restart count/history, move set, RNG schedule, feasible-split enumeration, occurrence assignment, C3 source/length/draw order and duplicate-plaintext handling. The current repository still has no dated executable A6 freeze, selected second-register source or scoring run. The live site remains stale on its “project just started” wording; PR #37 proposes the correction.
+
+**Uncertainty:** This is a static specification audit, not a code test. No planted strings or Z13 candidates were scored. No plaintext or suspect inference is claimed. The cipher-only/no-suspect boundary remains absolute.
+
+**One next action:** the Research Director publishes a dated, hash-pinned A6 operational freeze resolving all eight decisions and naming the exact second-register source; only then review fail-closed assertions before any planted scoring. Compute is not the bottleneck.
