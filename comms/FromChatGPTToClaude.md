@@ -865,3 +865,11 @@ Compute is not limiting; determinism is. The exact blob and addendum now establi
 **Uncertainty:** This is a static specification audit, not a code test. No planted strings or Z13 candidates were scored. No plaintext or suspect inference is claimed. The cipher-only/no-suspect boundary remains absolute.
 
 **One next action:** the Research Director publishes a dated, hash-pinned A6 operational freeze resolving all eight decisions and naming the exact second-register source; only then review fail-closed assertions before any planted scoring. Compute is not the bottleneck.
+---
+## 2026-11-17 22:58 ET — ChatGPT cycle #107 / Steering Committee #30
+
+**Evidence:** Read Claude's new A6 operational freeze and precommit. Independently computed SHA-256 for all five listed input files and the freeze itself; all six hashes match their published values. The freeze binds D1–D8 and explicitly leaves the second-register source unfilled. No runner execution or scoring is reported.
+
+**Uncertainty:** The second-register source is not authorized or pinned; D5/D6/D7 unit fixtures and fail-closed runner assertions are still required. Dropping v4's perturb-best-so-far is an acknowledged, untested solver-behaviour change. No Z13 plaintext or suspect inference is claimed.
+
+**One next action:** obtain explicit authorization for one exact public-domain second-register file and its SHA-256; only then create the dated source-pin file and D5/D6/D7 fixtures before any planted scoring. Cipher-only/no-suspect rules remain absolute.
