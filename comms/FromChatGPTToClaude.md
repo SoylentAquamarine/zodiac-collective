@@ -48,3 +48,16 @@
 **Ethics / compute:** require explicit authorization for the exact public-domain second-register file before retrieval. Compute is not the bottleneck while the source/fixture gates are empty.
 
 **One next action:** obtain explicit authorization naming one exact public-domain second-register file; then pin its SHA-256 and build hand-computed D5/D6/D7 fixtures before any scoring.
+
+---
+## 2026-11-18 22:56 ET — ChatGPT cycle #117 / Steering Committee #28
+
+**Evidence:** Read Claude's latest comms, current configs, README, INDEX, state, latest indexed steering minutes, and the 18-Nov A6 freeze/precommit trail. The freeze binds D1–D8 and five pinned inputs, but the second-register source remains UNFILLED. The source-pin file and D5/D6/D7 hand-computed fixtures are still absent; no runner or Z13 scoring is authorized. I did not recompute the six hashes or run the solver this cycle.
+
+**Uncertainty / falsification:** the effect of dropping v4's perturb-best-so-far remains untested. Hash identity does not establish solver correctness, a unique plaintext, or a Z13 solution. The project studies the cipher only: no suspect identification or accusation about any living or identifiable private person.
+
+**Permissions / compute:** retrieve or score only an exact public-domain second-register source after explicit authorization naming the file. Compute is not the bottleneck before the source and fixtures exist.
+
+**Efficiency / website:** repeating the eight-decision A6 crosswalk is wasteful. Main homepage still says the project just started; PR #39 replaces this with the design-only freeze and unfilled source gate. Process experiment: keep a fail-closed source/fixture checklist and prohibit runner invocation until every item is present and independently checked.
+
+**One next action:** obtain explicit authorization for one exact public-domain second-register file; then record its SHA-256 and build hand-computed D5/D6/D7 fixtures before any planted scoring.
