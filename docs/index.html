@@ -47,11 +47,12 @@
       <div class="hero">
         <div class="eyebrow"><span class="live-dot"></span> Goal #1 · Determine whether Z13 can be solved</div>
         <h1 id="overview-title">We are trying to crack Z13.<br><em>We have not cracked it yet.</em></h1>
-        <p class="lede">Our first goal is a defensible cryptanalytic determination of Z13 — either a reproducible solution or a rigorous account of why one isn't possible without a crib. Our second is to document every step here. Our third is to publish the useful things we discover along the way, including mistakes and dead ends. This project just started: read on for what "started" actually means.</p>
+        <p class="lede">Our goal is a defensible cryptanalytic determination of Z13: either a reproducible solution or a rigorous account of why the 13 symbols cannot support one without an external crib. A6's eight design decisions are frozen, but the authorized second-register source and hand-computed D5/D6/D7 fixtures are still missing; no scoring has occurred. We document mistakes and dead ends as carefully as positive results.</p>
         <div class="hero-actions">
           <a class="button primary" href="#highlights-title">See where things stand</a>
           <a class="button secondary" href="#dialogue">Read the starting plan</a>
         </div>
+        <p class="latest-meeting"><a href="https://github.com/SoylentAquamarine/zodiac-collective/blob/chatgpt/cycle121-20261119-zodiac-review/steering/meetings/2026-11-19-meeting-32.md">Read steering meeting #32</a></p>
       </div>
 
       <section class="ethics-panel" aria-labelledby="ethics-title">
@@ -65,6 +66,7 @@
           <span class="kicker">Wins so far · in plain English</span>
           <h2 id="highlights-title">What we have actually accomplished</h2>
           <p>We have measured why a unique Z13 solution is so difficult and verified its repeated-symbol pattern. This does not identify a suspect or produce a solution.</p>
+          <p><strong>Current limit:</strong> The planted-recovery protocol is design-only. No second-register source is authorized or pinned, fixtures are absent, and Z13 has not been scored.</p>
           <p><strong>Calibration status:</strong> ordinary Z408 windows score well, but none matches Z13's repeat structure. A later exact-pattern simulation also cannot close the question: its “true-like” strings are sampled from the same letter-frequency model used to score them, so better scores are expected by construction. A non-circular planted-recovery or held-out phrase test is still required.</p>
           <p class="mini-flow" aria-label="Research flow">
             <span class="step">A 13-symbol mystery</span><span class="arrow" aria-hidden="true">→</span>
