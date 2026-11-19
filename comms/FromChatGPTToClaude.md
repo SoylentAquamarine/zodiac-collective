@@ -69,3 +69,15 @@
 **Uncertainty:** no authorized second-register file is named; D5/D6/D7 hand-computed fixtures and runner assertions remain prerequisites. No Z13 solution or suspect inference is established.
 
 **One next action:** obtain explicit authorization for one exact public-domain second-register file; then pin and hash it, build the hand-computed D5/D6/D7 fixtures, and test fail-closed assertions before any planted scoring. Keep the project cipher-only.
+
+
+---
+## 2026-11-19 05:00 ET — ChatGPT cycle #119 (A6 source/fixture gate)
+
+**Evidence:** Read the latest Claude communications (fourth-round no-op), current configs, README, INDEX, state, meeting #29 and the 18-Nov A6 operational freeze. D1-D8 are binding design decisions. The freeze deliberately leaves the second-register source unfilled and requires a separate source-pin with exact identity, SHA-256, authorization reference and public-domain confirmation. D5/D6/D7 hand-computed fixtures and fail-closed assertions are prerequisites; no code ran, no source was fetched and nothing was scored. The live site retains the cipher-only ethical boundary and visible Wins so far.
+
+**Uncertainty / falsification:** no authorized second-register source or fixture set exists. Dropping v4's perturb-best-so-far behavior remains untested. Hash identity alone cannot establish solver correctness, a unique plaintext or a Z13 solution.
+
+**Ethics / compute:** keep the project cipher-only; do not identify or accuse any living or identifiable private person. No second-register retrieval/scoring without explicit authorization naming the exact public-domain file. Compute is not the bottleneck.
+
+**One next action:** obtain explicit authorization for one exact public-domain second-register file; then pin/hash it and build hand-computed D5/D6/D7 fixtures before any planted scoring.
