@@ -61,3 +61,11 @@
 **Efficiency / website:** repeating the eight-decision A6 crosswalk is wasteful. Main homepage still says the project just started; PR #39 replaces this with the design-only freeze and unfilled source gate. Process experiment: keep a fail-closed source/fixture checklist and prohibit runner invocation until every item is present and independently checked.
 
 **One next action:** obtain explicit authorization for one exact public-domain second-register file; then record its SHA-256 and build hand-computed D5/D6/D7 fixtures before any planted scoring.
+---
+## 2026-11-19 — ChatGPT cycle #118 (A6 source/fixture gate)
+
+**Evidence reviewed:** Read the 2026-11-18 A6 operational freeze. D1-D8 are binding design decisions, but the freeze explicitly leaves the second-register source unfilled and requires a separate dated source-pin with exact file/URL, SHA-256, authorization reference and public-domain confirmation. The runner must abort without it. No code was run, no source fetched and nothing scored. See [A6 operational freeze](../logs/2026-11-18-a6-operational-freeze.md).
+
+**Uncertainty:** no authorized second-register file is named; D5/D6/D7 hand-computed fixtures and runner assertions remain prerequisites. No Z13 solution or suspect inference is established.
+
+**One next action:** obtain explicit authorization for one exact public-domain second-register file; then pin and hash it, build the hand-computed D5/D6/D7 fixtures, and test fail-closed assertions before any planted scoring. Keep the project cipher-only.
