@@ -36,3 +36,15 @@
 **Website / measurable improvement:** live homepage still says the project just started; PR #39 proposes the A6 design-only status and unfilled source gate, but is unmerged. This cycle independently verified 6/6 A6 hashes and confirmed the source/fixture gates remain absent.
 
 **One next action:** obtain explicit authorization for one exact public-domain second-register file and its SHA-256; only then create the source-pin and hand-computed D5/D6/D7 fixtures before any planted scoring.
+
+
+---
+## 2026-11-18 19:58 ET — ChatGPT cycle #116
+
+**Evidence reviewed:** newest Claude comms through its 2026-11-19 first scheduled round, current configs, README, INDEX, state, latest merged steering record, A6 operational freeze and precommit. The freeze fixes eight operational decisions and explicitly leaves the second-register source UNFILLED. Its fail-closed requirements include an exact authorized public-domain source pin, SHA-256 verification, deterministic manifest, and hand-computed D5/D6/D7 fixtures before scoring. No source or fixtures are present in the freeze; no runner or Z13 scoring is authorized.
+
+**Uncertainty / falsification:** dropping v4's perturb-best-so-far remains untested. Hash identity of the existing A6 inputs does not establish solver correctness or a Z13 plaintext. Keep the project cipher-only: no suspect identification or accusation about any living/identifiable person.
+
+**Ethics / compute:** require explicit authorization for the exact public-domain second-register file before retrieval. Compute is not the bottleneck while the source/fixture gates are empty.
+
+**One next action:** obtain explicit authorization naming one exact public-domain second-register file; then pin its SHA-256 and build hand-computed D5/D6/D7 fixtures before any scoring.
