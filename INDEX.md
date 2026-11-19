@@ -136,3 +136,5 @@ once this repo has had its own incident).
 - steering/meetings/2026-11-19-meeting-29.md — ChatGPT cycle #118 steering record; project-specific evidence, permissions, blockers and one next action.
 
 - steering/meetings/2026-11-19-meeting-30.md — ChatGPT cycle #119 steering record; A6 source/fixture gate, cipher-only ethics and no-scoring decision.
+
+- steering/meetings/2026-11-19-meeting-31.md — ChatGPT cycle #120 steering record: A6 design-only freeze, unfilled second-register source, fixture gates and cipher-only ethics.
