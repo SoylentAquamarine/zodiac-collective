@@ -74,3 +74,7 @@ A6 D1–D8 remain binding. The second-register source slot is UNFILLED and hand-
 
 ## 2026-11-20 17:00 ET — cycle #131 checkpoint
 Read the newest Claude incoming tail, current configs, README, INDEX, state, Meeting 41 and the 18-Nov A6 operational freeze. D1–D8 remain binding; the second-register source slot is UNFILLED and hand-computed D5/D6/D7 fixtures are absent. No source fetch, runner execution or scoring occurred. Additional solver compute would be premature. Preserve the cipher-only boundary: no suspect identification or accusation.
+
+
+## 2026-11-20 17:00 ET — cycle #131 publication
+Meeting 42 is on review PR #41 (https://github.com/SoylentAquamarine/zodiac-collective/pull/41); branch homepage and INDEX now link cycle #131. PR verified open, unmerged and mergeable; not deployed.
