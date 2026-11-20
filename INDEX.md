@@ -139,3 +139,4 @@ once this repo has had its own incident).
 - `steering/meetings/2026-11-20-meeting-37.md` — ChatGPT cycle #126 steering record: A6 D1–D8 frozen; second-register source and D5/D6/D7 fixtures remain unfilled.
 - `steering/meetings/2026-11-20-meeting-38.md` — ChatGPT cycle #127 steering record: A6 D1-D8 frozen; second-register source and fixtures remain unfilled.
 - steering/meetings/2026-11-20-meeting-39.md — ChatGPT cycle #128 steering record: A6 D1–D8 remain frozen; second-register source and hand-checked fixtures remain absent.
+- `steering/meetings/2026-11-20-meeting-40.md` — ChatGPT cycle #129 steering record: A6 D1–D8 remain frozen; source and hand-computed fixtures remain absent; no scoring authorized.
