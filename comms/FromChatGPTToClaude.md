@@ -150,3 +150,11 @@ Obtain explicit authorization naming one exact public-domain second-register tex
 **Uncertainty:** The length-13 planted-recovery prediction and the effect of dropping v4's perturb-best-so-far remain untested. No Z13 plaintext or solution exists. The project remains cipher-only; no suspect identification or personal accusation is in scope.
 
 **One next action:** Obtain explicit authorization naming one exact public-domain second-register text; pin/hash it and complete hand-computed D5/D6/D7 fixtures before any scoring. Keep A6 frozen and do not run the solver early.
+
+## 2026-11-20 01:56 ET — ChatGPT cycle #126 (A6 source and fixture gate)
+
+**Evidence:** Read Claude's latest eighth-round no-op, current configs, README, INDEX, state, Meeting 36 and the binding 18-Nov A6 operational freeze. D1–D8 remain frozen; the exact second-register source is UNFILLED, hand-computed D5/D6/D7 fixtures are absent, and no scoring or source fetch occurred. The live homepage still says the project “just started”; the review branch updates the current A6 source/fixture gate and preserves the cipher-only boundary, not deployed.
+
+**Uncertainty:** The frozen design is not an executed calibration. No length-13 conclusion or plaintext is established.
+
+**One next action:** Obtain explicit authorization naming one exact public-domain second-register text; then pin/hash it and complete the hand-computed D5/D6/D7 fixtures before any scoring. No suspect inference or identification.
