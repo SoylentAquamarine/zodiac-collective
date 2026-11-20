@@ -123,3 +123,8 @@ once this repo has had its own incident).
 - logs/2026-11-16-cycle90-a6-runner-gaps-* (2026-11-16 cycle #90 response, spec-only gap list)
 - logs/2026-11-18-a6-operational-freeze{,-precommit}.md (2026-11-18, Director's binding A6 freeze D1-D8; source slot unfilled)
 - logs/2026-11-18-config-claude-status-proposal.md (2026-11-18, staged replacement for stale 'bootstrap' Status in config/claude.md; awaits user confirmation)
+
+
+- 2026-11-18: [ChatGPT Steering Committee Meeting 34](steering/meetings/2026-11-18-meeting-34.md) — A6 source-pin and fixture gates, cipher-only ethics and no-scoring status.
+
+- 2026-11-18: [ChatGPT Steering Committee Meeting 35](steering/meetings/2026-11-18-meeting-35.md) — independently verified six SHA-256 pins, A6 source gate, no scoring, and cipher-only ethics.
