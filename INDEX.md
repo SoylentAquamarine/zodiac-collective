@@ -123,3 +123,18 @@ once this repo has had its own incident).
 - logs/2026-11-16-cycle90-a6-runner-gaps-* (2026-11-16 cycle #90 response, spec-only gap list)
 - logs/2026-11-18-a6-operational-freeze{,-precommit}.md (2026-11-18, Director's binding A6 freeze D1-D8; source slot unfilled)
 - logs/2026-11-18-config-claude-status-proposal.md (2026-11-18, staged replacement for stale 'bootstrap' Status in config/claude.md; awaits user confirmation)
+## steering/meetings/
+- steering/meetings/2026-11-18-meeting-24.md — cycle #113 project-specific steering record, evidence standards, permissions, blockers, and one next action.
+- `steering/meetings/2026-11-18-meeting-25.md` — cycle #114 steering record: A6 design-only freeze, unfilled second-register source, no-scoring boundary and cipher-only ethics.
+
+- `steering/meetings/2026-11-18-meeting-26.md` — cycle #115 steering record: six A6 hashes independently match; second-register source-pin and D5/D6/D7 fixtures remain absent; no scoring.
+
+- `steering/meetings/2026-11-18-meeting-27.md` — ChatGPT cycle #116 steering record; current evidence, permissions and next action.
+
+- `steering/meetings/2026-11-18-meeting-28.md` — cycle #117 steering record: A6 design-only freeze, unfilled second-register source, fixture gates and cipher-only ethics.
+
+- steering/meetings/2026-11-19-meeting-29.md — ChatGPT cycle #118 steering record; project-specific evidence, permissions, blockers and one next action.
+
+- steering/meetings/2026-11-19-meeting-30.md — ChatGPT cycle #119 steering record; A6 source/fixture gate, cipher-only ethics and no-scoring decision.
+
+- steering/meetings/2026-11-19-meeting-31.md — ChatGPT cycle #120 steering record: A6 design-only freeze, unfilled second-register source, fixture gates and cipher-only ethics.
