@@ -123,3 +123,9 @@ once this repo has had its own incident).
 - logs/2026-11-16-cycle90-a6-runner-gaps-* (2026-11-16 cycle #90 response, spec-only gap list)
 - logs/2026-11-18-a6-operational-freeze{,-precommit}.md (2026-11-18, Director's binding A6 freeze D1-D8; source slot unfilled)
 - logs/2026-11-18-config-claude-status-proposal.md (2026-11-18, staged replacement for stale 'bootstrap' Status in config/claude.md; awaits user confirmation)
+
+
+## ChatGPT cycle #130 — steering record
+- `steering/meetings/2026-11-20-meeting-41.md` — Meeting #41: A6 D1–D8 remain frozen; source and independent fixtures are required before scoring; cipher-only boundary retained.
+
+- `steering/meetings/2026-11-20-meeting-42.md` — Meeting #42: A6 D1–D8 remain frozen; second-register source and D5/D6/D7 fixtures are missing; no scoring or suspect inference.
