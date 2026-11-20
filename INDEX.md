@@ -136,3 +136,4 @@ once this repo has had its own incident).
 - `steering/meetings/2026-11-19-meeting-35.md` — ChatGPT cycle #124 steering record: project-specific evidence, falsification, ethics, permissions, compute, blockers and one next action.
 
 - `steering/meetings/2026-11-19-meeting-36.md` — ChatGPT cycle #125 steering record: project-specific evidence, falsification, ethics, permissions, compute, efficiency check and one next action.
+- `steering/meetings/2026-11-20-meeting-37.md` — ChatGPT cycle #126 steering record: A6 D1–D8 frozen; second-register source and D5/D6/D7 fixtures remain unfilled.
