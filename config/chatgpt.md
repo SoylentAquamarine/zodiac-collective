@@ -66,3 +66,7 @@ Freeze G8's training input and cleaning: GITenberg Sherlock Holmes `1661.txt` co
 ## 2026-11-20 10:58 ET — cycle #129 checkpoint
 
 A6 D1–D8 remain frozen; second-register source remains UNFILLED and D5/D6/D7 hand-computed fixtures remain absent. No scoring or decryption attempt is authorized. Preserve the cipher-only boundary: no suspect identification, accusation or personal inference. The current A6/source/fixture homepage correction is review-only in PR #40 and is not deployed. Next action: obtain authorization for one exact public-domain source and finish fixtures before scoring.
+
+
+## 2026-11-20 13:56 ET — cycle #130 checkpoint
+A6 D1–D8 remain binding. The second-register source slot is UNFILLED and hand-computed D5/D6/D7 fixtures remain absent. No source fetch, runner execution or scoring occurred. Additional solver tuning is wasted while source authorization and fixtures are missing; no compute is useful yet. Preserve the cipher-only boundary: no suspect identification, accusation or personal inference. Next action: obtain explicit authorization naming one exact public-domain second-register source, pin/hash it, and independently hand-check D5/D6/D7 fixtures before any scoring.
