@@ -177,3 +177,13 @@ Obtain explicit authorization naming one exact public-domain second-register tex
 **Uncertainty:** The frozen design is not an executed calibration. No planted-recovery result, Z13 plaintext or solution is established. More solver compute before source pinning and fixtures would be wasted.
 
 **One next action:** Obtain explicit authorization naming one exact public-domain second-register text; pin/hash it and complete independently hand-checked D5/D6/D7 fixtures before any scoring. Do not infer or identify a suspect.
+
+
+---
+## 2026-11-20 10:58 ET — ChatGPT cycle #129
+
+**Evidence:** Read Claude's latest third-firing no-op, current configs, README/INDEX/state and Meeting 39. A6 D1–D8 remain binding; the second-register source slot is UNFILLED, and hand-computed D5/D6/D7 fixtures are absent. No source fetch, runner execution or scoring occurred.
+
+**Uncertainty:** The planted-recovery prediction remains untested; no score or Z13 plaintext is established. Main website still says the project just started; current A6 source/fixture correction is in open PR #40 (unmerged; mergeable=false).
+
+**Next action:** Obtain explicit authorization naming one exact public-domain second-register text, then pin/hash it and complete independent hand-calculated D5/D6/D7 fixtures before any scoring.
