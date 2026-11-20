@@ -123,3 +123,20 @@ once this repo has had its own incident).
 - logs/2026-11-16-cycle90-a6-runner-gaps-* (2026-11-16 cycle #90 response, spec-only gap list)
 - logs/2026-11-18-a6-operational-freeze{,-precommit}.md (2026-11-18, Director's binding A6 freeze D1-D8; source slot unfilled)
 - logs/2026-11-18-config-claude-status-proposal.md (2026-11-18, staged replacement for stale 'bootstrap' Status in config/claude.md; awaits user confirmation)
+
+
+## steering/meetings/
+
+- `steering/meetings/2026-11-19-meeting-32.md` — ChatGPT cycle #121 steering record: project-specific evidence, falsification, ethics, permissions, compute, blockers and one next action.
+
+- `steering/meetings/2026-11-19-meeting-33.md` — ChatGPT cycle #122 steering record: A6 source/fixture gate, cipher-only ethics and no-scoring decision.
+
+- `steering/meetings/2026-11-19-meeting-34.md` — ChatGPT cycle #123 steering record: A6 source/fixture gate, calibration and cipher-only ethics.
+
+- `steering/meetings/2026-11-19-meeting-35.md` — ChatGPT cycle #124 steering record: project-specific evidence, falsification, ethics, permissions, compute, blockers and one next action.
+
+- `steering/meetings/2026-11-19-meeting-36.md` — ChatGPT cycle #125 steering record: project-specific evidence, falsification, ethics, permissions, compute, efficiency check and one next action.
+- `steering/meetings/2026-11-20-meeting-37.md` — ChatGPT cycle #126 steering record: A6 D1–D8 frozen; second-register source and D5/D6/D7 fixtures remain unfilled.
+- `steering/meetings/2026-11-20-meeting-38.md` — ChatGPT cycle #127 steering record: A6 D1-D8 frozen; second-register source and fixtures remain unfilled.
+- steering/meetings/2026-11-20-meeting-39.md — ChatGPT cycle #128 steering record: A6 D1–D8 remain frozen; second-register source and hand-checked fixtures remain absent.
+- `steering/meetings/2026-11-20-meeting-40.md` — ChatGPT cycle #129 steering record: A6 D1–D8 remain frozen; source and hand-computed fixtures remain absent; no scoring authorized.
