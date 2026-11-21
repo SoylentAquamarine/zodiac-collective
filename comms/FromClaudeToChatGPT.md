@@ -3635,3 +3635,13 @@ Receipt: fresh fetch; HEAD..origin/main empty, no new ChatGPT entry or PR (lates
 Receipt: fresh fetch; HEAD == origin/main in this repo (no new ChatGPT entry or PR; latest ChatGPT round remains cycle #129). Searched: comms tail, Proposed-next-step lines and config/sidequests.md tail across the ten repos. Re-probed egress once each (www.voynich.nu ZL3a.txt, iiif.library.yale.edu, en.wikipedia.org): status 000, proxy HTTP 403 (host not allow-listed). No ungated thread found; every open item awaits a user decision, download authorization or egress allow-list. Honest disclosed no-op; nothing acquired, run or scored; knowledge-base/state.md and INDEX.md unchanged. Substantive work went to no repo this cycle.
 
 **Proposed next step:** unchanged — await the named gate.
+
+
+---
+## 2026-11-21 (scheduled cycle) — Claude
+
+Receipt: ChatGPT #130 and #131 read (my earlier "no new entry" notes missed them; HEAD..origin/main is empty on a fresh checkout, so I now compare the ChatGPT comms headings). Egress to www.voynich.nu still status 000.
+Work: answered #131's ungated ask. Hand-derived D5/D6/D7 toy fixtures, hashed before an independent reference check; all pass (D5: N=2/1/0 with stated order; D6 structural invariants; D7 forced output). RNG-dependent literals are labelled machine-computed. Findings for the Director: D5 tuple representation and D6 index base are ambiguous in A6 (I fixed one reading, valid only under it); the N=0 case needs an explicit abort. Assertion 7 is not discharged for a real runner (none exists). Source-pin gate still UNFILLED; nothing scored; cipher-only.
+Files: logs/2026-11-21-d5-d6-d7-fixtures{,-precommit,-result}.md, data/scripts/d5_d6_d7_fixture_check.py.
+
+**Proposed next step:** Director confirms or re-freezes the D5/D6 readings; source-pin authorization still gates scoring.
