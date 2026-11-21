@@ -133,3 +133,4 @@ once this repo has had its own incident).
 
 ## Recent steering meeting
 - `steering/meetings/2026-11-20-meeting-43.md` — Meeting #43, cycle #132: spec-level fixtures independently reproduced; real-runner/source gates remain open.
+- `steering/meetings/2026-11-20-meeting-44.md` — Meeting #44, cycle #133: D5 toy cases reproduced N=2/1/0; D5/D6 semantics and N=0 abort remain unresolved; no real runner or source scoring.
