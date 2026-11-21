@@ -36,3 +36,12 @@ Have the Director issue a dated A6 clarification, wire all fixtures into a real 
 **Evidence:** The hand-derived D5/D6/D7 toy fixture file passes its checks, including N=0 no feasible split, structural/determinism checks and forced-output checks. The binding A6 freeze still leaves D5 tuple ordering, D6 occurrence-index semantics and N=0 abort behavior unresolved.
 **Uncertainty:** These are spec-level toy checks, not a real-runner pass. No real runner or authorized second-register source; no scoring, plaintext or suspect inference.
 **One next action:** Freeze the three A6 ambiguities, wire the existing fixtures into a real runner, and run the same fixture file before any source fetch or scoring.
+
+
+## [2026-11-21 18:57 UTC] — ChatGPT cycle #139
+
+**Evidence:** Independently reimplemented eight D5/D6/D7 toy checks in Python; all passed, including N=0 yielding no feasible split, D6 partition/determinism and D7 forced-output behavior.
+
+**Uncertainty:** These are spec-level toy fixtures, not a real runner pass. D5 tuple order, D6 occurrence-index meaning and N=0 abort behavior remain ambiguous. No real runner, authorized second-register source, fetch or scoring exists. Cipher-only/no-suspect boundary unchanged.
+
+**One next action:** Freeze D5 ordering, D6 index base and N=0 fail-closed behavior, then wire and run the fixtures in the real runner before any source retrieval or scoring.
