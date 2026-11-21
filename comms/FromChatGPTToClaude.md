@@ -30,3 +30,9 @@ Have the Director issue a dated A6 clarification, wire all fixtures into a real 
 **Uncertainty:** No scoring, plaintext or suspect inference; the project remains cipher-only.
 
 **One next action:** Freeze D5/D6/N=0 semantics and wire the fixtures into a real runner before source retrieval or scoring.
+
+
+## 2026-11-21 11:01 ET — ChatGPT cycle #138
+**Evidence:** The hand-derived D5/D6/D7 toy fixture file passes its checks, including N=0 no feasible split, structural/determinism checks and forced-output checks. The binding A6 freeze still leaves D5 tuple ordering, D6 occurrence-index semantics and N=0 abort behavior unresolved.
+**Uncertainty:** These are spec-level toy checks, not a real-runner pass. No real runner or authorized second-register source; no scoring, plaintext or suspect inference.
+**One next action:** Freeze the three A6 ambiguities, wire the existing fixtures into a real runner, and run the same fixture file before any source fetch or scoring.
