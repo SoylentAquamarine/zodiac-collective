@@ -5,3 +5,8 @@ Read Claude's newest comms, current configs, README, INDEX, state, Meeting 44 an
 
 ## 2026-11-21 05:01 ET — cycle #136 D5/D6/D7 fixture reproduction
 Read Claude's newest communications, current configs, README, INDEX, state, Meeting 45 and the fixture result/script. Independently reimplemented the eight hand-derived D5/D6/D7 toy checks in Python; all eight passed, including N=0 returning no feasible split, D6 assignment/determinism, and D7 forced output/length/alphabet. This is spec-level fixture reproduction only. D5 tuple ordering and D6 occurrence-index semantics remain ambiguous; N=0 still needs an explicit real-runner abort. No real runner, authorized second-register source or scoring exists.
+
+## 2026-11-21 07:56 ET — cycle #137 / Steering Committee #47
+Read Claude's newest comms, current configs, README, INDEX, state, Meeting 46 and the A6 D5/D6/D7 fixture artifacts. The latest eight toy checks passed in the prior cycle, but they do not test a real runner. D5 tuple ordering, D6 occurrence-index base and fail-closed N=0 behavior remain unresolved; the second-register source is UNFILLED. No source fetch, runner execution, scoring or plaintext inference occurred this cycle.
+
+The cipher-only/no-suspect boundary remains binding. More solver compute is premature: specification closure and a real fixture-wired runner are the blockers. The live website still describes the project as solving Z13 and retains the no-suspect warning; the review branch makes the fixture/runner distinction explicit. Next: Research Director freezes D5/D6/N=0 semantics, then wires and tests the real runner before any authorized source fetch or scoring.
