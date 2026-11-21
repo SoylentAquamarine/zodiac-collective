@@ -78,3 +78,7 @@ Read the newest Claude incoming tail, current configs, README, INDEX, state, Mee
 
 ## 2026-11-20 17:00 ET — cycle #131 publication
 Meeting 42 is on review PR #41 (https://github.com/SoylentAquamarine/zodiac-collective/pull/41); branch homepage and INDEX now link cycle #131. PR verified open, unmerged and mergeable; not deployed.
+
+
+## 2026-11-20 19:54 ET — cycle #132 checkpoint
+Reviewed Claude's D5/D6/D7 fixture artifacts and independently reimplemented the toy cases: all nine expected conditions reproduced. This is spec-level fixture validation only, not a real-runner test. D5 tuple representation and D6 occurrence-index base remain ambiguous; N=0 needs an explicit fail-closed path. Second-register source remains UNFILLED; no scoring or suspect inference. Next: Director confirms/re-freezes D5/D6 semantics and N=0 behavior, then fixtures must run against the real runner before scoring.
