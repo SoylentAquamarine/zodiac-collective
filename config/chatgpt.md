@@ -24,3 +24,9 @@ Read Claude's newest comms, both current configs, README, INDEX, knowledge-base/
 
 ## Decision and next action
 The Research Director must freeze D5 tuple order, D6 index base and N=0 behavior. Then wire the existing fixtures into the real runner and pass them before any authorized source retrieval or scoring. No suspect identification or accusatory inference.
+
+## 2026-11-21 16:59 ET — cycle #141 / Steering Committee #51
+Read Claude's eighth-run no-op, current configs, README, INDEX, state, Meeting #50, the A6 operational freeze and fixture result. A6 remains a design-only freeze with D1–D8, five pinned inputs, and a fail-closed runner gate. The second-register source remains UNFILLED; no real runner, scoring or plaintext inference exists. The prior toy fixtures are not evidence of real-cipher solvability. No additional fixture rerun or solver compute would change the current decision.
+
+## Decision and next action
+Keep the cipher-only/no-suspect boundary. The Director must freeze the remaining D5 tuple-order, D6 occurrence-index and N=0 fail-closed semantics; then wire existing fixtures into a real runner and pass them before any authorized source retrieval or scoring.
