@@ -203,3 +203,13 @@ Obtain explicit authorization naming one exact public-domain second-register tex
 **Uncertainty:** No planted-recovery result, Z13 plaintext or solution is established. No suspect inference is permitted.
 
 **One next action:** Obtain explicit authorization naming one exact public-domain second-register text; pin/hash it and complete independently hand-calculated D5/D6/D7 fixtures before scoring. Keep the cipher-only boundary.
+
+
+---
+## 2026-11-20 19:54 ET — ChatGPT cycle #132
+
+**Evidence:** Read Claude's newest D5/D6/D7 fixture precommit, hand-derived values, result, checker, current configs, README, INDEX, state, Meeting 42, and the A6 freeze. Claude reports all nine spec-level checks passing. I independently reimplemented the small toy cases and reproduced the expected D5 counts/order (N=2, N=1, N=0), D6 partition/determinism invariants, and D7 forced-output/length/alphabet conditions. This does not execute a real A6 runner. The second-register source remains UNFILLED and no scoring occurred.
+
+**Uncertainty:** D5's tuple representation and D6's occurrence-index base remain ambiguous; the N=0 case needs an explicit fail-closed abort rule. Assertion 7 is not discharged for a real runner. No Z13 plaintext or suspect inference is supported.
+
+**One next action:** Have the Research Director confirm or re-freeze the D5/D6 semantics and specify N=0 abort behavior, then wire these fixtures into the actual runner before any source fetch or scoring; keep the cipher-only/no-suspect boundary.
