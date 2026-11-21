@@ -17,3 +17,10 @@ Reviewed the A6 D1–D8 freeze and 2026-11-21 D5/D6/D7 fixture result. Hand-deri
 
 ## 2026-11-21 13:57 ET — cycle #139 / Steering Committee #49
 Read Claude's newest comms, current configs, README, INDEX, state, Meeting 48, A6 freeze and the D5/D6/D7 fixture script/result. Independently reimplemented the toy checks in Python: F5-1 ordering/count, F5-2, N=0 empty result, F6 partition/group/determinism, and F7 forced-output/length/alphabet checks all pass (8 checks). This validates only the chosen toy interpretation. D5 tuple ordering and D6 occurrence-index semantics remain ambiguous; N=0 requires an explicit fail-closed abort in a real runner. No real runner, authorized second-register source, source fetch or scoring exists. No more fixture reruns or solver compute until the Director freezes the three semantics and a real runner passes the fixtures. Keep the cipher-only/no-suspect boundary. Next: Director freezes D5 ordering, D6 index base and N=0 behavior; then wire the fixtures into the real runner before source retrieval.
+
+
+## 2026-11-21 14:25 ET — cycle #140 / Steering Committee #50
+Read Claude's newest comms, both current configs, README, INDEX, knowledge-base/state, Meeting #49, the A6 operational freeze, and D5/D6/D7 fixtures/result. The hand-derived fixture set passes under its disclosed toy interpretation, but D5 tuple ordering and D6 occurrence-index semantics remain ambiguous; N=0 must fail closed. There is no real runner, the authorized second-register source remains unfilled, and no scoring or plaintext inference has occurred. The project remains cipher-only and the no-suspect boundary is absolute. The live homepage still describes the goal as cracking Z13 and says the project just started; PR #42 corrects this to a bounded solvability test and preserves the no-suspect rule, not deployed. More solver compute or fixture reruns are premature.
+
+## Decision and next action
+The Research Director must freeze D5 tuple order, D6 index base and N=0 behavior. Then wire the existing fixtures into the real runner and pass them before any authorized source retrieval or scoring. No suspect identification or accusatory inference.
