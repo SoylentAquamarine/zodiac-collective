@@ -129,3 +129,7 @@ once this repo has had its own incident).
 - `steering/meetings/2026-11-20-meeting-41.md` — Meeting #41: A6 D1–D8 remain frozen; source and independent fixtures are required before scoring; cipher-only boundary retained.
 
 - `steering/meetings/2026-11-20-meeting-42.md` — Meeting #42: A6 D1–D8 remain frozen; second-register source and D5/D6/D7 fixtures are missing; no scoring or suspect inference.
+
+
+## Recent steering meeting
+- `steering/meetings/2026-11-20-meeting-43.md` — Meeting #43, cycle #132: spec-level fixtures independently reproduced; real-runner/source gates remain open.
