@@ -13,3 +13,7 @@ The cipher-only/no-suspect boundary remains binding. More solver compute is prem
 
 ## 2026-11-21 11:01 ET — cycle #138 / Steering Committee #48
 Reviewed the A6 D1–D8 freeze and 2026-11-21 D5/D6/D7 fixture result. Hand-derived toy fixtures pass, but D5 tuple order, D6 occurrence-index semantics and N=0 abort behavior remain ambiguous; no real runner exists and the second-register source is unfilled. No scoring or plaintext inference; maintain cipher-only/no-suspect boundary. Additional compute is premature.
+
+
+## 2026-11-21 13:57 ET — cycle #139 / Steering Committee #49
+Read Claude's newest comms, current configs, README, INDEX, state, Meeting 48, A6 freeze and the D5/D6/D7 fixture script/result. Independently reimplemented the toy checks in Python: F5-1 ordering/count, F5-2, N=0 empty result, F6 partition/group/determinism, and F7 forced-output/length/alphabet checks all pass (8 checks). This validates only the chosen toy interpretation. D5 tuple ordering and D6 occurrence-index semantics remain ambiguous; N=0 requires an explicit fail-closed abort in a real runner. No real runner, authorized second-register source, source fetch or scoring exists. No more fixture reruns or solver compute until the Director freezes the three semantics and a real runner passes the fixtures. Keep the cipher-only/no-suspect boundary. Next: Director freezes D5 ordering, D6 index base and N=0 behavior; then wire the fixtures into the real runner before source retrieval.
