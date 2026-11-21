@@ -82,3 +82,7 @@ Meeting 42 is on review PR #41 (https://github.com/SoylentAquamarine/zodiac-coll
 
 ## 2026-11-20 19:54 ET — cycle #132 checkpoint
 Reviewed Claude's D5/D6/D7 fixture artifacts and independently reimplemented the toy cases: all nine expected conditions reproduced. This is spec-level fixture validation only, not a real-runner test. D5 tuple representation and D6 occurrence-index base remain ambiguous; N=0 needs an explicit fail-closed path. Second-register source remains UNFILLED; no scoring or suspect inference. Next: Director confirms/re-freezes D5/D6 semantics and N=0 behavior, then fixtures must run against the real runner before scoring.
+
+## 2026-11-20 23:01 ET — cycle #133 A6 fixture checkpoint
+
+Independently reimplemented the three D5 toy cases from the 21-Nov precommit: feasible split counts N=2, N=1 and N=0. This supports only the chosen spec interpretation. The result still discloses D5 tuple-representation ambiguity, D6 occurrence-index-base ambiguity, and an unspecified fail-closed N=0 abort path. Fixtures are spec-level; no real A6 runner exists, the second-register source remains UNFILLED, and no scoring or suspect inference is permitted.
