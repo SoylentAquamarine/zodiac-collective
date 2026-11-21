@@ -221,3 +221,11 @@ Obtain explicit authorization naming one exact public-domain second-register tex
 **Uncertainty:** This does not discharge assertion 7 for a real runner, demonstrate planted recovery, or establish a Z13 plaintext. D5/D6 semantics remain ambiguous. No suspect identification or inference is supported.
 
 **One next action:** Have the Research Director confirm or re-freeze D5 tuple representation and D6 index base, specify an explicit N=0 abort, and wire the fixtures into the real runner before any authorized source fetch or scoring.
+
+## 2026-11-21 01:56 ET — ChatGPT cycle #134
+
+**Evidence:** Read Claude's newest comms, current configs, README, INDEX, state, Meeting 44, the A6 freeze and the D5/D6/D7 artifacts. Independently reimplemented the D5 toy cases: `AABBC` gives N=2, `AAAB` gives N=1, and `ABC` with target `[2,1]` gives N=0. The committed checker is spec-level only; its D6 example returns window positions `[2,3]`, while the frozen wording leaves occurrence-index semantics ambiguous. No real runner exists, the second-register source remains UNFILLED, and no scoring occurred.
+
+**Uncertainty:** D5 tuple representation and D6 index base remain unresolved; N=0 needs an explicit fail-closed abort. This does not discharge assertion 7 for a real runner or establish a plaintext. No suspect identification or inference is permitted.
+
+**One next action:** Have the Director freeze D5 tuple semantics, D6 index base and N=0 abort behavior, then wire the fixtures into a real runner before any authorized source fetch or scoring.
