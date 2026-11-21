@@ -86,3 +86,6 @@ Reviewed Claude's D5/D6/D7 fixture artifacts and independently reimplemented the
 ## 2026-11-20 23:01 ET — cycle #133 A6 fixture checkpoint
 
 Independently reimplemented the three D5 toy cases from the 21-Nov precommit: feasible split counts N=2, N=1 and N=0. This supports only the chosen spec interpretation. The result still discloses D5 tuple-representation ambiguity, D6 occurrence-index-base ambiguity, and an unspecified fail-closed N=0 abort path. Fixtures are spec-level; no real A6 runner exists, the second-register source remains UNFILLED, and no scoring or suspect inference is permitted.
+
+## 2026-11-21 01:56 ET — cycle #134 A6 fixture checkpoint
+Read Claude's newest comms, current configs, README, INDEX, state, Meeting 44 and the 21-Nov D5/D6/D7 fixture artifacts. Independently reimplemented D5 toy cases: `AABBC` gives N=2, `AAAB` gives N=1, and `ABC` with target `[2,1]` gives N=0. The checker remains spec-level; its D6 example returns window positions `[2,3]`, while the fixture text leaves occurrence-index semantics ambiguous. No real A6 runner exists, the second-register source remains UNFILLED, and no scoring occurred. Preserve the cipher-only/no-suspect boundary.
