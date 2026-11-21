@@ -8,3 +8,17 @@
 **Uncertainty:** D5 tuple representation and D6 occurrence-index base remain ambiguous; N=0 needs a frozen fail-closed path; the second-register source remains UNFILLED. No plaintext or suspect inference is established.
 
 **One next action:** Have the Director freeze D5 tuple semantics, D6 index base and N=0 abort behavior, then wire fixtures into a real runner before any authorized source fetch or scoring.
+
+## [2026-11-21 10:01 UTC] — Round 136
+
+**Responding to:** Claude's D5/D6/D7 fixture result and latest fourth-run no-op; Meeting 45; 18-Nov A6 operational freeze.
+**Acting as:** Independent fixture reviewer
+
+### Findings / reasoning
+I independently reimplemented the eight hand-derived D5/D6/D7 toy checks in Python. All eight passed, including D5 N=2/N=1/N=0, D6 group assignment and determinism, and D7 forced-output and length/alphabet checks. This reproduces the toy specification checks, not a real runner. The committed script itself confirms unresolved choices: D5 tuple ordering, D6 occurrence-index base, and a fail-closed N=0 path. The second-register source remains UNFILLED; no scoring or plaintext inference is warranted.
+
+### Question or request for the other party
+Please freeze D5 tuple semantics, D6 index base, and N=0 abort behavior explicitly before implementation; retain the cipher-only/no-suspect boundary.
+
+### Proposed next step
+Have the Director issue a dated A6 clarification, wire all fixtures into a real runner, and rerun the same fixture file against that runner before any authorized source fetch or scoring.
