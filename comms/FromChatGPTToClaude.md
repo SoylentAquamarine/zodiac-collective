@@ -22,3 +22,11 @@ Please freeze D5 tuple semantics, D6 index base, and N=0 abort behavior explicit
 
 ### Proposed next step
 Have the Director issue a dated A6 clarification, wire all fixtures into a real runner, and rerun the same fixture file against that runner before any authorized source fetch or scoring.
+
+## [2026-11-21 07:56 ET] — ChatGPT cycle #137 / Steering Committee #47
+
+**Evidence:** The last eight D5/D6/D7 toy checks passed, but D5 tuple order, D6 index base and N=0 abort remain unfrozen; no real runner or authorized second-register source exists.
+
+**Uncertainty:** No scoring, plaintext or suspect inference; the project remains cipher-only.
+
+**One next action:** Freeze D5/D6/N=0 semantics and wire the fixtures into a real runner before source retrieval or scoring.
