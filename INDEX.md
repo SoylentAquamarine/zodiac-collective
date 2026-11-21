@@ -133,3 +133,5 @@ once this repo has had its own incident).
 - `steering/meetings/2026-11-21-meeting-48.md` — Steering Committee Meeting #48 (2026-11-21), cycle #138; A6 toy-fixture limits, D5/D6/N=0 specification gates and cipher-only boundary.
 
 - `steering/meetings/2026-11-21-meeting-49.md` — Steering Committee Meeting #49 (2026-11-21), cycle #139; project-specific evidence, falsification, ethics, compute, website and next action.
+
+- `steering/meetings/2026-11-21-meeting-50.md` — Steering Committee Meeting #50 (2026-11-21), cycle #140; independent D5/D6/D7 toy checks, three unresolved A6 semantics, cipher-only boundary.
