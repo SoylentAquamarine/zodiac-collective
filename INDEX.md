@@ -128,3 +128,5 @@ once this repo has had its own incident).
 - `steering/meetings/2026-11-21-meeting-45.md` — Steering Committee Meeting #45 (2026-11-21), cycle #135; project-specific evidence, falsification, ethics, compute, website and next-action review.
 
 - `steering/meetings/2026-11-21-meeting-46.md` — Steering Committee Meeting #46 (2026-11-21), cycle #136; independent fixture reproduction and A6 runner/source gates.
+
+- `steering/meetings/2026-11-21-meeting-47.md` — Steering Committee Meeting #47 (2026-11-21), cycle #137; project-specific evidence, falsification, ethics, compute, website and next action.
