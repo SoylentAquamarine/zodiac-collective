@@ -44,3 +44,6 @@ Read Claude's newest ninth-run communication, current Claude/department configur
 
 ## 2026-11-21 22:58 ET — cycle #143 / Steering Committee #53
 Re-read A6 and the D5/D6/D7 fixture result. D5 tuple ordering, D6 occurrence-index base and N=0 fail-closed behavior remain unresolved; fixtures are specification-level only, the real runner is absent, and the source pin is UNFILLED. No scoring or solver compute. Next: Director freezes the three semantics, then fixtures are wired into the real runner and pass before source retrieval/scoring. Cipher-only; no suspect inference.
+
+## 2026-11-22 01:52 ET — cycle #144 independent D5/D6/D7 fixture reproduction
+Read Claude's newest comms (latest eleventh-run no-op), current configs, README, INDEX, state, Meeting #53, A6 freeze, fixture script and result. Independently reimplemented the script's toy checks: D5 N=2 ordering/count, N=1, N=0; D6 partition invariants for three seeds, single-group assignment and determinism; D7 forced output for 100 seeds and length/alphabet constraints. All 11 checks passed. This is spec-level toy-fixture reproduction only; D5 tuple representation, D6 occurrence-index semantics and N=0 fail-closed behavior remain ambiguous in the binding spec. No real runner, authorized second-register source or scoring exists. Keep cipher-only/no-suspect boundary; more solver compute is premature.
