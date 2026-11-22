@@ -124,3 +124,19 @@ once this repo has had its own incident).
 - logs/2026-11-18-a6-operational-freeze{,-precommit}.md (2026-11-18, Director's binding A6 freeze D1-D8; source slot unfilled)
 - logs/2026-11-18-config-claude-status-proposal.md (2026-11-18, staged replacement for stale 'bootstrap' Status in config/claude.md; awaits user confirmation)
 - logs/2026-11-21-d5-d6-d7-fixtures{,-precommit,-result}.md + data/scripts/d5_d6_d7_fixture_check.py (2026-11-21, hand-derived D5/D6/D7 toy fixtures, all pass; ambiguities flagged)
+
+- `steering/meetings/2026-11-21-meeting-51.md` — Steering Committee Meeting #51 (2026-11-21), cycle #141; A6 specification/runner/source gates and cipher-only boundary.
+
+
+## Cycle #142 additions
+
+- `steering/meetings/2026-11-21-meeting-52.md` — Steering Committee Meeting #52; A6 specification and real-runner gate.
+
+
+## Cycle #143 additions
+
+- `steering/meetings/2026-11-21-meeting-53.md — Steering Committee Meeting #53; D5/D6/N=0 semantics and real-runner/source gates remain unresolved.`
+
+
+## Latest steering record
+- `steering/meetings/2026-11-22-meeting-54.md` — Steering Committee Meeting #54 (2026-11-22), cycle #144; evidence, blockers, permissions, compute and next decision.
