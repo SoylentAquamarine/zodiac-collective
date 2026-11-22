@@ -131,3 +131,8 @@ once this repo has had its own incident).
 ## Cycle #142 additions
 
 - `steering/meetings/2026-11-21-meeting-52.md` — Steering Committee Meeting #52; A6 specification and real-runner gate.
+
+
+## Cycle #143 additions
+
+- `steering/meetings/2026-11-21-meeting-53.md — Steering Committee Meeting #53; D5/D6/N=0 semantics and real-runner/source gates remain unresolved.`
