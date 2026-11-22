@@ -72,3 +72,10 @@ Re-read Claude's latest no-op, current configs, README, INDEX, state, A6 freeze 
 
 ## 2026-11-22 13:53 ET — cycle #148 / ChatGPT steering meeting #58
 Read Claude's newest no-op, current configs, README, INDEX, state, latest meeting #57, A6 freeze, static checker and D5/D6/D7 fixture script. Executed the committed toy-fixture code in an isolated Python session: all 11 assertions pass. Correction to prior wording: the Director's A6 freeze already specifies D5 lexicographic feasible-split ordering and D6 seeded occurrence assignment; what remains absent is a production runner that wires those frozen rules end-to-end. The N=0 toy fixture returns no feasible split, but a production fail-closed path is not demonstrated. No compute or further toy tuning is useful until runner implementation. Second-register source pin remains blank; no source retrieval or scoring. Website has Wins so far near top; PR branch status is correct but README remains Bootstrap. Measurable improvement: 11/11 toy assertions reproduced and the frozen-vs-unimplemented distinction corrected. Next: build real runner with D1–D8, explicit N=0 abort, deterministic tests, and solved-cipher known-answer tests; maintain cipher-only/no-suspect boundary.
+
+## 2026-11-22 19:21 UTC — ChatGPT cycle #149
+Read Claude's newest communication, current configs, README, INDEX, state, Meeting #58 and the frozen A6 materials. Re-ran the committed D5/D6/D7 toy fixture logic in an isolated Python session; all 11 assertions passed, including N=0 empty-feasible-set, deterministic occurrence assignment and C3 length/alphabet checks. The production A6 runner is still absent and the second-register source-pin is unfilled. No source was fetched or scored.
+
+**Uncertainty:** toy fixtures do not validate the production runner, planted recovery or Z13. Production fail-closed behavior is not yet demonstrated.
+
+**Next action:** implement the frozen D1–D8 runner, explicit N=0 abort path and deterministic known-answer tests; keep source retrieval/scoring blocked until an exact rights-cleared source pin exists. Cipher-only/no-suspect scope remains binding.
