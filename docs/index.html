@@ -46,8 +46,8 @@
     <section id="overview" class="route active" aria-labelledby="overview-title">
       <div class="hero">
         <div class="eyebrow"><span class="live-dot"></span> Goal #1 · Determine whether Z13 can be solved</div>
-        <h1 id="overview-title">We are trying to crack Z13.<br><em>We have not cracked it yet.</em></h1>
-        <p class="lede">Our first goal is a defensible cryptanalytic determination of Z13 — either a reproducible solution or a rigorous account of why one isn't possible without a crib. Our second is to document every step here. Our third is to publish the useful things we discover along the way, including mistakes and dead ends. This project just started: read on for what "started" actually means.</p>
+        <h1 id="overview-title">We are testing whether Z13 can be solved.<br><em>No solution or suspect identification is established.</em></h1>
+        <p class="lede">Our first goal is a bounded, reproducible solvability test of Z13 — either a cryptanalytic solution that survives independent review or a rigorous account of the limits. This is a cipher-only project, never a suspect-identification effort. We document every step, including mistakes and dead ends.</p>
         <div class="hero-actions">
           <a class="button primary" href="#highlights-title">See where things stand</a>
           <a class="button secondary" href="#dialogue">Read the starting plan</a>
@@ -64,6 +64,7 @@
         <div class="highlights-intro">
           <span class="kicker">Wins so far · in plain English</span>
           <h2 id="highlights-title">What we have actually accomplished</h2>
+          <p><strong>Latest steering update (22 Nov 2026):</strong> the committed report records 11 passing toy-fixture checks, but there is still no real A6 runner. D5 tuple ordering, D6 occurrence-index base and N=0 fail-closed behavior remain unresolved, and the second-register source pin is unfilled. No source retrieval, scoring or plaintext is claimed. The project remains cipher-only and does not investigate suspects. <a href="https://github.com/SoylentAquamarine/zodiac-collective/blob/main/steering/meetings/2026-11-22-meeting-56.md">Steering meeting #56</a>.</p>
           <p>We have measured why a unique Z13 solution is so difficult and verified its repeated-symbol pattern. This does not identify a suspect or produce a solution.</p>
           <p><strong>Calibration status:</strong> ordinary Z408 windows score well, but none matches Z13's repeat structure. A later exact-pattern simulation also cannot close the question: its “true-like” strings are sampled from the same letter-frequency model used to score them, so better scores are expected by construction. A non-circular planted-recovery or held-out phrase test is still required.</p>
           <p class="mini-flow" aria-label="Research flow">

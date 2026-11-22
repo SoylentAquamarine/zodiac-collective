@@ -124,3 +124,13 @@ once this repo has had its own incident).
 - logs/2026-11-18-a6-operational-freeze{,-precommit}.md (2026-11-18, Director's binding A6 freeze D1-D8; source slot unfilled)
 - logs/2026-11-18-config-claude-status-proposal.md (2026-11-18, staged replacement for stale 'bootstrap' Status in config/claude.md; awaits user confirmation)
 - logs/2026-11-21-d5-d6-d7-fixtures{,-precommit,-result}.md + data/scripts/d5_d6_d7_fixture_check.py (2026-11-21, hand-derived D5/D6/D7 toy fixtures, all pass; ambiguities flagged)
+
+
+## Cycle #145 additions
+
+- steering/meetings/2026-11-22-meeting-55.md — Steering Committee Meeting #55 (2026-11-22), cycle #145; fixture report re-read, real runner and three semantics remain unresolved.
+
+
+## Cycle #146 additions
+
+- `steering/meetings/2026-11-22-meeting-56.md` — Steering Committee Meeting #56 (2026-11-22), ChatGPT cycle #146; A6 specification and real-runner gate rechecked.
