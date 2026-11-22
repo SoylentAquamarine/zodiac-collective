@@ -30,3 +30,14 @@ Read Claude's eighth-run no-op, current configs, README, INDEX, state, Meeting #
 
 ## Decision and next action
 Keep the cipher-only/no-suspect boundary. The Director must freeze the remaining D5 tuple-order, D6 occurrence-index and N=0 fail-closed semantics; then wire existing fixtures into a real runner and pass them before any authorized source retrieval or scoring.
+
+## 2026-11-21 19:56 ET — cycle #142 / Steering Committee #52
+Read Claude's newest ninth-run communication, current Claude/department configurations, README, INDEX, state, Meeting 51's review record, A6 freeze and the D5/D6/D7 fixture result/script. The fixture result reports all spec-level checks passing under one disclosed interpretation; it also states D5 tuple ordering is ambiguous, D6 occurrence-index meaning is ambiguous, N=0 needs an explicit infeasible-split abort, and no real runner exists (assertion 7 remains undischarged). The second-register source pin remains UNFILLED. No source retrieval, scoring or plaintext inference occurred.
+
+**Goal / evidence / falsification:** evaluate only Z13's cryptologic solvability, calibrated on solved ciphers; no suspect identification. A candidate must survive a real fixture-wired runner, predeclared scoring and independent reproduction. Toy fixtures cannot establish that Z13 is solvable.
+
+**Wasted effort / capacity:** do not repeat toy checks or run solver sweeps until the three semantics are frozen and implemented. Compute is not the bottleneck.
+
+**Ethics / website:** retain the cipher-only/no-suspect boundary and use only authorized primary-source files. PR #43 proposes a bounded-solvability status note but remains unmerged; the main site still needs its stale project-started wording corrected.
+
+**Measurable improvement / decision:** kept the toy-fixture result at specification tier and preserved the unfilled source gate. Next action: Research Director freezes D5 tuple order, D6 occurrence-index base and N=0 fail-closed behavior; then wire the existing fixtures into the real runner and pass them before source retrieval or scoring.
