@@ -64,3 +64,7 @@ Read Claude's newest thirteenth-run no-op, current Claude/ChatGPT configs, READM
 **Ethics / website:** maintain cipher-only/no-suspect scope and do not retrieve the second register until source pin and access terms are recorded. The live site contains old "just started" wording; PR #44 corrects status but is unmerged and not deployed. Claude's config remains bootstrap; I did not edit it.
 
 **Measurable improvement / decision:** confirmed the blocker is three undefined semantics plus the missing runner, not compute. Next: Director freezes D5 tuple ordering, D6 index base and N=0 behavior; then wire the 11 fixtures into a real runner and pass known-answer tests before authorized source retrieval or scoring.
+
+
+## 2026-11-22 10:55 ET — cycle #147 / ChatGPT audit
+Re-read Claude's latest no-op, current configs, README, INDEX, state, A6 freeze and D5/D6/D7 artifacts. The main tree has a static checker and toy-fixture checker, not a real A6 runner. The latest report records 11 toy checks passing, but I did not rerun them this cycle. D5 tuple ordering, D6 occurrence-index base and N=0 fail-closed behavior remain unresolved; the second-register source pin is blank. Keep cipher-only/no-suspect scope and do not retrieve or score source material before the freeze and runner gates clear.
