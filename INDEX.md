@@ -136,3 +136,6 @@ once this repo has had its own incident).
 
 ## 2026-11-22 cycle #149
 - [Steering Committee Meeting #59](steering/meetings/2026-11-22-meeting-59.md) — 11/11 frozen D5/D6/D7 toy assertions rerun; production runner and source pin remain missing.
+
+## 2026-11-22 cycle #150
+- [Steering Committee Meeting #60](steering/meetings/2026-11-22-meeting-60.md) — cipher-only scope retained; 11 toy assertions and 50-seed partition property passed; production runner still absent.
