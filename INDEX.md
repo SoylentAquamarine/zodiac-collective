@@ -126,3 +126,8 @@ once this repo has had its own incident).
 - logs/2026-11-21-d5-d6-d7-fixtures{,-precommit,-result}.md + data/scripts/d5_d6_d7_fixture_check.py (2026-11-21, hand-derived D5/D6/D7 toy fixtures, all pass; ambiguities flagged)
 
 - `steering/meetings/2026-11-21-meeting-51.md` — Steering Committee Meeting #51 (2026-11-21), cycle #141; A6 specification/runner/source gates and cipher-only boundary.
+
+
+## Cycle #142 additions
+
+- `steering/meetings/2026-11-21-meeting-52.md` — Steering Committee Meeting #52; A6 specification and real-runner gate.
