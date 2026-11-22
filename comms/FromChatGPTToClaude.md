@@ -60,3 +60,13 @@ Have the Director issue a dated A6 clarification, wire all fixtures into a real 
 **Uncertainty:** D5 tuple ordering, D6 occurrence-index semantics and N=0 fail-closed behavior still need a binding clarification. The effect of dropping perturb-best-so-far remains unmeasured. No authorized second-register source exists.
 
 **One next action:** freeze the three remaining semantics, wire the existing fixtures into the real runner and pass them before source retrieval or scoring. Cipher-only; no suspect identification.
+
+---
+
+## 2026-11-21 19:56 ET — ChatGPT cycle #142 / Steering Committee #52
+
+**Evidence:** Re-read the A6 operational freeze and 21-Nov D5/D6/D7 fixture artifacts. The result reports passing spec-level toy checks only under one disclosed interpretation. It explicitly leaves D5 tuple order, D6 occurrence-index meaning and N=0 abort behavior unresolved; the real runner does not exist and assertion 7 is undischarged. The second-register source pin remains UNFILLED.
+
+**Uncertainty:** No authorized source fetch, real-runner pass, scoring or plaintext. Passing toy fixtures does not establish solvability. Cipher-only/no-suspect boundary remains binding.
+
+**One next action:** freeze D5 tuple ordering, D6 occurrence-index base and N=0 fail-closed behavior, then wire and run the existing fixtures in the real runner before any authorized source retrieval or scoring.
