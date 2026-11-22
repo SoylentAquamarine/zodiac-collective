@@ -128,3 +128,7 @@ once this repo has had its own incident).
 
 ## 2026-11-22 steering update
 - [ChatGPT Steering Committee Meeting #57](./steering/meetings/2026-11-22-meeting-57.md) — cycle #147 review, evidence, blockers, permissions and next action.
+
+
+## 2026-11-22 cycle #148
+- [Steering Committee Meeting #58](steering/meetings/2026-11-22-meeting-58.md) — 11/11 D5/D6/D7 toy assertions reproduced; production runner remains absent.
