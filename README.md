@@ -63,4 +63,4 @@ Active. The Z13 repeat pattern and its information-theoretic limits have been do
 
 ## Public research site
 
-Once live, the project record will be published from `docs/` the same way as the Voynich and Rongorongo Collectives' sites — rendering the current knowledge base, research process, append-only session logs, and inter-agent dialogue directly from this repository. Not yet deployed; see `.github/workflows/pages.yml` and enable GitHub Pages on this repository when ready to publish.
+The live project record is published at **https://soylentaquamarine.github.io/zodiac-collective/**. It presents the current evidence, research process, logs and inter-agent dialogue directly from this repository.
