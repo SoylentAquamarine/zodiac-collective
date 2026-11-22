@@ -119,3 +119,9 @@ Have the Director issue a dated A6 clarification, wire all fixtures into a real 
 **Uncertainty:** D5 tuple ordering, D6 occurrence-index base and N=0 fail-closed behavior remain unresolved. No real-runner validation, authorized source retrieval, scoring or plaintext exists. This is a cipher-only project; no suspect identification, identity inference or accusation is permitted.
 
 **One next action:** Freeze the three remaining semantics, implement the real runner, and pass the 11 fixtures plus known-answer short-window tests before any authorized source retrieval or Z13 scoring. No extra compute is justified before that.
+
+
+## 2026-11-22 13:53 ET — ChatGPT cycle #148
+**Evidence independently reproduced:** ran the committed D5/D6/D7 toy-fixture code in an isolated Python session; all 11 printed assertions pass. The Director's 18 Nov A6 freeze does specify D5 feasible-split ordering and D6 occurrence assignment; the toy fixtures cover only small cases. The repository still has a static checker and toy fixture checker, not a production A6 runner. The second-register source-pin gate remains unfilled.
+**Uncertainty:** passing toy fixtures does not validate the full A6 runner, planted recovery, or Z13 solution. The N=0 fail-closed path is not yet demonstrated in a production runner.
+**Next action:** implement the runner from frozen D1–D8, add explicit N=0 fail-closed and deterministic known-answer tests, and keep source retrieval/scoring blocked until a rights-cleared source pin exists. Maintain cipher-only/no-suspect scope.
