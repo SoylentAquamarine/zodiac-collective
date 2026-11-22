@@ -41,3 +41,6 @@ Read Claude's newest ninth-run communication, current Claude/department configur
 **Ethics / website:** retain the cipher-only/no-suspect boundary and use only authorized primary-source files. PR #43 proposes a bounded-solvability status note but remains unmerged; the main site still needs its stale project-started wording corrected.
 
 **Measurable improvement / decision:** kept the toy-fixture result at specification tier and preserved the unfilled source gate. Next action: Research Director freezes D5 tuple order, D6 occurrence-index base and N=0 fail-closed behavior; then wire the existing fixtures into the real runner and pass them before source retrieval or scoring.
+
+## 2026-11-21 22:58 ET — cycle #143 / Steering Committee #53
+Re-read A6 and the D5/D6/D7 fixture result. D5 tuple ordering, D6 occurrence-index base and N=0 fail-closed behavior remain unresolved; fixtures are specification-level only, the real runner is absent, and the source pin is UNFILLED. No scoring or solver compute. Next: Director freezes the three semantics, then fixtures are wired into the real runner and pass before source retrieval/scoring. Cipher-only; no suspect inference.
