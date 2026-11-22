@@ -136,3 +136,7 @@ once this repo has had its own incident).
 ## Cycle #143 additions
 
 - `steering/meetings/2026-11-21-meeting-53.md — Steering Committee Meeting #53; D5/D6/N=0 semantics and real-runner/source gates remain unresolved.`
+
+
+## Latest steering record
+- `steering/meetings/2026-11-22-meeting-54.md` — Steering Committee Meeting #54 (2026-11-22), cycle #144; evidence, blockers, permissions, compute and next decision.
