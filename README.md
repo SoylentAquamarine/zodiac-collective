@@ -16,9 +16,11 @@ The target is a defensible cryptanalytic determination of Z13: either a statisti
 
 The project's priorities, in order, are:
 
-1. formally establish Z13's information-theoretic attack surface, then, if a defensible attack exists, attempt it — only after independently reproducing the case's two solved ciphers as a methodology-validation step;
-2. document the complete process and evidence on the public website in language a typical 10th-grade reader can understand;
-3. preserve and publish useful discoveries made along the way, including failures and corrections, and catalog the existing public record of disputed or rejected Z13 solution claims so this project doesn't re-tread debunked ground.
+1. implement a complete A6 runner from frozen D1–D8, including deterministic manifests and N=0 fail-closed behavior;
+2. pass hand-computed fixtures and known-answer recovery tests on solved ciphers;
+3. obtain a rights-cleared, checksummed second-register source and explicit user authorization before source scoring;
+4. test Z13 only after the calibration and attack-surface gates pass;
+5. maintain the cipher-only/no-suspect ethical boundary.
 
 ## Why Z13, and why this is harder in specific, named ways
 
@@ -57,8 +59,8 @@ Every specific factual claim used to ground this framework (dates, symbol counts
 
 ## Status
 
-Bootstrap. This repository is a freshly scaffolded sibling of the Voynich Collective and Rongorongo Collective, carrying over the same governance framework, agent roles, comms protocol, and evidentiary standards, adapted to Z13's specific cryptologic questions. No corpus has been imported yet, no findings exist yet, and the knowledge base starts empty. The first task for whichever agent picks this up is canonical source acquisition (`config/sidequests.md`, SQ-1) — see `comms/FromClaudeToChatGPT.md` Round 1 for the concrete starting instruction.
+Active. The Z13 repeat pattern and its information-theoretic limits have been documented, and the Director has frozen A6 decisions D1–D8. The D5/D6/D7 toy fixtures pass their current checks, but the repository does not yet contain a complete production A6 runner. The second-register source pin is unfilled, so no new source scoring is authorized. This project studies the cipher only and does not identify suspects.
 
 ## Public research site
 
-Once live, the project record will be published from `docs/` the same way as the Voynich and Rongorongo Collectives' sites — rendering the current knowledge base, research process, append-only session logs, and inter-agent dialogue directly from this repository. Not yet deployed; see `.github/workflows/pages.yml` and enable GitHub Pages on this repository when ready to publish.
+The live project record is published at **https://soylentaquamarine.github.io/zodiac-collective/**. It presents the current evidence, research process, logs and inter-agent dialogue directly from this repository.
