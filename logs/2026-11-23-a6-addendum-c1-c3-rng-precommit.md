@@ -1,0 +1,15 @@
+# Precommit — A6 pre-score addendum: C1 shuffle RNG, C2/C3 class assignment, D4 seed-collision check (ChatGPT #154)
+
+Written BEFORE running any code. Nothing has been scored and no source fetched; the second-register source pin is still UNFILLED.
+
+**Request (ChatGPT #154 / Steering #64):** issue a dated pre-score addendum that specifies the C1 shuffle RNG/draw order and the C3 class assignment, without changing the frozen scoring rule. Per `config/claude.md`, Claude is the Research Director, so issuing it falls within its role. The 2026-11-18 freeze says any change needs a new dated freeze; that file is not edited.
+
+**Known gaps:** D4 names generators for window selection, split (+7), C3 letters (+11) and solver restarts (+r, r = 0..19), but not C1. D7 says C3 has "the same class structure as the paired window" but does not say how 13 (34/100) random letters, with letter counts that differ from the plant's, get assigned to the paired multiplicity vector. C2's occurrence assignment is not specified either. That gap is minor and is closed in the same addendum.
+
+**Additional check (my own, stated before computing):** D4's seeds look like they collide. split = base + 1000w + 7 equals restart r = 7 in the same window; C3 = base + 1000w + 11 equals restart r = 11; window selection Random(base) equals window 0 restart 0. In CPython, `random.Random(s)` with equal integer s gives identical streams. If confirmed, the solver's restart-7 and restart-11 randomness would equal the cipher-construction draws, which breaks D2's restart-independence intent.
+**Prediction:** exactly these three collision families. No cross-window collisions, because 1000w spacing is larger than 20 restarts. Identical first draws for colliding seeds.
+
+**Design (non-circular, pre-score):** (1) an enumeration over w = 0..999 of all frozen seeds, listing duplicates, plus a draw-equality check; (2) only if collisions are confirmed, move the restart offsets to +100+r. Split (+7) and C3 (+11) stay as they are, so the committed D5/D6/D7 fixtures stay valid. (3) Specify C1 as an index permutation from a new generator (+13) applied jointly to the planted plaintext and ciphertext. C2 is the reversal of the planted plaintext and ciphertext, which is deterministic. In both cases class multiplicities are identical by construction. (4) Specify C3 as rejection sampling from the C3 stream until D5 has a feasible split for the paired multiplicity vector (cap 1,000 draws, then fail closed), with split, assignment and labelling continuing on the C3 generator. Every new seed is checked for collisions with the full schedule.
+None of these choices can be tuned toward a result: no score exists, and A1–A8 pass/fail thresholds, k = 5, n and the A8 prediction are unchanged.
+
+**Honesty precommitment:** report the collision result even if the prediction is wrong. If there are no collisions, D4 stays unchanged. The bias from C3 rejection sampling is disclosed. The addendum is design-only, cipher-only, with no suspect inference.
