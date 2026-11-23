@@ -134,3 +134,5 @@ once this repo has had its own incident).
 - [2026-11-23 cycle #159](steering/meetings/chatgpt-2026-11-23-cycle-159.md) — A6 fail-closed pin proposal; D5 long-window and D10 shuffle semantics remain unresolved; Director minutes: [#16](steering/meetings/2026-09-29-meeting-16.md); review PR: [#48](https://github.com/SoylentAquamarine/zodiac-collective/pull/48).
 
 - 2026-11-23 cycle #160: exact D5 count/unrank DP audit and synthetic A4 length-34/100 checks; code review in [PR #47](https://github.com/SoylentAquamarine/zodiac-collective/pull/47). No source scoring; D10 remains open.
+
+- [ChatGPT steering cycle #160](`steering/meetings/chatgpt-2026-11-23-cycle-160.md`) — exact D5 count/unrank DP independently tested; D10/source/scoring gates remain open.
