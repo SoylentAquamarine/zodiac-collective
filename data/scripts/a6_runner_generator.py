@@ -3,8 +3,9 @@ selection, plant/C1/C2/C3 construction, symbol labelling, manifest and fail-clos
 Does NOT run the solver, does NOT score, does NOT fetch or read any real source. Cipher-only.
 Frozen specs: logs/2026-11-18-a6-operational-freeze.md (D1-D8), 2026-11-23-a6-addendum-d9-d12-freeze.md,
 2026-11-23-a6-addendum-d13-d15-freeze.md, 2026-11-14-z13-pre-score-addendum-freeze.md (A1-A8)."""
-import hashlib, json, random, re
+import hashlib, json, math, random, re
 from collections import Counter
+from functools import lru_cache
 from pathlib import Path
 
 BASE_SEED = 20261113
@@ -66,6 +67,111 @@ def feasible_splits(window, target):
     rec(0, [], tgt)
     return out
 
+def _target_count_tuple(target):
+    sizes = tuple(sorted(set(target)))
+    counts = Counter(target)
+    return sizes, tuple(counts[s] for s in sizes)
+
+def _bounded_partitions(total, sizes, caps):
+    """Generate only partitions composed of target sizes, preserving D5 tuple order."""
+    out = []
+    def rec(i, remaining, used):
+        if i == len(sizes):
+            if remaining == 0:
+                part = tuple(s for s, n in zip(reversed(sizes), reversed(used)) for _ in range(n))
+                out.append(part)
+            return
+        size = sizes[i]
+        for n in range(min(caps[i], remaining // size) + 1):
+            rec(i + 1, remaining - n * size, used + [n])
+    rec(0, total, [])
+    return sorted(out)
+
+def _split_dp(window, target):
+    """Exact D5 count/unrank; order matches exhaustive lexicographic enumeration."""
+    order = first_occurrence_order(window)
+    letter_counts = Counter(window)
+    sizes, caps = _target_count_tuple(target)
+    choices = [_bounded_partitions(letter_counts[ch], sizes, caps) for ch in order]
+    choice_counts = []
+    for parts in choices:
+        row = []
+        for part in parts:
+            c = Counter(part)
+            row.append(tuple(c[s] for s in sizes))
+        choice_counts.append(row)
+
+    @lru_cache(None)
+    def count(i, remaining):
+        if i == len(order):
+            return int(not any(remaining))
+        total = 0
+        for take in choice_counts[i]:
+            if all(t <= r for t, r in zip(take, remaining)):
+                total += count(i + 1, tuple(r - t for t, r in zip(take, remaining)))
+        return total
+
+    total = count(0, caps)
+
+    def unrank(rank):
+        if rank < 0 or rank >= total:
+            raise IndexError(rank)
+        remaining = caps
+        chosen = []
+        for i in range(len(order)):
+            for part, take in zip(choices[i], choice_counts[i]):
+                if not all(t <= r for t, r in zip(take, remaining)):
+                    continue
+                after = tuple(r - t for t, r in zip(take, remaining))
+                block = count(i + 1, after)
+                if rank >= block:
+                    rank -= block
+                else:
+                    chosen.append(part)
+                    remaining = after
+                    break
+            else:
+                raise RuntimeError("D5 unranking failed")
+        if any(remaining):
+            raise RuntimeError("D5 unranking left unused groups")
+        return tuple(chosen)
+
+    return total, unrank
+
+def count_feasible_splits(window, target):
+    """Count D5-feasible splits without materializing the full split list."""
+    return _split_dp(window, target)[0]
+
+def unrank_feasible_split(window, target, rank):
+    """Return the rank-th D5 split in the frozen exhaustive lexicographic order."""
+    total, unrank = _split_dp(window, target)
+    if rank < 0 or rank >= total:
+        raise IndexError(rank)
+    return unrank(rank)
+
+def choose_feasible_split(window, target, gen):
+    """Uniformly choose the same D5 split that exhaustive-list + randrange(N) would choose."""
+    total, unrank = _split_dp(window, target)
+    if total == 0:
+        return None, 0, None
+    rank = gen.randrange(total)
+    return unrank(rank), total, rank
+
+def a4_target_for_length(length):
+    """A4 class-size vector in class-index order; helper only, not a source-run authorization."""
+    c = min(54, round(8 * length / 13))
+    z13 = (3, 2, 2, 2, 1, 1, 1, 1)
+    weights = [z13[j % len(z13)] for j in range(c)]
+    remainder = length - c
+    quotas = [remainder * w / sum(weights) for w in weights]
+    allocated = [math.floor(q) for q in quotas]
+    left = remainder - sum(allocated)
+    order = sorted(range(c), key=lambda j: (-(quotas[j] - allocated[j]), j))
+    for j in order[:left]:
+        allocated[j] += 1
+    return tuple(1 + n for n in allocated)
+
+
 def build_class_structure(window, split, gen):
     """D6 + D13. Returns (symbol_per_position, group_sizes). One shuffle per distinct letter in
     first-occurrence order; groups in descending size; groups numbered in processing order;
@@ -93,7 +199,7 @@ def select_windows(text, n_windows, L=13, target=TARGET13):
         if tries > CAND_CAP: raise FailClosed("candidate cap reached (D14)")
         start = stream.randrange(0, len(text) - L + 1)
         if any(start < s + L and s < start + L for s, _ in accepted): rejected += 1; continue
-        if not feasible_splits(text[start:start + L], target): rejected += 1; continue
+        if count_feasible_splits(text[start:start + L], target) == 0: rejected += 1; continue
         accepted.append((start, len(accepted)))
     return accepted, rejected
 
@@ -104,10 +210,11 @@ def make_window(text, start, w, weights, target=TARGET13):
     P = text[start:start + sum(target)]
     n = len(P); base = BASE_SEED + w * 1000
     plant_gen = random.Random(base + 7)
-    splits = feasible_splits(P, target)
-    split = splits[plant_gen.randrange(len(splits))]
+    split, n_splits, split_index = choose_feasible_split(P, target, plant_gen)
+    if split is None:
+        raise FailClosed("plant window has no feasible D5 split")
     C, sizes, S = build_class_structure(P, split, plant_gen)
-    rec = {"w": w, "start": start, "P": P, "plant_C": C, "plant_S": S, "split_index": splits.index(split), "N": len(splits)}
+    rec = {"w": w, "start": start, "P": P, "plant_C": C, "plant_S": S, "split_index": split_index, "N": n_splits}
     # D10 C1
     g1 = random.Random(base + 13); pi = list(range(n)); g1.shuffle(pi); tries = 1
     while pi == list(range(n)) or "".join(P[i] for i in pi) == P:
@@ -122,15 +229,15 @@ def make_window(text, start, w, weights, target=TARGET13):
         draws += 1
         if draws > C3_CAP: raise FailClosed("C3 redraw cap reached (D12)")
         L3 = "".join(g3.choices(ALPHABET, weights=weights, k=n))
-        sp3 = feasible_splits(L3, target)
-        if sp3: break
-    split3 = sp3[g3.randrange(len(sp3))]
+        n3 = count_feasible_splits(L3, target)
+        if n3: break
+    split3, n3, split_index3 = choose_feasible_split(L3, target, g3)
     C3, sizes3, S3 = build_class_structure(L3, split3, g3)
-    rec.update({"c3_P": L3, "c3_C": C3, "c3_S": S3, "c3_redraws": draws - 1, "c3_split_index": sp3.index(split3)})
+    rec.update({"c3_P": L3, "c3_C": C3, "c3_S": S3, "c3_redraws": draws - 1, "c3_split_index": split_index3})
     # assertions 3, 9, 11
-    assert mult_vector(C) == tuple(target), "A3 plant vector"
+    assert mult_vector(C) == tuple(sorted(target, reverse=True)), "A3/A4 plant vector"
     for k, cc in (("c1", rec["c1_C"]), ("c2", rec["c2_C"]), ("c3", C3)):
-        assert mult_vector(cc) == tuple(target), f"assertion 9 {k}"
+        assert mult_vector(cc) == tuple(sorted(target, reverse=True)), f"assertion 9 {k}"
     assert len(set(S)) == len(S) and all(0 <= s < 54 for s in S) and len(set(S3)) == len(S3), "assertion 11"
     return rec
 
