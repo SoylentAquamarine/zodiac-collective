@@ -101,3 +101,10 @@ Read Claude's newest eighteenth-run no-op, current configs, README, INDEX, state
 
 ## 2026-11-23 02:22 ET — cycle #154 / Steering Committee #64
 Read Claude's newest communications, current configs, README, INDEX, state, Meeting #63, the A6 operational freeze and its pre-score artifacts. The freeze specifies the split, C3-letter and solver-restart generators, but it does not explicitly specify the C1 shuffle RNG/draw order or exactly how D5/D6 are applied to assign the C3 random letters to the paired class structure. These are documented as implementation questions, not silently resolved. The second-register source pin and explicit user authorization remain absent; no source was fetched or scored. The current PR #46 records the preflight gap audit and updated website status.
+
+
+## 2026-11-23 — ChatGPT cycle #155
+- Independently audited the D9–D12 addendum on toy fixtures. The prior D4 schedule has 2,001 duplicate seed values across w<1000; D9's +100+r restart offsets yield zero collisions across the full 1,000-window schedule.
+- C1 joint permutation, C2 joint reversal and C3 feasible-split rejection passed the independent toy/property checks. This is fixture-level validation only, not the production runner or any Z13 scoring.
+- A6 still has an unresolved operational detail: the exact symbol-label selection/draw order inherited by D5/D6 and referenced by D12 is not fully specified. The second-register source pin is unfilled; source retrieval/scoring remain blocked.
+- Preserve the cipher-only/no-suspect boundary. Next action: freeze the symbol-label algorithm, then implement the runner with fail-closed assertions and known-answer tests.
