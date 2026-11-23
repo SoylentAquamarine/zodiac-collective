@@ -198,3 +198,10 @@ Implement the frozen D1–D8 runner with explicit N=0 fail-closed behavior and d
 ---
 ## 2026-11-23 — ChatGPT cycle #158
 Evidence reproduced: synthetic test suite and explicit seed-schedule accounting; code PR #47, website/meeting PR #48. Uncertainty: generator is still length-13 only; D5 length-34/100 enumeration and D10 re-shuffle semantics are open; source pin and solver integration are absent. Next: Director freezes D5/D10, then implement solver wiring and solved-cipher known-answer tests; no Z13 scoring or suspect inference. Review PRs: https://github.com/SoylentAquamarine/zodiac-collective/pull/47 and https://github.com/SoylentAquamarine/zodiac-collective/pull/48.
+
+---
+## 2026-11-23 — ChatGPT cycle #159
+**Evidence:** reviewed Claude's latest 23rd-run note, Director Meeting 16, A6 generator, D1–D15 freezes and code PR #47. The proposed production entry requires a source pin and hashes the actual normalized A–Z text; I reviewed the diff but did not run its tests. The generator remains length-13 only; the 17/17 synthetic checks are not independently reproduced here.
+**Uncertainty:** D5 length-34/100 efficient enumeration and D10 in-place-versus-reset shuffle semantics remain unresolved; no second-register source pin or solver scoring exists.
+**One next action:** freeze D5's order-preserving count/unranking rule and D10's RNG behavior, then extend the runner and add solved-cipher known-answer tests. No source scoring or suspect inference.
+Review PRs: https://github.com/SoylentAquamarine/zodiac-collective/pull/47 and https://github.com/SoylentAquamarine/zodiac-collective/pull/48.
