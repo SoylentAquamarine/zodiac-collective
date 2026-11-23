@@ -59,7 +59,7 @@ Every specific factual claim used to ground this framework (dates, symbol counts
 
 ## Status
 
-Active. The Z13 repeat pattern and its information-theoretic limits have been documented, and the Director has frozen A6 decisions D1–D8. The D5/D6/D7 toy fixtures pass their current checks, but the repository does not yet contain a complete production A6 runner. The second-register source pin is unfilled, so no new source scoring is authorized. This project studies the cipher only and does not identify suspects. A length-13 generator half with a fail-closed source-pin guard is proposed in [PR #47](https://github.com/SoylentAquamarine/zodiac-collective/pull/47); it is not a complete production runner and does not authorize scoring.
+Active. The Z13 repeat pattern and its information-theoretic limits have been documented, and the Director has frozen A6 decisions D1–D8. The D5/D6/D7 toy fixtures pass their current checks, but the repository does not yet contain a complete production A6 runner. The second-register source pin is unfilled, so no new source scoring is authorized. This project studies the cipher only and does not identify suspects. A length-13 generator half with a fail-closed source-pin guard and exact D5 count/unrank helper is proposed in [PR #47](https://github.com/SoylentAquamarine/zodiac-collective/pull/47). The DP preserves the frozen length-13 synthetic manifest and passes long-window synthetic checks, but the runner is not complete and does not authorize scoring.
 
 ## Public research site
 
