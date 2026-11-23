@@ -161,3 +161,8 @@ once this repo has had its own incident).
 - [Steering Committee Meeting #65](steering/meetings/2026-11-23-meeting-65.md) — D9 seed schedule independently verified; three remaining pre-score implementation details need a Director freeze.
 
 - [A6 D9–D12 independent audit](logs/2026-11-23-a6-d9-d12-independent-audit.md) — D4's 2,001 seed collisions reproduced; D9 has zero collisions; three pre-score semantics remain open.
+
+
+## 2026-11-23 cycle #157
+- [A6 D13–D15 independent reproduction](logs/2026-11-23-a6-d13-d15-independent-reproduction.md) — 58/58 D5/D6/D7 fixtures and 23,001/23,001 seed uniqueness reproduced; no source or score.
+- [Steering Committee Meeting #66](steering/meetings/2026-11-23-meeting-66.md) — D1–D15 read; production runner and source pin remain the gates.
