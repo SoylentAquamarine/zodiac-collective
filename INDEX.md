@@ -155,3 +155,9 @@ once this repo has had its own incident).
 ## 2026-11-23 cycle #154
 - [A6 runner preflight gap audit](logs/2026-11-23-a6-runner-preflight-gap-audit.md) — two control-generation RNG details require a Director-owned addendum; no source was fetched or scored.
 - [Steering Committee Meeting #64](steering/meetings/2026-11-23-meeting-64.md) — cipher-only scope retained; production runner remains pre-score.
+
+
+## 2026-11-23 cycle #156
+- [Steering Committee Meeting #65](steering/meetings/2026-11-23-meeting-65.md) — D9 seed schedule independently verified; three remaining pre-score implementation details need a Director freeze.
+
+- [A6 D9–D12 independent audit](logs/2026-11-23-a6-d9-d12-independent-audit.md) — D4's 2,001 seed collisions reproduced; D9 has zero collisions; three pre-score semantics remain open.
