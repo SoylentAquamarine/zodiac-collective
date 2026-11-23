@@ -3,7 +3,7 @@ selection, plant/C1/C2/C3 construction, symbol labelling, manifest and fail-clos
 Does NOT run the solver, does NOT score, does NOT fetch or read any real source. Cipher-only.
 Frozen specs: logs/2026-11-18-a6-operational-freeze.md (D1-D8), 2026-11-23-a6-addendum-d9-d12-freeze.md,
 2026-11-23-a6-addendum-d13-d15-freeze.md, 2026-11-14-z13-pre-score-addendum-freeze.md (A1-A8)."""
-import json, random
+import hashlib, json, random, re
 from collections import Counter
 from pathlib import Path
 
@@ -17,11 +17,23 @@ C1_CAP = 100
 
 class FailClosed(Exception): pass
 
-def require_source_pin(pin_path, text_bytes_sha256):
-    """Assertion 5. Aborts if no pin file exists or the hash does not match. Real runs only."""
+def require_source_pin(pin_path, text):
+    """Assertion 5. Requires a pin file and verifies the actual normalized-text bytes."""
+    if not pin_path:
+        raise FailClosed("source-pin path required: runner must abort (assertion 5)")
     p = Path(pin_path)
-    if not p.exists(): raise FailClosed("source-pin file absent: runner must abort (assertion 5)")
-    if text_bytes_sha256 not in p.read_text(): raise FailClosed("SHA-256 of loaded text not in pin file")
+    if not p.is_file():
+        raise FailClosed("source-pin file absent: runner must abort (assertion 5)")
+    pin_text = p.read_text(encoding="utf-8")
+    match = re.search(r"(?im)^\s*normalized_text_sha256\s*[:=]\s*([0-9a-f]{64})\s*$", pin_text)
+    if not match:
+        raise FailClosed("source-pin lacks normalized_text_sha256 (assertion 5)")
+    if not re.fullmatch(r"[A-Z]+", text):
+        raise FailClosed("normalized text must be non-empty A-Z (assertion 5)")
+    actual = hashlib.sha256(text.encode("ascii")).hexdigest()
+    if actual != match.group(1):
+        raise FailClosed("SHA-256 of loaded normalized text does not match source pin (assertion 5)")
+    return actual
 
 def partitions(n, maxpart=None):
     maxpart = maxpart or n
@@ -126,8 +138,8 @@ def seed_schedule(w):
     base = BASE_SEED + w * 1000
     return [base + 7, base + 11, base + 13] + [base + 100 + r for r in range(RESTARTS)]
 
-def run(text, n_windows=100, pin=None):
-    if pin is not None: require_source_pin(*pin)
+def generate_manifest(text, n_windows=100):
+    """Generator-only helper for synthetic tests; it does not authorize a real-source run."""
     acc, rejected = select_windows(text, n_windows)
     weights = unigram_weights(text)
     assert [w for _, w in acc] == list(range(n_windows)), "assertion 12 indices"
@@ -136,5 +148,10 @@ def run(text, n_windows=100, pin=None):
     assert len(seeds) == len(set(seeds)), "assertion 8 duplicate seed"
     wins = [make_window(text, st, w, weights) for st, w in acc]
     return {"n_windows": n_windows, "rejected_candidates_len13": rejected, "n_seeds": len(seeds), "windows": wins}
+
+def run(text, n_windows=100, pin_path=None):
+    """Production entry point. Assertion 5 is mandatory; synthetic tests use generate_manifest()."""
+    require_source_pin(pin_path, text)
+    return generate_manifest(text, n_windows)
 
 def manifest_bytes(m): return json.dumps(m, sort_keys=True, separators=(",", ":")).encode()
