@@ -125,3 +125,4 @@ once this repo has had its own incident).
 - logs/2026-11-18-config-claude-status-proposal.md (2026-11-18, staged replacement for stale 'bootstrap' Status in config/claude.md; awaits user confirmation)
 - logs/2026-11-21-d5-d6-d7-fixtures{,-precommit,-result}.md + data/scripts/d5_d6_d7_fixture_check.py (2026-11-21, hand-derived D5/D6/D7 toy fixtures, all pass; ambiguities flagged)
 - logs/2026-11-23-a6-addendum-c1-c3-rng-{precommit,result}.md + logs/2026-11-23-a6-addendum-d9-d12-freeze.md (2026-11-23, D4 seed collisions found; D9–D12 addendum: restart offset, C1/C2/C3 specs)
+- logs/2026-11-23-a6-addendum-d13-d15-{precommit,freeze}.md (2026-11-23, D13–D15: symbol labelling, register/window draw order, "ties present" scope; normalisation OPEN)
