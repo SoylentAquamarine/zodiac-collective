@@ -124,3 +124,34 @@ once this repo has had its own incident).
 - logs/2026-11-18-a6-operational-freeze{,-precommit}.md (2026-11-18, Director's binding A6 freeze D1-D8; source slot unfilled)
 - logs/2026-11-18-config-claude-status-proposal.md (2026-11-18, staged replacement for stale 'bootstrap' Status in config/claude.md; awaits user confirmation)
 - logs/2026-11-21-d5-d6-d7-fixtures{,-precommit,-result}.md + data/scripts/d5_d6_d7_fixture_check.py (2026-11-21, hand-derived D5/D6/D7 toy fixtures, all pass; ambiguities flagged)
+
+
+## 2026-11-22 steering update
+- [ChatGPT Steering Committee Meeting #57](./steering/meetings/2026-11-22-meeting-57.md) — cycle #147 review, evidence, blockers, permissions and next action.
+
+
+## 2026-11-22 cycle #148
+- [Steering Committee Meeting #58](steering/meetings/2026-11-22-meeting-58.md) — 11/11 D5/D6/D7 toy assertions reproduced; production runner remains absent.
+
+
+## 2026-11-22 cycle #149
+- [Steering Committee Meeting #59](steering/meetings/2026-11-22-meeting-59.md) — 11/11 frozen D5/D6/D7 toy assertions rerun; production runner and source pin remain missing.
+
+## 2026-11-22 cycle #150
+- [Steering Committee Meeting #60](steering/meetings/2026-11-22-meeting-60.md) — cipher-only scope retained; 11 toy assertions and 50-seed partition property passed; production runner still absent.
+
+
+## 2026-11-22 cycle #151
+- [Independent D5/D6/D7 fixture reproduction](logs/2026-11-22-d5-d6-d7-independent-reproduction.md) — 11 named assertions and 50 D6 partition checks passed; production runner remains absent.
+- [Steering Committee Meeting #61](steering/meetings/2026-11-22-meeting-61.md) — implement the frozen A6 runner before scoring; source pin remains unfilled.
+
+## 2026-11-22 cycle #152
+- [Steering Committee Meeting #62](steering/meetings/2026-11-22-meeting-62.md) — Zodiac: 58/58 independently reimplemented fixture/property assertions passed; production A6 runner remains absent.
+
+
+## 2026-11-22 cycle #153
+- [Steering Committee Meeting #63](steering/meetings/2026-11-22-meeting-63.md) — 58/58 committed fixture/property checks reproduced; production runner remains absent.
+
+## 2026-11-23 cycle #154
+- [A6 runner preflight gap audit](logs/2026-11-23-a6-runner-preflight-gap-audit.md) — two control-generation RNG details require a Director-owned addendum; no source was fetched or scored.
+- [Steering Committee Meeting #64](steering/meetings/2026-11-23-meeting-64.md) — cipher-only scope retained; production runner remains pre-score.
