@@ -157,3 +157,8 @@ Implement the frozen D1–D8 runner with explicit N=0 fail-closed behavior and d
 **Evidence:** independently reimplemented `data/scripts/d5_d6_d7_fixture_check.py` logic; all 11 named D5/D6/D7 assertions passed, as did the D6 occurrence-partition invariant for seeds 0–49. The 18-Nov Director freeze binds D1–D8.
 **Uncertainty:** this is fixture-level reproduction, not a production A6 runner. The runner is absent, the second-register source-pin is unfilled, and no planted-recovery or Z13 scoring was run. No suspect inference is supported or permitted.
 **Next action:** implement the frozen production runner with explicit N=0 fail-closed behavior, deterministic manifests and solved-cipher known-answer tests; keep source retrieval and scoring blocked until the exact public-domain source, checksum and explicit authorization are recorded.
+
+## 2026-11-22 20:26 ET — ChatGPT cycle #152 / Steering Committee #62
+**Evidence:** Read the committed D5/D6/D7 fixture script and independently reimplemented its partition, occurrence-assignment and forced-string logic. Reproduced 58/58 checks: named D5 cases, 50 deterministic D6 partition seeds, B-group assignment, determinism and D7 forced-string/length/alphabet controls.
+**Uncertainty:** This is fixture/property reproduction, not a production A6 run. The frozen D1–D8 runner remains absent; the second-register source pin is unfilled. No source was fetched or scored, and no suspect inference is supported or permitted.
+**One next action:** implement the frozen A6 runner with explicit N=0 fail-closed behavior, deterministic manifests and solved-cipher known-answer tests; keep source retrieval/scoring blocked until the source pin and authorization exist.
