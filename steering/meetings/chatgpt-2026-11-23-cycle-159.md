@@ -21,7 +21,7 @@ No second-register source pin or user authorization is present. Do not fetch or 
 Do not repeat the 58/58 toy fixture suite or seed enumeration. More compute cannot resolve the D5/D10 specification gaps or missing source pin.
 
 ## Website and measurable improvement
-The review branch replaces "just started" with the actual A6 runner gate, preserves Wins so far and links the actual Director Meeting 16. PR #47 remains a separate code review; PR #48 is documentation only.
+The review branch retains the A6 runner gate and cipher-only boundary; this cycle repairs the Director-minute link to the actual main-branch Meeting 16 and keeps the separate code PR distinct from homepage documentation. Wins so far remains near the top.
 
 ## Decision / one next action
 Director freezes D5's efficient length-34/100 counting/unranking semantics and D10's re-shuffle rule; only then extend the runner and add solved-cipher known-answer tests. No Z13 scoring.
