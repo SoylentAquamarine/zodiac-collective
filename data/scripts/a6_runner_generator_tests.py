@@ -37,11 +37,11 @@ try: g.run(text, 1); check("production run requires pin", False)
 except g.FailClosed: check("production run requires pin", True)
 with tempfile.TemporaryDirectory() as td:
     pin = Path(td) / "source-pin.md"
-    pin.write_text("normalized_text_sha256: " + ("0" * 64) + "\\n", encoding="utf-8")
+    pin.write_text("normalized_text_sha256: " + ("0" * 64) + "\n", encoding="utf-8")
     try: g.run(text, 1, str(pin)); check("production run rejects hash mismatch", False)
     except g.FailClosed: check("production run rejects hash mismatch", True)
     digest = hashlib.sha256(text.encode("ascii")).hexdigest()
-    pin.write_text("normalized_text_sha256: " + digest + "\\n", encoding="utf-8")
+    pin.write_text("normalized_text_sha256: " + digest + "\n", encoding="utf-8")
     valid = g.run(text, 1, str(pin))
     check("matching pin permits generator-only production entry", valid["n_windows"] == 1)
 print("rejected candidates len13:", m1["rejected_candidates_len13"], "of accepted 30")
