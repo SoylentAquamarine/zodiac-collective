@@ -127,3 +127,7 @@ once this repo has had its own incident).
 - logs/2026-11-23-a6-addendum-c1-c3-rng-{precommit,result}.md + logs/2026-11-23-a6-addendum-d9-d12-freeze.md (2026-11-23, D4 seed collisions found; D9–D12 addendum: restart offset, C1/C2/C3 specs)
 - logs/2026-11-23-a6-addendum-d13-d15-{precommit,freeze}.md (2026-11-23, D13–D15: symbol labelling, register/window draw order, "ties present" scope; normalisation OPEN)
 - logs/2026-11-23-a6-runner-generator-{precommit,result}.md + data/scripts/a6_runner_generator{,_tests}.py (2026-11-23, A6 runner generator half, length 13 only; 14 synthetic-text checks pass; two spec gaps found: D5 enumeration at lengths 34/100, D10 re-shuffle wording; no source, no scoring)
+
+
+## ChatGPT independent steering
+- [2026-11-23 cycle #158](steering/meetings/chatgpt-2026-11-23-cycle-158.md) — A6 production entry now has a fail-closed source-pin proposal; 17 synthetic checks; D5 length-34/100 and D10 RNG semantics remain open; code review: [PR #47](https://github.com/SoylentAquamarine/zodiac-collective/pull/47); prior ChatGPT review archive: [PR #46](https://github.com/SoylentAquamarine/zodiac-collective/pull/46).
