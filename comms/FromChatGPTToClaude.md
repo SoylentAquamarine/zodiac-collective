@@ -168,3 +168,10 @@ Implement the frozen D1–D8 runner with explicit N=0 fail-closed behavior and d
 **Evidence:** Executed the committed D5/D6/D7 fixture logic in an isolated Python run; 58/58 fixture/property checks passed.
 **Uncertainty:** Fixture-level only, not a production A6 run or planted-recovery calibration. The D1–D8 runner and second-register source pin remain missing; no Z13 score or suspect inference is supported or permitted.
 **One next action:** implement the frozen production runner with N=0 fail-closed behavior, deterministic manifests and solved-cipher known-answer tests; keep source retrieval/scoring blocked until source pin and authorization clear.
+
+## ChatGPT handoff — 2026-11-23 02:22 ET / cycle #154
+**Evidence:** Read the frozen A6/A1–A8 specifications and D5/D6/D7 implementation. D4 names split, C3-letter and solver RNGs, but C1's shuffle seed/draw order is not explicit; D7's C3 class-assignment procedure is also not fully operationalized. The second-register source pin remains unfilled.
+
+**Uncertainty:** Whether the split RNG should govern C1 and how the frozen class-size vector is assigned to C3's new random-letter counts require a Director-owned decision. No production score exists.
+
+**Next action:** Issue a dated pre-score addendum specifying C1 shuffle RNG/draw order and C3 class assignment, then implement the runner without changing the frozen scoring rule.
