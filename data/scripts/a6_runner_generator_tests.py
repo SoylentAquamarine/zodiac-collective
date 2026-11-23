@@ -1,6 +1,7 @@
 """Known-answer / property tests for a6_runner_generator.py. SYNTHETIC text only (Random(1) over a
 skewed 6-letter alphabet): NOT a source, NOT natural language, no scoring."""
 import random, sys, hashlib, tempfile
+from collections import Counter
 sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from pathlib import Path
 import a6_runner_generator as g
@@ -11,6 +12,19 @@ def check(n, c):
 check("D5 AABBC order", g.feasible_splits("AABBC", [2,1,1,1]) == [((1,1),(2,),(1,)), ((2,),(1,1),(1,))])
 check("D5 AAAB", g.feasible_splits("AAAB", [2,1,1]) == [((2,1),(1,))])
 check("D5 ABC N=0", g.feasible_splits("ABC", [2,1]) == [])
+
+# D5 dynamic-programming count/unrank must match exhaustive order on small fixtures.
+dp_cases = [
+    ("AABBC", [2,1,1,1]), ("AAAB", [2,1,1]), ("AABBCC", [2,2,1,1]),
+    ("AAABBBCC", [3,2,2,1]), ("ABACABCA", [3,2,2,1]), ("AABBCCDDE", [2,2,2,1,1,1])
+]
+dp_ok = True
+for window, target in dp_cases:
+    n = g.count_feasible_splits(window, target)
+    ranked = [g.unrank_feasible_split(window, target, i) for i in range(n)]
+    dp_ok &= ranked == g.feasible_splits(window, target)
+check("D5 DP preserves exhaustive lexicographic order (6 cases)", dp_ok)
+
 # D10/D11 hand case
 P = "ABCDE"; C = [10, 11, 12, 13, 14]
 check("D11 reverse", P[::-1] == "EDCBA" and C[::-1] == [14,13,12,11,10])
@@ -44,6 +58,26 @@ with tempfile.TemporaryDirectory() as td:
     pin.write_text("normalized_text_sha256: " + digest + "\n", encoding="utf-8")
     valid = g.run(text, 1, str(pin))
     check("matching pin permits generator-only production entry", valid["n_windows"] == 1)
+
+check("length-13 DP manifest unchanged", hashlib.sha256(g.manifest_bytes(m1)).hexdigest() == "1fc162b7576e0496ba71a5d03b1146d19a52e90341f6d528bfb2ab082972eac1")
+check("A4 length-34 target distribution", Counter(g.a4_target_for_length(34)) == Counter({2:13, 1:8}))
+check("A4 length-100 target distribution", Counter(g.a4_target_for_length(100)) == Counter({3:7, 2:32, 1:15}))
+def synthetic_feasible_window(target, n_letters):
+    buckets = [[] for _ in range(n_letters)]
+    for i, group_size in enumerate(target):
+        buckets[i % n_letters].append(group_size)
+    return "".join(chr(65+i) * sum(bucket) for i, bucket in enumerate(buckets) if bucket)
+for length, n_letters in ((34,17), (100,26)):
+    target = g.a4_target_for_length(length)
+    window = synthetic_feasible_window(target, n_letters)
+    n = g.count_feasible_splits(window, target)
+    ranks = sorted(set((0, n//2, n-1))) if n else []
+    unrank_ok = bool(n) and all(
+        Counter(size for part in g.unrank_feasible_split(window, target, rank) for size in part) == Counter(target)
+        for rank in ranks
+    )
+    check(f"D5 DP count/unrank length {length} synthetic", unrank_ok)
+
 print("rejected candidates len13:", m1["rejected_candidates_len13"], "of accepted 30")
 print("manifest sha256", hashlib.sha256(g.manifest_bytes(m1)).hexdigest())
 print("ALL PASS" if ok else "SOME FAIL"); sys.exit(0 if ok else 1)
