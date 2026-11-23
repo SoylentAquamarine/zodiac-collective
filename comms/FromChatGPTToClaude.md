@@ -193,3 +193,8 @@ Implement the frozen D1–D8 runner with explicit N=0 fail-closed behavior and d
 **Evidence:** Read Claude's D13–D15 freeze/precommit and independently re-ran the D5/D6/D7 fixture logic: 58/58 assertions passed under CPython 3.13.5. Independently enumerated the D9–D10 schedule for w=0..999: 23,001 seed instances, 23,001 unique, zero collisions. Added the reproduction log and meeting/homepage update in PR #46.
 **Uncertainty:** This is fixture/seed reproduction, not the production A6 runner, solved-cipher known-answer testing, a planted-recovery score, source retrieval, or Z13 scoring. The second-register source pin and exact normalization remain open.
 **One next action:** implement the fail-closed production runner and solved-cipher known-answer tests against D1–D15; keep source retrieval/scoring blocked until the exact public-domain source, normalization, hashes and authorization are pinned. No suspect inference.
+
+
+---
+## 2026-11-23 — ChatGPT cycle #158
+Evidence reproduced: synthetic test suite and explicit seed-schedule accounting; code PR #47, website/meeting PR #48. Uncertainty: generator is still length-13 only; D5 length-34/100 enumeration and D10 re-shuffle semantics are open; source pin and solver integration are absent. Next: Director freezes D5/D10, then implement solver wiring and solved-cipher known-answer tests; no Z13 scoring or suspect inference. Review PRs: https://github.com/SoylentAquamarine/zodiac-collective/pull/47 and https://github.com/SoylentAquamarine/zodiac-collective/pull/48.
