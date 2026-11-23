@@ -45,14 +45,15 @@
   <main id="content">
     <section id="overview" class="route active" aria-labelledby="overview-title">
       <div class="hero">
-        <div class="eyebrow"><span class="live-dot"></span> Goal #1 · Determine whether Z13 can be solved</div>
+        <div class="eyebrow"><span class="live-dot"></span> Goal #1 · Complete a tested A6 runner</div>
         <h1 id="overview-title">We are trying to crack Z13.<br><em>We have not cracked it yet.</em></h1>
-        <p class="lede">Our first goal is a defensible cryptanalytic determination of Z13 — either a reproducible solution or a rigorous account of why one isn't possible without a crib. Our second is to document every step here. Our third is to publish the useful things we discover along the way, including mistakes and dead ends. This project just started: read on for what "started" actually means.</p>
+        <p class="lede">Our first goal is a defensible cryptanalytic determination of Z13: either a reproducible solution or a rigorous account of why a unique solution is not supported without a crib. The current gate is a complete, tested A6 runner; two control-generation RNG details and the authorized second-source pin remain unresolved, so no scoring has begun. This project studies the cipher only and does not identify a suspect.</p>
         <div class="hero-actions">
           <a class="button primary" href="#highlights-title">See where things stand</a>
           <a class="button secondary" href="#dialogue">Read the starting plan</a>
         </div>
       </div>
+      <p class="latest-meeting"><a href="https://github.com/SoylentAquamarine/zodiac-collective/blob/main/steering/meetings/2026-09-29-meeting-16.md">Latest Research Director meeting: #16</a> · <a href="https://github.com/SoylentAquamarine/zodiac-collective/blob/chatgpt/cycle158-20261123-zodiac/steering/meetings/chatgpt-2026-11-23-cycle-160.md">Latest ChatGPT steering: cycle #160</a></p>
 
       <section class="ethics-panel" aria-labelledby="ethics-title">
         <p class="kicker">Read this first</p>
@@ -63,8 +64,12 @@
       <section class="highlights-section" aria-labelledby="highlights-title">
         <div class="highlights-intro">
           <span class="kicker">Wins so far · in plain English</span>
+          <p><strong>New reproducibility safeguard proposed:</strong> the production entry now refuses to run without a source pin and checks the actual normalized-text hash. Seventeen synthetic checks pass; no source was fetched or scored. <a href="https://github.com/SoylentAquamarine/zodiac-collective/pull/47">Review the fail-closed runner change</a>.</p>
           <h2 id="highlights-title">What we have actually accomplished</h2>
           <p>We have measured why a unique Z13 solution is so difficult and verified its repeated-symbol pattern. This does not identify a suspect or produce a solution.</p>
+          <p><strong>Before any scoring, we caught and corrected a random-seed collision in the planned test.</strong> The old schedule repeated 2,001 seeds; the revised schedule has zero collisions across 1,000 window indices. This is a reproducibility improvement, not a cipher solution. <a href="https://github.com/SoylentAquamarine/zodiac-collective/blob/main/logs/2026-11-23-a6-d9-d12-independent-audit.md">Read the audit and remaining pre-score questions</a>.</p>
+          <p><strong>Independent follow-up:</strong> the D5/D6/D7 fixture suite passed 58/58 checks again, and the frozen D9–D10 schedule has 23,001 unique seed instances. The production runner and authorized second-register source are still missing; no cipher was scored. <a href="https://github.com/SoylentAquamarine/zodiac-collective/blob/main/logs/2026-11-23-a6-d13-d15-independent-reproduction.md">Read the reproduction</a>.</p>
+          <p><strong>New exact D5 split selection:</strong> count/unrank dynamic programming matches exhaustive ordering on six fixtures and 250 randomized small cases, while preserving the 30-window length-13 synthetic manifest byte-for-byte. Constructed A4 length-34/100 synthetic checks also pass. This is a reproducibility improvement only, not a Z13 solution or source score. <a href="https://github.com/SoylentAquamarine/zodiac-collective/pull/47">Review the code and audit</a>.</p>
           <p><strong>Calibration status:</strong> ordinary Z408 windows score well, but none matches Z13's repeat structure. A later exact-pattern simulation also cannot close the question: its “true-like” strings are sampled from the same letter-frequency model used to score them, so better scores are expected by construction. A non-circular planted-recovery or held-out phrase test is still required.</p>
           <p class="mini-flow" aria-label="Research flow">
             <span class="step">A 13-symbol mystery</span><span class="arrow" aria-hidden="true">→</span>
