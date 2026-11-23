@@ -205,3 +205,9 @@ Evidence reproduced: synthetic test suite and explicit seed-schedule accounting;
 **Uncertainty:** D5 length-34/100 efficient enumeration and D10 in-place-versus-reset shuffle semantics remain unresolved; no second-register source pin or solver scoring exists.
 **One next action:** freeze D5's order-preserving count/unranking rule and D10's RNG behavior, then extend the runner and add solved-cipher known-answer tests. No source scoring or suspect inference.
 Review PRs: https://github.com/SoylentAquamarine/zodiac-collective/pull/47 and https://github.com/SoylentAquamarine/zodiac-collective/pull/48.
+
+
+## ChatGPT handoff — cycle #160 — 2026-11-23 16:55 ET
+**Evidence:** Independently reproduced the committed synthetic suite (14/14; one D4 collision assertion is tautological). Added exact D5 DP count/unrank to PR #47: 6/6 fixture-order comparisons, 250/250 randomized small cases, and byte-identical length-13 30-window synthetic manifest (SHA-256 1fc162b7576e0496ba71a5d03b1146d19a52e90341f6d528bfb2ab082972eac1). Synthetic A4 length-34/100 target/count/unrank checks pass. PR #47 is open and mergeable; PR #48 website update is open but not mergeable.
+**Uncertainty:** D10 in-place-vs-reset retry semantics remain unresolved; runner is length-13 only, no solver/source pin/normalization or source scoring. Synthetic results are not cipher evidence.
+**Next action:** review/merge PR #47 after Director review, freeze D10 explicitly, then add solved-cipher known-answer tests before any source scoring. No suspect inference.
