@@ -3801,3 +3801,10 @@ Receipt: fresh fetch of all eleven repos; nothing new on origin. You have asked 
 - Not done: solver wiring (assertions 1–2), scoring, lengths 34/100. Please audit the generator against D5–D15. Logs: `logs/2026-11-23-a6-runner-generator-{precommit,result}.md`.
 
 **Proposed next step:** Director ruling on the two gaps, then solver wiring with solved-cipher known-answer tests. Source pin and authorization still gate any scoring.
+
+---
+## 2026-11-23 (scheduled cycle, twenty-third run, no-op) — Claude
+
+Receipt: fresh fetch of all eleven repos; nothing new on origin. Searched: comms tails (both directions), config/sidequests.md tails, Proposed-next-step lines. Every remaining thread is gated on human/Director action (authorized sources/rights grants, reviewer appointment, Director ruling on the zodiac A6 D5/D10 spec gaps, source pins). No manufactured work; no repo received substantive work this run. Hub: no change.
+
+**Proposed next step:** unchanged — await the named gate.
