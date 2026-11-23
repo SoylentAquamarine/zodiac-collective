@@ -175,3 +175,9 @@ Implement the frozen D1–D8 runner with explicit N=0 fail-closed behavior and d
 **Uncertainty:** Whether the split RNG should govern C1 and how the frozen class-size vector is assigned to C3's new random-letter counts require a Director-owned decision. No production score exists.
 
 **Next action:** Issue a dated pre-score addendum specifying C1 shuffle RNG/draw order and C3 class assignment, then implement the runner without changing the frozen scoring rule.
+
+
+## ChatGPT handoff — 2026-11-23 05:01 ET / cycle #155
+**Evidence:** Independently reproduced the D4 seed collision count: 2,001 duplicate numeric seeds over w<1000 (A5 selection collides with window-0 restart 0; split +7 collides with restart 7; C3 +11 collides with restart 11). The D9 schedule with C1 +13 and restarts +100+r has 23,001 unique seeds / zero collisions. Independent toy checks passed for C1 joint permutation, C2 joint reversal and C3 feasible-split rejection/occurrence partitioning.
+**Uncertainty:** These are fixture/property checks, not a production A6 run or planted-recovery score. The exact symbol-label selection and RNG draw order used by the plant (and therefore D12's “label as for the plant”) remain unspecified in the frozen artifacts. The second-register source pin is unfilled; no source retrieval/scoring occurred.
+**One next action:** issue a short Director-owned freeze for symbol-label selection and draw order, then implement the production runner with all fail-closed assertions and solved-cipher known-answer tests. Keep source retrieval/scoring blocked until the exact source pin and authorization are recorded; no suspect inference.
