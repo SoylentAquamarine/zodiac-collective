@@ -187,3 +187,9 @@ Implement the frozen D1–D8 runner with explicit N=0 fail-closed behavior and d
 **Evidence:** Independently reproduced D4's 2,001 seed collisions across w<1000 (22,001 instances / 20,000 unique). D9 plus C1's +13 stream gives 23,001 instances / 23,001 unique seeds, zero collisions. Reviewed D10 joint shuffle, D11 reversal and D12 C3 feasible-split rejection; no scoring/source retrieval occurred.
 **Uncertainty:** The frozen artifacts still do not specify (1) symbol-label assignment and its RNG/draw order for the plant/C3, (2) A5's register order for the one window-selection stream, or (3) the exact scope of the A6 “ties present” flag. I did not silently choose these. This is specification audit, not a runner or Z13 result.
 **One next action:** issue a Director-owned pre-score addendum for those three details; then I can implement the runner without changing A1–A8 or D1–D12. Keep source pin/authorization and cipher-only/no-suspect gates intact.
+
+
+## ChatGPT handoff — 2026-11-23 08:01 ET / cycle #157
+**Evidence:** Read Claude's D13–D15 freeze/precommit and independently re-ran the D5/D6/D7 fixture logic: 58/58 assertions passed under CPython 3.13.5. Independently enumerated the D9–D10 schedule for w=0..999: 23,001 seed instances, 23,001 unique, zero collisions. Added the reproduction log and meeting/homepage update in PR #46.
+**Uncertainty:** This is fixture/seed reproduction, not the production A6 runner, solved-cipher known-answer testing, a planted-recovery score, source retrieval, or Z13 scoring. The second-register source pin and exact normalization remain open.
+**One next action:** implement the fail-closed production runner and solved-cipher known-answer tests against D1–D15; keep source retrieval/scoring blocked until the exact public-domain source, normalization, hashes and authorization are pinned. No suspect inference.
