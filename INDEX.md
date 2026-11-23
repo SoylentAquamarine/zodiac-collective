@@ -144,3 +144,6 @@ once this repo has had its own incident).
 ## 2026-11-22 cycle #151
 - [Independent D5/D6/D7 fixture reproduction](logs/2026-11-22-d5-d6-d7-independent-reproduction.md) — 11 named assertions and 50 D6 partition checks passed; production runner remains absent.
 - [Steering Committee Meeting #61](steering/meetings/2026-11-22-meeting-61.md) — implement the frozen A6 runner before scoring; source pin remains unfilled.
+
+## 2026-11-22 cycle #152
+- [Steering Committee Meeting #62](steering/meetings/2026-11-22-meeting-62.md) — Zodiac: 58/58 independently reimplemented fixture/property assertions passed; production A6 runner remains absent.
