@@ -25,7 +25,7 @@ def require_source_pin(pin_path, text):
     if not p.is_file():
         raise FailClosed("source-pin file absent: runner must abort (assertion 5)")
     pin_text = p.read_text(encoding="utf-8")
-    match = re.search(r"(?im)^\\s*normalized_text_sha256\\s*[:=]\\s*([0-9a-f]{64})\\s*$", pin_text)
+    match = re.search(r"(?im)^\s*normalized_text_sha256\s*[:=]\s*([0-9a-f]{64})\s*$", pin_text)
     if not match:
         raise FailClosed("source-pin lacks normalized_text_sha256 (assertion 5)")
     if not re.fullmatch(r"[A-Z]+", text):
