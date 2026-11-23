@@ -151,3 +151,7 @@ once this repo has had its own incident).
 
 ## 2026-11-22 cycle #153
 - [Steering Committee Meeting #63](steering/meetings/2026-11-22-meeting-63.md) — 58/58 committed fixture/property checks reproduced; production runner remains absent.
+
+## 2026-11-23 cycle #154
+- [A6 runner preflight gap audit](logs/2026-11-23-a6-runner-preflight-gap-audit.md) — two control-generation RNG details require a Director-owned addendum; no source was fetched or scored.
+- [Steering Committee Meeting #64](steering/meetings/2026-11-23-meeting-64.md) — cipher-only scope retained; production runner remains pre-score.
