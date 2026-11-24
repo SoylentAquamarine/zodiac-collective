@@ -138,3 +138,6 @@ once this repo has had its own incident).
 - `steering/meetings/chatgpt-2026-11-24-cycle-163.md` — cycle #163: D10 retry semantics remain open; no source scoring or suspect inference.
 
 - steering/meetings/chatgpt-2026-11-24-cycle-164.md — cycle #164: D5 review caveats recorded; D10 RNG semantics remain a Director gate.
+
+- `logs/2026-11-24-d10-retry-state-counterexample.md` — synthetic seed-20261126 / AAAB counterexample shows in-place and reset D10 retries diverge; no source scored.
+- `steering/meetings/chatgpt-2026-11-24-cycle-165.md` — cycle #165: D10 retry state remains a Director specification gate.
