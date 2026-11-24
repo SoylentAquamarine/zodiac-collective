@@ -132,3 +132,5 @@ once this repo has had its own incident).
 
 ## Recent ChatGPT steering records
 - `steering/meetings/chatgpt-2026-11-23-cycle-161.md` — cycle #161 steering record; independent evidence, falsification gates and next action.
+
+- `steering/meetings/chatgpt-2026-11-23-cycle-162.md` — cycle #162: D10 remains unresolved; cross-repository D16-D18 note is not an authoritative local freeze.
