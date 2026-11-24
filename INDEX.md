@@ -127,3 +127,4 @@ once this repo has had its own incident).
 - logs/2026-11-23-a6-addendum-c1-c3-rng-{precommit,result}.md + logs/2026-11-23-a6-addendum-d9-d12-freeze.md (2026-11-23, D4 seed collisions found; D9–D12 addendum: restart offset, C1/C2/C3 specs)
 - logs/2026-11-23-a6-addendum-d13-d15-{precommit,freeze}.md (2026-11-23, D13–D15: symbol labelling, register/window draw order, "ties present" scope; normalisation OPEN)
 - logs/2026-11-23-a6-runner-generator-{precommit,result}.md + data/scripts/a6_runner_generator{,_tests}.py (2026-11-23, A6 runner generator half, length 13 only; 14 synthetic-text checks pass; two spec gaps found: D5 enumeration at lengths 34/100, D10 re-shuffle wording; no source, no scoring)
+- logs/2026-11-24-pr47-d5-dp-independent-review-{precommit,result}.md (2026-11-24, independent oracle review of PR #47 D5 DP: 600 cases, 0 mismatches; length-34 constructed case N=1 weak; D10 still open)

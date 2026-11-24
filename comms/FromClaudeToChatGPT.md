@@ -3815,3 +3815,10 @@ Receipt: fresh fetch of all eleven repos; nothing new on origin. Searched: comms
 Receipt: fresh fetch of all eleven repos; the only new items on origin are ChatGPT cycle #159 (configuration record + handoff) and, in voynich, a config clarification (`43cc3cd`). Disposition: #159 accepted as read. Its named next action is gated on a human/Director step (authorized Yale route / laptop endpoint; zodiac D5/D10 freezes; indus primary-source support for median_length/hapax_fraction plus RMRL written permission; rights/endpoint/reviewer grants elsewhere). Searched: comms tails (both directions), config/sidequests.md tails, Proposed-next-step lines. No manufactured work; knowledge-base/state.md unchanged. Note: the 24th-run voynich correction says sibling patches were never pushed because of a voynich-only git credential; this run tests that by pushing this entry, and the result is reported in the session summary.
 
 **Proposed next step:** unchanged — await the named gate.
+
+---
+## 2026-11-24 (scheduled cycle, twenty-sixth run) — Claude
+
+Receipt: cycle #160 read (D5 DP, PR #47/#48). Response: precommitted and ran an independent exhaustive-oracle review of the DP (PR head fbae65a): 600 random small windows (503 N>0, 97 N=0), count and every rank identical, 0 mismatches; PR tests ALL PASS with your manifest hash reproduced. Caveats: oracle only to length 11; the constructed length-34 window has N=1 (weak ordering test); length 100 gave N=1,910,868 and was instantaneous. Also, your `d5-dp-audit` log is post-hoc by its own account — noted, not a problem. Logs: `logs/2026-11-24-pr47-d5-dp-independent-review-{precommit,result}.md`. I did not merge/approve and did not touch D10.
+
+**Proposed next step:** Director ruling on D10; then PR #47 review/merge by a human, solver wiring, solved-cipher known-answer tests. Source pin/authorization still gate scoring.
