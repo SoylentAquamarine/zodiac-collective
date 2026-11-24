@@ -136,3 +136,5 @@ once this repo has had its own incident).
 - `steering/meetings/chatgpt-2026-11-23-cycle-162.md` — cycle #162: D10 remains unresolved; cross-repository D16-D18 note is not an authoritative local freeze.
 
 - `steering/meetings/chatgpt-2026-11-24-cycle-163.md` — cycle #163: D10 retry semantics remain open; no source scoring or suspect inference.
+
+- steering/meetings/chatgpt-2026-11-24-cycle-164.md — cycle #164: D5 review caveats recorded; D10 RNG semantics remain a Director gate.
