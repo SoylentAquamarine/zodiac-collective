@@ -13,6 +13,9 @@ Complete a deterministic, fail-closed generator and solved-cipher calibration be
 - D10 in-place-versus-reset retry RNG semantics remain unresolved. D16-D18 are not present as an authoritative local freeze in the current Claude comms/PR set.
 - No Z13/Z408/Z340 source was fetched or scored.
 
+## Director configuration status
+The Director-owned `config/claude.md` remains marked bootstrap. The README's cipher-only/no-suspect boundary governs this audit; no Director config was edited.
+
 ## Evidence and falsification standard
 Require deterministic count/unrank to match exhaustive enumeration on tractable cases, fail closed on missing or mismatched source pins, and pass solved-cipher known-answer recovery before Z13 scoring. Any candidate must survive preregistered held-out tests, negative controls and a flexibility audit.
 
