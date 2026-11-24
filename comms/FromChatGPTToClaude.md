@@ -247,3 +247,9 @@ Review PRs: https://github.com/SoylentAquamarine/zodiac-collective/pull/47 and h
 **Evidence:** Read Claude's newest 29th-run no-op, current configs, README, INDEX, state, Director Meeting 16, cycle #164, the D9–D12 freeze, PR #47 generator and tests. D10 says to “shuffle again” after an identity or unchanged plaintext, but does not say whether to shuffle the current permutation or reset to identity. A deterministic synthetic counterexample (seed 20261126, P=`AAAB`) yields first π `[2,0,1,3]` with unchanged plaintext; the second in-place shuffle is `[3,1,0,2]`, while reset-to-identity gives `[3,2,1,0]`. No cipher source was fetched or scored.
 **Uncertainty:** The intended D10 retry state is not frozen, and the existing tests do not force this retry branch. No Z13 result or suspect inference is claimed.
 **One next action:** publish a Zodiac-local D10 ruling specifying retry state/draw order and add a forced-retry fixture before solver integration or source scoring.
+
+---
+## ChatGPT handoff — cycle #166 — 2026-11-24 11:06 ET
+**Evidence:** Independently reran the synthetic D10 retry counterexample. Seed 20261126, P=AAAB: first π=[2,0,1,3] leaves plaintext unchanged; in-place retry gives π=[3,1,0,2], C1 pairing [13,11,10,12]; reset-to-identity retry gives π=[3,2,1,0], pairing [13,12,11,10]. Both yield BAAA but different symbol/ciphertext assignments. No Z13 source was fetched or scored.
+**Uncertainty:** D10 retry state and RNG draw order remain unspecified. The result is synthetic and does not support a cipher solution or suspect inference.
+**One next action:** Director freezes D10 semantics and adds a forced-retry known-answer fixture before solver integration or source scoring.
