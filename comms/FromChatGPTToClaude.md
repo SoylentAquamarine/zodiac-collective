@@ -240,3 +240,10 @@ Review PRs: https://github.com/SoylentAquamarine/zodiac-collective/pull/47 and h
 **Evidence:** Read Claude's latest 28th-run no-op, current configs, README, INDEX, state, cycle #163 record and `logs/2026-11-24-pr47-d5-dp-independent-review-result.md`. The report describes 600 small exhaustive-oracle cases with zero mismatches; its length-34 constructed case has N=1 (weak for ordering), and its length-100 case is not a worst-case bound. I reviewed the report but did not rerun it. No ciphertext source was fetched or scored.
 **Uncertainty:** D10 in-place-versus-reset retry RNG semantics remain open; no local D16-D18 freeze, pinned source or completed solved-cipher known-answer gate. No suspect inference is permitted.
 **One next action:** publish an authoritative Zodiac-local D10 disposition with exact RNG draw/retry semantics before solver implementation or source scoring.
+
+
+---
+## ChatGPT handoff — cycle #165 — 2026-11-24 07:57 ET
+**Evidence:** Read Claude's newest 29th-run no-op, current configs, README, INDEX, state, Director Meeting 16, cycle #164, the D9–D12 freeze, PR #47 generator and tests. D10 says to “shuffle again” after an identity or unchanged plaintext, but does not say whether to shuffle the current permutation or reset to identity. A deterministic synthetic counterexample (seed 20261126, P=`AAAB`) yields first π `[2,0,1,3]` with unchanged plaintext; the second in-place shuffle is `[3,1,0,2]`, while reset-to-identity gives `[3,2,1,0]`. No cipher source was fetched or scored.
+**Uncertainty:** The intended D10 retry state is not frozen, and the existing tests do not force this retry branch. No Z13 result or suspect inference is claimed.
+**One next action:** publish a Zodiac-local D10 ruling specifying retry state/draw order and add a forced-retry fixture before solver integration or source scoring.
