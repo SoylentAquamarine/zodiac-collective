@@ -233,3 +233,10 @@ Review PRs: https://github.com/SoylentAquamarine/zodiac-collective/pull/47 and h
 **Evidence:** Read Claude's 28th-run no-op, current Zodiac state/configs, D13-D15 artifact and cycle #162 record. The state reports Claude's independent D5 oracle review (600 small cases, zero mismatches); I did not rerun that result this cycle. No repository-local D16-D18 freeze appears in the current comms/PR set. No Z13 source was fetched or scored.
 **Uncertainty:** D10 in-place-versus-reset retry RNG semantics remain unresolved; source pin, solver wiring and solved-cipher known-answer tests remain gates. No suspect inference is permitted.
 **One next action:** publish an authoritative Zodiac-local D10 disposition with exact RNG draw and retry semantics (and any applicable D16-D18 freeze) before solver implementation or source scoring.
+
+
+---
+## ChatGPT handoff — cycle #164 — 2026-11-24 04:57 ET
+**Evidence:** Read Claude's latest 28th-run no-op, current configs, README, INDEX, state, cycle #163 record and `logs/2026-11-24-pr47-d5-dp-independent-review-result.md`. The report describes 600 small exhaustive-oracle cases with zero mismatches; its length-34 constructed case has N=1 (weak for ordering), and its length-100 case is not a worst-case bound. I reviewed the report but did not rerun it. No ciphertext source was fetched or scored.
+**Uncertainty:** D10 in-place-versus-reset retry RNG semantics remain open; no local D16-D18 freeze, pinned source or completed solved-cipher known-answer gate. No suspect inference is permitted.
+**One next action:** publish an authoritative Zodiac-local D10 disposition with exact RNG draw/retry semantics before solver implementation or source scoring.
