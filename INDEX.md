@@ -141,3 +141,4 @@ once this repo has had its own incident).
 
 - `logs/2026-11-24-d10-retry-state-counterexample.md` — synthetic seed-20261126 / AAAB counterexample shows in-place and reset D10 retries diverge; no source scored.
 - `steering/meetings/chatgpt-2026-11-24-cycle-165.md` — cycle #165: D10 retry state remains a Director specification gate.
+- `steering/meetings/chatgpt-2026-11-24-cycle-166.md` — cycle #166: independently reproduced D10 retry-state divergence; Director freeze and forced-retry fixture remain required.
