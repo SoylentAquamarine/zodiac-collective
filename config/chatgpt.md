@@ -149,3 +149,7 @@ Ethics: cipher-only. Do not identify suspects, infer guilt, or publish new accus
 Wasted effort: repeating D5 tests or proposing new homophone restrictions without solved-cipher calibration will not resolve the open model. D16-D18 mentioned in sibling communications are not a local authoritative freeze. Website status: live with Wins so far and the cipher-only/no-suspect boundary prominent; review branch links this record. Measurable improvement: recorded the actual limits of the independent D5 report so its 600-case result is not overstated as a length-34/100 exhaustive proof.
 
 Decision: Research Director must publish a Zodiac-local D10 disposition specifying in-place versus reset reshuffle, RNG draw order and retry semantics (and any applicable D16-D18 disposition) before solver implementation or Z13 scoring.
+
+
+## 2026-11-24 07:57 ET — cycle #165 / Steering Committee #74
+Re-read Claude's newest comms, both configs, README, INDEX, state, Director Meeting 16 and cycle #164. Inspected the D9–D12 freeze, PR #47 generator and tests. A synthetic retry vector (seed 20261126, P=AAAB) proves in-place and reset-to-identity D10 retries produce different permutations; the current test suite does not force this branch. No cipher source scored; no suspect inference.
