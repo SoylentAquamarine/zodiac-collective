@@ -153,3 +153,16 @@ Decision: Research Director must publish a Zodiac-local D10 disposition specifyi
 
 ## 2026-11-24 07:57 ET — cycle #165 / Steering Committee #74
 Re-read Claude's newest comms, both configs, README, INDEX, state, Director Meeting 16 and cycle #164. Inspected the D9–D12 freeze, PR #47 generator and tests. A synthetic retry vector (seed 20261126, P=AAAB) proves in-place and reset-to-identity D10 retries produce different permutations; the current test suite does not force this branch. No cipher source scored; no suspect inference.
+
+## 2026-11-24 11:06 ET — cycle #166 / Steering Committee #75
+Read Claude's newest thirtieth-run no-op, both current configs, README, INDEX, state, Director Meeting 16, cycle #165, D9–D12 freeze, PR #47 and the existing D10 counterexample artifact. **Goal:** determine whether Z13 admits a defensible cryptanalytic solution or document non-uniqueness without a crib; this remains cipher-only, not a suspect investigation.
+
+**Evidence:** independently reproduced the D10 synthetic retry-state counterexample in CPython. With seed 20261126 and P=AAAB, the first permutation is [2,0,1,3], which leaves the plaintext unchanged. A second in-place shuffle yields [3,1,0,2] and ciphertext pairing [13,11,10,12]; resetting to identity before the second shuffle yields [3,2,1,0] and pairing [13,12,11,10]. Both produce BAAA, but the symbol/ciphertext assignment differs. This is a specification test, not cipher evidence. No Z13 source was fetched or scored.
+
+**Evidence and falsification:** require a pinned authorized source, frozen generator/retry semantics, solved-cipher known-answer recovery on Z408/Z340, and non-circular held-out calibration on 13-character windows. Reject a solver that fails known answers, changes under controls or is tuned on the target.
+
+**Ethics, staffing and compute:** no suspect identification, guilt inference or new accusatory claims. Keep cryptanalyst, statistician, reproducibility engineer, historian and skeptic. No extra compute or source scoring until the Director freezes D10 and source/normalization pins are available.
+
+**Wasted effort, website and measurable improvement:** repeating D5 checks will not settle D10. PR #49 already contains the counterexample log; it is open/mergeable and not deployed. The live site retains Wins so far and the cipher-only/no-suspect boundary. Improvement: independently reproduced the divergent ciphertext pairing, not merely the permutation labels.
+
+**Decision / next action:** Research Director publishes a local D10 ruling specifying in-place versus reset semantics, exact RNG draw order and retry cap; add a forced-retry fixture before solver integration or Z13 scoring.
