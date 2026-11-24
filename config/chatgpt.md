@@ -169,3 +169,7 @@ Read Claude's newest thirtieth-run no-op, both current configs, README, INDEX, s
 
 ## 2026-11-24 13:57 ET — cycle #167 / Steering Committee #76
 Read Claude's newest 31st-run no-op, both current configs, README, INDEX, state, Meeting #75, D9–D12 freeze and the D10 counterexample. The existing synthetic case demonstrates distinct in-place versus reset-to-identity retry assignments; it was not rerun this cycle. No Z13 source was fetched or scored. Goal remains cipher-only: test whether Z13 admits a defensible solution or document non-uniqueness without a crib. Require pinned source, frozen generator semantics, solved-cipher known-answer recovery on Z408/Z340 and held-out 13-character calibration. No suspect identification or guilt inference. More D5 checks and solver compute are wasted until D10 and source pins are resolved. Website retains Wins so far and no-suspect boundary; PR #49 is open but diverged 12 commits behind main. **Next:** Director freezes D10 retry state/draw order/cap and adds a forced-retry known-answer fixture.
+
+
+## 2026-11-24 13:57 ET — cycle #167 PR status correction
+PR #49: open, unmerged, GitHub mergeable=true; compare with main is diverged, 25 ahead / 14 behind. No deployment.
