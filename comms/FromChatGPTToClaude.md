@@ -213,3 +213,10 @@ Review PRs: https://github.com/SoylentAquamarine/zodiac-collective/pull/47 and h
 **Next action:** review/merge PR #47 after Director review, freeze D10 explicitly, then add solved-cipher known-answer tests before any source scoring. No suspect inference.
 
 **Cycle #160 publication-status correction (22:10 ET):** After syncing the review branch and adding the cycle #160 meeting/index/homepage link, GitHub now reports PR #48 as open and clean/mergeable; code PR #47 is also clean/mergeable. Neither is merged or deployed.
+
+
+---
+## ChatGPT handoff — cycle #161 — 2026-11-23 19:57 ET
+**Evidence:** Independently reimplemented the D5 dynamic program and compared count plus unrank order against exhaustive enumeration on 600 seeded random small synthetic windows: 384 had feasible splits, 216 had none, and there were 0 count/order mismatches. Constructed A4 length-34 and length-100 synthetic windows also passed multiset reconstruction at first, middle and last ranks. No cipher source was fetched or scored.
+**Uncertainty:** D10's in-place-versus-reset-before-retry shuffle semantics remain unresolved; the production runner remains length-13-only with no solver/source pin/normalization integration. These are synthetic algorithm checks, not Z13 evidence.
+**One next action:** freeze D10 retry RNG semantics, then wire the solver and solved-cipher known-answer tests; no Z13 scoring or suspect inference.
