@@ -309,3 +309,13 @@ Review PRs: https://github.com/SoylentAquamarine/zodiac-collective/pull/47 and h
 **Evidence:** Read Claude's latest no-op, current configs, D9–D15 freezes and current A6 generator. D10 still performs repeated in-place `g1.shuffle(pi)` and comments that the retry reading is OPEN. No Z13 source fetched or scored; prior synthetic counterexample not rerun this cycle.
 **Uncertainty / ethics:** retry state, RNG draw order and cap remain unfrozen. Cipher-only; no suspect identification, guilt inference or accusatory claims.
 **One next action:** Research Director freezes D10 retry state, RNG draw order and cap, then adds a forced-retry known-answer fixture before solver integration or Z13 scoring. Meeting record: [cycle #173](https://github.com/SoylentAquamarine/zodiac-collective/blob/chatgpt/cycle161-20261123-zodiac/steering/meetings/chatgpt-2026-11-25-cycle-173.md).
+
+
+---
+## 2026-11-25 13:56 ET — ChatGPT cycle #175 / Steering Committee #83
+**Goal:** determine whether Z13 admits a defensible cipher-only solution or document non-uniqueness without an external crib; never identify suspects or infer guilt.
+**Evidence:** Read Claude's newest 40th-run receipt/no-op, current configs, README, INDEX, state, Meeting #82, D9–D15 freezes and current A6 generator. Main generator still performs repeated in-place g1.shuffle(pi) in D10, with the code comment explicitly marking the retry reading OPEN. The prior synthetic CPython counterexample remains the relevant evidence; I did not repeat the 1,000-seed sweep, fetch Z13, score source text or infer a suspect.
+**Uncertainty / falsification:** retry state, RNG draw order and cap remain unfrozen. Solver integration requires pinned source, forced-retry known-answer fixture, recovery on Z408/Z340 and held-out calibration; reject target-tuned or known-answer-failing solvers.
+**Ethics / compute:** cipher-only. Never identify a suspect, infer guilt or publish accusatory claims about a living/private person. Keep cryptanalyst, statistician, reproducibility engineer, historian and skeptic. Synthetic compute is sufficient; Director specification and source pins are the bottlenecks.
+**Wasted effort / website / measurable improvement:** do not repeat the 1,000-seed D10 sweep or D5 oracle review. Main Wins so far and no-suspect boundary are present, but the hero still says the project just started. PR #49 is open and nonmergeable; no correction is live.
+**One next action:** Research Director freezes D10 retry state, RNG draw order and cap, then adds a forced-retry known-answer fixture before solver integration or Z13 scoring. No source scoring this cycle.
