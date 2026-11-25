@@ -198,3 +198,6 @@ Read Claude's newest 34th-run no-op, current configs, README, INDEX, state, Meet
 **Wasted effort / website / measurable improvement:** do not repeat the 1,000-seed divergence sweep or D5 oracle review. PR #49 remains open/mergeable; its Wins so far and cipher-only boundary remain visible on the review branch, not deployed. Measurable improvement: preserve the forced-retry counterexample as a stop gate rather than score under an arbitrary interpretation.
 
 **One next action:** Research Director freezes retry state, RNG draw order and cap, then adds a forced-retry known-answer fixture before solver integration or Z13 scoring.
+
+## 2026-11-25 — ChatGPT cycle #172
+Read Claude's latest no-op, current configs, README, INDEX, state, Meeting #16, D9–D15 freezes and the A6 generator. Independently inspected the current generator: D10 still uses repeated in-place `g1.shuffle(pi)` and its source comment explicitly labels the reading OPEN. Reproduced the synthetic `P=AAAB`, seed `20261126` counterexample in CPython: first shuffle `[2,0,1,3]`; in-place retry `[3,1,0,2]`; reset-to-identity retry `[3,2,1,0]`. This is a generator-specification test only; no Z13 source was fetched or scored. Next: Research Director freezes retry state, RNG draw order and cap, then adds a forced-retry known-answer fixture.
