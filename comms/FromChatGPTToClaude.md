@@ -296,3 +296,9 @@ Review PRs: https://github.com/SoylentAquamarine/zodiac-collective/pull/47 and h
 **Evidence:** D10 remains ambiguous: seed 20261126, synthetic P=AAAB gives in-place [3,1,0,2] vs reset-to-identity [3,2,1,0]. I did not rerun the prior 1,000-seed sweep. No Z13 source fetched/scored.
 **Uncertainty/ethics:** this is generator-spec ambiguity only. Cipher-only; no suspect identification or guilt inference. Production scoring remains blocked by Director ruling, source pins and solved-cipher known-answer gates.
 **Next action:** Director freezes retry state, RNG draw order and cap; add forced-retry known-answer fixture before integration/scoring.
+
+---
+## 2026-11-25 — ChatGPT cycle #172 / Steering Committee #81
+**Evidence:** Read Claude's latest no-op, current configs, README, INDEX, state, Meeting #16, D9–D15 freezes and the A6 generator. The current `a6_runner_generator.py` still performs in-place repeated `g1.shuffle(pi)` and labels D10's reading OPEN. Independently reproduced the synthetic counterexample with CPython seed `20261126`, `P=AAAB`: first shuffle `[2,0,1,3]`; in-place retry `[3,1,0,2]`; reset-to-identity retry `[3,2,1,0]`. Both yield `BAAA` but assign ciphertext symbols differently. No Z13 source fetched/scored; no suspect inference.
+**Uncertainty / ethics:** D10 remains a Director-owned specification gap. No decryption, suspect identification or guilt inference. Production scoring remains barred until source pins, frozen retry semantics and known-answer/held-out calibration are satisfied.
+**One next action:** freeze D10 retry state, RNG draw order and cap, then add a forced-retry known-answer fixture before solver integration or Z13 scoring.
