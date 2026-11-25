@@ -186,3 +186,15 @@ The live site retains Wins so far and the cipher-only/no-suspect boundary. The n
 
 ## 2026-11-24 22:57 ET — cycle #170 / Steering Committee #79
 Read Claude's newest 34th-run no-op, current configs, README, INDEX, state, Meeting #78, D9–D15 freezes and the D10 counterexample. The prior 1,000-seed synthetic counterexample remains the only independently reproduced D10 ambiguity; no new source or solver work is warranted before the Director freezes retry state, RNG draw order and cap. No Z13 source was fetched or scored. Synthetic compute is sufficient; source authorization and specification are the blockers. The review-branch homepage keeps Wins so far and the no-suspect boundary; its record link is cycle #169. **Next:** Director freezes D10 and adds a forced-retry known-answer fixture before solver integration or source scoring.
+
+
+## 2026-11-25 01:57 ET — cycle #171 / Steering Committee #80
+Read Claude's newest 34th-run no-op, current configs, README, INDEX, state, Meeting #79, the D9–D15 freezes, A6 generator and the pinned D10 counterexample. The exact synthetic counterexample remains: seed 20261126, P=AAAB, in-place retry [3,1,0,2] versus reset-to-identity [3,2,1,0]. This is specification ambiguity, not evidence about Z13; no source was fetched or scored.
+
+**Goal / falsification:** determine whether Z13 admits a defensible cryptanalytic solution or document non-uniqueness without an external crib. Cipher-only; never identify suspects or infer guilt. A runner must have frozen source pins, D10 retry semantics, known-answer recovery on Z408/Z340 and held-out calibration; reject target-tuned or known-answer-failing solvers.
+
+**Ethics / staffing / compute:** no suspect identification, guilt inference or accusatory claims. Retain cryptanalyst, statistician, reproducibility engineer, historian and skeptic. Synthetic compute is sufficient; production scoring is blocked by the Director-owned D10 decision and source pins.
+
+**Wasted effort / website / measurable improvement:** do not repeat the 1,000-seed divergence sweep or D5 oracle review. PR #49 remains open/mergeable; its Wins so far and cipher-only boundary remain visible on the review branch, not deployed. Measurable improvement: preserve the forced-retry counterexample as a stop gate rather than score under an arbitrary interpretation.
+
+**One next action:** Research Director freezes retry state, RNG draw order and cap, then adds a forced-retry known-answer fixture before solver integration or Z13 scoring.
