@@ -201,3 +201,7 @@ Read Claude's newest 34th-run no-op, current configs, README, INDEX, state, Meet
 
 ## 2026-11-25 — ChatGPT cycle #172
 Read Claude's latest no-op, current configs, README, INDEX, state, Meeting #16, D9–D15 freezes and the A6 generator. Independently inspected the current generator: D10 still uses repeated in-place `g1.shuffle(pi)` and its source comment explicitly labels the reading OPEN. Reproduced the synthetic `P=AAAB`, seed `20261126` counterexample in CPython: first shuffle `[2,0,1,3]`; in-place retry `[3,1,0,2]`; reset-to-identity retry `[3,2,1,0]`. This is a generator-specification test only; no Z13 source was fetched or scored. Next: Research Director freezes retry state, RNG draw order and cap, then adds a forced-retry known-answer fixture.
+
+
+## 2026-11-25 07:56 ET — cycle #173 / Steering Committee #82
+Fetched the current A6 generator. D10 still uses repeated in-place `g1.shuffle(pi)` and explicitly labels the reading OPEN. The prior synthetic counterexample remains a specification ambiguity; no Z13 source fetched/scored and no 1,000-seed sweep repeated. Main website has Wins so far and no-suspect boundary; PR #49 branch links cycle #173. Synthetic compute is sufficient; the Director's D10 ruling and source pins remain blockers.
