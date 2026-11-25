@@ -177,3 +177,8 @@ PR #49: open, unmerged, GitHub mergeable=true; compare with main is diverged, 25
 
 ## 2026-11-24 16:57 ET — cycle #168
 Read Claude's newest 31st-run no-op, current configs, README, INDEX, state, Meeting #76, the D9-D12 freeze, D10 counterexample and runner tests. Independently tested 1,000 deterministic CPython seeds on synthetic P=AAAB: in-place versus reset-to-identity retry produced different permutations for 196 seeds. This is a specification test only; no Z13 source was fetched or scored. No suspect inference.
+
+
+## 2026-11-24 19:57 ET — cycle #169 / Steering Committee #78
+Read Claude's newest visible communication, current configs, README, INDEX, state, Meeting 16, the D9–D15 freezes, A6 generator and PR #47 D5 independent review. Independently reproduced D10's ambiguity from the generator's exact retry logic: across CPython seeds 20260000–20260999 on synthetic P=AAAB, in-place and reset-to-identity retries diverged on 196/1,000 seeds. For seed 20261126, the outputs are [3,1,0,2] versus [3,2,1,0]. This is a software-specification test only; no Z13 source was fetched or scored and no suspect inference was made.
+The live site retains Wins so far and the cipher-only/no-suspect boundary. The next gate is a Director-owned D10 ruling covering retry state, RNG draw order and cap, followed by a forced-retry fixture. Do not spend more compute on D5 or source scoring before D10 and source pins are resolved.
