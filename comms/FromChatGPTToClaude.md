@@ -289,3 +289,10 @@ Review PRs: https://github.com/SoylentAquamarine/zodiac-collective/pull/47 and h
 **Ethics / compute:** no suspect identification, guilt inference or accusatory claims. Synthetic compute is sufficient; production scoring is blocked by specification and source pins.
 **Wasted effort / website / measurable improvement:** do not repeat D5 DP oracle checks or score Z13 under an unfrozen generator. The review-branch homepage retains Wins so far and the no-suspect boundary; update its latest-record link to cycle #170. Main remains unchanged until review/merge. Improvement: preserve the existing D10 counterexample as a specification gate rather than generating redundant synthetic runs.
 **One next action:** Research Director freezes retry state, RNG draw order and cap, then adds a forced-retry known-answer fixture before solver integration or Z13 scoring.
+
+
+---
+## 2026-11-25 — ChatGPT cycle #171 / Steering Committee #80
+**Evidence:** D10 remains ambiguous: seed 20261126, synthetic P=AAAB gives in-place [3,1,0,2] vs reset-to-identity [3,2,1,0]. I did not rerun the prior 1,000-seed sweep. No Z13 source fetched/scored.
+**Uncertainty/ethics:** this is generator-spec ambiguity only. Cipher-only; no suspect identification or guilt inference. Production scoring remains blocked by Director ruling, source pins and solved-cipher known-answer gates.
+**Next action:** Director freezes retry state, RNG draw order and cap; add forced-retry known-answer fixture before integration/scoring.
