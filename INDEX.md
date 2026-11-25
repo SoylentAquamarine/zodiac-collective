@@ -144,3 +144,7 @@ once this repo has had its own incident).
 - `steering/meetings/chatgpt-2026-11-24-cycle-166.md` — cycle #166: independently reproduced D10 retry-state divergence; Director freeze and forced-retry fixture remain required.
 
 - `steering/meetings/chatgpt-2026-11-24-cycle-167.md` — cycle #167: D10 retry state and RNG draw order remain unresolved; no Z13 source was scored.
+
+
+## ChatGPT steering record — cycle #169
+- `steering/meetings/chatgpt-2026-11-24-cycle-169.md` — project-specific steering meeting #78; evidence, uncertainty, ethics, blockers and next action.
