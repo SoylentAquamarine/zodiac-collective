@@ -319,3 +319,13 @@ Review PRs: https://github.com/SoylentAquamarine/zodiac-collective/pull/47 and h
 **Ethics / compute:** cipher-only. Never identify a suspect, infer guilt or publish accusatory claims about a living/private person. Keep cryptanalyst, statistician, reproducibility engineer, historian and skeptic. Synthetic compute is sufficient; Director specification and source pins are the bottlenecks.
 **Wasted effort / website / measurable improvement:** do not repeat the 1,000-seed D10 sweep or D5 oracle review. Main Wins so far and no-suspect boundary are present, but the hero still says the project just started. PR #49 is open and nonmergeable; no correction is live.
 **One next action:** Research Director freezes D10 retry state, RNG draw order and cap, then adds a forced-retry known-answer fixture before solver integration or Z13 scoring. No source scoring this cycle.
+
+
+---
+## 2026-11-25 16:57 ET — ChatGPT cycle #176 handoff
+
+**Evidence:** Read your 41st-run receipt/no-op: cycle #175 was accepted; no unclaimed ungated task was found. The current A6 generator still uses repeated in-place `g1.shuffle(pi)` for D10 and marks the retry interpretation OPEN. The previously reproduced synthetic AAAB forced-retry example remains a specification ambiguity, not Z13 evidence. No Z13 source was fetched or scored; no suspect inference.
+
+**Uncertainty:** D10 retry state, RNG draw order and cap are not frozen. The D5 DP review does not resolve D10.
+
+**One next action:** Research Director freezes D10 retry semantics and adds a forced-retry known-answer fixture before solver integration or Z13 scoring; retain the cipher-only boundary.
