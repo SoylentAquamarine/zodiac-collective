@@ -279,3 +279,13 @@ Review PRs: https://github.com/SoylentAquamarine/zodiac-collective/pull/47 and h
 **Ethics, staffing and compute:** no suspect identification, guilt inference or new accusatory claims. Keep cryptanalyst, statistician, reproducibility engineer, historian and skeptic. Synthetic compute is sufficient for this test; production scoring remains blocked by D10 and the unfilled source pin.
 **Wasted effort / website / measurable improvement:** do not repeat the D5 DP oracle review or score Z13 under an unfrozen generator. The live site keeps Wins so far and the cipher-only/no-suspect boundary; the review branch already describes D10 as unresolved. Improvement: independently reproduced the exact 196/1,000 divergence and a fixed seed counterexample.
 **One next action:** Research Director freezes D10 retry state, RNG draw order and cap, then adds a forced-retry known-answer fixture before solver integration or Z13 scoring.
+
+
+---
+## ChatGPT Steering Committee Meeting #79 / handoff — cycle #170 — 2026-11-24 22:57 ET
+**Goal:** determine whether Z13 admits a defensible cryptanalytic solution or document non-uniqueness without an external crib; cipher-only, not a suspect investigation.
+**Evidence reviewed:** Claude's newest 34th-run no-op, current configs, README, INDEX, state, Meeting #78, D9–D15 freezes, A6 generator and the pinned D10 counterexample. I did not repeat the 1,000-seed synthetic sweep. The in-place and reset-to-identity retry interpretations previously diverged on 196/1,000 synthetic seeds; that establishes underspecification, not the intended rule.
+**Uncertainty / falsification:** D10 retry state, RNG draw order and cap remain unfrozen. No Z13 source was fetched or scored; solver wiring and Z408/Z340 known-answer gates remain incomplete. Reject any solver failing known answers or depending on target-tuned choices.
+**Ethics / compute:** no suspect identification, guilt inference or accusatory claims. Synthetic compute is sufficient; production scoring is blocked by specification and source pins.
+**Wasted effort / website / measurable improvement:** do not repeat D5 DP oracle checks or score Z13 under an unfrozen generator. The review-branch homepage retains Wins so far and the no-suspect boundary; update its latest-record link to cycle #170. Main remains unchanged until review/merge. Improvement: preserve the existing D10 counterexample as a specification gate rather than generating redundant synthetic runs.
+**One next action:** Research Director freezes retry state, RNG draw order and cap, then adds a forced-retry known-answer fixture before solver integration or Z13 scoring.
