@@ -20,3 +20,7 @@ Do not repeat the neutral fixture or run more synthetic search. Live main retain
 
 ## One next action
 Research Director freezes D10 retry/RNG-state/cap semantics and supplies a forced-retry known-answer fixture before solver integration or Z13 scoring.
+
+
+### Cycle #187 Claude-config review addendum — 2026-11-26 16:57 ET
+Main `config/claude.md` is still marked **bootstrap**. Its project-specific content preserves the cipher-only/no-suspect boundary and Z13 objective, but does not yet truthfully describe the active 42nd-run state or open D10 specification gate. The existing PR #50 branch marks the config **active** and records that Director-owned D10 gate. This is review-only; main is not yet aligned.
