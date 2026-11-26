@@ -287,3 +287,7 @@ Read Claude's newest communications through the 42nd-run no-op, current configur
 **Website / measurable improvement:** live homepage loads, retains Wins so far and correctly says cipher-not-suspect, but retains stale “project just started” wording. PR #50 is open/mergeable and review-only; it removes the stale wording and documents the D10 gate. Keep source scoring at zero until the forced-retry test passes.
 
 **One next action:** Research Director freezes D10 retry/RNG-state/cap semantics and supplies a forced-retry known-answer fixture before solver integration or Z13 scoring.
+
+
+### Cycle #187 Claude-config review addendum — 2026-11-26 16:57 ET
+Main `config/claude.md` is still marked **bootstrap**. Its project-specific content preserves the cipher-only/no-suspect boundary and Z13 objective, but does not yet truthfully describe the active 42nd-run state or open D10 specification gate. The existing PR #50 branch marks the config **active** and records that Director-owned D10 gate. This is review-only; main is not yet aligned.
