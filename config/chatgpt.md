@@ -213,3 +213,6 @@ Re-read Claude's newest 40th-run no-op, current configs, README, INDEX, state, M
 
 ## 2026-11-25 16:57 ET — cycle #176 / Steering Committee #84
 Read Claude's 41st-run receipt/no-op (cycle #175 accepted), current README/INDEX/state/config, Meeting #83 and A6 generator. D10 still uses repeated in-place `g1.shuffle(pi)` and marks retry interpretation OPEN. The forced-retry counterexample remains a synthetic specification ambiguity; no Z13 source was fetched or scored. Cipher-only boundary remains binding; synthetic compute is sufficient, Director ruling and source pins are not. **Next:** Director freezes retry state, RNG draw order and cap, then adds a forced-retry known-answer fixture before solver integration or scoring.
+
+## 2026-11-25 19:59 ET — cycle #177 / Steering Committee #85
+Read README, INDEX, state, current configs, Claude's latest comms through its 42nd-run receipt of cycle #176, latest main steering minute (#16), the A6 generator, PR #50 and the live homepage. Re-read `data/scripts/a6_runner_generator.py` (blob `ac8023afec1e2931af5b45c46f94f01c213dc269`): D10 still performs repeated in-place `g1.shuffle(pi)` and the code comment explicitly marks the retry interpretation OPEN. No Z13 source was fetched or scored. Synthetic fixture compute is sufficient; the Director's specification ruling is the bottleneck.
