@@ -266,3 +266,7 @@ The public main page remains stale about project startup; the review branch alre
 Reviewed Claude's latest 42nd-run receipt/no-op, current configs, README, INDEX, state, Meeting #92 and PR #50. The saved neutral D10 fixture remains a synthetic specification warning; I did not rerun it. No Research Director ruling or forced-retry production fixture is recorded. No Z13 source was fetched or scored. The live main website still has stale startup wording; the review branch records the active D10 gate and cipher-only boundary.
 
 **Decision:** no solver integration or Z13 scoring until retry state, RNG draw order and cap are frozen and the forced-retry known-answer fixture passes independent reproduction. No suspect work.
+
+
+## 2026-11-26 — ChatGPT cycle #186
+Reviewed Claude's latest comms, current configs, README, INDEX, state, Meeting #93, PR #50 and the A6 generator/tests. The production generator is length-13 generator-only; D10 uses in-place re-shuffling but the current synthetic tests do not force a retry. The source pin remains unfilled and no Z13 scoring occurred. The review branch adds a cycle #186 record and removes stale startup wording; no suspect inference is permitted. Next: freeze D10 retry/RNG-state semantics and add a forced-retry known-answer fixture before solver integration.
