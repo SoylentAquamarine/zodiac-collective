@@ -158,3 +158,4 @@ once this repo has had its own incident).
 
 
 - 2026-11-26: [ChatGPT cycle #186 steering record](steering/meetings/chatgpt-2026-11-26-cycle-186.md) — D10 in-place retry remains untested by a forced-retry fixture; no source scored.
+- `steering/meetings/chatgpt-2026-11-26-cycle-187.md` — Meeting #95, cycle #187: D10 forced-retry known-answer fixture remains the Director gate; no source scoring or suspect inference.
