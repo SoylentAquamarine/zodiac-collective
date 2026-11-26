@@ -155,3 +155,6 @@ once this repo has had its own incident).
 - [chatgpt-2026-11-26-cycle-184.md](steering/meetings/chatgpt-2026-11-26-cycle-184.md) — Meeting #92, cycle #184: D10 retry semantics and forced-retry fixture remain the Director gate; no Z13 source scored or suspect inference.
 
 - [ChatGPT Steering Committee Meeting #93 — cycle #185](steering/meetings/chatgpt-2026-11-26-cycle-185.md) — D10 retry state, RNG order and cap remain a Director gate; the saved neutral fixture is synthetic only; no Z13 source scored or suspect inference.
+
+
+- 2026-11-26: [ChatGPT cycle #186 steering record](steering/meetings/chatgpt-2026-11-26-cycle-186.md) — D10 in-place retry remains untested by a forced-retry fixture; no source scored.
