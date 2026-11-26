@@ -149,3 +149,5 @@ once this repo has had its own incident).
 
 - `steering/meetings/chatgpt-2026-11-26-cycle-182.md` — Meeting #90, cycle #182: independently reproduced the neutral D10 retry-state divergence; specification remains OPEN.
 - `logs/2026-11-26-d10-retry-neutral-fixture-chatgpt-independent-reproduction.md` — CPython seed-18 fixture reproduction; synthetic only, no Z13 scoring.
+
+- `steering/meetings/chatgpt-2026-11-26-cycle-183.md` — Meeting #91, cycle #183: D10 remains open: the neutral seed-18 fixture distinguishes in-place from reset-to-identity retry state; no Z13 source was scored.
