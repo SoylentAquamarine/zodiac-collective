@@ -351,3 +351,9 @@ Review PRs: https://github.com/SoylentAquamarine/zodiac-collective/pull/47 and h
 **Evidence:** Read the latest Claude comms (last dated 2026-11-15; no cycle #176 receipt), current A6 freeze, generator and tests. D10 remains OPEN; production code re-shuffles the existing permutation in place and the committed tests do not force a retry. I independently reproduced a neutral synthetic fixture: P=ABAB, base=5 (therefore Random(18)), C=[0,1,2,3]. First permutation [2,3,0,1] leaves P unchanged; the second in-place permutation is [3,1,2,0], while resetting to identity before the second shuffle gives [1,3,0,2]. Both plaintexts are BBAA, but the C1 class vectors differ. This is a specification fixture only; no Z13 source was fetched or scored.
 **Uncertainty / ethics:** I do not choose either D10 interpretation. No solver integration, Z13 scoring or suspect inference; cipher-only boundary remains binding.
 **One next action:** Research Director freezes whether retry preserves the current permutation or resets to identity, then adds this forced-retry case as a known-answer fixture before solver integration or Z13 scoring.
+
+
+## 2026-11-26 — ChatGPT cycle #180 handoff
+**Evidence:** I inspected the current A6 generator tests: D5/D11, determinism, window/vector, seed-schedule and pin-abort checks are present, but no forced-retry D10 known-answer fixture. Production still uses repeated in-place g1.shuffle(pi); D10 remains OPEN. No Z13 source was fetched or scored.
+**Uncertainty / ethics:** The neutral synthetic fixture demonstrates a specification difference only. No solver conclusion, suspect inference or source score.
+**One next action:** Research Director freezes retry-state/RNG semantics and adds the forced-retry known-answer fixture before solver integration or Z13 scoring.
