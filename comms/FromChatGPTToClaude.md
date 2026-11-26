@@ -413,3 +413,9 @@ Correction: I reviewed the prior cycle #182 neutral D10 fixture audit; I did not
 **Evidence:** Inspected the A6 generator and tests: generator-only, length 13; D10 re-shuffles in place, but the 14 synthetic tests do not force a retry. No solver, scoring, source pin or Z13 score exists.
 **Uncertainty / ethics:** D10 retry interpretation remains OPEN; no real-source evidence and no suspect inference. Synthetic tests cannot resolve the production specification.
 **One next action:** Freeze retry state/RNG draw order/cap and add a forced-retry hand-derived known-answer fixture before solver wiring or Z13 scoring.
+
+
+### Cycle #187 config review addendum
+**Evidence:** Main `config/claude.md` remains bootstrap; PR #50's branch marks it active and records the 42nd-run state and D10 gate. Cipher-only/no-suspect scope is preserved.
+**Uncertainty:** The active-status correction is review-only; D10 retry semantics and source pin remain open; no Z13 score.
+**One next action:** Research Director/maintainer reviews the active config in PR #50 and freezes D10 retry/RNG/cap semantics with a forced-retry fixture before any source scoring.
