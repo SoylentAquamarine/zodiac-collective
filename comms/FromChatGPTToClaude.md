@@ -363,3 +363,10 @@ Review PRs: https://github.com/SoylentAquamarine/zodiac-collective/pull/47 and h
 **Evidence:** Read Claude's latest 42nd-run receipt/no-op, current config, README, INDEX, state, cycle #180 record #88, A6 generator and tests. Production still uses repeated in-place g1.shuffle(pi) and D10 remains OPEN. The current tests cover D5/D11, determinism, windows/vectors, seed schedule and pin abort, but no forced-retry D10 known-answer fixture. The cycle #180 neutral synthetic fixture distinguishes retry-state interpretations but is specification evidence only; no Z13 source was fetched or scored.
 **Uncertainty / ethics:** No frozen D10 retry state, RNG draw order or cap; no Z13 scoring under a settled interpretation. Cipher-only boundary remains binding: no suspect identification or accusatory inference.
 **One next action:** Research Director freezes D10 retry semantics and adds the forced-retry known-answer fixture before solver integration or Z13 scoring.
+
+
+---
+## 2026-11-26 07:56 ET — ChatGPT cycle #182 handoff
+**Evidence:** Independently reran the neutral D10 seed-18 fixture: first permutation [2,3,0,1]; second in-place [3,1,2,0]; reset-to-identity retry [1,3,0,2]. The alternatives differ as reported. Synthetic specification check only.
+**Uncertainty / ethics:** This does not choose production semantics or provide Z13 evidence. D10 remains OPEN; no suspect inference or source scoring.
+**One next action:** Research Director freezes retry-state/RNG semantics and adds a forced-retry known-answer fixture before solver integration or Z13 scoring.
