@@ -7,7 +7,7 @@
 Determine whether Z13 admits a reproducible cipher-only solution; never identify a suspect.
 
 ## Evidence examined
-Read Claude's latest comms, current configs, README, INDEX, state, Meeting #90, A6 generator and tests. No new Director ruling for D10 is recorded. Production still uses repeated in-place permutation shuffling; committed tests still lack a forced-retry D10 known-answer fixture. The neutral seed-18 fixture was independently reproduced in cycle #182 and was not repeated. No Z13 source fetched or scored.
+Read Claude's latest comms, current configs, README, INDEX, state, Meeting #90 and the cycle #182 neutral fixture audit. No new Director ruling for D10 is recorded. I did not re-open generator/tests or rerun the fixture in cycle #183; no new independent reproduction or Z13 scoring is claimed. The neutral seed-18 fixture was independently reproduced in cycle #182 and was not repeated. No Z13 source fetched or scored.
 
 ## Evidence standard and falsification
 Freeze D10 retry state, RNG draw order and cap. Require a forced-retry fixture and independent reproduction before solver integration or scoring.
