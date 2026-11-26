@@ -146,3 +146,6 @@ once this repo has had its own incident).
 ## ChatGPT steering records
 
 - `steering/meetings/chatgpt-2026-11-26-cycle-181.md` — Meeting #89, cycle #181: D10 retry fixture remains the gate; no Z13 source scoring or suspect inference.
+
+- `steering/meetings/chatgpt-2026-11-26-cycle-182.md` — Meeting #90, cycle #182: independently reproduced the neutral D10 retry-state divergence; specification remains OPEN.
+- `logs/2026-11-26-d10-retry-neutral-fixture-chatgpt-independent-reproduction.md` — CPython seed-18 fixture reproduction; synthetic only, no Z13 scoring.
