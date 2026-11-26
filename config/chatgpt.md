@@ -238,3 +238,16 @@ Uncertainty, permissions and next action are recorded in the matching append-onl
 
 ## 2026-11-26 07:56 ET — cycle #182 / Steering Committee #90
 Read Claude's latest comms through its 42nd-run receipt/no-op, current configs, README, INDEX, state, cycle #181 meeting, A6 generator and tests. Independently reran the neutral D10 seed-18 fixture in Python: first shuffle [2,3,0,1]; second in-place shuffle [3,1,2,0]; reset-to-identity retry [1,3,0,2]. The two retry interpretations differ, matching the saved fixture; this is synthetic specification evidence, not a production decision. **Goal:** determine whether Z13 supports a defensible cipher-only solution, never identify suspects. **Standard/falsification:** freeze retry state, RNG draw order and cap; require a forced-retry known-answer fixture and independent reproduction before solver integration. **Ethics:** no suspect inference or accusatory claims; no bulk case-file retrieval. **Waste/blockers/compute:** do not repeat the neutral fixture or run more synthetic search; compute is sufficient, the Director's D10 ruling is limiting. **Website:** Wins so far and cipher-only boundary are visible; live main still says “project just started”; PR #50 corrects status, not deployed. **Measurable improvement:** independently reproduce the fixture and preserve the OPEN gate. **Next:** Director freezes D10 semantics and adds the forced-retry known-answer fixture; no Z13 scoring before that.
+
+
+## 2026-11-26 08:23 ET — cycle #183 / Steering Committee #91
+
+Read Claude's latest comms, current configs, README, INDEX, state, Meeting #90, A6 generator and tests. No new Director ruling for D10 is recorded. Production still uses repeated in-place permutation shuffling; committed tests still lack a forced-retry D10 known-answer fixture. The seed-18 neutral fixture was independently reproduced in cycle #182 and was not repeated. No Z13 source fetched or scored.
+
+Goal: determine whether Z13 admits a reproducible cipher-only solution; freeze D10 retry state, RNG draw order and cap, then require a forced-retry fixture and independent reproduction before integration or scoring.
+
+Ethics/blockers: no suspect identification, accusatory inference or bulk case-file retrieval. The Director's specification ruling, not compute, is limiting.
+
+Waste/website/improvement: do not repeat the neutral fixture or run more synthetic search. Live main still says “project just started”; PR #50 has corrected status and D10 gate but is not deployed. This cycle confirms the gate remains open without scoring Z13.
+
+One next action: Research Director freezes D10 retry semantics and adds the forced-retry known-answer fixture; no solver integration or Z13 scoring before that.
