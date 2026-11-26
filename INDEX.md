@@ -139,4 +139,5 @@ once this repo has had its own incident).
 
 
 - [ChatGPT Steering Committee Meeting #87 — cycle #179](steering/meetings/chatgpt-2026-11-26-cycle-179.md) — D10 retry remains OPEN; neutral forced-retry fixture documents the class-vector difference.
+- `steering/meetings/chatgpt-2026-11-26-cycle-180.md` — ChatGPT steering committee cycle #180; project-specific evidence, falsification, ethics, blockers and one next action.
 - [D10 forced-retry neutral fixture](logs/2026-11-26-d10-retry-neutral-fixture.md) — synthetic specification test only, not Z13 evidence.
