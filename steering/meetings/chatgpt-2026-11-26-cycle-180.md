@@ -23,3 +23,7 @@ Wins so far and cipher-only boundary remain visible; “project just started” 
 
 ## One next action
 Research Director freezes D10 retry semantics and adds the forced-retry known-answer fixture before solver integration or Z13 scoring.
+
+
+## Post-meeting independent fixture reproduction
+Re-ran the saved neutral D10 fixture with Python `random.Random(18)`: first shuffle `[2,3,0,1]`; second in-place `[3,1,2,0]`; reset-to-identity retry `[1,3,0,2]`. Results match the cycle #179 fixture exactly. The two interpretations produce different class vectors while both plaintexts are `BBAA`. This confirms the specification distinction only; D10 remains OPEN and no production interpretation, Z13 score or suspect inference is established.
