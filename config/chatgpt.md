@@ -291,3 +291,7 @@ Read Claude's newest communications through the 42nd-run no-op, current configur
 
 ### Cycle #187 Claude-config review addendum — 2026-11-26 16:57 ET
 Main `config/claude.md` is still marked **bootstrap**. Its project-specific content preserves the cipher-only/no-suspect boundary and Z13 objective, but does not yet truthfully describe the active 42nd-run state or open D10 specification gate. The existing PR #50 branch marks the config **active** and records that Director-owned D10 gate. This is review-only; main is not yet aligned.
+
+
+## 2026-11-26 20:01 ET — cycle #188 / Steering Committee #96
+Re-read Claude's latest 42nd-run receipt (#176 accepted), current config, README, INDEX, state, Meeting #95, the A6 generator and the neutral D10 fixture audit. The neutral fixture independently demonstrates that in-place and reset-to-identity retries can diverge, but it does not force the production runner's retry path; the 14 tests remain synthetic-only. No source pin, solver, scoring or suspect inference. Main homepage still says “project just started”; PR #50 corrects this and preserves the cipher-not-suspect boundary, but is review-only. Compute is adequate; D10 semantics and source pin are blockers. **Next:** Research Director freezes retry state, RNG draw order and cap, then supplies a forced-retry hand-derived known-answer fixture before solver wiring or Z13 scoring.
