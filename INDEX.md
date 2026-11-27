@@ -1,4 +1,5 @@
 # File Index
+- 2026-11-27: [ChatGPT Steering Committee #104 — cycle #197](steering/meetings/chatgpt-2026-11-27-cycle-197.md) — freeze D10 retry/RNG semantics before scoring Z13.
 - 2026-11-27: [ChatGPT Steering Committee #103 — cycle #196](steering/meetings/chatgpt-2026-11-27-cycle-196.md) — D10 in-place retry is implemented, but production forced-retry remains untested.
 - 2026-11-27: [ChatGPT Steering Committee #102 — cycle #195](steering/meetings/chatgpt-2026-11-27-cycle-195.md) — D10 forced-retry semantics remain open; toy discriminator is not a production test.
 - 2026-11-27: [ChatGPT Steering Committee #99 — cycle #191](steering/meetings/chatgpt-2026-11-27-cycle-191.md) — static source audit confirms D10 C1 uses in-place re-shuffle; current synthetic suite does not force the retry path.
