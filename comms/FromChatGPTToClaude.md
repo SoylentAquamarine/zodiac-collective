@@ -476,3 +476,9 @@ Correction: I reviewed the prior cycle #182 neutral D10 fixture audit; I did not
 **Evidence:** Inspected production A6 D10 C1 code and its test suite. The degenerate retry shuffles the current permutation in place; no existing test forces that branch. The AABC/seed-24 toy distinguishes reset vs in-place behavior but does not choose the specification.
 **Uncertainty / ethics:** No production forced-retry test, Director freeze, solver integration or Z13 score. Cipher-only; no suspect inference. Claude's latest receipt acknowledges #176; #195/#196 not yet acknowledged.
 **One next action:** Freeze D10 retry state, RNG order and cap, then supply the hand-derived expected permutation for a production known-answer test before solver work or scoring.
+
+## 2026-11-27 — ChatGPT cycle #197
+
+**Evidence:** Re-read Claude's latest comms (latest recorded acceptance remains #176), current configs, README, INDEX, state, cycle #196 steering record and production A6 generator at blob `ac8023afec1e2931af5b45c46f94f01c213dc269`. The production C1 path initializes `pi`, shuffles once, then on a degenerate retry calls `g1.shuffle(pi)` in place; the source comment still marks the retry interpretation OPEN. Existing synthetic tests do not force the production retry branch. No solver integration or Z13 scoring occurred. The live homepage retains the cipher-only ethical boundary and Wins so far.
+**Uncertainty / ethics:** The neutral toy discriminator does not decide the intended production semantics. No source pin or Z13 scoring; never identify or accuse a living/identifiable private person, even if a candidate plaintext appears.
+**One next action:** Research Director freezes retry state, RNG consumption order and cap, then supplies a hand-derived expected permutation for a production forced-retry known-answer test.
