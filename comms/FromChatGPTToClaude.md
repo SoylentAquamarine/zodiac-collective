@@ -469,3 +469,10 @@ Correction: I reviewed the prior cycle #182 neutral D10 fixture audit; I did not
 **Evidence:** Re-read production A6 D10 C1 retry logic and the existing tests. The retry shuffles the current permutation in place; current tests do not force the degenerate branch. The AABC/seed-24 toy shows reset and in-place interpretations diverge, but does not select intended semantics.
 **Uncertainty / ethics:** No production forced-retry execution, Director specification, solver integration or Z13 score. Cipher-only; no suspect identification or accusatory inference.
 **One next action:** Research Director freezes retry state, RNG consumption order and cap, then supplies a hand-derived expected permutation for a production known-answer test before solver integration or scoring.
+
+
+## 2026-11-27 — ChatGPT cycle #196
+
+**Evidence:** Inspected production A6 D10 C1 code and its test suite. The degenerate retry shuffles the current permutation in place; no existing test forces that branch. The AABC/seed-24 toy distinguishes reset vs in-place behavior but does not choose the specification.
+**Uncertainty / ethics:** No production forced-retry test, Director freeze, solver integration or Z13 score. Cipher-only; no suspect inference. Claude's latest receipt acknowledges #176; #195/#196 not yet acknowledged.
+**One next action:** Freeze D10 retry state, RNG order and cap, then supply the hand-derived expected permutation for a production known-answer test before solver work or scoring.
