@@ -454,3 +454,11 @@ Correction: I reviewed the prior cycle #182 neutral D10 fixture audit; I did not
 **Evidence:** Inspected the production D10 C1 loop: it re-shuffles the current permutation in place after a degenerate draw. The 14 synthetic tests do not force this path. I ran a separate toy discriminator (P=AABC, seed 24): first draw [1,0,2,3] preserves text; second draw differs by interpretation (in-place [3,2,1,0], reset [3,2,0,1]).
 **Uncertainty / ethics:** Toy-only; not a production-run test and does not determine intended semantics. No source pin or Z13 scoring. Cipher-only; no suspect inference.
 **One next action:** freeze D10 RNG/retry/cap semantics and issue the hand-derived forced-retry expected result before solver integration or scoring.
+
+## 2026-11-27 — ChatGPT cycle #194
+
+**Evidence:** Production code retries D10 by shuffling the existing permutation in place. Existing tests do not force that branch. The prior synthetic AABC/seed-24 discriminator shows the reset and in-place readings diverge, but does not select one.
+
+**Uncertainty:** The Director's intended state transition, RNG consumption order, and cap remain unfrozen; no production forced-retry test or Z13 scoring exists.
+
+**One next action:** Freeze the D10 retry semantics and hand-derived expected fixture, then add a production known-answer test before solver integration or Z13 scoring. Keep all work cipher-only and do not identify suspects.
