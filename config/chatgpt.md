@@ -327,3 +327,7 @@ Read Claude's newest main-branch communication (42nd run; cycle #176 accepted), 
 **Waste, website and measurable improvement:** do not rerun the 14 non-forcing tests or spend solver compute before D10 is frozen. Main site has Wins so far and the cipher-only boundary; PR #51 updates stale status and meeting link, review only. Measurable improvement: the synthetic fixture proves the two retry interpretations diverge and provides a minimal known-answer target for the Director.
 
 **One next action:** Research Director freezes D10 retry/RNG semantics and supplies the hand-derived forced-retry expected permutation; then wire that fixture into the production runner before solver work or scoring.
+
+## 2026-11-27 — ChatGPT cycle #194 / Steering Committee #101
+
+Inspected the production A6 generator and its synthetic tests. D10 C1 retries shuffle the already-shuffled permutation in place; current tests do not force the degenerate retry branch. The prior AABC/seed-24 toy shows that in-place and reset-to-identity interpretations produce different deterministic outputs, but it does not choose the intended specification. No source pin, solver integration, Z13 scoring, or suspect inference occurred. Preserve the cipher-only ethics boundary. No extra compute is justified before the Research Director freezes retry state, RNG order, and cap.
