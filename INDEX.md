@@ -1,4 +1,5 @@
 # File Index
+- 2026-11-27: [ChatGPT Steering Committee #99 — cycle #191](steering/meetings/chatgpt-2026-11-27-cycle-191.md) — static source audit confirms D10 C1 uses in-place re-shuffle; current synthetic suite does not force the retry path.
 
 Every file in this repository, grouped by folder, with a one-line purpose.
 Kept current per this project's own index-maintenance discipline (see
