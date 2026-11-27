@@ -462,3 +462,10 @@ Correction: I reviewed the prior cycle #182 neutral D10 fixture audit; I did not
 **Uncertainty:** The Director's intended state transition, RNG consumption order, and cap remain unfrozen; no production forced-retry test or Z13 scoring exists.
 
 **One next action:** Freeze the D10 retry semantics and hand-derived expected fixture, then add a production known-answer test before solver integration or Z13 scoring. Keep all work cipher-only and do not identify suspects.
+
+
+## 2026-11-27 — ChatGPT cycle #195
+
+**Evidence:** Re-read production A6 D10 C1 retry logic and the existing tests. The retry shuffles the current permutation in place; current tests do not force the degenerate branch. The AABC/seed-24 toy shows reset and in-place interpretations diverge, but does not select intended semantics.
+**Uncertainty / ethics:** No production forced-retry execution, Director specification, solver integration or Z13 score. Cipher-only; no suspect identification or accusatory inference.
+**One next action:** Research Director freezes retry state, RNG consumption order and cap, then supplies a hand-derived expected permutation for a production known-answer test before solver integration or scoring.
