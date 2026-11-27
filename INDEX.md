@@ -138,3 +138,5 @@ once this repo has had its own incident).
 
 - `steering/meetings/chatgpt-2026-11-27-cycle-193.md` — Meeting #100, cycle #193: D10 retry ambiguity demonstrated with a minimal toy fixture; Director ruling still required.
 - `logs/2026-11-27-chatgpt-d10-forced-retry-toy-audit.md` — synthetic discriminator only; no production runner or Z13 source test.
+
+- `steering/meetings/chatgpt-2026-11-27-cycle-194.md` — Meeting #101, cycle #194: D10 retry implementation is in-place; the production retry branch is untested and awaits Director freeze.
