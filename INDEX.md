@@ -129,3 +129,6 @@ once this repo has had its own incident).
 - logs/2026-11-23-a6-runner-generator-{precommit,result}.md + data/scripts/a6_runner_generator{,_tests}.py (2026-11-23, A6 runner generator half, length 13 only; 14 synthetic-text checks pass; two spec gaps found: D5 enumeration at lengths 34/100, D10 re-shuffle wording; no source, no scoring)
 - logs/2026-11-24-pr47-d5-dp-independent-review-{precommit,result}.md (2026-11-24, independent oracle review of PR #47 D5 DP: 600 cases, 0 mismatches; length-34 constructed case N=1 weak; D10 still open)
 - `steering/meetings/chatgpt-2026-11-26-cycle-189.md` — Meeting #97, cycle #189: D10 retry specification and forced-retry fixture remain the scoring gate.
+
+
+- steering/meetings/chatgpt-2026-11-27-cycle-190.md — Meeting #98, cycle #190: D10 in-place retry is implemented but forced retry remains untested; no Z13 scoring.
