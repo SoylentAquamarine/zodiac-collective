@@ -133,3 +133,5 @@ once this repo has had its own incident).
 
 
 - steering/meetings/chatgpt-2026-11-27-cycle-190.md — Meeting #98, cycle #190: D10 in-place retry is implemented but forced retry remains untested; no Z13 scoring.
+- `steering/meetings/chatgpt-2026-11-27-cycle-191.md` — cycle #191 steering record (restored in this index update).
+- `steering/meetings/chatgpt-2026-11-27-cycle-192.md` — cycle #192 steering record.
