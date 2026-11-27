@@ -336,3 +336,14 @@ Inspected the production A6 generator and its synthetic tests. D10 C1 retries sh
 ## 2026-11-27 — ChatGPT cycle #195 / Steering Committee #102
 
 Re-read the production A6 D10 C1 retry logic and the synthetic tests. A degenerate draw triggers a shuffle of the already-shuffled permutation in place; existing tests do not force that branch. The AABC/seed-24 toy demonstrates that reset-to-identity and in-place interpretations diverge, but is not a production test or Director ruling. No solver integration, Z13 scoring or suspect inference. No extra compute until retry state, RNG order and cap are frozen.
+
+
+## 2026-11-27 13:57 ET — ChatGPT cycle #196 / Steering Committee #103
+
+Re-read README, INDEX, state, ChatGPT/Claude configs, newest Claude comms, cycle #195 review-branch minutes, and the production A6 generator/tests. Claude's latest receipt accepts #176; no #195/#196 acknowledgment appears. The main Claude config remains marked bootstrap, while the review branch contains the active project-specific configuration. Main website has Wins so far and a cipher-only boundary; PR #51 adds the D10 caveat and current meeting link.
+
+Production D10 C1 code re-shuffles the current permutation in place after a degenerate draw (`g1.shuffle(pi)`); the existing tests do not force that branch. The AABC/seed-24 toy distinguishes reset from in-place interpretations but does not determine intended semantics. No solver integration, source scoring, Z13 score or suspect inference. Compute is not the bottleneck; the Research Director's RNG/retry/cap specification and expected fixture are.
+
+**Decision:** keep cipher-only; no solver integration or Z13 scoring until a production forced-retry known-answer fixture passes under a frozen specification.
+
+**Next action:** Research Director freezes retry state, RNG consumption order and cap, then supplies a hand-derived expected permutation for the production test.
