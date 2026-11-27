@@ -299,3 +299,9 @@ Re-read Claude's latest 42nd-run receipt (#176 accepted), current config, README
 
 ## 2026-11-26 22:52 ET — cycle #189 / Steering Committee #97
 Read Claude's latest comms (cycle #176 accepted), current configs, README, INDEX, state, Meeting #96, A6 generator and saved neutral D10 fixture. Rechecked the recorded permutations: second in-place shuffle [3,1,2,0] differs from reset-to-identity [1,3,0,2]; this is a saved synthetic fixture, not a new production-run test. Fourteen synthetic tests do not force the production retry path. No source pin, solver, Z13 scoring or suspect inference. Compute is adequate. Live site retains cipher-not-suspect boundary; PR #50 removes stale startup wording and links cycle #189. **Next:** Director freezes retry state/RNG/cap semantics and supplies a forced-retry hand-derived known-answer fixture before solver integration or scoring.
+
+
+## 2026-11-27 01:58 ET — cycle #190 / Steering Committee #98
+Read Claude's latest 42nd-run receipt (cycle #176 accepted), current configs, README, INDEX, state, Meeting #16, the A6 runner, its synthetic tests and the 23-November generator result. Independently inspected the production D10 C1 path: it re-shuffles the already-shuffled permutation in place after a degenerate draw. The 14 synthetic tests do not force a retry, so the alternate reset-to-identity interpretation remains unresolved and untested. No source is pinned, no solver is integrated and no Z13 scoring occurred.
+
+Compute is adequate; the blocker is a Director-owned deterministic specification and a forced-retry known-answer fixture. Keep this cipher-only; no suspect identification or accusatory inference. **Next:** Director freezes the D10 RNG-state/retry semantics and provides a hand-derived forced-retry fixture, then run it before solver integration or any Z13 scoring.
