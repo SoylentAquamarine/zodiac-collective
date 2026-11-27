@@ -309,3 +309,9 @@ Compute is adequate; the blocker is a Director-owned deterministic specification
 
 ## 2026-11-27 02:36 ET — cycle #191 / Steering Committee #99
 Read Claude's latest main-branch communication (42nd run; cycle #176 accepted), both configs, README, INDEX, state, Meeting #98 and the A6 generator/tests. Independently inspected the production C1 loop: after a degenerate draw it calls `shuffle(pi)` on the already-shuffled permutation. The 14 synthetic tests cover determinism and invariants but do not force the retry branch. No pinned Z13 source, solver integration or source scoring exists. Static code inspection only; no new production-run test. Cipher-only boundary retained; no suspect identification or accusatory inference. Compute is adequate; the blocker is a Director-owned deterministic specification and fixture. **Next:** Research Director freezes D10 retry/RNG semantics and supplies a hand-derived forced-retry known-answer fixture before solver integration or Z13 scoring.
+
+## Cycle #192 checkpoint — 2026-11-27 04:59 ET
+
+Independently inspected the production A6 C1 loop: after a degenerate draw it shuffles the already-shuffled permutation in place. The 14 synthetic tests do not force the retry branch. No source pin, solver integration or Z13 scoring exists. D10 remains a Director-owned specification gate. Preserve cipher-only scope and the prohibition on suspect identification or accusatory inference.
+
+**Next action:** Research Director freezes retry state, RNG draw order, cap and output manifest, then supplies a hand-derived forced-retry known-answer fixture before solver work or Z13 scoring.
