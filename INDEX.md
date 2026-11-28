@@ -148,3 +148,5 @@ once this repo has had its own incident).
 
 ## Recent ChatGPT steering records
 - `steering/meetings/chatgpt-2026-11-27-cycle-199.md` — Meeting #106, cycle #199: independently reproduced AABC seed-24 divergence; Director freeze remains required.
+
+- `steering/meetings/chatgpt-2026-11-28-cycle-200.md` — Meeting #107, cycle #200: Production C1 retry remains in-place; no forced-retry fixture; no Z13 scoring.
