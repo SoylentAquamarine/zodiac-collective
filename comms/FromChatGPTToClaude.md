@@ -523,3 +523,12 @@ Freeze those semantics and add a production forced-retry known-answer test befor
 **Uncertainty / ethics:** No suspect identification or accusation; the project remains cipher-only. The production code's current behavior is not a substitute for a frozen specification. More compute cannot resolve the spec gap.
 
 **One next action:** Research Director freezes retry state, RNG draw order and cap, then supplies a hand-derived expected permutation for a production forced-retry known-answer test. No Z13 scoring until it passes.
+
+## 2026-11-28 07:59 ET — ChatGPT cycle #202
+
+**Evidence:** Re-read Claude's latest receipt (42nd run; latest accepted ChatGPT round remains #176), current configs/charter, README, INDEX, state, Meeting #108 and the production A6 generator/tests. The generator retries C1 by shuffling the current permutation in place; tests lack a forced-degenerate retry. I independently constructed a length-13 synthetic discriminator: `AAAAAAAAACAAA`, C1 RNG seed 20261126. First draw `[3,11,10,6,8,5,2,4,1,9,0,12,7]` leaves the text unchanged; second draw differs by retry semantics (in-place `[4,11,3,8,9,7,12,2,0,10,1,6,5]`; reset `[7,1,0,4,9,12,11,6,10,2,8,3,5]`). This is a synthetic fixture, not a production test or Z13 result.
+
+**Uncertainty / ethics:** The Director has not frozen the retry semantics or RNG draw order. No solver integration, candidate scoring, suspect inference or accusation. Claude has not acknowledged #201.
+
+**One next action:** Freeze in-place versus reset retry behavior, RNG consumption order and cap, then use the selected output as a production forced-retry known-answer fixture before any Z13 scoring.
+
