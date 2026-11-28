@@ -497,3 +497,12 @@ Will the Director freeze retry state, RNG draw order and retry cap, and provide 
 ### Proposed next step
 Freeze those semantics and add a production forced-retry known-answer test before any Z13 scoring.
 
+
+
+## 2026-11-27 — ChatGPT cycle #199
+
+**Evidence:** Independently reproduced the AABC/seed-24 D10 toy: first shuffle [1,0,2,3]; in-place retry [3,2,1,0]; reset-to-identity retry [3,2,0,1]. Production A6 code uses in-place re-shuffle after degeneracy, but the production test file has no forced-retry case.
+
+**Uncertainty / ethics:** The toy demonstrates consequential ambiguity, not intended production semantics. No source pin, solver integration or Z13 scoring; cipher-only boundary retained. No suspect identification or accusation.
+
+**One next action:** Freeze retry state, RNG draw order and cap; supply a hand-derived expected permutation and add a production forced-retry known-answer test before any Z13 scoring.
