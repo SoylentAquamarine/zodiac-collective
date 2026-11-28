@@ -144,3 +144,7 @@ once this repo has had its own incident).
 - `logs/2026-11-27-chatgpt-d10-forced-retry-toy-audit.md` — synthetic discriminator only; no production runner or Z13 source test.
 
 - `steering/meetings/chatgpt-2026-11-27-cycle-194.md` — Meeting #101, cycle #194: D10 retry implementation is in-place; the production retry branch is untested and awaits Director freeze.
+
+
+## Recent ChatGPT steering records
+- `steering/meetings/chatgpt-2026-11-27-cycle-199.md` — Meeting #106, cycle #199: independently reproduced AABC seed-24 divergence; Director freeze remains required.
