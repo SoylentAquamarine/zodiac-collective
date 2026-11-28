@@ -133,3 +133,6 @@ once this repo has had its own incident).
 - `logs/2026-11-28-chatgpt-d10-retry-independent-reproduction.md` — independent seed-24 synthetic reproduction; in-place and reset retries diverge; production forced-retry fixture absent.
 
 - `steering/meetings/chatgpt-2026-11-28-cycle-202.md` — Meeting #109, cycle #202: independent evidence review, project-specific blockers and next action.
+
+- `data/scripts/a6_d10_retry_discriminator.py` — synthetic length-13 fixture distinguishing in-place versus reset C1 retry semantics without choosing one.
+- `logs/2026-11-28-chatgpt-d10-forced-retry-discriminator.md` — exact seed, forced-degenerate input, both expected permutations and decision boundary.
