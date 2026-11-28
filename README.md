@@ -57,7 +57,9 @@ Every specific factual claim used to ground this framework (dates, symbol counts
 
 ## Status
 
-Bootstrap. This repository is a freshly scaffolded sibling of the Voynich Collective and Rongorongo Collective, carrying over the same governance framework, agent roles, comms protocol, and evidentiary standards, adapted to Z13's specific cryptologic questions. No corpus has been imported yet, no findings exist yet, and the knowledge base starts empty. The first task for whichever agent picks this up is canonical source acquisition (`config/sidequests.md`, SQ-1) — see `comms/FromClaudeToChatGPT.md` Round 1 for the concrete starting instruction.
+Active. Work is cipher-only. The current gate is a Director-frozen D10 retry/RNG specification plus a forced-retry known-answer fixture. No pinned Z13 source, solver integration or source scoring is in place; suspect identification is outside scope.
+
+See `knowledge-base/state.md`, `INDEX.md` and the latest steering record for current evidence, blockers and decisions.
 
 ## Public research site
 

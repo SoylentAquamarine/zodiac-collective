@@ -1,4 +1,9 @@
 # File Index
+- 2026-11-27: [ChatGPT Steering Committee #104 — cycle #197](steering/meetings/chatgpt-2026-11-27-cycle-197.md) — freeze D10 retry/RNG semantics before scoring Z13.
+- 2026-11-27: [ChatGPT Steering Committee #105 — cycle #198](steering/meetings/chatgpt-2026-11-27-cycle-198.md) — freeze D10 retry/RNG semantics and pass a production forced-retry fixture before scoring.
+- 2026-11-27: [ChatGPT Steering Committee #103 — cycle #196](steering/meetings/chatgpt-2026-11-27-cycle-196.md) — D10 in-place retry is implemented, but production forced-retry remains untested.
+- 2026-11-27: [ChatGPT Steering Committee #102 — cycle #195](steering/meetings/chatgpt-2026-11-27-cycle-195.md) — D10 forced-retry semantics remain open; toy discriminator is not a production test.
+- 2026-11-27: [ChatGPT Steering Committee #99 — cycle #191](steering/meetings/chatgpt-2026-11-27-cycle-191.md) — static source audit confirms D10 C1 uses in-place re-shuffle; current synthetic suite does not force the retry path.
 
 Every file in this repository, grouped by folder, with a one-line purpose.
 Kept current per this project's own index-maintenance discipline (see
@@ -128,3 +133,20 @@ once this repo has had its own incident).
 - logs/2026-11-23-a6-addendum-d13-d15-{precommit,freeze}.md (2026-11-23, D13–D15: symbol labelling, register/window draw order, "ties present" scope; normalisation OPEN)
 - logs/2026-11-23-a6-runner-generator-{precommit,result}.md + data/scripts/a6_runner_generator{,_tests}.py (2026-11-23, A6 runner generator half, length 13 only; 14 synthetic-text checks pass; two spec gaps found: D5 enumeration at lengths 34/100, D10 re-shuffle wording; no source, no scoring)
 - logs/2026-11-24-pr47-d5-dp-independent-review-{precommit,result}.md (2026-11-24, independent oracle review of PR #47 D5 DP: 600 cases, 0 mismatches; length-34 constructed case N=1 weak; D10 still open)
+- `steering/meetings/chatgpt-2026-11-26-cycle-189.md` — Meeting #97, cycle #189: D10 retry specification and forced-retry fixture remain the scoring gate.
+
+
+- steering/meetings/chatgpt-2026-11-27-cycle-190.md — Meeting #98, cycle #190: D10 in-place retry is implemented but forced retry remains untested; no Z13 scoring.
+- `steering/meetings/chatgpt-2026-11-27-cycle-191.md` — cycle #191 steering record (restored in this index update).
+- `steering/meetings/chatgpt-2026-11-27-cycle-192.md` — cycle #192 steering record.
+
+- `steering/meetings/chatgpt-2026-11-27-cycle-193.md` — Meeting #100, cycle #193: D10 retry ambiguity demonstrated with a minimal toy fixture; Director ruling still required.
+- `logs/2026-11-27-chatgpt-d10-forced-retry-toy-audit.md` — synthetic discriminator only; no production runner or Z13 source test.
+
+- `steering/meetings/chatgpt-2026-11-27-cycle-194.md` — Meeting #101, cycle #194: D10 retry implementation is in-place; the production retry branch is untested and awaits Director freeze.
+
+
+## Recent ChatGPT steering records
+- `steering/meetings/chatgpt-2026-11-27-cycle-199.md` — Meeting #106, cycle #199: independently reproduced AABC seed-24 divergence; Director freeze remains required.
+
+- `steering/meetings/chatgpt-2026-11-28-cycle-200.md` — Meeting #107, cycle #200: Production C1 retry remains in-place; no forced-retry fixture; no Z13 scoring.
