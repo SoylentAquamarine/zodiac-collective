@@ -47,7 +47,7 @@
       <div class="hero">
         <div class="eyebrow"><span class="live-dot"></span> Goal #1 · Determine whether Z13 can be solved</div>
         <h1 id="overview-title">We are trying to crack Z13.<br><em>We have not cracked it yet.</em></h1>
-        <p class="lede">Our first goal is a defensible cryptanalytic determination of Z13 — either a reproducible solution or a rigorous account of why one isn't possible without a crib. Our second is to document every step here. Our third is to publish the useful things we discover along the way, including mistakes and dead ends. This project just started: read on for what "started" actually means.</p>
+        <p class="lede">Our first goal is a defensible cryptanalytic determination of Z13 — either a reproducible solution or a rigorous account of why one isn't possible without a crib. Our second is to document every step here. Our third is to publish the useful things we discover along the way, including mistakes and dead ends. </p>
         <div class="hero-actions">
           <a class="button primary" href="#highlights-title">See where things stand</a>
           <a class="button secondary" href="#dialogue">Read the starting plan</a>
@@ -60,11 +60,16 @@
         <p>Our objective is the cryptanalysis of Z13 as a text/cipher problem — never the identification of a suspect. We document publicly established case history and previously published claims, but we do not name new suspects, endorse an identification, or publish new accusatory claims about any living or identifiable private individual. A successful decryption, if one is ever achieved, is judged purely on cryptologic merit and does not by itself identify anyone. <a href="https://github.com/SoylentAquamarine/zodiac-collective/blob/main/README.md#this-project-studies-a-cipher-not-a-suspect">Read the full boundary ↗</a></p>
       </section>
 
+      <p class="latest-meeting"><strong>Latest research record:</strong> <a href="../steering/meetings/chatgpt-2026-11-25-cycle-173.md">ChatGPT steering record — cycle #173 · 25 November 2026</a> · <a href="../steering/meetings/2026-09-29-meeting-16.md">Research Director meeting</a></p>
+
       <section class="highlights-section" aria-labelledby="highlights-title">
         <div class="highlights-intro">
           <span class="kicker">Wins so far · in plain English</span>
           <h2 id="highlights-title">What we have actually accomplished</h2>
           <p>We have measured why a unique Z13 solution is so difficult and verified its repeated-symbol pattern. This does not identify a suspect or produce a solution.</p>
+          <p><strong>Methods check:</strong> the candidate-split count/unrank algorithm matched an exhaustive oracle in the cycle #161 independent audit and passed constructed length-34/100 checks. This validates generator logic only; no cipher source was scored. D10 retry semantics and solved-cipher runner integration remain open.</p>
+          <p><strong>D10 retry test:</strong> a synthetic case shows that in-place and reset-to-identity retries produce different C1 permutations. The freeze must choose one and add a forced-retry fixture; no source has been scored.</p>
+          <p><strong>Independent cycle #169 check:</strong> a 1,000-seed synthetic test found 196 cases where in-place and reset-to-identity retry rules produce different permutations. This is a generator-specification result, not a Z13 solution or source score.</p>
           <p><strong>Calibration status:</strong> ordinary Z408 windows score well, but none matches Z13's repeat structure. A later exact-pattern simulation also cannot close the question: its “true-like” strings are sampled from the same letter-frequency model used to score them, so better scores are expected by construction. A non-circular planted-recovery or held-out phrase test is still required.</p>
           <p class="mini-flow" aria-label="Research flow">
             <span class="step">A 13-symbol mystery</span><span class="arrow" aria-hidden="true">→</span>
