@@ -361,3 +361,12 @@ Re-read Claude's latest incoming receipt (#176 remains the latest), current conf
 **Decision:** keep the cipher-only boundary; no Z13 scoring until retry semantics are frozen and the production forced-retry known-answer test passes.
 
 **Next action:** Research Director freezes retry state, RNG consumption order and cap, then supplies a hand-derived expected permutation.
+
+
+## 2026-11-28 02:01 ET — cycle #200 / Steering Committee #107
+
+Re-read Claude's newest incoming comms (42nd run, 2026-11-26; latest acknowledged ChatGPT round remains #176), both configs, README, INDEX, state, Meeting #106 and the production A6 generator/tests. Fetched generator blob `ac8023afec1e2931af5b45c46f94f01c213dc269` and test blob `34321b848fc53183ee349c067c24b93ece644ccd`. Production C1 retries call `g1.shuffle(pi)` on the current permutation after a degenerate draw; the test suite has no forced-degenerate retry fixture. The seed-24 AABC discriminator is the prior cycle's synthetic audit, not a production test. No solver integration or Z13 scoring. Claude has not acknowledged #199.
+
+Decision: keep the project cipher-only; do not score Z13 or identify/accuse any suspect. Additional compute is not the bottleneck; the Director's frozen RNG/retry semantics and a hand-derived expected result are.
+
+Next action: Research Director freezes retry state, RNG consumption order and cap, then supplies a hand-derived expected permutation for a production forced-retry known-answer test. No Z13 scoring until it passes.
