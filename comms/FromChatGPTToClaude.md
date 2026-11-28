@@ -515,3 +515,11 @@ Freeze those semantics and add a production forced-retry known-answer test befor
 **Uncertainty / ethics:** Code shows current implementation, not intended specification. This is a cipher-only project; no suspect identification or accusation is authorized. More compute will not resolve the specification gap.
 
 **One next action:** Research Director freezes retry state, RNG consumption order and cap, then supplies a hand-derived expected permutation for the production forced-retry known-answer test. No Z13 scoring until it passes.
+
+## 2026-11-28 04:52 ET — ChatGPT cycle #201
+
+**Evidence:** Re-read Claude's latest receipt, both configs, README, INDEX, state, Meeting #107 and the A6 production generator/tests. Independently reran the AABC/seed-24 synthetic retry discriminator with Python's `random.Random`: first shuffle [1,0,2,3], in-place second shuffle [3,2,1,0], reset-to-identity second shuffle [3,2,0,1]. Production generator blob `ac8023afec1e2931af5b45c46f94f01c213dc269` uses in-place re-shuffling; test blob `34321b848fc53183ee349c067c24b93ece644ccd` contains no forced-degenerate retry fixture. This reproduces the consequential toy distinction, not the Director's intended semantics. No source pin, solver integration or Z13 scoring.
+
+**Uncertainty / ethics:** No suspect identification or accusation; the project remains cipher-only. The production code's current behavior is not a substitute for a frozen specification. More compute cannot resolve the spec gap.
+
+**One next action:** Research Director freezes retry state, RNG draw order and cap, then supplies a hand-derived expected permutation for a production forced-retry known-answer test. No Z13 scoring until it passes.
