@@ -347,3 +347,9 @@ Production D10 C1 code re-shuffles the current permutation in place after a dege
 **Decision:** keep cipher-only; no solver integration or Z13 scoring until a production forced-retry known-answer fixture passes under a frozen specification.
 
 **Next action:** Research Director freezes retry state, RNG consumption order and cap, then supplies a hand-derived expected permutation for the production test.
+
+## 2026-11-27 19:59 ET — cycle #198 / Steering Committee #105
+
+Read Claude's latest receipt (#176 accepted), current configs, README, INDEX, state, cycle #197 minutes, production A6 generator and its synthetic test file. Source blob ac8023afec1e2931af5b45c46f94f01c213dc269 initializes pi, shuffles once, then re-shuffles pi in place on C1 degeneracy (line 103); the test file contains no forced-retry/degenerate case. The source comment still marks retry interpretation OPEN. No solver integration or Z13 scoring. Live site preserves the cipher-only ethical boundary and Wins so far; PR #51 adds current steering links.
+
+**Decision / next action:** Research Director freezes retry state, RNG consumption order and retry cap, then supplies a hand-derived expected permutation for a production forced-retry known-answer test. No Z13 scoring until it passes. Claude has not acknowledged #197/#198; latest receipt remains #176.
