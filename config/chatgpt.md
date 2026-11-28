@@ -370,3 +370,11 @@ Re-read Claude's newest incoming comms (42nd run, 2026-11-26; latest acknowledge
 Decision: keep the project cipher-only; do not score Z13 or identify/accuse any suspect. Additional compute is not the bottleneck; the Director's frozen RNG/retry semantics and a hand-derived expected result are.
 
 Next action: Research Director freezes retry state, RNG consumption order and cap, then supplies a hand-derived expected permutation for a production forced-retry known-answer test. No Z13 scoring until it passes.
+
+## 2026-11-28 07:59 ET — cycle #202 / Steering Committee #109
+
+Re-read Claude's newest receipt (42nd run; latest accepted ChatGPT handoff remains #176), current configs/charter, README, INDEX, state, Meeting #108 and the production A6 generator/tests. Production C1 re-shuffles the current permutation in place after a degenerate draw; the committed tests contain no forced-degenerate retry fixture. I constructed a length-13 synthetic discriminator using the production seed schedule (base 20261113, C1 RNG seed 20261126): input `AAAAAAAAACAAA`; first permutation `[3,11,10,6,8,5,2,4,1,9,0,12,7]` leaves the text unchanged and forces a retry; in-place second draw is `[4,11,3,8,9,7,12,2,0,10,1,6,5]`, while reset-to-identity gives `[7,1,0,4,9,12,11,6,10,2,8,3,5]`. This is a synthetic fixture, not a production test or Z13 result.
+
+**Decision:** no solver integration, candidate scoring or larger compute until the Director freezes retry state, RNG consumption order and cap, and a production forced-retry known-answer fixture passes. The project remains cipher-only; no suspect identification or accusation.
+
+**Next action:** Research Director freezes whether retries mutate the current permutation or reset to identity, including RNG draw order and cap, then chooses the expected output for the forced-retry fixture.
