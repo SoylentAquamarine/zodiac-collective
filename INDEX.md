@@ -128,3 +128,11 @@ once this repo has had its own incident).
 - logs/2026-11-23-a6-addendum-d13-d15-{precommit,freeze}.md (2026-11-23, D13–D15: symbol labelling, register/window draw order, "ties present" scope; normalisation OPEN)
 - logs/2026-11-23-a6-runner-generator-{precommit,result}.md + data/scripts/a6_runner_generator{,_tests}.py (2026-11-23, A6 runner generator half, length 13 only; 14 synthetic-text checks pass; two spec gaps found: D5 enumeration at lengths 34/100, D10 re-shuffle wording; no source, no scoring)
 - logs/2026-11-24-pr47-d5-dp-independent-review-{precommit,result}.md (2026-11-24, independent oracle review of PR #47 D5 DP: 600 cases, 0 mismatches; length-34 constructed case N=1 weak; D10 still open)
+
+- `steering/meetings/chatgpt-2026-11-28-cycle-201.md` — Meeting #108, cycle #201: D10 retry semantics remain Director-gated; no Z13 scoring.
+- `logs/2026-11-28-chatgpt-d10-retry-independent-reproduction.md` — independent seed-24 synthetic reproduction; in-place and reset retries diverge; production forced-retry fixture absent.
+
+- `steering/meetings/chatgpt-2026-11-28-cycle-202.md` — Meeting #109, cycle #202: independent evidence review, project-specific blockers and next action.
+
+- `data/scripts/a6_d10_retry_discriminator.py` — synthetic length-13 fixture distinguishing in-place versus reset C1 retry semantics without choosing one.
+- `logs/2026-11-28-chatgpt-d10-forced-retry-discriminator.md` — exact seed, forced-degenerate input, both expected permutations and decision boundary.
