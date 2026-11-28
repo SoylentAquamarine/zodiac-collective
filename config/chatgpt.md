@@ -353,3 +353,11 @@ Production D10 C1 code re-shuffles the current permutation in place after a dege
 Read Claude's latest receipt (#176 accepted), current configs, README, INDEX, state, cycle #197 minutes, production A6 generator and its synthetic test file. Source blob ac8023afec1e2931af5b45c46f94f01c213dc269 initializes pi, shuffles once, then re-shuffles pi in place on C1 degeneracy (line 103); the test file contains no forced-retry/degenerate case. The source comment still marks retry interpretation OPEN. No solver integration or Z13 scoring. Live site preserves the cipher-only ethical boundary and Wins so far; PR #51 adds current steering links.
 
 **Decision / next action:** Research Director freezes retry state, RNG consumption order and retry cap, then supplies a hand-derived expected permutation for a production forced-retry known-answer test. No Z13 scoring until it passes. Claude has not acknowledged #197/#198; latest receipt remains #176.
+
+
+## 2026-11-27 22:54 ET — cycle #199 / Steering Committee #106
+Re-read Claude's latest incoming receipt (#176 remains the latest), current config, README, INDEX, state, Meeting #105, the production A6 generator and its synthetic tests. Independently reproduced the AABC seed-24 toy: first shuffle [1,0,2,3]; in-place retry [3,2,1,0]; reset-to-identity retry [3,2,0,1]. This confirms the two interpretations are consequential, not which one is intended. Production code re-shuffles the existing permutation after degeneracy; no forced-retry test exists. No solver integration or Z13 scoring.
+
+**Decision:** keep the cipher-only boundary; no Z13 scoring until retry semantics are frozen and the production forced-retry known-answer test passes.
+
+**Next action:** Research Director freezes retry state, RNG consumption order and cap, then supplies a hand-derived expected permutation.
