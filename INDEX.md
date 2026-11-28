@@ -128,3 +128,38 @@ once this repo has had its own incident).
 - logs/2026-11-23-a6-addendum-d13-d15-{precommit,freeze}.md (2026-11-23, D13–D15: symbol labelling, register/window draw order, "ties present" scope; normalisation OPEN)
 - logs/2026-11-23-a6-runner-generator-{precommit,result}.md + data/scripts/a6_runner_generator{,_tests}.py (2026-11-23, A6 runner generator half, length 13 only; 14 synthetic-text checks pass; two spec gaps found: D5 enumeration at lengths 34/100, D10 re-shuffle wording; no source, no scoring)
 - logs/2026-11-24-pr47-d5-dp-independent-review-{precommit,result}.md (2026-11-24, independent oracle review of PR #47 D5 DP: 600 cases, 0 mismatches; length-34 constructed case N=1 weak; D10 still open)
+
+
+## ChatGPT cycle #175 — 2026-11-25
+- steering/meetings/chatgpt-2026-11-25-cycle-175.md — Meeting #83: D10 retry semantics remain OPEN; no Z13 source scored.
+
+## ChatGPT cycle #177 — 2026-11-25
+- steering/meetings/chatgpt-2026-11-25-cycle-177.md — Meeting #85: independent project-specific evidence, blockers, ethics/permissions, compute and website review.
+- `steering/meetings/chatgpt-2026-11-25-cycle-178.md` — ChatGPT Steering Committee #86, cycle #178 (2026-11-25).
+
+
+- [ChatGPT Steering Committee Meeting #87 — cycle #179](steering/meetings/chatgpt-2026-11-26-cycle-179.md) — D10 retry remains OPEN; neutral forced-retry fixture documents the class-vector difference.
+- `steering/meetings/chatgpt-2026-11-26-cycle-180.md` — ChatGPT steering committee cycle #180; project-specific evidence, falsification, ethics, blockers and one next action.
+- [D10 forced-retry neutral fixture](logs/2026-11-26-d10-retry-neutral-fixture.md) — synthetic specification test only, not Z13 evidence.
+
+
+## ChatGPT steering records
+
+- `steering/meetings/chatgpt-2026-11-26-cycle-181.md` — Meeting #89, cycle #181: D10 retry fixture remains the gate; no Z13 source scoring or suspect inference.
+
+- `steering/meetings/chatgpt-2026-11-26-cycle-182.md` — Meeting #90, cycle #182: independently reproduced the neutral D10 retry-state divergence; specification remains OPEN.
+- `logs/2026-11-26-d10-retry-neutral-fixture-chatgpt-independent-reproduction.md` — CPython seed-18 fixture reproduction; synthetic only, no Z13 scoring.
+
+- `steering/meetings/chatgpt-2026-11-26-cycle-183.md` — Meeting #91, cycle #183: D10 remains open: the neutral seed-18 fixture distinguishes in-place from reset-to-identity retry state; no Z13 source was scored.
+
+- [chatgpt-2026-11-26-cycle-184.md](steering/meetings/chatgpt-2026-11-26-cycle-184.md) — Meeting #92, cycle #184: D10 retry semantics and forced-retry fixture remain the Director gate; no Z13 source scored or suspect inference.
+
+- [ChatGPT Steering Committee Meeting #93 — cycle #185](steering/meetings/chatgpt-2026-11-26-cycle-185.md) — D10 retry state, RNG order and cap remain a Director gate; the saved neutral fixture is synthetic only; no Z13 source scored or suspect inference.
+
+
+- 2026-11-26: [ChatGPT cycle #186 steering record](steering/meetings/chatgpt-2026-11-26-cycle-186.md) — D10 in-place retry remains untested by a forced-retry fixture; no source scored.
+- `steering/meetings/chatgpt-2026-11-26-cycle-187.md` — Meeting #95, cycle #187: D10 forced-retry known-answer fixture remains the Director gate; no source scoring or suspect inference.
+
+- [ChatGPT Steering Committee Meeting #96 — cycle #188](steering/meetings/chatgpt-2026-11-26-cycle-188.md) — D10 retry/RNG/cap remains a Director gate; synthetic neutral fixture is not a forced production retry.
+
+- `steering/meetings/chatgpt-2026-11-26-cycle-189.md` — Zodiac: D10 retry-state fixture remains synthetic; no Z13 scoring.
